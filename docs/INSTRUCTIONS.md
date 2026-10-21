@@ -83,5 +83,6 @@ Band fields: `n`, `g` (group), `st` (status above), `note`, `src`.
 - Smaller international club tours are under-covered until a Ticketmaster/Oztix sweep is added.
 - Several tours have only some dates (Periphery, Dayseeker, Story of the Year + Silverstein, Thrown's Sydney show, Heilung outside Sydney, Death Angel headline dates). They are on the Watchlist.
 - Some ticket links go to the promoter's or ticketer's home page rather than the specific event page.
-- About a third of tracked bands are still "not checked yet".
+- Band checks on 22 Oct 2026 used news searches that mostly return link lists, so "nothing announced" means nothing found, not a confirmed absence. Only Sick of It All is unchecked.
+- Killswitch Engage rests on one source. Carcass's rescheduled September 2027 dates may need new tickets; confirm with the ticketer.
 - Ben may still send his own additions to the band list.

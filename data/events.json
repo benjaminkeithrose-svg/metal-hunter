@@ -737,6 +737,161 @@
    "src": "https://hotmetalmag.com/death-angel-announces-australian-tour/",
    "note": "Headline shows in Perth, Melbourne, Sydney and Brisbane in early 2027. Dates not in my sources.",
    "shows": []
+  },
+  {
+   "id": "killswitch",
+   "artist": "Killswitch Engage",
+   "support": "Sylosis",
+   "genre": "Metalcore",
+   "tag": "core",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "General sale opened 21 May, 10am AEST.",
+   "ticketUrl": "https://sbmpresents.com/tour/killswitch-engage-2026",
+   "ticketLabel": "SBM Presents",
+   "src": "https://themetallist.com/en/news/2026/05/killswitch-engage-australia-new-zealand-tour-2026/",
+   "note": "Single source (The Metallist); check the promoter page for sold-out shows. New Zealand dates not listed here.",
+   "shows": [
+    {
+     "d": "2026-11-03",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Fortitude Music Hall"
+    },
+    {
+     "d": "2026-11-06",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Enmore Theatre"
+    },
+    {
+     "d": "2026-11-07",
+     "city": "Wollongong",
+     "st": "NSW",
+     "venue": "Waves"
+    },
+    {
+     "d": "2026-11-10",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Forum"
+    },
+    {
+     "d": "2026-11-12",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Hindley St Music Hall"
+    },
+    {
+     "d": "2026-11-14",
+     "city": "Fremantle",
+     "st": "WA",
+     "venue": "Metro Fremantle"
+    }
+   ]
+  },
+  {
+   "id": "carcass27",
+   "artist": "Carcass",
+   "support": "Brujeria (not at Townsville)",
+   "genre": "Melodic death / grindcore",
+   "tag": "core",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "Original tickets went on sale 14 May 2026. Whether they carry over to the new dates is not confirmed; check the ticketer.",
+   "ticketUrl": "https://www.thenote.com.au/news/carcass-plot-putrefying-down-under-australian-and-new-zealand-tour-2026",
+   "ticketLabel": "Tour details",
+   "src": "https://blabbermouth.net/news/carcass-drummers-family-situation-forces-postponement-of-australia-new-zealand-tour",
+   "note": "Postponed from Sept to Oct 2026 because of a family situation for the drummer; rescheduled to Sept 2027 (announced 3 Sept 2026). Original ticketers: Oztix (Perth, Townsville), Moshtix (Adelaide, Melbourne, Sydney), Ticketmaster (Brisbane).",
+   "shows": [
+    {
+     "d": "2027-09-07",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Magnet House"
+    },
+    {
+     "d": "2027-09-09",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Lion Arts Factory"
+    },
+    {
+     "d": "2027-09-10",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Northcote Theatre"
+    },
+    {
+     "d": "2027-09-11",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Liberty Hall"
+    },
+    {
+     "d": "2027-09-14",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Princess Theatre"
+    },
+    {
+     "d": "2027-09-15",
+     "city": "Townsville",
+     "st": "QLD",
+     "venue": "The Warehouse"
+    }
+   ]
+  },
+  {
+   "id": "fray27",
+   "artist": "The Fray + Dashboard Confessional",
+   "support": "Bastille (Lookout Festival dates), Rachael Fahim (indoor shows)",
+   "genre": "Emo / pop rock",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "sale": "General sale opened 17 Sep 2026, 10am local time.",
+   "ticketUrl": "https://www.theaureview.com/?p=310422",
+   "ticketLabel": "Tour details",
+   "src": "https://www.theaureview.com/?p=310422",
+   "note": "The Fray headline; Dashboard Confessional is on every date. Indoor shows run through TEG Live; the rest are Lookout Festival dates.",
+   "shows": [
+    {
+     "d": "2027-02-05",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Margaret Court Arena"
+    },
+    {
+     "d": "2027-02-06",
+     "city": "Torquay",
+     "st": "VIC",
+     "venue": "Torquay Common (Lookout Festival)"
+    },
+    {
+     "d": "2027-02-07",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Kings Park & Botanic Garden (Lookout Festival)"
+    },
+    {
+     "d": "2027-02-11",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Hordern Pavilion"
+    },
+    {
+     "d": "2027-02-13",
+     "city": "Lake Macquarie",
+     "st": "NSW",
+     "venue": "Speers Point Park (Lookout Festival)"
+    },
+    {
+     "d": "2027-02-14",
+     "city": "Sandstone Point",
+     "st": "QLD",
+     "venue": "Sandstone Point Hotel (Lookout Festival)"
+    }
+   ]
   }
  ],
  "sales": [
@@ -792,7 +947,7 @@
   },
   {
    "title": "Seen on aggregators, dates unchecked",
-   "text": "Candlemass, Carcass and Brujeria, Amorphis, Katatonia with Soen and Paradise Lost, Evergrey and Plini show up on Songkick and Tixel Sydney listings. Some may already have played.",
+   "text": "Candlemass, Amorphis, Katatonia with Soen and Paradise Lost, Evergrey and Plini show up on Songkick and Tixel Sydney listings. Some may already have played.",
    "url": "https://www.songkick.com/metro-areas/26794-australia-sydney/genre/metal",
    "label": "Songkick Sydney"
   },

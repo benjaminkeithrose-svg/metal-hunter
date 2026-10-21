@@ -87,8 +87,8 @@
   {
    "n": "Powerwolf",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -96,8 +96,8 @@
   {
    "n": "Helloween",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -105,8 +105,8 @@
   {
    "n": "Iced Earth",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": true,
    "confirmed": true
@@ -114,8 +114,8 @@
   {
    "n": "Brothers of Metal",
    "g": "epic",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": true,
    "confirmed": true
@@ -123,8 +123,8 @@
   {
    "n": "Unleash the Archers",
    "g": "epic",
-   "st": "unchecked",
-   "note": "Assumed you meant Unleash the Archers.",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": true,
    "confirmed": true
@@ -132,17 +132,17 @@
   {
    "n": "Battle Beast",
    "g": "epic",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "First Australian tour was March 2026. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://www.thenote.com.au/news/battle-beast-2026-australian-tour",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Turisas",
    "g": "epic",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -150,8 +150,8 @@
   {
    "n": "Gloryhammer",
    "g": "epic",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -159,8 +159,8 @@
   {
    "n": "In Flames",
    "g": "melodeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -168,8 +168,8 @@
   {
    "n": "Arch Enemy",
    "g": "melodeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -177,9 +177,9 @@
   {
    "n": "Dark Tranquillity",
    "g": "melodeath",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last Australian tour was February 2025. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://blabbermouth.net/news/dark-tranquillity-australian-tour-dates-announced",
    "named": false,
    "confirmed": true
   },
@@ -195,8 +195,8 @@
   {
    "n": "Wintersun",
    "g": "melodeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": true,
    "confirmed": true
@@ -222,8 +222,8 @@
   {
    "n": "Mayhem",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -231,8 +231,8 @@
   {
    "n": "Emperor",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -240,9 +240,9 @@
   {
    "n": "Cradle of Filth",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia with DevilDriver earlier. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://www.thenote.com.au/news/cradle-of-filth-and-devildriver-announce-joint-australian-tour",
    "named": false,
    "confirmed": true
   },
@@ -330,9 +330,9 @@
   {
    "n": "Eivør",
    "g": "crossover",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "First Australian headline tour was March 2026. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://beat.com.au/?p=452739",
    "named": false,
    "confirmed": true
   },
@@ -348,8 +348,8 @@
   {
    "n": "Killswitch Engage",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -357,9 +357,9 @@
   {
    "n": "Architects",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Australian tour was December 2025. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://www.theaureview.com/music/british-metalcore-band-architects-touring-december-2025/",
    "named": false,
    "confirmed": true
   },
@@ -420,36 +420,36 @@
   {
    "n": "Northlane",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Australian regional tour was March to April 2026. North America tour Feb to Mar 2027.",
+   "src": "https://blabbermouth.net/news/northlane-announces-february-march-2027-north-american-tour",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Turnstile",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Australian tour was January 2026. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://www.theaureview.com/music/turnstile-australia-tour-2026/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Knocked Loose",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Cancelled an Australian Good Things Festival appearance, with Alpha Wolf as replacement. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://www.kerrang.com/knocked-loose-cancel-australia-tour-good-things-festival-alpha-wolf-replacement",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Hatebreed",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "signal",
+   "note": "Said its Summer Slaughter tour would expand to Australia. The report gives no dates.",
+   "src": "https://www.wallofsoundau.com/news/hatebreed-teasing-the-summer-slaughter-tour-australia",
    "named": false,
    "confirmed": true
   },
@@ -465,8 +465,8 @@
   {
    "n": "Converge",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -474,27 +474,27 @@
   {
    "n": "Underoath",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last Australian tour was March 2025 with Alexisonfire. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://www.thenote.com.au/news/alexisonfire-underoath-australian-tour-2025",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Alexisonfire",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last Australian tour was March 2025 with Underoath. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://www.thenote.com.au/news/alexisonfire-underoath-australian-tour-2025",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Pierce the Veil",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Australian tour was April 2026. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://www.theaureview.com/?p=286158",
    "named": false,
    "confirmed": true
   },
@@ -510,8 +510,8 @@
   {
    "n": "Circa Survive",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -519,8 +519,8 @@
   {
    "n": "My Chemical Romance",
    "g": "emo",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -528,17 +528,17 @@
   {
    "n": "The Used",
    "g": "emo",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Three-album Australian tour was August to September 2025. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://www.theaureview.com/music/the-useds-dan-whitesides-on-their-massive-upcoming-aussie-tour/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Taking Back Sunday",
    "g": "emo",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -546,17 +546,17 @@
   {
    "n": "Hawthorne Heights",
    "g": "emo",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Australian tour with Armor For Sleep was April 2026. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://bravo-www.soapcentral.com/music/hawthorne-heights-2026-australian-tour-presale-dates-venues-and-more-explored",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Dashboard Confessional",
    "g": "emo",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -582,8 +582,8 @@
   {
    "n": "Suicide Silence",
    "g": "deathcore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -591,8 +591,8 @@
   {
    "n": "Carnifex",
    "g": "deathcore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -600,8 +600,8 @@
   {
    "n": "Cannibal Corpse",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -609,8 +609,8 @@
   {
    "n": "Obituary",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -618,8 +618,8 @@
   {
    "n": "Morbid Angel",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -627,8 +627,8 @@
   {
    "n": "Carcass",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -636,8 +636,8 @@
   {
    "n": "Gojira",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -645,17 +645,17 @@
   {
    "n": "Metallica",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "The M72 Australian tour was in 2025. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://beat.com.au/?p=440010",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Megadeth",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -663,8 +663,8 @@
   {
    "n": "Slayer",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -672,26 +672,26 @@
   {
    "n": "Anthrax",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Australian tour was March 2026. They are on a UK and Europe co-headline tour with Kreator and Testament.",
+   "src": "https://au.rollingstone.com/music/music-news/anthrax-announces-australian-tour-tickets-dates-87427/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Kreator",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Co-headlining a UK and Europe tour with Anthrax, with Testament.",
+   "src": "https://devilsgatemusic.co.uk/anthrax-kreator-announce-co-headline-uk-european-tour-with-very-special-guest-testament/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Opeth",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -699,17 +699,17 @@
   {
    "n": "Tool",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Australian arena shows were tied to Good Things in December 2025. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://au.rollingstone.com/t/tool-australia-shows",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Mastodon",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -717,8 +717,8 @@
   {
    "n": "Periphery",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -726,8 +726,8 @@
   {
    "n": "Candlemass",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -744,8 +744,8 @@
   {
    "n": "Korn",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -753,9 +753,9 @@
   {
    "n": "Deftones",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Australian arena tour was May 2026. No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "https://www.soapcentral.com/entertainment/deftones-2026-australia-new-zealand-tour-presale-dates-venues-and-more-explored",
    "named": false,
    "confirmed": true
   },
@@ -771,8 +771,8 @@
   {
    "n": "Sleep Token",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
    "named": false,
    "confirmed": true
