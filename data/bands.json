@@ -1,0 +1,781 @@
+{
+ "groups": [
+  [
+   "power",
+   "Power metal"
+  ],
+  [
+   "epic",
+   "Epic and mythology-themed"
+  ],
+  [
+   "melodeath",
+   "Melodic death metal"
+  ],
+  [
+   "black",
+   "Black metal"
+  ],
+  [
+   "folk",
+   "Folk, Viking and pagan metal"
+  ],
+  [
+   "crossover",
+   "Folk crossover"
+  ],
+  [
+   "core",
+   "Metalcore"
+  ],
+  [
+   "auscore",
+   "Australian metalcore (festivals and cruises)"
+  ],
+  [
+   "hc",
+   "Hardcore"
+  ],
+  [
+   "posthc",
+   "Post-hardcore and screamo"
+  ],
+  [
+   "emo",
+   "Emo"
+  ],
+  [
+   "deathcore",
+   "Deathcore"
+  ],
+  [
+   "death",
+   "Death metal"
+  ],
+  [
+   "thrash",
+   "Thrash and classic"
+  ],
+  [
+   "prog",
+   "Progressive and doom"
+  ],
+  [
+   "nu",
+   "Nu and alt metal"
+  ]
+ ],
+ "bands": [
+  {
+   "n": "Blind Guardian",
+   "g": "power",
+   "st": "none",
+   "note": "No upcoming dates listed anywhere I checked. Last shows were in the US in late 2025.",
+   "src": "https://www.eventworld.com/blind-guardian-tickets/performer/12158",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sabaton",
+   "g": "power",
+   "st": "elsewhere",
+   "note": "North America Nov to Dec 2026, Sweden Feb 2027. Nothing in Asia or Oceania listed.",
+   "src": "https://www.songkick.com/artists/233066-sabaton/calendar",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Powerwolf",
+   "g": "power",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Helloween",
+   "g": "power",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Iced Earth",
+   "g": "power",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": true,
+   "confirmed": true
+  },
+  {
+   "n": "Brothers of Metal",
+   "g": "epic",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": true,
+   "confirmed": true
+  },
+  {
+   "n": "Unleash the Archers",
+   "g": "epic",
+   "st": "unchecked",
+   "note": "Assumed you meant Unleash the Archers.",
+   "src": "",
+   "named": true,
+   "confirmed": true
+  },
+  {
+   "n": "Battle Beast",
+   "g": "epic",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Turisas",
+   "g": "epic",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Gloryhammer",
+   "g": "epic",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "In Flames",
+   "g": "melodeath",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Arch Enemy",
+   "g": "melodeath",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dark Tranquillity",
+   "g": "melodeath",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Insomnium",
+   "g": "melodeath",
+   "st": "elsewhere",
+   "note": "Supporting Amon Amarth on a 2026 European tour.",
+   "src": "https://metalinjection.net/tour-dates/amon-amarth-announces-european-tour-with-insomnium-the-halo-effect-kanonenfieber",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Wintersun",
+   "g": "melodeath",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": true,
+   "confirmed": true
+  },
+  {
+   "n": "Dimmu Borgir",
+   "g": "black",
+   "st": "elsewhere",
+   "note": "Same European tour as Behemoth, Oct 2026.",
+   "src": "https://blabbermouth.net/news/behemoth-dimmu-borgir-and-dark-funeral-announce-october-2026-european-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Behemoth",
+   "g": "black",
+   "st": "elsewhere",
+   "note": "European co-headline tour with Dimmu Borgir and Dark Funeral in Oct 2026.",
+   "src": "https://blabbermouth.net/news/behemoth-dimmu-borgir-and-dark-funeral-announce-october-2026-european-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Mayhem",
+   "g": "black",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Emperor",
+   "g": "black",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Cradle of Filth",
+   "g": "black",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Eluveitie",
+   "g": "folk",
+   "st": "elsewhere",
+   "note": "Europe Nov to Dec 2026, North America Feb to Mar 2027. No Australian dates.",
+   "src": "https://developer.songkick.com/artists/281032-eluveitie/calendar",
+   "named": true,
+   "confirmed": true
+  },
+  {
+   "n": "Amon Amarth",
+   "g": "folk",
+   "st": "elsewhere",
+   "note": "European tour in 2026 with Insomnium. Nothing in Oceania listed.",
+   "src": "https://www.metalblade.com/us/news/amon-amarth-announce-uk-eu-2026-tour-dates-tease-new-album/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Alestorm",
+   "g": "folk",
+   "st": "elsewhere",
+   "note": "UK and Ireland shows in Jan 2027. Their last Australian tour was 2025. Nothing announced for Oceania.",
+   "src": "https://www.songkick.com/artists/1056026-alestorm/calendar",
+   "named": true,
+   "confirmed": true
+  },
+  {
+   "n": "Ensiferum",
+   "g": "folk",
+   "st": "none",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Korpiklaani",
+   "g": "folk",
+   "st": "none",
+   "note": "No current Australian dates found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Heilung",
+   "g": "crossover",
+   "st": "none",
+   "note": "",
+   "src": "",
+   "named": true,
+   "confirmed": true
+  },
+  {
+   "n": "Wardruna",
+   "g": "crossover",
+   "st": "none",
+   "note": "Played their debut Australian tour in 2025. No new dates found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Faun",
+   "g": "crossover",
+   "st": "none",
+   "note": "No Australian dates found.",
+   "src": "",
+   "named": true,
+   "confirmed": true
+  },
+  {
+   "n": "Patty Gurdy",
+   "g": "crossover",
+   "st": "none",
+   "note": "No Australian tour found.",
+   "src": "",
+   "named": true,
+   "confirmed": true
+  },
+  {
+   "n": "Eivør",
+   "g": "crossover",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Parkway Drive",
+   "g": "core",
+   "st": "au",
+   "note": "Australian act. Headlines the Hellbound II cruise, 17 to 21 Jan 2027.",
+   "src": "https://musicfeeds.com.au/news/hellbound-ii-lineup-parkway-drive-thy-art-is-murder-more/",
+   "named": true,
+   "confirmed": true
+  },
+  {
+   "n": "Killswitch Engage",
+   "g": "core",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Architects",
+   "g": "core",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Bring Me The Horizon",
+   "g": "core",
+   "st": "elsewhere",
+   "note": "On the 2027 Slipknot stadium tour (UK, US, Canada, South America). No Australian dates announced.",
+   "src": "https://bluntmag.com.au/music/slipknot-2027-stadium-tour-bring-me-the-horizon/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Spiritbox",
+   "g": "core",
+   "st": "none",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "The Amity Affliction",
+   "g": "auscore",
+   "st": "au",
+   "note": "Australian act. On the Hellbound II cruise lineup.",
+   "src": "https://musicfeeds.com.au/news/hellbound-ii-lineup-parkway-drive-thy-art-is-murder-more/",
+   "named": true,
+   "confirmed": true
+  },
+  {
+   "n": "In Hearts Wake",
+   "g": "auscore",
+   "st": "au",
+   "note": "",
+   "src": "",
+   "named": true,
+   "confirmed": true
+  },
+  {
+   "n": "Headwreck",
+   "g": "auscore",
+   "st": "au",
+   "note": "",
+   "src": "",
+   "named": true,
+   "confirmed": true
+  },
+  {
+   "n": "Thy Art Is Murder",
+   "g": "auscore",
+   "st": "au",
+   "note": "Australian act. On the Hellbound II cruise lineup.",
+   "src": "https://musicfeeds.com.au/news/hellbound-ii-lineup-parkway-drive-thy-art-is-murder-more/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Northlane",
+   "g": "auscore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Turnstile",
+   "g": "hc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Knocked Loose",
+   "g": "hc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Hatebreed",
+   "g": "hc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sick of It All",
+   "g": "hc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Converge",
+   "g": "hc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Underoath",
+   "g": "posthc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Alexisonfire",
+   "g": "posthc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Pierce the Veil",
+   "g": "posthc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Silverstein",
+   "g": "posthc",
+   "st": "none",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Circa Survive",
+   "g": "posthc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "My Chemical Romance",
+   "g": "emo",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "The Used",
+   "g": "emo",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Taking Back Sunday",
+   "g": "emo",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Hawthorne Heights",
+   "g": "emo",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dashboard Confessional",
+   "g": "emo",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Lorna Shore",
+   "g": "deathcore",
+   "st": "none",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Whitechapel",
+   "g": "deathcore",
+   "st": "none",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Suicide Silence",
+   "g": "deathcore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Carnifex",
+   "g": "deathcore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Cannibal Corpse",
+   "g": "death",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Obituary",
+   "g": "death",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Morbid Angel",
+   "g": "death",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Carcass",
+   "g": "death",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Gojira",
+   "g": "death",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Metallica",
+   "g": "thrash",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Megadeth",
+   "g": "thrash",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Slayer",
+   "g": "thrash",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Anthrax",
+   "g": "thrash",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Kreator",
+   "g": "thrash",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Opeth",
+   "g": "prog",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Tool",
+   "g": "prog",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Mastodon",
+   "g": "prog",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Periphery",
+   "g": "prog",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Candlemass",
+   "g": "prog",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Slipknot",
+   "g": "nu",
+   "st": "signal",
+   "note": "Knotfest Australia is confirmed for 2027 with no details yet. Their 2027 stadium tour has no Australian dates so far.",
+   "src": "https://au.rollingstone.com/music/music-news/knotfest-australia-confirms-brief-hiatus-return-in-2027-83777",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Korn",
+   "g": "nu",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Deftones",
+   "g": "nu",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Limp Bizkit",
+   "g": "nu",
+   "st": "none",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sleep Token",
+   "g": "nu",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  }
+ ]
+}

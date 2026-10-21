@@ -1,0 +1,812 @@
+{
+ "refreshed": "2026-10-22",
+ "tours": [
+  {
+   "id": "lorna",
+   "artist": "Lorna Shore",
+   "support": "The Acacia Strain, Whitechapel (not every date)",
+   "genre": "Deathcore",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "General sale opened 3 Jun, 11am local.",
+   "ticketUrl": "https://www.destroyalllines.com/tours/lorna-shore-2026",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://metal-roos.com.au/lorna-shore-australia-new-zealand-tour-2026-with-special-guests-whitechapel-aus-only-the-acacia-strain-starts-this-week/",
+   "note": "Last Australian date I could confirm. Whitechapel is listed as not appearing on at least one date.",
+   "shows": [
+    {
+     "d": "2026-10-23",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Riverstage"
+    }
+   ]
+  },
+  {
+   "id": "maiden",
+   "artist": "Iron Maiden",
+   "support": "Megadeth",
+   "genre": "Heavy metal",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "On sale since 6 Mar, staggered times. Check for remaining tickets.",
+   "ticketUrl": "https://scenestr.com.au/music/iron-maiden-with-megadeth-australia-2026-tour-20260227",
+   "ticketLabel": "Tour details",
+   "src": "https://scenestr.com.au/music/iron-maiden-with-megadeth-australia-2026-tour-20260227",
+   "shows": [
+    {
+     "d": "2026-11-11",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Adelaide Entertainment Centre"
+    },
+    {
+     "d": "2026-11-13",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "AAMI Park"
+    },
+    {
+     "d": "2026-11-15",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Allianz Stadium"
+    },
+    {
+     "d": "2026-11-18",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Brisbane Entertainment Centre"
+    },
+    {
+     "d": "2026-11-19",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Brisbane Entertainment Centre (added show)"
+    }
+   ]
+  },
+  {
+   "id": "pod",
+   "artist": "P.O.D.",
+   "support": "Ocean Grove",
+   "genre": "Nu-metal sideshow",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "Sideshow general sale opened 18 Sep.",
+   "ticketUrl": "https://www.destroyalllines.com/",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://mixdownmag.com.au/news/good-things-festival-2026-unveils-huge-sideshow-lineup/",
+   "shows": [
+    {
+     "d": "2026-11-29",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Triffid"
+    },
+    {
+     "d": "2026-12-01",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "The Gov"
+    },
+    {
+     "d": "2026-12-02",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "170 Russell"
+    }
+   ]
+  },
+  {
+   "id": "gnr",
+   "artist": "Guns N' Roses",
+   "support": "",
+   "genre": "Hard rock",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "sale": "On sale since 13 Mar (Melbourne at 12pm, others 1pm local).",
+   "ticketUrl": "https://www.livenation.com.au/",
+   "ticketLabel": "Live Nation",
+   "src": "https://metal-roos.com.au/guns-n-roses-bring-their-world-tour-2026-to-australia-this-november-december/",
+   "shows": [
+    {
+     "d": "2026-11-29",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "bp Adelaide Grand Final (Sunday concert)"
+    },
+    {
+     "d": "2026-12-02",
+     "city": "Townsville",
+     "st": "QLD",
+     "venue": "Queensland Country Bank Stadium"
+    },
+    {
+     "d": "2026-12-05",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Suncorp Stadium"
+    },
+    {
+     "d": "2026-12-08",
+     "city": "Newcastle",
+     "st": "NSW",
+     "venue": "McDonald Jones Stadium"
+    },
+    {
+     "d": "2026-12-11",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Marvel Stadium"
+    },
+    {
+     "d": "2026-12-14",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Engie Stadium"
+    }
+   ]
+  },
+  {
+   "id": "tdwp",
+   "artist": "The Devil Wears Prada",
+   "support": "Future Palace",
+   "genre": "Metalcore sideshow",
+   "tag": "core",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "Sideshow general sale opened 18 Sep.",
+   "ticketUrl": "https://www.destroyalllines.com/",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://mixdownmag.com.au/news/good-things-festival-2026-unveils-huge-sideshow-lineup/",
+   "shows": [
+    {
+     "d": "2026-12-02",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Lion Arts Factory"
+    },
+    {
+     "d": "2026-12-08",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Triffid"
+    }
+   ]
+  },
+  {
+   "id": "goodthings",
+   "artist": "Good Things Festival",
+   "support": "Limp Bizkit, Simple Plan, Spiritbox, Polaris, Bad Religion, Alexisonfire, Ministry, Chad Gray, The Devil Wears Prada, P.O.D.",
+   "genre": "Festival",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "Presale 18 Aug, general sale 20 Aug, 10am AEST, via Oztix. 16+.",
+   "ticketUrl": "https://www.goodthingsfestival.com.au/",
+   "ticketLabel": "Good Things",
+   "src": "https://www.thenote.com.au/news/good-things-festival-2026-lineup",
+   "shows": [
+    {
+     "d": "2026-12-04",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Flemington Racecourse"
+    },
+    {
+     "d": "2026-12-05",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Sydney Showground"
+    },
+    {
+     "d": "2026-12-06",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Brisbane Showgrounds"
+    }
+   ]
+  },
+  {
+   "id": "ministry",
+   "artist": "Ministry",
+   "support": "Farewell Australia, Good Things sideshow",
+   "genre": "Industrial metal",
+   "tag": "core",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "Sideshow general sale opened 18 Sep.",
+   "ticketUrl": "https://www.destroyalllines.com/",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://mixdownmag.com.au/news/good-things-festival-2026-unveils-huge-sideshow-lineup/",
+   "shows": [
+    {
+     "d": "2026-12-08",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Liberty Hall"
+    },
+    {
+     "d": "2026-12-10",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Hindley Street Music Hall"
+    }
+   ]
+  },
+  {
+   "id": "apc",
+   "artist": "A Perfect Circle",
+   "support": "Puscifer",
+   "genre": "Alt metal",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "Sale times not found.",
+   "ticketUrl": "https://www.songkick.com/metro-areas/26778-australia-brisbane/2026/genre/metal",
+   "ticketLabel": "Songkick listing",
+   "src": "https://www.songkick.com/metro-areas/26778-australia-brisbane/2026/genre/metal",
+   "note": "Only two dates found, from an aggregator. A Melbourne date is likely but unconfirmed.",
+   "shows": [
+    {
+     "d": "2026-12-08",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Riverstage"
+    },
+    {
+     "d": "2026-12-11",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "ICC Sydney Theatre"
+    }
+   ]
+  },
+  {
+   "id": "beherit",
+   "artist": "Beherit",
+   "support": "Portal",
+   "genre": "Black metal",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "On sale since 30 Jul, 9am AEST. First and only Australian shows. From $89.",
+   "ticketUrl": "https://heavymag.com.au/beherit-to-tour-with-portal/",
+   "ticketLabel": "Tour details",
+   "src": "https://heavymag.com.au/beherit-to-tour-with-portal/",
+   "shows": [
+    {
+     "d": "2026-12-11",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Max Watts",
+     "url": "https://www.oztix.com.au/",
+     "label": "Oztix"
+    },
+    {
+     "d": "2026-12-12",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Manning Bar",
+     "url": "https://www.moshtix.com.au/",
+     "label": "Moshtix"
+    },
+    {
+     "d": "2026-12-13",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Princess Theatre",
+     "url": "https://theprincesstheatre.com.au/events/beherit",
+     "label": "Princess Theatre"
+    }
+   ]
+  },
+  {
+   "id": "clutch",
+   "artist": "Clutch",
+   "support": "Corrosion of Conformity",
+   "genre": "Stoner / hard rock",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "sale": "Announced July. Sydney tickets opened 23 Jul, 10am. Ticketek.",
+   "ticketUrl": "https://www.tegdainty.com/tour/c27web/",
+   "ticketLabel": "TEG Dainty",
+   "src": "https://heavymag.com.au/clutch-and-corrosion-of-conformity-announce-2027-tour/",
+   "note": "Adelaide is the Froth & Fury festival on 30 Jan.",
+   "shows": [
+    {
+     "d": "2027-01-23",
+     "city": "Fremantle",
+     "st": "WA",
+     "venue": "Metropolis"
+    },
+    {
+     "d": "2027-01-25",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Eatons Hill Hotel"
+    },
+    {
+     "d": "2027-01-27",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Enmore Theatre"
+    },
+    {
+     "d": "2027-01-29",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Forum Melbourne"
+    }
+   ]
+  },
+  {
+   "id": "soad",
+   "artist": "System of a Down",
+   "support": "Faith No More",
+   "genre": "Alt metal, stadium",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "General sale opened 31 Jul, 10am AEST (Sydney), 11am (Melbourne), 12pm (Brisbane).",
+   "ticketUrl": "https://teglive.com.au/",
+   "ticketLabel": "TEG Live",
+   "src": "https://www.theaureview.com/?p=307855",
+   "shows": [
+    {
+     "d": "2027-01-22",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Accor Stadium"
+    },
+    {
+     "d": "2027-01-27",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Marvel Stadium"
+    },
+    {
+     "d": "2027-02-01",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Suncorp Stadium"
+    }
+   ]
+  },
+  {
+   "id": "froth",
+   "artist": "Froth & Fury Fest",
+   "support": "Clutch, Alpha Wolf, Paleface Swiss, Dark Angel, Counterparts, Propagandhi, Carpenter Brut, Igorrr, Corrosion of Conformity",
+   "genre": "Festival",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "Early bird 22 Jul, general sale 24 Jul, 9am ACST. All ages, licensed.",
+   "ticketUrl": "https://www.frothandfuryfest.com/",
+   "ticketLabel": "Froth & Fury",
+   "src": "https://heavymag.com.au/froth-fury-fest-2027-first-line-up-has-dropped-and-its-stacked-with-talent/",
+   "note": "Death Angel is also reported for this festival. Dark Angel is in the official announcement. Two more lineup waves are due.",
+   "shows": [
+    {
+     "d": "2027-01-30",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Adelaide Showground, Wayville"
+    }
+   ]
+  },
+  {
+   "id": "thrown",
+   "artist": "Thrown",
+   "support": "Boundaries, 156/Silence, Volatile Ways",
+   "genre": "Metalcore",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "Presale 27 Aug, general sale 28 Aug, 11am AEST.",
+   "ticketUrl": "https://www.destroyalllines.com/",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://www.thenote.com.au/news/thrown-australian-tour-2027",
+   "note": "Sydney is at Liberty Hall. The date was cut off in my source.",
+   "shows": [
+    {
+     "d": "2027-02-03",
+     "city": "Fremantle",
+     "st": "WA",
+     "venue": "Freo Social"
+    },
+    {
+     "d": "2027-02-05",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "The Gov"
+    },
+    {
+     "d": "2027-02-07",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Forum Melbourne"
+    },
+    {
+     "d": "2027-02-10",
+     "city": "Canberra",
+     "st": "ACT",
+     "venue": "UC Hub"
+    }
+   ]
+  },
+  {
+   "id": "dayseeker",
+   "artist": "Dayseeker",
+   "support": "Jutes, Silent Planet, Sace6",
+   "genre": "Post-hardcore / metalcore",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "sale": "Presale 14-15 Jul, general sale 16 Jul, 12pm local.",
+   "ticketUrl": "https://www.destroyalllines.com/",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://www.noise11.com/news/dayseeker-australian-tour-2027-20260709",
+   "note": "Five shows. Only the first and last are in my sources. Venues not found.",
+   "shows": [
+    {
+     "d": "2027-02-07",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Venue TBC"
+    },
+    {
+     "d": "2027-02-14",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Venue TBC"
+    }
+   ]
+  },
+  {
+   "id": "soty",
+   "artist": "Story of the Year + Silverstein",
+   "support": "Point North (Camp Screamo)",
+   "genre": "Post-hardcore",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "sale": "Presale 14 Oct, general sale 16 Oct, 12pm local.",
+   "ticketUrl": "https://www.destroyalllines.com/",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://www.theaureview.com/music/story-of-the-year-silverstein-australia-tour-2027/",
+   "note": "Five shows across Melbourne, Sydney, Adelaide, Fremantle and Brisbane. Only Adelaide has a date in my sources.",
+   "shows": [
+    {
+     "d": "2027-02-08",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Hindley Street Music Hall"
+    }
+   ]
+  },
+  {
+   "id": "heilung",
+   "artist": "Heilung",
+   "support": "Lilith Max (outside Sydney)",
+   "genre": "Dark folk / ritual",
+   "tag": "folk",
+   "status": "upcoming",
+   "sale": "Sydney: general sale Fri 23 Oct, 9am AEDT. Other cities: presale 27 Oct, general sale 29 Oct, 9am local.",
+   "ticketUrl": "https://www.destroyalllines.com/",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://www.noise11.com/news/heilung-2027-australia-nz-tour-20261020",
+   "note": "Only the Sydney Opera House shows are in my sources. Melbourne, Brisbane, Adelaide and Perth are also in March, dates not found.",
+   "shows": [
+    {
+     "d": "2027-03-01",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Sydney Opera House",
+     "url": "https://www.sydneyoperahouse.com/",
+     "label": "Opera House"
+    },
+    {
+     "d": "2027-03-02",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Sydney Opera House",
+     "url": "https://www.sydneyoperahouse.com/",
+     "label": "Opera House"
+    }
+   ]
+  },
+  {
+   "id": "beartooth",
+   "artist": "Beartooth",
+   "support": "Fit For A King, Volumes",
+   "genre": "Metalcore",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "General sale opened 22 May, 10am local time.",
+   "ticketUrl": "https://www.destroyalllines.com/tours/beartooth",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://scenestr.com.au/music/beartooth-australia-2027-tour-20260518",
+   "shows": [
+    {
+     "d": "2027-01-26",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Thebarton Theatre"
+    },
+    {
+     "d": "2027-01-28",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Festival Hall"
+    },
+    {
+     "d": "2027-01-30",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Hordern Pavilion"
+    },
+    {
+     "d": "2027-01-31",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Fortitude Music Hall"
+    }
+   ]
+  },
+  {
+   "id": "mortiis",
+   "artist": "Mortiis + Nytt Land",
+   "support": "TiR (Southern Ritual tour)",
+   "genre": "Dungeon synth / dark folk",
+   "tag": "folk",
+   "status": "on-sale",
+   "sale": "Early bird opened 16 Apr, general sale 21 Apr, 10am AEST. Hardline Media.",
+   "ticketUrl": "https://www.hardlinemedia.net/",
+   "ticketLabel": "Hardline Media",
+   "src": "https://www.thenote.com.au/news/mortiis-and-nytt-land-southern-rituals-australian-tour-2026",
+   "shows": [
+    {
+     "d": "2026-11-19",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Factory Floor"
+    },
+    {
+     "d": "2026-11-20",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2026-11-21",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Croxton Bandroom"
+    },
+    {
+     "d": "2026-11-22",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Ed Castle"
+    }
+   ]
+  },
+  {
+   "id": "ensiferum",
+   "artist": "Ensiferum",
+   "support": "Winter Storm Over Australia",
+   "genre": "Folk metal",
+   "tag": "folk",
+   "status": "on-sale",
+   "sale": "Rescheduled from 2026. Original tickets stay valid, refunds at point of sale.",
+   "ticketUrl": "https://www.oztix.com.au/",
+   "ticketLabel": "Oztix",
+   "src": "https://www.thenote.com.au/news/ensiferum-reschedules-australian-tour-to-2027",
+   "note": "Oztix sells every city except Adelaide, which sells through Moshtix.",
+   "shows": [
+    {
+     "d": "2027-04-06",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Lion Arts Factory",
+     "url": "https://www.moshtix.com.au/",
+     "label": "Moshtix"
+    },
+    {
+     "d": "2027-04-07",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Backroom"
+    },
+    {
+     "d": "2027-04-08",
+     "city": "Canberra",
+     "st": "ACT",
+     "venue": "The Baso"
+    },
+    {
+     "d": "2027-04-09",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2027-04-10",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Corner Hotel"
+    },
+    {
+     "d": "2027-04-11",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Amplifier"
+    }
+   ]
+  },
+  {
+   "id": "evanescence",
+   "artist": "Evanescence",
+   "support": "",
+   "genre": "Gothic / alt metal",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "sale": "General sale opened 12 Jun, 1pm local. Second Melbourne show opened 3 Jul.",
+   "ticketUrl": "https://www.livenation.com.au/",
+   "ticketLabel": "Live Nation",
+   "src": "https://au.rollingstone.com/?p=96225",
+   "shows": [
+    {
+     "d": "2027-03-05",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "RAC Arena"
+    },
+    {
+     "d": "2027-03-07",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "AEC Arena"
+    },
+    {
+     "d": "2027-03-09",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Rod Laver Arena",
+     "status": "sold-out"
+    },
+    {
+     "d": "2027-03-10",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Rod Laver Arena (added show)"
+    },
+    {
+     "d": "2027-03-12",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Qudos Bank Arena"
+    },
+    {
+     "d": "2027-03-16",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Brisbane Entertainment Centre"
+    }
+   ]
+  },
+  {
+   "id": "periphery",
+   "artist": "Periphery",
+   "support": "Inertia",
+   "genre": "Progressive metal",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "Presale 8 Sep, general sale 10 Sep, 9am local.",
+   "ticketUrl": "https://www.destroyalllines.com/",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://everydaymetal.com.au/periphery-australian-tour-march-2027/",
+   "note": "Six dates. Only three are in my sources.",
+   "shows": [
+    {
+     "d": "2027-03-08",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Astor Theatre"
+    },
+    {
+     "d": "2027-03-10",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "The Gov"
+    },
+    {
+     "d": "2027-03-12",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Forum Melbourne"
+    }
+   ]
+  },
+  {
+   "id": "deathangel",
+   "artist": "Death Angel",
+   "support": "Performing Act III in full",
+   "genre": "Thrash",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "Early bird opened 15 Oct. General sale followed on Tue 20 Oct. Hardline Media.",
+   "ticketUrl": "https://www.hardlinemedia.net/",
+   "ticketLabel": "Hardline Media",
+   "src": "https://hotmetalmag.com/death-angel-announces-australian-tour/",
+   "note": "Headline shows in Perth, Melbourne, Sydney and Brisbane in early 2027. Dates not in my sources.",
+   "shows": []
+  }
+ ],
+ "sales": [
+  {
+   "at": "2026-10-23T09:00:00+11:00",
+   "tour": "heilung",
+   "kind": "General sale",
+   "text": "Sydney Opera House shows, 9am AEDT, Sydney only."
+  },
+  {
+   "at": "2026-10-26T09:00:00+11:00",
+   "tour": "heilung",
+   "kind": "Presale",
+   "text": "Melbourne Spotify presale via Ticketek, 9am AEDT."
+  },
+  {
+   "at": "2026-10-27T09:00:00+11:00",
+   "tour": "heilung",
+   "kind": "Presale",
+   "text": "Destroy All Lines presale for Melbourne, Brisbane, Adelaide and Perth, 9am local."
+  },
+  {
+   "at": "2026-10-29T09:00:00+11:00",
+   "tour": "heilung",
+   "kind": "General sale",
+   "text": "General sale for the other cities, 9am local."
+  },
+  {
+   "at": "2026-10-16T12:00:00+11:00",
+   "tour": "soty",
+   "kind": "General sale",
+   "text": "Opened at 12pm local."
+  },
+  {
+   "at": "2026-10-20T09:00:00+11:00",
+   "tour": "deathangel",
+   "kind": "General sale",
+   "text": "Opened Tuesday. Time not stated in my source."
+  }
+ ],
+ "watch": [
+  {
+   "title": "Knotfest Australia 2027",
+   "text": "Slipknot's festival sat out 2026 and is confirmed for 2027. No dates, lineup or on-sale times yet.",
+   "url": "https://au.rollingstone.com/music/music-news/knotfest-australia-confirms-brief-hiatus-return-in-2027-83777",
+   "label": "Announcement"
+  },
+  {
+   "title": "Paleface Swiss + Counterparts + Fox Lake",
+   "text": "2027 Australian return reported by Music Feeds. Dates not found.",
+   "url": "https://musicfeeds.com.au/?p=574976",
+   "label": "Music Feeds"
+  },
+  {
+   "title": "Seen on aggregators, dates unchecked",
+   "text": "Candlemass, Carcass and Brujeria, Amorphis, Katatonia with Soen and Paradise Lost, Evergrey and Plini show up on Songkick and Tixel Sydney listings. Some may already have played.",
+   "url": "https://www.songkick.com/metro-areas/26794-australia-sydney/genre/metal",
+   "label": "Songkick Sydney"
+  },
+  {
+   "title": "Folk crossover: checked, nothing announced",
+   "text": "I found no current Australian dates for Eluveitie, Wardruna, Korpiklaani, Alestorm or Faun. Eluveitie's listed tours are Europe and North America only. Tell me which bands you meant by Hailstorm and Paddy Gurdy and I will look for them.",
+   "url": "https://developer.songkick.com/artists/281032-eluveitie/calendar",
+   "label": "Eluveitie on Songkick"
+  },
+  {
+   "title": "Hellbound II cruise",
+   "text": "17 to 21 Jan 2027 from Sydney Harbour. Parkway Drive, The Amity Affliction, Alpha Wolf, I Killed the Prom Queen and Thy Art Is Murder headline, so it is mostly Australian acts. Kept here for reference.",
+   "url": "https://www.hellboundcruise.com.au/",
+   "label": "Hellbound"
+  }
+ ]
+}
