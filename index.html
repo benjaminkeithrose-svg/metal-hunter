@@ -1,28 +1,39 @@
+<meta charset="utf-8">
 <title>Metal Hunter</title>
 <meta name="claude:viewport-fit-sides" content="cover">
+<script>
+/* Pick the look before first paint: ?look= in the URL, then the saved choice, then Runestone. */
+(function(){var l;try{l=new URLSearchParams(location.search).get("look")||localStorage.getItem("mh-look")}catch(e){}
+document.documentElement.setAttribute("data-look",l==="xerox"?"xerox":"runestone")})();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Alegreya+Sans:wght@400;500;700&family=Noto+Sans+Runic&family=Archivo+Black&family=Special+Elite&family=Courier+Prime:wght@400;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: sticky filter bar over a ticket-stub agenda; month grid and on-sale radar as sibling views. Rust on gunmetal. */
-:root{
-  --bg:#e8ebed; --surface:#f6f7f8; --surface-2:#dde1e4; --line:#c3c9ce;
-  --fg:#14181b; --muted:#5a646c; --accent:#b4410f; --accent-ink:#ffffff;
-  --ok:#17693a; --ok-bg:#d6eadc; --warn:#8a5a00; --warn-bg:#f3e3bd; --bad:#8f2424; --bad-bg:#efd2d2; --info:#2f5d8a; --info-bg:#d5e2ef;
-  --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
-  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+/* Layout: sticky filter bar over a ticket-stub agenda; month grid and on-sale radar as sibling views.
+   Two selectable looks, scoped by html[data-look]: Runestone (default) and Xerox Grind.
+   Each look has one token block here and one decor block at the end; delete both to drop a look. */
+
+/* ---------- LOOK: RUNESTONE (pagan / folk / black) ---------- */
+:root,:root[data-look="runestone"]{
+  --bg:#0a0e0c; --surface:#111915; --surface-2:#18231d; --line:#2a3a32;
+  --fg:#d9e1dd; --muted:#8c9a93; --accent:#e0782f; --accent-ink:#160a02; --moss:#4f6f5c;
+  --ok:#8fc9a3; --ok-bg:#16301f; --warn:#e6b450; --warn-bg:#352a0e; --bad:#ef8c8c; --bad-bg:#381a1a; --info:#86b4e0; --info-bg:#172a3d;
+  --display:"Cinzel","Trajan Pro",Georgia,serif;
+  --body:"Alegreya Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:dark;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#111417; --surface:#191e22; --surface-2:#22292e; --line:#2f373d;
-  --fg:#e6e9eb; --muted:#97a2aa; --accent:#ee7040; --accent-ink:#1a0c05;
-  --ok:#6cc58b; --ok-bg:#16301f; --warn:#e6b450; --warn-bg:#352a0e; --bad:#ef8c8c; --bad-bg:#381a1a; --info:#86b4e0; --info-bg:#172a3d;
-  color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#111417; --surface:#191e22; --surface-2:#22292e; --line:#2f373d;
-  --fg:#e6e9eb; --muted:#97a2aa; --accent:#ee7040; --accent-ink:#1a0c05;
-  --ok:#6cc58b; --ok-bg:#16301f; --warn:#e6b450; --warn-bg:#352a0e; --bad:#ef8c8c; --bad-bg:#381a1a; --info:#86b4e0; --info-bg:#172a3d;
-  color-scheme:dark}
+/* ---------- LOOK: XEROX GRIND (grind / crust / hardcore) ---------- */
+:root[data-look="xerox"]{
+  --bg:#e6e1d4; --surface:#efebe0; --surface-2:#d6d0c0; --line:#121110;
+  --fg:#121110; --muted:#4d4943; --accent:#a3181b; --accent-ink:#f4efe3; --bile:#d9c81e;
+  --ok:#17693a; --ok-bg:#d6eadc; --warn:#7a4f00; --warn-bg:#f3e3bd; --bad:#a3181b; --bad-bg:#efd2d2; --info:#2f5d8a; --info-bg:#d5e2ef;
+  --display:"Archivo Black","Arial Black",Impact,sans-serif;
+  --body:"Courier Prime","Courier New",ui-monospace,monospace;
+  --mono:"Special Elite","Courier New",ui-monospace,monospace;
+  color-scheme:light;
+}
 
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5;
@@ -34,7 +45,7 @@ a{color:inherit}
 header.top{padding:28px 0 16px}
 .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 h1{font-family:var(--display);font-weight:800;font-size:clamp(40px,9vw,68px);line-height:.95;margin:6px 0 10px;text-transform:uppercase;letter-spacing:.01em;text-wrap:balance}
-h1 span{color:var(--accent)}
+h1 .hunt{color:var(--accent)}
 .lede{max-width:62ch;color:var(--muted);margin:0}
 
 .bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 0;margin-bottom:18px}
@@ -135,13 +146,101 @@ h2.sub{font-family:var(--display);font-weight:800;font-size:22px;text-transform:
 
 footer{margin-top:36px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:13px;display:flex;flex-direction:column;gap:6px}
 footer code{font-family:var(--mono);font-size:12px}
+/* ---------- header chrome shared by both looks ---------- */
+header.top{position:relative;overflow:hidden}
+header.top > :not(.deco){position:relative;z-index:1}
+.topline{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px}
+.looks{display:inline-flex;align-items:center;gap:4px;font:500 12px var(--mono)}
+.looks-l{color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-right:4px}
+.looks button{font:500 13px var(--body);background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:4px;padding:4px 10px;cursor:pointer}
+.looks button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.brand{display:flex;align-items:center;gap:16px;margin:10px 0 12px}
+.brand h1{margin:0;min-width:0}
+.brand h1 .w{display:inline-block;white-space:nowrap}
+.logo{flex:none;display:none;height:auto}
+.deco{pointer-events:none}
+.rune-ring,.tape,.mountains,.grain{display:none}
+
+/* ---------- DECOR: RUNESTONE ---------- */
+:root[data-look="runestone"] body{background:linear-gradient(180deg,#0f1713 0,var(--bg) 480px) var(--bg)}
+:root[data-look="runestone"] .logo-rune{display:block;width:clamp(64px,14vw,96px)}
+:root[data-look="runestone"] h1{font-size:clamp(30px,7.4vw,60px);letter-spacing:.06em;line-height:1.05}
+:root[data-look="runestone"] .eyebrow{color:#8fae9b}
+:root[data-look="runestone"] .rune-ring{display:block;position:absolute;z-index:0;right:-90px;top:-80px;width:380px;height:380px;opacity:.4}
+:root[data-look="runestone"] .rune-ring .spin{transform-origin:200px 200px;animation:mh-spin 120s linear infinite}
+@keyframes mh-spin{to{transform:rotate(360deg)}}
+:root[data-look="runestone"] .mountains{display:block;position:fixed;left:0;right:0;bottom:0;width:100%;height:120px;z-index:-1}
+:root[data-look="runestone"] .main h3{font-size:21px;letter-spacing:.04em}
+:root[data-look="runestone"] h2.month,:root[data-look="runestone"] .mhead h2,:root[data-look="runestone"] h2.sub{font-size:22px;letter-spacing:.06em}
+:root[data-look="runestone"] .rmain h3,:root[data-look="runestone"] .wcard h3{font-size:18px;letter-spacing:.04em}
+:root[data-look="runestone"] :is(.show,.rrow,.wcard){border-radius:0;
+  clip-path:polygon(0 8px,8px 0,calc(100% - 8px) 0,100% 8px,100% calc(100% - 8px),calc(100% - 8px) 100%,8px 100%,0 calc(100% - 8px))}
+:root[data-look="runestone"] .tab[aria-selected="true"]{background:transparent;color:var(--accent);border-color:var(--accent)}
+:root[data-look="runestone"] .tab{font-family:var(--display);font-weight:600;font-size:13px;letter-spacing:.06em}
+:root[data-look="runestone"] .badge.on-sale{background:transparent;border:1px solid var(--moss)}
+@media (max-width:600px){:root[data-look="runestone"] .rune-ring{opacity:.22;right:-150px}}
+
+/* ---------- DECOR: XEROX GRIND ---------- */
+:root[data-look="xerox"] .logo-xerox{display:block;width:clamp(84px,18vw,130px)}
+:root[data-look="xerox"] h1{font-size:clamp(38px,9.4vw,80px);text-transform:uppercase;letter-spacing:-.02em;line-height:.9;font-weight:400}
+:root[data-look="xerox"] h1 .hunt{color:inherit}
+:root[data-look="xerox"] h1 .r{display:inline-block;padding:0 .04em;margin:0 .01em}
+:root[data-look="xerox"] h1 .r:nth-child(3n){background:var(--fg);color:var(--bg);transform:rotate(-3deg)}
+:root[data-look="xerox"] h1 .r:nth-child(4n){background:var(--bile);transform:rotate(2deg)}
+:root[data-look="xerox"] h1 .r:nth-child(5n){font-family:var(--mono);transform:rotate(4deg) translateY(-.05em)}
+:root[data-look="xerox"] .eyebrow{background:var(--fg);color:var(--bg);padding:2px 8px;transform:rotate(-1deg)}
+:root[data-look="xerox"] .tape{display:block;position:absolute;z-index:2;width:90px;height:22px;background:rgba(240,232,190,.75);box-shadow:0 1px 2px rgba(0,0,0,.2)}
+:root[data-look="xerox"] .grain{display:block;position:fixed;inset:0;z-index:20;opacity:.35;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1.6 1.15'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+:root[data-look="xerox"] :is(.show,.rrow,.wcard,.gridwrap,.empty){border:2px solid var(--fg);border-radius:0;box-shadow:4px 4px 0 var(--fg)}
+:root[data-look="xerox"] .date{border-right:2px solid var(--fg)}
+:root[data-look="xerox"] :is(.tab,.chip,.nav,.search,.looks button,.btn,.tag){border-radius:0}
+:root[data-look="xerox"] .tab{border:2px solid var(--fg);color:var(--fg);text-transform:uppercase;font-size:13px}
+:root[data-look="xerox"] .tab[aria-selected="true"]{background:var(--fg);color:var(--bile)}
+:root[data-look="xerox"] .btn{background:var(--fg);color:var(--bile);text-transform:uppercase}
+:root[data-look="xerox"] .badge{border:2px solid currentColor;background:transparent;font-weight:700;transform:rotate(-4deg)}
+:root[data-look="xerox"] .main h3,:root[data-look="xerox"] h2.month,:root[data-look="xerox"] .mhead h2,:root[data-look="xerox"] h2.sub,:root[data-look="xerox"] .rmain h3,:root[data-look="xerox"] .wcard h3{font-weight:400;letter-spacing:-.01em}
+:root[data-look="xerox"] .main h3{font-size:22px}
+
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 
 <div class="wrap">
   <header class="top">
-    <div class="eyebrow">International heavy music · Australia</div>
-    <h1>Metal <span>Hunter</span></h1>
+    <svg class="deco rune-ring" viewBox="0 0 400 400" aria-hidden="true">
+      <defs><path id="rp" d="M200,200 m-150,0 a150,150 0 1,1 300,0 a150,150 0 1,1 -300,0"/></defs>
+      <g fill="none" stroke="#4f6f5c"><circle cx="200" cy="200" r="172" stroke-width="2"/><circle cx="200" cy="200" r="128" stroke-width="1"/><circle cx="200" cy="200" r="60" stroke-width="2"/>
+        <path stroke-width="3" d="M200 140V260M148 170L252 230M148 230L252 170"/><path stroke-width="2" d="M200 140l-14-14M200 140l14-14M200 260l-14 14M200 260l14 14"/></g>
+      <g class="spin"><text fill="#8fae9b" font-family="Noto Sans Runic" font-size="20" letter-spacing="3"><textPath href="#rp">ᛗᛖᛏᚨᛚ ᚺᚢᚾᛏᛖᚱ ᛫ ᚨᚢᛋᛏᚱᚨᛚᛁᚨ ᛫ ᛗᛖᛏᚨᛚ ᚺᚢᚾᛏᛖᚱ ᛫ ᚨᚢᛋᛏᚱᚨᛚᛁᚨ ᛫</textPath></text></g>
+    </svg>
+    <span class="deco tape" style="left:-10px;top:14px;transform:rotate(-24deg)" aria-hidden="true"></span>
+    <div class="topline">
+      <div class="eyebrow">International heavy music · Australia</div>
+      <div class="looks" role="group" aria-label="Look">
+        <span class="looks-l">Look</span>
+        <button type="button" data-look-set="runestone">Runestone</button>
+        <button type="button" data-look-set="xerox">Xerox Grind</button>
+      </div>
+    </div>
+    <div class="brand">
+      <svg class="logo logo-rune" viewBox="0 0 200 200" aria-hidden="true">
+        <defs><path id="lr2" d="M100,100 m-72,0 a72,72 0 1,1 144,0 a72,72 0 1,1 -144,0"/></defs>
+        <g fill="none" stroke="#4f6f5c"><circle cx="100" cy="100" r="90" stroke-width="3"/><circle cx="100" cy="100" r="60" stroke-width="1.5"/></g>
+        <text fill="#8fae9b" font-family="Noto Sans Runic" font-size="15" letter-spacing="2.4"><textPath href="#lr2">ᛗᛖᛏᚨᛚ ᛫ ᚺᚢᚾᛏᛖᚱ ᛫ ᛗᛖᛏᚨᛚ ᛫ ᚺᚢᚾᛏᛖᚱ ᛫</textPath></text>
+        <g fill="none" stroke="#d9e1dd" stroke-width="5" stroke-linecap="square"><path d="M82 62V138M118 62V138M82 64L118 92M118 64L82 92M82 104L118 124"/></g>
+        <g stroke="#e0782f" stroke-width="3" fill="#e0782f"><path d="M100 34V166"/><polygon points="92,46 100,30 108,46"/><path d="M94 160l6 8 6-8M94 152l6 8 6-8" fill="none"/></g>
+      </svg>
+      <svg class="logo logo-xerox" viewBox="60 16 280 196" aria-hidden="true">
+        <defs><filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="4"/></filter></defs>
+        <g filter="url(#rough)" transform="rotate(-3 200 115)">
+          <rect x="70" y="26" width="260" height="176" fill="none" stroke="#121110" stroke-width="7"/>
+          <text x="200" y="146" text-anchor="middle" font-family="Archivo Black" font-size="104" letter-spacing="-4" fill="#121110">MH</text>
+          <g fill="none" stroke="#a3181b" stroke-width="4"><circle cx="200" cy="110" r="72"/><path d="M258,110L286,110M200,168L200,196M142,110L114,110M200,52L200,24"/></g>
+          <rect x="70" y="170" width="260" height="32" fill="#121110"/>
+          <text x="200" y="192" text-anchor="middle" font-family="Special Elite" font-size="17" letter-spacing="3" fill="#d9c81e">METAL HUNTER · AU</text></g>
+      </svg>
+      <h1 aria-label="Metal Hunter"><span class="w" aria-hidden="true"><span class="r">M</span><span class="r">e</span><span class="r">t</span><span class="r">a</span><span class="r">l</span></span> <span class="w hunt" aria-hidden="true"><span class="r">H</span><span class="r">u</span><span class="r">n</span><span class="r">t</span><span class="r">e</span><span class="r">r</span></span></h1>
+    </div>
     <p class="lede">Overseas metal acts touring Australia, from stadiums to small clubs, with official ticket links and the dates tickets open. Heavy-adjacent and folk crossover acts are included and can be switched off. Local pub gigs are left out.</p>
   </header>
 
@@ -165,6 +264,21 @@ footer code{font-family:var(--mono);font-size:12px}
   </footer>
 </div>
 
+<svg class="deco mountains" viewBox="0 0 600 120" preserveAspectRatio="none" aria-hidden="true">
+  <path fill="#0d1411" d="M0 120V70l30-18 18 22 26-40 22 30 30-46 26 44 20-24 30 34 28-52 26 40 24-20 30 36 26-48 30 44 22-24 26 30 30-50 26 46 28-28 24 30 30-44 22 34 28-22 26 28V120Z"/>
+  <path fill="#070a09" d="M0 120V92l40-14 30 18 40-22 44 20 40-16 50 18 40-20 46 16 44-18 40 20 50-16 40 18 46-20 50 22V120Z"/>
+</svg>
+<div class="deco grain" aria-hidden="true"></div>
+
+<script>
+/* Look switcher */
+(()=>{
+  const root=document.documentElement,btns=document.querySelectorAll("[data-look-set]");
+  const sync=()=>btns.forEach(b=>b.setAttribute("aria-pressed",b.dataset.lookSet===root.dataset.look));
+  btns.forEach(b=>b.addEventListener("click",()=>{root.dataset.look=b.dataset.lookSet;try{localStorage.setItem("mh-look",b.dataset.lookSet)}catch(e){}sync()}));
+  sync();
+})();
+</script>
 <script>
 (async()=>{
 let EV,BD;
