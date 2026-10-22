@@ -19,6 +19,9 @@ Then visit http://localhost:8000.
 ## Publish
 GitHub Pages: push to GitHub, then Settings, Pages, deploy from the `main` branch root. The site is public once published.
 
+## App (PWA)
+`manifest.webmanifest`, `sw.js` and `icons/` make the site installable (Add to Home Screen on iPhone, Install app on Android). The service worker loads the site and data network-first, so merges to `main` reach installed apps on next open, and keeps a copy for offline use. The ⟳ button compares the live site and data with the shown copy and reloads if anything changed. Regenerate the PNG icons from `icons/icon.svg` if the logo changes.
+
 ## Refresh
 Follow the procedure in `docs/INSTRUCTIONS.md`, bump `refreshed` in `data/events.json`, and commit.
 
