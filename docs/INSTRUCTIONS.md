@@ -11,14 +11,15 @@ Maintain a calendar of upcoming heavy metal concerts in Australia so Ben never m
 - Related heavy styles: hardcore, post-hardcore, screamo, emo.
 - **Folk crossover** acts that sit near metal (Heilung, Wardruna, Faun, Patty Gurdy and similar), tagged `folk`.
 - Heavy-adjacent acts (hard rock, stoner and similar), tagged `adjacent`.
+- **Punk**, tagged `punk`: Celtic and Irish punk, folk punk, '77 and UK punk, street punk and Oi!, modern punk and post-punk, skate and melodic punk, horror punk and psychobilly (added 22 Oct 2026, Ben approved). Australian punk acts are tagged `aus`.
 
 - **Australian acts** in the same genres, tagged `aus`: national or multi-city tours, festival slots and cruises (added 22 Oct 2026, Ben approved).
 
-**Tags** drive the category filters on the page: `core` (metal and the genres above), `adjacent`, `folk`, `aus` (Australian). Each can be switched off in the page.
+**Tags** drive the category filters on the page: `core` (metal and the genres above), `adjacent`, `folk`, `punk`, `aus` (Australian). Each can be switched off in the page.
 
 **Exclude**
 - One-off local pub and club gigs by Australian acts (a national or multi-city tour is in scope).
-- Pop-punk, pop, indie and other non-heavy acts.
+- Pop-punk (Ben decided 22 Oct 2026 to keep it out), pop, indie and other non-heavy acts.
 - New Zealand dates (note them only if they affect an AU tour).
 
 ## Tracked bands and "likely to tour"
@@ -93,3 +94,4 @@ Band fields: `n`, `g` (group), `st` (status above), `note`, `src`.
 - All 286 tracked bands were checked on 22 Oct 2026 (one news/aggregator search each). The check added 11 tours: La Dispute, Dance Gavin Dance, Jimmy Eat World, Queens of the Stone Age, Metal Church, Deicide, Igorrr, PRESIDENT, Drain, Melbourne Dethfest 2027 (Bloodbath) and Elder. Metal Church has no on-sale details.
 - Expanded to 1055 bands (Oct 2026): 154 Australian bands in 8 groups (`aus: true`) plus about 350 more international bands. All 533 new or reset bands were checked on 22 Oct 2026. The check added 9 tours: Northlane, Windwaker, Hellbound II cruise, Heavensgate, Dream On Dreamer, Trophy Eyes, The Early November + Hellogoodbye, Uncle Acid & the Deadbeats and Sleep Theory. It also completed A Perfect Circle's dates, added Airbourne to Guns N' Roses, and added Speed, Grinspoon, Bilmuri and Voice of Baceprot to Good Things.
 - Open leads from that check: King Parrot (8-show regional run late 2026, dates not found), Voyager (comeback shows, year unconfirmed), Rose Tattoo (2026 farewell, Australian dates unconfirmed), Justice for the Damned (March headline tour, year unconfirmed). Dream On Dreamer and Trophy Eyes still need venues.
+- Punk added (Oct 2026): 155 bands in 8 groups (7 international, plus Australian punk), 1210 bands in total. All checked on 22 Oct 2026. The check added 9 tours: Rise Against + Dropkick Murphys, Meltdown Festival, Less Than Jake, Frenzal Rhomb, Propagandhi, Teenage Bottlerocket, The Saints, C.O.F.F.I.N, and Millencolin on Good Things. Frenzal Rhomb's Melbourne and Hobart venues still need checking.

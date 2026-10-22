@@ -364,11 +364,11 @@ window.MH_REFRESHED=(d=>d.getDate()+" "+["Jan","Feb","Mar","Apr","May","Jun","Ju
 const REFRESHED=EV.refreshed,TOURS=EV.tours,SALES=EV.sales,WATCH=EV.watch,GROUPS=BD.groups,BANDS=BD.bands;
 /* ---------- STATE ---------- */
 const STATES=["NSW","VIC","QLD","SA","WA","ACT"];
-const CATS=[["core","Core metal"],["adjacent","Heavy-adjacent"],["folk","Folk crossover"],["aus","Australian"]];
+const CATS=[["core","Core metal"],["adjacent","Heavy-adjacent"],["folk","Folk crossover"],["punk","Punk"],["aus","Australian"]];
 const S={tab:"agenda",states:new Set(),cats:new Set(CATS.map(c=>c[0])),hideSold:false,q:"",month:null,picked:null,bq:"",bst:""};
 try{const saved=JSON.parse(localStorage.getItem("amc2")||"{}");
-  if(saved.states)S.states=new Set(saved.states);if(saved.cats){S.cats=new Set(saved.cats);if(!saved.v)S.cats.add("aus")}S.hideSold=!!saved.hideSold;}catch(e){}
-function persist(){try{localStorage.setItem("amc2",JSON.stringify({v:2,states:[...S.states],cats:[...S.cats],hideSold:S.hideSold}))}catch(e){}}
+  if(saved.states)S.states=new Set(saved.states);if(saved.cats){S.cats=new Set(saved.cats);if(!saved.v)S.cats.add("aus");if((saved.v||0)<3)S.cats.add("punk")}S.hideSold=!!saved.hideSold;}catch(e){}
+function persist(){try{localStorage.setItem("amc2",JSON.stringify({v:3,states:[...S.states],cats:[...S.cats],hideSold:S.hideSold}))}catch(e){}}
 
 /* ---------- HELPERS ---------- */
 const $=s=>document.querySelector(s);
@@ -411,7 +411,7 @@ function showRow(s){
       ${t.support?`<p class="sup">${t.id==="goodthings"||t.id==="froth"?"":"With "}${esc(t.support)}</p>`:""}
       <p class="where">${esc(s.venue)} · ${esc(s.city)}, ${esc(s.st)}</p>
       <p class="sale">${esc(t.sale)}</p>
-      <div class="tags"><span class="tag">${esc(t.genre)}</span>${t.tag==="adjacent"?'<span class="tag">Heavy-adjacent</span>':""}${t.tag==="folk"?'<span class="tag">Folk crossover</span>':""}${t.tag==="aus"?'<span class="tag">Australian</span>':""}${t.conf==="verify"?'<span class="tag verify">Verify</span>':""}${t.note?`<details class="more"><summary aria-label="More info">i</summary><p class="note">${esc(t.note)}</p></details>`:""}</div>
+      <div class="tags"><span class="tag">${esc(t.genre)}</span>${t.tag==="adjacent"?'<span class="tag">Heavy-adjacent</span>':""}${t.tag==="folk"?'<span class="tag">Folk crossover</span>':""}${t.tag==="punk"?'<span class="tag">Punk</span>':""}${t.tag==="aus"?'<span class="tag">Australian</span>':""}${t.conf==="verify"?'<span class="tag verify">Verify</span>':""}${t.note?`<details class="more"><summary aria-label="More info">i</summary><p class="note">${esc(t.note)}</p></details>`:""}</div>
     </div>
     <div class="act">
       <span class="badge ${s.status}">${BADGE[s.status]}</span>
@@ -509,9 +509,9 @@ function viewInfo(){
   return `<div class="info">
     <h2 class="sub" style="margin-top:0">What's on here</h2>
     <p>Overseas metal acts touring Australia, from stadiums to small clubs, with official ticket links and the dates tickets open.</p>
-    <p>Heavy-adjacent (hard rock, stoner) and folk crossover acts are included. Switch them off with the filters on the Agenda.</p>
+    <p>Heavy-adjacent (hard rock, stoner) and folk crossover acts are included, plus punk (Celtic, street, '77, skate and horror punk). Switch them off with the filters on the Agenda.</p>
     <p>Australian bands are included for national tours and festival slots. Switch them off with the Australian filter.</p>
-    <p>Not included: one-off local pub gigs and New Zealand dates.</p>
+    <p>Not included: pop-punk, one-off local pub gigs and New Zealand dates.</p>
     <h2 class="sub">Labels</h2>
     <p><b>Verify</b>: rests on one source, or the sources disagree. Check the ticket link before you buy.</p>
     <p><b>Sale pending</b>: announced, tickets not on sale yet. The On-sale radar has the times.</p>

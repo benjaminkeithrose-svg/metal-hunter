@@ -179,7 +179,7 @@
   {
    "id": "goodthings",
    "artist": "Good Things Festival",
-   "support": "Limp Bizkit, Simple Plan, Spiritbox, Polaris, Bad Religion, Alexisonfire, Ministry, Chad Gray, The Devil Wears Prada, P.O.D., Speed, Grinspoon, Bilmuri, Voice of Baceprot",
+   "support": "Limp Bizkit, Simple Plan, Spiritbox, Polaris, Bad Religion, Alexisonfire, Ministry, Chad Gray, The Devil Wears Prada, P.O.D., Speed, Grinspoon, Bilmuri, Voice of Baceprot, Millencolin",
    "genre": "Festival",
    "tag": "core",
    "status": "on-sale",
@@ -1891,6 +1891,395 @@
      "city": "Brisbane",
      "st": "QLD",
      "venue": "The Tivoli"
+    }
+   ]
+  },
+  {
+   "id": "riseagainst26",
+   "artist": "Rise Against + Dropkick Murphys",
+   "support": "",
+   "genre": "Punk",
+   "tag": "punk",
+   "status": "on-sale",
+   "sale": "On sale now via Live Nation.",
+   "ticketUrl": "https://www.livenation.com.au/",
+   "ticketLabel": "Live Nation",
+   "src": "https://beat.com.au/rise-against-and-dropkick-murphys-team-up-for-massive-punk-invasion-across-australia/",
+   "note": "Co-headline tour. Gosford is the Meltdown festival with The Living End, Jebediah and RedHook.",
+   "shows": [
+    {
+     "d": "2026-11-26",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "John Cain Arena"
+    },
+    {
+     "d": "2026-11-28",
+     "city": "Gosford",
+     "st": "NSW",
+     "venue": "Meltdown, The Entertainment Grounds"
+    },
+    {
+     "d": "2026-11-29",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Riverstage"
+    },
+    {
+     "d": "2026-12-01",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Sydney Opera House Forecourt"
+    },
+    {
+     "d": "2026-12-04",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Red Hill Auditorium"
+    }
+   ]
+  },
+  {
+   "id": "meltdown26",
+   "artist": "Meltdown Festival",
+   "support": "Rise Against, Dropkick Murphys, The Living End, Jebediah, RedHook",
+   "genre": "Punk / rock festival",
+   "tag": "punk",
+   "status": "on-sale",
+   "sale": "On sale now.",
+   "ticketUrl": "https://musick.com.au/gig/meltdown-presents-rise-against-dropkick-murphys-more-2026-11-28/",
+   "ticketLabel": "Tour details",
+   "src": "https://musicfeeds.com.au/?p=574705",
+   "note": "First edition.",
+   "shows": [
+    {
+     "d": "2026-11-28",
+     "city": "Gosford",
+     "st": "NSW",
+     "venue": "The Entertainment Grounds"
+    }
+   ]
+  },
+  {
+   "id": "ltj26",
+   "artist": "Less Than Jake",
+   "support": "The Aquabats, The Suicide Machines",
+   "genre": "Ska punk",
+   "tag": "punk",
+   "status": "on-sale",
+   "sale": "On sale now via Teamwrk Touring.",
+   "ticketUrl": "https://www.tegdainty.com/tour/circus-down-under/",
+   "ticketLabel": "TEG Dainty",
+   "src": "https://www.thenote.com.au/news/less-than-jake-announce-circus-down-under-australian-and-new-zealand-tour-2026",
+   "shows": [
+    {
+     "d": "2026-10-30",
+     "city": "Fremantle",
+     "st": "WA",
+     "venue": "Metropolis"
+    },
+    {
+     "d": "2026-10-31",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Hindley Street Music Hall"
+    },
+    {
+     "d": "2026-11-02",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Forum"
+    },
+    {
+     "d": "2026-11-05",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Enmore Theatre"
+    },
+    {
+     "d": "2026-11-06",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Eatons Hill Hotel"
+    }
+   ]
+  },
+  {
+   "id": "frenzal26",
+   "artist": "Frenzal Rhomb",
+   "support": "",
+   "genre": "Punk",
+   "tag": "aus",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "On sale now.",
+   "ticketUrl": "https://www.thenote.com.au/news/frenzal-rhomb-plot-sans-souci-23rd-anniversary-australian-tour-2026",
+   "ticketLabel": "Tour details",
+   "src": "https://www.thenote.com.au/news/frenzal-rhomb-plot-sans-souci-23rd-anniversary-australian-tour-2026",
+   "note": "Sans Souci 23rd-anniversary tour, last dates. A Melbourne date is listed but not confirmed; Hobart venue not in my sources.",
+   "shows": [
+    {
+     "d": "2026-10-22",
+     "city": "Bunbury",
+     "st": "WA",
+     "venue": "Prince of Wales"
+    },
+    {
+     "d": "2026-10-23",
+     "city": "Margaret River",
+     "st": "WA",
+     "venue": "The River"
+    },
+    {
+     "d": "2026-10-24",
+     "city": "Duncraig",
+     "st": "WA",
+     "venue": "Carine Tavern"
+    },
+    {
+     "d": "2026-11-06",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Metro Theatre"
+    },
+    {
+     "d": "2026-11-12",
+     "city": "Byron Bay",
+     "st": "NSW",
+     "venue": "The Northern"
+    },
+    {
+     "d": "2026-11-13",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Princess Theatre"
+    },
+    {
+     "d": "2026-11-19",
+     "city": "Hobart",
+     "st": "TAS",
+     "venue": "TBC"
+    },
+    {
+     "d": "2026-11-20",
+     "city": "Forth",
+     "st": "TAS",
+     "venue": "Forth Pub"
+    }
+   ]
+  },
+  {
+   "id": "propagandhi27",
+   "artist": "Propagandhi",
+   "support": "",
+   "genre": "Punk",
+   "tag": "punk",
+   "status": "on-sale",
+   "sale": "On sale now via SBM Presents. Adelaide is Froth & Fury (tickets via Moshtix).",
+   "ticketUrl": "https://sbmpresents.com/tour/propagandhi-2027",
+   "ticketLabel": "SBM Presents",
+   "src": "https://www.thenote.com.au/news/propagandhi-announce-australia-and-aotearoa-tour-2027",
+   "shows": [
+    {
+     "d": "2027-01-27",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Metro Theatre"
+    },
+    {
+     "d": "2027-01-29",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Princess Theatre"
+    },
+    {
+     "d": "2027-01-31",
+     "city": "Barwon Heads",
+     "st": "VIC",
+     "venue": "Barwon Heads Hotel"
+    },
+    {
+     "d": "2027-02-03",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Northcote Theatre"
+    }
+   ]
+  },
+  {
+   "id": "tbr27",
+   "artist": "Teenage Bottlerocket",
+   "support": "Brendan Kelly (The Lawrence Arms)",
+   "genre": "Punk",
+   "tag": "punk",
+   "status": "on-sale",
+   "sale": "On sale now via Chopdog.",
+   "ticketUrl": "https://chopdog.com.au/",
+   "ticketLabel": "Chopdog",
+   "src": "https://www.thenote.com.au/news/teenage-bottlerocket-australian-tour-2027",
+   "note": "Sydney venue is Metro Social in one listing and Metro Theatre in another.",
+   "shows": [
+    {
+     "d": "2027-02-12",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Metro Social"
+    },
+    {
+     "d": "2027-02-13",
+     "city": "Newcastle",
+     "st": "NSW",
+     "venue": "Croatian Wickham Sports Club"
+    },
+    {
+     "d": "2027-02-14",
+     "city": "Wollongong",
+     "st": "NSW",
+     "venue": "La La La's"
+    },
+    {
+     "d": "2027-02-16",
+     "city": "Gold Coast",
+     "st": "QLD",
+     "venue": "Vinnies Dive"
+    },
+    {
+     "d": "2027-02-17",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Brightside"
+    },
+    {
+     "d": "2027-02-18",
+     "city": "Sunshine Coast",
+     "st": "QLD",
+     "venue": "Black Flag"
+    },
+    {
+     "d": "2027-02-19",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "UniBar"
+    },
+    {
+     "d": "2027-02-20",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Howler"
+    }
+   ]
+  },
+  {
+   "id": "saints27",
+   "artist": "The Saints ('73-'78 line-up)",
+   "support": "Local supports vary by city",
+   "genre": "Punk",
+   "tag": "aus",
+   "status": "on-sale",
+   "sale": "On sale now via Oztix.",
+   "ticketUrl": "https://i94bar.com/news/3675-the-saints-73-78-return-for-australian-tour-with-a-live-76-saints-album",
+   "ticketLabel": "Tour details",
+   "src": "https://i94bar.com/news/3675-the-saints-73-78-return-for-australian-tour-with-a-live-76-saints-album",
+   "note": "50 years of (I'm) Stranded, with the Live at Club 76 album. Supports include The New Christs (Wollongong) and Chimers (Newcastle).",
+   "shows": [
+    {
+     "d": "2027-01-21",
+     "city": "Newcastle",
+     "st": "NSW",
+     "venue": "King Street Bandroom"
+    },
+    {
+     "d": "2027-01-22",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Metro Theatre"
+    },
+    {
+     "d": "2027-01-23",
+     "city": "Wollongong",
+     "st": "NSW",
+     "venue": "Waves"
+    },
+    {
+     "d": "2027-01-29",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Tivoli"
+    },
+    {
+     "d": "2027-01-30",
+     "city": "Gold Coast",
+     "st": "QLD",
+     "venue": "Miami Marketta"
+    },
+    {
+     "d": "2027-02-02",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "The Astor"
+    },
+    {
+     "d": "2027-02-04",
+     "city": "Barwon Heads",
+     "st": "VIC",
+     "venue": "Barwon Heads Hotel"
+    },
+    {
+     "d": "2027-02-05",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Croxton Bandroom"
+    }
+   ]
+  },
+  {
+   "id": "coffin27",
+   "artist": "C.O.F.F.I.N",
+   "support": "",
+   "genre": "Punk",
+   "tag": "aus",
+   "status": "on-sale",
+   "sale": "On sale now via Moshtix.",
+   "ticketUrl": "https://www.moshtix.com.au/v2/event/c-o-f-f-i-n—out-in-oslo-australian-tour-2027/199501",
+   "ticketLabel": "Moshtix",
+   "src": "https://www.thenote.com.au/news/coffin-out-in-oslo-australian-tour-2027",
+   "note": "Out In Oslo tour, after UK and Europe dates in Nov to Dec 2026.",
+   "shows": [
+    {
+     "d": "2027-02-26",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Max Watts"
+    },
+    {
+     "d": "2027-03-05",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Factory Theatre"
+    },
+    {
+     "d": "2027-03-06",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2027-03-12",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Rosemount Hotel"
+    },
+    {
+     "d": "2027-03-13",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Lion Arts Factory"
+    },
+    {
+     "d": "2027-03-20",
+     "city": "Hobart",
+     "st": "TAS",
+     "venue": "Altar"
     }
    ]
   }
