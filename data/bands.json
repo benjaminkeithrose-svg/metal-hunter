@@ -9,6 +9,10 @@
    "Thrash"
   ],
   [
+   "xthrash",
+   "Crossover thrash and punk-metal"
+  ],
+  [
    "power",
    "Power metal"
   ],
@@ -17,8 +21,16 @@
    "Epic and mythology-themed"
   ],
   [
+   "pirate",
+   "Pirate, party and novelty metal"
+  ],
+  [
    "symph",
    "Symphonic and gothic"
+  ],
+  [
+   "goth",
+   "Gothic, dark and occult rock"
   ],
   [
    "melodeath",
@@ -57,12 +69,24 @@
    "Djent and modern prog"
   ],
   [
+   "postmetal",
+   "Post-metal and atmospheric"
+  ],
+  [
    "industrial",
    "Industrial"
   ],
   [
    "nu",
    "Nu and alt metal"
+  ],
+  [
+   "altheavy",
+   "Alt and modern heavy"
+  ],
+  [
+   "asia",
+   "Japanese and Asian metal"
   ],
   [
    "core",
@@ -79,6 +103,10 @@
   [
    "hc",
    "Hardcore"
+  ],
+  [
+   "melhc",
+   "Melodic hardcore"
   ],
   [
    "posthc",
@@ -2665,6 +2693,2355 @@
    "st": "elsewhere",
    "note": "European festival headline slots in summer 2026. No Australian dates.",
    "src": "https://www.stereoboard.com/volbeat-tickets.html",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Metal Church",
+   "g": "heavy",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dio Disciples",
+   "g": "heavy",
+   "st": "elsewhere",
+   "note": "New line-up touring the US in fall 2026; Europe and South America planned for 2027.",
+   "src": "https://themetallist.com/en/news/2026/05/dio-disciples-new-lineup-fall-tour-2026/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Hellripper",
+   "g": "heavy",
+   "st": "elsewhere",
+   "note": "Europe and Mexico from Sep 2026; UK with Warbringer.",
+   "src": "https://www.eventworld.com/hellripper-tickets/performer/23980",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Enforcer",
+   "g": "heavy",
+   "st": "none",
+   "note": "Australian debut tour January 2025. Nothing further announced.",
+   "src": "https://musicfeeds.com.au/?p=556940",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Night Demon",
+   "g": "heavy",
+   "st": "none",
+   "note": "Last in Australia supporting Cirith Ungol in 2024.",
+   "src": "https://cirithungol.org/gig/farewell-tour-australia-the-basement-canberra-2024/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Visigoth",
+   "g": "heavy",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "https://www.festivalhopper.de/bands/karten/visigoth.php",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sanhedrin",
+   "g": "heavy",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Tygers of Pan Tang",
+   "g": "heavy",
+   "st": "elsewhere",
+   "note": "UK dates, including January 2027.",
+   "src": "https://www.ents24.com/worthing-events/the-factory-live/tygers-of-pan-tang/7535456",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dark Angel",
+   "g": "thrash",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Vio-lence",
+   "g": "thrash",
+   "st": "elsewhere",
+   "note": "Eruption of Screams tour of Europe, the UK, Russia and Asia, summer 2026.",
+   "src": "https://ghostcultmag.com/vio-lence-eruption-of-screams-summer-2026-tour/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Warbringer",
+   "g": "thrash",
+   "st": "none",
+   "note": "Toured Australia in April 2026. Nothing further announced.",
+   "src": "https://www.thenote.com.au/news/warbringer-australian-tour-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Evile",
+   "g": "thrash",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Nervosa",
+   "g": "thrash",
+   "st": "none",
+   "note": "Last in Australia April 2025.",
+   "src": "https://metalontap.com/nervosa-15-years-of-nervosa-australian-tour/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Vektor",
+   "g": "thrash",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Toxic Holocaust",
+   "g": "thrash",
+   "st": "none",
+   "note": "Pulled out of Death Angel's 2025 tour after a hand injury. No current dates.",
+   "src": "https://lambgoat.com/music/toxic-holocaust/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Flotsam and Jetsam",
+   "g": "thrash",
+   "st": "none",
+   "note": "Australian debut with Mortal Sin, 30 Sep to 3 Oct 2026. Nothing further announced.",
+   "src": "https://www.thenote.com.au/news/flotsam-and-jetsam-mortal-sin-australian-tour-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Annihilator",
+   "g": "thrash",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Heathen",
+   "g": "thrash",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Hammer King",
+   "g": "power",
+   "st": "elsewhere",
+   "note": "Germany, Mar to Apr 2027.",
+   "src": "https://www.eventworld.com/hammer-king-tickets/performer/42593",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Freedom Call",
+   "g": "power",
+   "st": "none",
+   "note": "Australian debut tour May 2026. Nothing further announced.",
+   "src": "https://heavymag.com.au/freedom-call-announce-debut-australian-tour/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Edguy",
+   "g": "power",
+   "st": "elsewhere",
+   "note": "Fulda, Germany in June 2027. Last in Australia 2004.",
+   "src": "https://www.eventworld.com/edguy-tickets/performer/40850",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Angra",
+   "g": "power",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Galneryus",
+   "g": "power",
+   "st": "elsewhere",
+   "note": "Japan dates Aug to Sep 2026.",
+   "src": "https://www.eventworld.com/galneryus-tickets/performer/31153",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Firewind",
+   "g": "power",
+   "st": "elsewhere",
+   "note": "North America supporting Ensiferum, Sep 2026.",
+   "src": "https://lollipopmagazine.com/?p=254829",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Elvenking",
+   "g": "power",
+   "st": "elsewhere",
+   "note": "Europe and Asia in 2026.",
+   "src": "https://www.setlist.fm/setlists/elvenking-bd6fd36.html",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Ad Infinitum",
+   "g": "epic",
+   "st": "elsewhere",
+   "note": "North America Feb 2026 and Scandinavia with Lord of the Lost.",
+   "src": "https://infocusvisions.com/ad-infinitum-seven-spires-tulip-dingbatz-clifton-nj/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dragony",
+   "g": "epic",
+   "st": "elsewhere",
+   "note": "Opened Ensiferum's European tour in early 2026.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Serenity",
+   "g": "epic",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Majestica",
+   "g": "epic",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Frozen Crown",
+   "g": "epic",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Seven Spires",
+   "g": "epic",
+   "st": "elsewhere",
+   "note": "70000 Tons, North America and European festivals through Sep 2026.",
+   "src": "https://developer.songkick.com/artists/8542749-seven-spires/calendar",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Amaranthe",
+   "g": "symph",
+   "st": "none",
+   "note": "Australian debut tour Aug to Sep 2024. Nothing further announced.",
+   "src": "https://www.thenote.com.au/news/amaranthe-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sirenia",
+   "g": "symph",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Therion",
+   "g": "symph",
+   "st": "elsewhere",
+   "note": "Czech festival date in July 2027.",
+   "src": "https://concerts.hypebot.com/artist/t/3524-therion",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Leaves' Eyes",
+   "g": "symph",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Diablo Swing Orchestra",
+   "g": "symph",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dark Sarah",
+   "g": "symph",
+   "st": "none",
+   "note": "Only Finnish dates in 2026.",
+   "src": "https://www.setlist.fm/setlists/dark-sarah-1bd99d60.html",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Be'lakor",
+   "g": "melodeath",
+   "st": "au",
+   "note": "Melbourne melodic death metal. Tracked for festivals and big support slots.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Ne Obliviscaris",
+   "g": "melodeath",
+   "st": "au",
+   "note": "Melbourne progressive extreme metal. Tracked for festivals and big support slots.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Fallujah",
+   "g": "melodeath",
+   "st": "none",
+   "note": "Toured Australia on Shred Fest, Sep 2026. Nothing further announced.",
+   "src": "https://www.everblack.com.au/?p=34731",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Wolfheart",
+   "g": "melodeath",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Mors Principium Est",
+   "g": "melodeath",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Nightrage",
+   "g": "melodeath",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Inferi",
+   "g": "melodeath",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Gatecreeper",
+   "g": "death",
+   "st": "none",
+   "note": "Last in Australia April 2024.",
+   "src": "https://www.wallofsoundau.com/news/modern-death-metal-giants-gatecreeper-unveil-10-date-australia-tour-with-japans-kruelty",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Aborted",
+   "g": "death",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Immolation",
+   "g": "death",
+   "st": "elsewhere",
+   "note": "North America with Behemoth and Rotting Christ in 2026.",
+   "src": "https://v13.net/2026/01/rotting-christ-announce-2026-north-american-tour/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Cryptopsy",
+   "g": "death",
+   "st": "none",
+   "note": "Toured Australia in December 2025.",
+   "src": "https://metalontap.com/canadian-death-metal-legends-cryptopsy-announce-all-so-vile-tour-december-2025/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Gorguts",
+   "g": "death",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Spawn of Possession",
+   "g": "death",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Undeath",
+   "g": "death",
+   "st": "elsewhere",
+   "note": "Germany, 31 Oct to 2 Nov 2026.",
+   "src": "https://www.regioactive.de/undeath/tour-termine-tickets",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Frozen Soul",
+   "g": "death",
+   "st": "elsewhere",
+   "note": "US with Trivium and In Flames Nov 2026; No Place of Warmth tour of Europe and the UK, Jan to Feb 2027.",
+   "src": "https://www.regioactive.de/frozen-soul/tour-termine-tickets",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "200 Stab Wounds",
+   "g": "death",
+   "st": "none",
+   "note": "Supported Dying Fetus in Australia, Dec 2025.",
+   "src": "https://www.thenote.com.au/news/dying-fetus-australian-new-zealand-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sanguisugabogg",
+   "g": "death",
+   "st": "none",
+   "note": "Toured Australia and New Zealand in 2026.",
+   "src": "https://bravo-www.soapcentral.com/entertainment/news-sanguisugabogg-2026-australia-new-zealand-tour-presale-dates-venues-and-more-explored",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Kraanium",
+   "g": "death",
+   "st": "none",
+   "note": "Toured Australia and New Zealand in 2026.",
+   "src": "https://www.thenote.com.au/news/kraanium-australian-new-zealand-tour-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Exhumed",
+   "g": "death",
+   "st": "none",
+   "note": "Played Sydney Dethfest and Canberra with Origin, June 2026.",
+   "src": "https://www.thenote.com.au/news/origin-plot-2026-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dead Congregation",
+   "g": "death",
+   "st": "none",
+   "note": "Toured Australia and New Zealand in 2026.",
+   "src": "https://www.thenote.com.au/news/dead-congregation-2026-australian-new-zealand-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Ulcerate",
+   "g": "death",
+   "st": "none",
+   "note": "Toured Australia and New Zealand in 2026.",
+   "src": "https://www.thenote.com.au/news/ulcerate-australian-new-zealand-tour-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Wormrot",
+   "g": "grind",
+   "st": "signal",
+   "note": "Reported as support for an Obituary tour of Australia and New Zealand; dates not found. UK dates Nov 2026.",
+   "src": "https://uniteasia.org/wormrot-add-new-zealand-dates-upcoming-obituary-australia-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Brutal Truth",
+   "g": "grind",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Cephalic Carnage",
+   "g": "grind",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Escuela Grind",
+   "g": "grind",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Knoll",
+   "g": "grind",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Primitive Man",
+   "g": "grind",
+   "st": "elsewhere",
+   "note": "North America and Europe, 2025–26.",
+   "src": "https://metalinjection.net/tour-dates/primitive-man-announces-european-tour-with-kollaps-sea-bastard",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Conan",
+   "g": "grind",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Red Fang",
+   "g": "doom",
+   "st": "none",
+   "note": "No Australian dates since their 2015 headline tour.",
+   "src": "https://theaureview.com/?p=162739",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Rotting Christ",
+   "g": "black",
+   "st": "elsewhere",
+   "note": "North America with Behemoth, Deicide and Immolation in 2026. Last in Australia May 2024.",
+   "src": "https://v13.net/2026/01/rotting-christ-announce-2026-north-american-tour/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Abbath",
+   "g": "black",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Wolves in the Throne Room",
+   "g": "black",
+   "st": "elsewhere",
+   "note": "Germany and Austria Oct to Nov 2026; North America Jan to Feb 2027.",
+   "src": "https://music.mxdwn.com/2026/10/06/news/wolves-in-the-throne-room-announce-winter-2027-north-american-tour-dates-with-spirit-possession-stygian-bough/amp/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Mgła",
+   "g": "black",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Belphegor",
+   "g": "black",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Tsjuder",
+   "g": "black",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "1349",
+   "g": "black",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Inquisition",
+   "g": "black",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Akhlys",
+   "g": "black",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Beherit",
+   "g": "black",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Deströyer 666",
+   "g": "black",
+   "st": "au",
+   "note": "Formed in Melbourne, now based in Europe. Tracked for festivals and big support slots.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Trollfest",
+   "g": "folk",
+   "st": "elsewhere",
+   "note": "Heidenfest tour of Europe, Jan to Feb 2026.",
+   "src": "https://korpiklaani.com/?p=1443",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Saor",
+   "g": "folk",
+   "st": "elsewhere",
+   "note": "UK, Italy and European festivals in 2026.",
+   "src": "https://www.setlist.fm/setlists/saor-3bd89854.html",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Månegarm",
+   "g": "folk",
+   "st": "elsewhere",
+   "note": "Trolls & Legends (Belgium), April 2026.",
+   "src": "https://trollsetlegendes.be/en/news/news-2026/manegarm-saor-programmation-2026/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Fejd",
+   "g": "folk",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Grima",
+   "g": "folk",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Cruachan",
+   "g": "folk",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Svartsot",
+   "g": "folk",
+   "st": "none",
+   "note": "Signed to an international booking agency in Feb 2026; no dates yet.",
+   "src": "https://www.intromental.com/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Vanaheim",
+   "g": "folk",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Ye Banished Privateers",
+   "g": "crossover",
+   "st": "none",
+   "note": "No current tour found. Supported Faun in Europe in 2025.",
+   "src": "https://en.wikipedia.org/wiki/Ye_Banished_Privateers",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Gealdýr",
+   "g": "crossover",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sowulo",
+   "g": "crossover",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Kalandra",
+   "g": "crossover",
+   "st": "elsewhere",
+   "note": "Australian debut Nov 2025. Norway and Europe Dec 2026 to Mar 2027.",
+   "src": "https://www.eventworld.com/kalandra-tickets/performer/30931",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Peyton Parrish",
+   "g": "crossover",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Hagalaz Runedance",
+   "g": "crossover",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Khemmis",
+   "g": "doom",
+   "st": "elsewhere",
+   "note": "US Aug to Sep 2026, Europe Oct 2026.",
+   "src": "https://distortedsoundmag.com/khemmis-announce-european-tour-2026/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Witch Mountain",
+   "g": "doom",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Spirit Adrift",
+   "g": "doom",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Messa",
+   "g": "doom",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "King Woman",
+   "g": "doom",
+   "st": "elsewhere",
+   "note": "Germany, Oct 2026.",
+   "src": "https://www.regioactive.de/king-woman/tour-termine-tickets",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Mourning Beloveth",
+   "g": "doom",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Draconian",
+   "g": "doom",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Truckfighters",
+   "g": "doom",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Earthless",
+   "g": "doom",
+   "st": "none",
+   "note": "Last in Australia September 2025.",
+   "src": "https://musicfeeds.com.au/news/earthless-announce-2025-australian-tour/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Weedeater",
+   "g": "doom",
+   "st": "none",
+   "note": "Last in Australia with King Parrot, November 2024.",
+   "src": "https://www.wallofsoundau.com/news/king-parrot-weedeater-unveil-the-weed-meets-the-speed-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Rivers of Nihil",
+   "g": "prog",
+   "st": "none",
+   "note": "Co-headlined with Psycroptic in Australia, Aug 2026.",
+   "src": "https://www.thenote.com.au/news/psycroptic-rivers-of-nihil-plot-co-headline-australian-tour-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Plini",
+   "g": "prog",
+   "st": "au",
+   "note": "Sydney progressive guitarist. Tracked for festivals and big support slots.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Soen",
+   "g": "prog",
+   "st": "signal",
+   "note": "October 2026 Australian shows were reported postponed to early 2027; new dates not confirmed.",
+   "src": "https://www.everblack.com.au/?p=34639",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Riverside",
+   "g": "prog",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Pain of Salvation",
+   "g": "prog",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Coheed and Cambria",
+   "g": "prog",
+   "st": "none",
+   "note": "Supported Avenged Sevenfold in Australia, Oct 2026. Nothing further announced.",
+   "src": "https://therockrevival.com/rock-news/avenged-sevenfold-announce-2026-tour-dates-in-australia-and-new-zealand/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "The Ocean",
+   "g": "prog",
+   "st": "none",
+   "note": "Last in Australia June 2024.",
+   "src": "https://www.scenepointblank.com/news/tours/2024/03/17/ocean-cave-llnn-au/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sikth",
+   "g": "djent",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Volumes",
+   "g": "djent",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Aviana",
+   "g": "djent",
+   "st": "none",
+   "note": "No new Australian dates found. Last in Australia 2023.",
+   "src": "https://www.everblack.com.au/2023/04/06/joel-holmqvist-from-aviana-talks-renormalization-australian-tour/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Invent Animate",
+   "g": "djent",
+   "st": "none",
+   "note": "Supported I Prevail in Australia in 2026.",
+   "src": "https://lambgoat.com/music/Invent-Animate",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Silent Planet",
+   "g": "djent",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Thornhill",
+   "g": "djent",
+   "st": "au",
+   "note": "Melbourne alt-metal. Tracked for festivals and big support slots.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Novelists",
+   "g": "djent",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Unprocessed",
+   "g": "djent",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Carpenter Brut",
+   "g": "industrial",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Igorrr",
+   "g": "industrial",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Perturbator",
+   "g": "industrial",
+   "st": "none",
+   "note": "Supported HEALTH in Australia, Sep 2026.",
+   "src": "https://www.thenote.com.au/news/health-australian-tour-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Gost",
+   "g": "industrial",
+   "st": "none",
+   "note": "Last in Australia with Perturbator, Feb 2023.",
+   "src": "https://scenepointblank.com/news/tours/2022/11/07/perturbators-excess-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Mushroomhead",
+   "g": "industrial",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Orgy",
+   "g": "industrial",
+   "st": "none",
+   "note": "Toured Australia with Cold, Oct 2024.",
+   "src": "https://maytherockbewithyou.com/mtrbwy/?p=42335",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Celldweller",
+   "g": "industrial",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Front Line Assembly",
+   "g": "industrial",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Mudvayne",
+   "g": "nu",
+   "st": "none",
+   "note": "Last in Australia with Coal Chamber, Feb 2024.",
+   "src": "https://www.everblack.com.au/?p=13016",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Ill Niño",
+   "g": "nu",
+   "st": "none",
+   "note": "Toured Australia with Adema, Sep 2025.",
+   "src": "https://heavymag.com.au/ill-nino-announce-australian-tour-with-adema/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sevendust",
+   "g": "nu",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Nonpoint",
+   "g": "nu",
+   "st": "none",
+   "note": "Toured Australia with Hed PE, Feb 2026.",
+   "src": "https://www.thenote.com.au/news/hed-pe-2026-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Hed PE",
+   "g": "nu",
+   "st": "none",
+   "note": "Toured Australia with Nonpoint, Feb 2026.",
+   "src": "https://www.thenote.com.au/news/hed-pe-2026-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Spineshank",
+   "g": "nu",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dope",
+   "g": "nu",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Fit for a King",
+   "g": "core",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Landmvrks",
+   "g": "core",
+   "st": "none",
+   "note": "Supported A Day to Remember and Papa Roach in Australia, April 2026.",
+   "src": "https://www.thenote.com.au/news/a-day-to-remember-papa-roach-2026-australian-new-zealand-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Imminence",
+   "g": "core",
+   "st": "none",
+   "note": "Supported I Prevail in Australia in 2026.",
+   "src": "https://lambgoat.com/music/Invent-Animate",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Of Mice & Men",
+   "g": "core",
+   "st": "none",
+   "note": "Toured Australia in May 2026.",
+   "src": "https://mixdownmag.com.au/news/of-mice-men-lock-in-may-2026-australian-tour-get-ready-for-the-pits-to-open-wide/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Motionless in White",
+   "g": "core",
+   "st": "elsewhere",
+   "note": "Headlined Australia in June 2026; North America from Oct 2026.",
+   "src": "https://www.destroyalllines.com/tours/motionless-in-white",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Crown the Empire",
+   "g": "core",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Like Moths to Flames",
+   "g": "core",
+   "st": "elsewhere",
+   "note": "US dates Sep 2026.",
+   "src": "https://www.eventworld.com/like-moths-to-flames-bilety/performer/14458",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Atreyu",
+   "g": "core",
+   "st": "none",
+   "note": "Last in Australia July 2025 with Memphis May Fire.",
+   "src": "https://www.thenote.com.au/news/atreyu-the-curse-20th-anniversary-australian-album-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Bleed from Within",
+   "g": "core",
+   "st": "none",
+   "note": "Opened for Lamb of God and Trivium in Australia, Oct 2026.",
+   "src": "https://knotfest.com/blogs/news/lamb-of-god-and-trivium-to-co-headline-2026-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Cabal",
+   "g": "deathcore",
+   "st": "none",
+   "note": "Last in Australia April 2023.",
+   "src": "https://www.wallofsoundau.com/reviews/earth-caller-gig-review-photo-gallery-15th-april-the-corner-hotel-melb-vic",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "AngelMaker",
+   "g": "deathcore",
+   "st": "elsewhere",
+   "note": "North America and Canada in 2026. Last in Australia with Sylosis, Feb 2025.",
+   "src": "https://lambgoat.com/music/angelmaker/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Despised Icon",
+   "g": "deathcore",
+   "st": "elsewhere",
+   "note": "Europe with Carnifex and Suffocation, Oct to Nov 2026.",
+   "src": "https://www.regioactive.de/despised-icon/tour-termine-tickets",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Enterprise Earth",
+   "g": "deathcore",
+   "st": "elsewhere",
+   "note": "Prague and Paris, Sep 2026.",
+   "src": "https://www.eventworld.com/enterprise-earth-tickets/performer/18880",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Ingested",
+   "g": "deathcore",
+   "st": "elsewhere",
+   "note": "US West Coast tour with AngelMaker in 2026.",
+   "src": "https://lambgoat.com/music/angelmaker/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Paleface Swiss",
+   "g": "deathcore",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Bodysnatcher",
+   "g": "deathcore",
+   "st": "none",
+   "note": "Supported Fit for an Autopsy in Australia, Jan 2026.",
+   "src": "https://www.thenote.com.au/news/fit-for-an-autopsy-australian-tour-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "The Acacia Strain",
+   "g": "deathcore",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Aversions Crown",
+   "g": "auscore",
+   "st": "au",
+   "note": "Brisbane deathcore. Tracked for festivals and big support slots.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Ocean Grove",
+   "g": "auscore",
+   "st": "au",
+   "note": "Melbourne nu-metalcore. On the Hellbound II cruise (Jan 2027). Tracked for festivals and big support slots.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Deadlights",
+   "g": "auscore",
+   "st": "au",
+   "note": "Brisbane metalcore. Tracked for festivals and big support slots.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Diamond Construct",
+   "g": "auscore",
+   "st": "au",
+   "note": "Wollongong metalcore. Tracked for festivals and big support slots.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Bloom",
+   "g": "auscore",
+   "st": "au",
+   "note": "Sydney melodic hardcore. Tracked for festivals and big support slots.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Windwaker",
+   "g": "auscore",
+   "st": "au",
+   "note": "Melbourne metalcore. Tracked for festivals and big support slots.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Counterparts",
+   "g": "hc",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Stray from the Path",
+   "g": "hc",
+   "st": "none",
+   "note": "Played a final Australian tour in Aug 2025 and have disbanded.",
+   "src": "https://www.thenote.com.au/news/stray-from-the-path-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Gideon",
+   "g": "hc",
+   "st": "none",
+   "note": "Supported Bury Tomorrow in Australia, Sep 2026.",
+   "src": "https://www.destroyalllines.com/tours/bury-tomorrow-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Orthodox",
+   "g": "hc",
+   "st": "none",
+   "note": "Supported Wage War in Australia, Jul to Aug 2026.",
+   "src": "https://www.destroyalllines.com/tours/wage-war",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Jesus Piece",
+   "g": "hc",
+   "st": "none",
+   "note": "No dates announced.",
+   "src": "https://www.eventworld.com/jesus-piece-tickets/performer/19051",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Speed",
+   "g": "hc",
+   "st": "au",
+   "note": "Sydney hardcore band. Tracked for festivals and big support slots.",
+   "src": "https://www.lambgoat.com/music/speed/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Higher Power",
+   "g": "hc",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sunami",
+   "g": "hc",
+   "st": "none",
+   "note": "Last in Australia September 2025.",
+   "src": "https://musicfeeds.com.au/?p=570237",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Integrity",
+   "g": "hc",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Deadguy",
+   "g": "hc",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "The Fall of Troy",
+   "g": "posthc",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Alesana",
+   "g": "posthc",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Chiodos",
+   "g": "posthc",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Hot Mulligan",
+   "g": "posthc",
+   "st": "none",
+   "note": "Toured Australia in April 2026. Nothing further announced.",
+   "src": "https://www.theaureview.com/music/hot-mulligan-2026-australian-tour/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Holding Absence",
+   "g": "posthc",
+   "st": "none",
+   "note": "First Australian headline tour Aug 2026. Nothing further announced.",
+   "src": "https://www.thenote.com.au/news/holding-absence-australian-tour-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Boston Manor",
+   "g": "posthc",
+   "st": "none",
+   "note": "Last in Australia August 2024.",
+   "src": "https://www.fortemagazine.com.au/?p=313356",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Citizen",
+   "g": "posthc",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Drug Church",
+   "g": "posthc",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Balance and Composure",
+   "g": "emo",
+   "st": "none",
+   "note": "Played New Bloom Fest and headline shows in Australia, March 2025.",
+   "src": "https://www.thenote.com.au/news/balance-and-composure-australian-tour-2025",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Saves the Day",
+   "g": "emo",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "The Get Up Kids",
+   "g": "emo",
+   "st": "none",
+   "note": "No current Australian dates found.",
+   "src": "https://www.frontiertouring.com/past-tours/2004/get-up-kids-saves-the-day-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Glassjaw",
+   "g": "emo",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Funeral for a Friend",
+   "g": "emo",
+   "st": "elsewhere",
+   "note": "One show in 2026: 2000trees (UK).",
+   "src": "https://metalinjection.net/?p=616542",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Mineral",
+   "g": "emo",
+   "st": "none",
+   "note": "Last in Australia 2015.",
+   "src": "https://musicfeeds.com.au/?p=112361",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sunny Day Real Estate",
+   "g": "emo",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Bush",
+   "g": "hardrock",
+   "st": "none",
+   "note": "Co-headlined with Shinedown in Australia, Sep 2026.",
+   "src": "https://mixdownmag.com.au/news/shinedown-and-bush-are-bringing-their-co-headline-rock-tour-to-australia-and-new-zealand-in-september-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Primus",
+   "g": "hardrock",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Faith No More",
+   "g": "hardrock",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Corrosion of Conformity",
+   "g": "hardrock",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Mammoth WVH",
+   "g": "hardrock",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "The Darkness",
+   "g": "hardrock",
+   "st": "none",
+   "note": "Toured Australia Feb to Mar 2026.",
+   "src": "https://www.theaureview.com/music/the-darkness-australia-new-zealand-tour-2026/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Steel Panther",
+   "g": "hardrock",
+   "st": "none",
+   "note": "Last in Australia October 2024.",
+   "src": "https://www.thenote.com.au/news/steel-panther-2024-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "BABYMETAL",
+   "g": "asia",
+   "st": "none",
+   "note": "Toured Australian arenas with Bloodywood, March 2026. Nothing further announced.",
+   "src": "https://www.thenote.com.au/news/babymetal-australian-tour-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Crossfaith",
+   "g": "asia",
+   "st": "none",
+   "note": "No current Australian dates found.",
+   "src": "https://fortemagazine.com.au/?p=294440",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Coldrain",
+   "g": "asia",
+   "st": "none",
+   "note": "Supported Electric Callboy in Australia, Sep 2026.",
+   "src": "https://www.thenote.com.au/news/ice-nine-kills-and-coldrain-supporting-electric-callboy-2026-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Bloodywood",
+   "g": "asia",
+   "st": "none",
+   "note": "Supported BABYMETAL in Australia, March 2026.",
+   "src": "https://www.thenote.com.au/news/babymetal-australian-tour-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Crystal Lake",
+   "g": "asia",
+   "st": "none",
+   "note": "Supported Of Mice & Men in Australia, May 2026.",
+   "src": "https://www.wallofsoundau.com/news/of-mice-and-men-crystal-lake-aussie-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Band-Maid",
+   "g": "asia",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Hanabie.",
+   "g": "asia",
+   "st": "elsewhere",
+   "note": "North American headline tour from March 2026. Australian debut Nov 2024.",
+   "src": "https://www.thenote.com.au/news/hanabie-australian-tour-2024",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Lovebites",
+   "g": "asia",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sable Hills",
+   "g": "asia",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Fear, and Loathing in Las Vegas",
+   "g": "asia",
+   "st": "elsewhere",
+   "note": "Japanese shows and festivals in 2026.",
+   "src": "https://concerts.hypebot.com/artist/f/1241584-fear-and-loathing-in-las-vegas",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sigh",
+   "g": "asia",
+   "st": "elsewhere",
+   "note": "Europe, Sep 2026.",
+   "src": "https://www.regioactive.de/sigh/tour-termine-tickets",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Chthonic",
+   "g": "asia",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dir en grey",
+   "g": "asia",
+   "st": "elsewhere",
+   "note": "Japan, Nov 2026.",
+   "src": "https://concerts.hypebot.com/artist/d/1556-dir-en-grey",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Paledusk",
+   "g": "asia",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Russian Circles",
+   "g": "postmetal",
+   "st": "elsewhere",
+   "note": "US with Pelican, then European festivals, 2026.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Cult of Luna",
+   "g": "postmetal",
+   "st": "elsewhere",
+   "note": "Strasbourg, Wiesbaden and Berlin, March 2027.",
+   "src": "https://www.regioactive.de/cult-of-luna/tour-termine-tickets",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Deafheaven",
+   "g": "postmetal",
+   "st": "none",
+   "note": "Played their biggest Australian tour in July 2026. Nothing further announced.",
+   "src": "https://www.thenote.com.au/news/deafheaven-australian-new-zealand-tour-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Alcest",
+   "g": "postmetal",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Rolo Tomassi",
+   "g": "postmetal",
+   "st": "elsewhere",
+   "note": "US tour in spring 2026.",
+   "src": "https://metalinjection.net/tour-dates/rolo-tomassi-the-callous-daoboys-pound-announce-us-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Pelican",
+   "g": "postmetal",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Mono",
+   "g": "postmetal",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Amenra",
+   "g": "postmetal",
+   "st": "none",
+   "note": "No current Australian dates found.",
+   "src": "https://heavymag.com.au/amenra-australian-tour-dates/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Envy",
+   "g": "postmetal",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Spotlights",
+   "g": "postmetal",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sumac",
+   "g": "postmetal",
+   "st": "none",
+   "note": "Australian debut tour Feb 2026.",
+   "src": "https://www.thenote.com.au/news/sumac-debut-australian-new-zealand-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Being as an Ocean",
+   "g": "melhc",
+   "st": "elsewhere",
+   "note": "US tour in 2026. Last in Australia 2022.",
+   "src": "https://lambgoat.com/music/Being-As-An-Ocean",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Defeater",
+   "g": "melhc",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Hundredth",
+   "g": "melhc",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Have Heart",
+   "g": "melhc",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Shai Hulud",
+   "g": "melhc",
+   "st": "none",
+   "note": "Cancelled their 2026 Australian tour.",
+   "src": "https://themusic.com.au/artist/zBzW3cLDwME/terror",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Poison the Well",
+   "g": "melhc",
+   "st": "none",
+   "note": "Toured Australia in June 2026.",
+   "src": "https://heavymag.com.au/poison-the-well-announce-local-supports-for-aussie-tour/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Better Lovers",
+   "g": "melhc",
+   "st": "none",
+   "note": "Australian debut in January 2026.",
+   "src": "https://www.destroyalllines.com/blog/hardcore-group-better-lovers-are-heading-to-aus-in-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sylosis",
+   "g": "melhc",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Vein.fm",
+   "g": "melhc",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Power Trip",
+   "g": "xthrash",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Iron Reagan",
+   "g": "xthrash",
+   "st": "elsewhere",
+   "note": "US with Killswitch Engage, Machine Head and Havok, 2026.",
+   "src": "https://lambgoat.com/music/iron-reagan/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Enforced",
+   "g": "xthrash",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Fuming Mouth",
+   "g": "xthrash",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dead Heat",
+   "g": "xthrash",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Nuclear Assault",
+   "g": "xthrash",
+   "st": "none",
+   "note": "No confirmed current Australian dates.",
+   "src": "https://heavymag.com.au/news-nuclear-assault-australian-tour/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "D.R.I.",
+   "g": "xthrash",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Suicidal Tendencies",
+   "g": "xthrash",
+   "st": "elsewhere",
+   "note": "Toured Australia late 2025; US dates with Cro-Mags in 2026.",
+   "src": "https://www.thenote.com.au/news/suicidal-tendencies-australian-tour-skip-adelaide",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Cro-Mags",
+   "g": "xthrash",
+   "st": "elsewhere",
+   "note": "US East Coast shows with Suicidal Tendencies, 2026.",
+   "src": "https://www.lambgoat.com/music/suicidal-tendencies/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Lord of the Lost",
+   "g": "goth",
+   "st": "none",
+   "note": "Toured Australia in February 2026.",
+   "src": "https://www.thenote.com.au/news/lord-of-the-lost-australian-tour-2026",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Twin Temple",
+   "g": "goth",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Creeper",
+   "g": "goth",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sisters of Mercy",
+   "g": "goth",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Unto Others",
+   "g": "goth",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Tribulation",
+   "g": "goth",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Ghostemane",
+   "g": "goth",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Grave Pleasures",
+   "g": "goth",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Zeal & Ardor",
+   "g": "goth",
+   "st": "elsewhere",
+   "note": "Summer 2026 tour with Sylvaine and Imperial Triumphant. Last in Australia 2019.",
+   "src": "https://metalinjection.net/tour-dates/zeal-ardor-announces-summer-tour-with-sylvaine-imperial-triumphant",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Kælan Mikla",
+   "g": "goth",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Nanowar of Steel",
+   "g": "pirate",
+   "st": "elsewhere",
+   "note": "27-date European tour from January 2026.",
+   "src": "https://knac.com/?p=1633",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Tankard",
+   "g": "pirate",
+   "st": "elsewhere",
+   "note": "US, Japan and South America dates in 2026.",
+   "src": "https://metalinsider.net/columns/artist-spotlight/charting-the-course-to-2026-reflecting-on-70000tons-of-metal-2025-artist-spotlight-tankard",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dragonland",
+   "g": "pirate",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Grailknights",
+   "g": "pirate",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "The Dread Crew of Oddwood",
+   "g": "pirate",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Rumahoy",
+   "g": "pirate",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Victorius",
+   "g": "pirate",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Electric Callboy",
+   "g": "altheavy",
+   "st": "none",
+   "note": "Played Australian arenas in Sep 2026 (TANZNEID). Nothing further announced.",
+   "src": "https://www.thenote.com.au/news/ice-nine-kills-and-coldrain-supporting-electric-callboy-2026-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Poppy",
+   "g": "altheavy",
+   "st": "none",
+   "note": "First Australian headline tour Jan 2026, with Ocean Grove.",
+   "src": "https://www.thenote.com.au/news/poppy-2026-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "PRESIDENT",
+   "g": "altheavy",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Nothing More",
+   "g": "altheavy",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Starset",
+   "g": "altheavy",
+   "st": "none",
+   "note": "No current tour found.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Badflower",
+   "g": "altheavy",
+   "st": "none",
+   "note": "Australian debut August 2024.",
+   "src": "https://thenote.com.au/news/badflowers-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Falling in Reverse",
+   "g": "altheavy",
+   "st": "none",
+   "note": "Last in Australia March 2025.",
+   "src": "https://www.thenote.com.au/news/falling-in-reverse-australian-tour-2025",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Wargasm",
+   "g": "altheavy",
+   "st": "elsewhere",
+   "note": "US with Scene Queen in fall 2026.",
+   "src": "https://numetalagenda.com/tour/scene-queen-announces-metalicious-tour-with-wargasm-bailey-spinn/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Scene Queen",
+   "g": "altheavy",
+   "st": "elsewhere",
+   "note": "Metalicious tour of the US, fall 2026. Last in Australia Sep 2024.",
+   "src": "https://numetalagenda.com/tour/scene-queen-announces-metalicious-tour-with-wargasm-bailey-spinn/",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Pendulum",
+   "g": "altheavy",
+   "st": "au",
+   "note": "Perth drum and bass/rock act. Headlined Australia in March 2026.",
+   "src": "https://www.thenote.com.au/news/pendulum-2026-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Enter Shikari",
+   "g": "altheavy",
+   "st": "none",
+   "note": "Toured Australia in May 2026 with grandson.",
+   "src": "https://www.thenote.com.au/news/enter-shikari-announce-2026-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Caligula's Horse",
+   "g": "prog",
+   "st": "au",
+   "note": "Brisbane progressive metal. Tracked for festivals and big support slots.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Humanity's Last Breath",
+   "g": "djent",
+   "st": "elsewhere",
+   "note": "Europe and UK, Sep to Oct 2026.",
+   "src": "https://www.stereoboard.com/humanitys-last-breath-tickets",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Lamb of God",
+   "g": "thrash",
+   "st": "none",
+   "note": "Co-headlined Australia with Trivium, Oct 2026. Nothing further announced.",
+   "src": "https://knotfest.com/blogs/news/lamb-of-god-and-trivium-to-co-headline-2026-australian-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Trivium",
+   "g": "core",
+   "st": "none",
+   "note": "Co-headlined Australia with Lamb of God, Oct 2026. Nothing further announced.",
+   "src": "https://knotfest.com/blogs/news/lamb-of-god-and-trivium-to-co-headline-2026-australian-tour",
    "named": false,
    "confirmed": true
   }
