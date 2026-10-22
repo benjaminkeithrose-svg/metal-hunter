@@ -1,6 +1,14 @@
 {
  "groups": [
   [
+   "heavy",
+   "Heavy and classic"
+  ],
+  [
+   "thrash",
+   "Thrash"
+  ],
+  [
    "power",
    "Power metal"
   ],
@@ -9,8 +17,20 @@
    "Epic and mythology-themed"
   ],
   [
+   "symph",
+   "Symphonic and gothic"
+  ],
+  [
    "melodeath",
    "Melodic death metal"
+  ],
+  [
+   "death",
+   "Death metal"
+  ],
+  [
+   "grind",
+   "Grind, crust and sludge"
   ],
   [
    "black",
@@ -25,8 +45,32 @@
    "Folk crossover"
   ],
   [
+   "doom",
+   "Doom and stoner doom"
+  ],
+  [
+   "prog",
+   "Progressive"
+  ],
+  [
+   "djent",
+   "Djent and modern prog"
+  ],
+  [
+   "industrial",
+   "Industrial"
+  ],
+  [
+   "nu",
+   "Nu and alt metal"
+  ],
+  [
    "core",
    "Metalcore"
+  ],
+  [
+   "deathcore",
+   "Deathcore"
   ],
   [
    "auscore",
@@ -45,24 +89,8 @@
    "Emo"
   ],
   [
-   "deathcore",
-   "Deathcore"
-  ],
-  [
-   "death",
-   "Death metal"
-  ],
-  [
-   "thrash",
-   "Thrash and classic"
-  ],
-  [
-   "prog",
-   "Progressive and doom"
-  ],
-  [
-   "nu",
-   "Nu and alt metal"
+   "hardrock",
+   "Hard rock and stoner"
   ]
  ],
  "bands": [
@@ -725,7 +753,7 @@
   },
   {
    "n": "Candlemass",
-   "g": "prog",
+   "g": "doom",
    "st": "none",
    "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
    "src": "",
@@ -773,6 +801,1869 @@
    "g": "nu",
    "st": "none",
    "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "DragonForce",
+   "g": "power",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Stratovarius",
+   "g": "power",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "HammerFall",
+   "g": "power",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Rhapsody of Fire",
+   "g": "power",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Gamma Ray",
+   "g": "power",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sonata Arctica",
+   "g": "power",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Primal Fear",
+   "g": "power",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Avantasia",
+   "g": "power",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Wind Rose",
+   "g": "epic",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Twilight Force",
+   "g": "epic",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Visions of Atlantis",
+   "g": "epic",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Orden Ogan",
+   "g": "epic",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Feuerschwanz",
+   "g": "epic",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Grave Digger",
+   "g": "epic",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Manowar",
+   "g": "epic",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Amorphis",
+   "g": "melodeath",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Soilwork",
+   "g": "melodeath",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "At the Gates",
+   "g": "melodeath",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Omnium Gatherum",
+   "g": "melodeath",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Hypocrisy",
+   "g": "melodeath",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Kalmah",
+   "g": "melodeath",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Scar Symmetry",
+   "g": "melodeath",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Allegaeon",
+   "g": "melodeath",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Watain",
+   "g": "black",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Marduk",
+   "g": "black",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dark Funeral",
+   "g": "black",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Immortal",
+   "g": "black",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Gorgoroth",
+   "g": "black",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Satyricon",
+   "g": "black",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Batushka",
+   "g": "black",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Uada",
+   "g": "black",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Finntroll",
+   "g": "folk",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Equilibrium",
+   "g": "folk",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Týr",
+   "g": "folk",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Moonsorrow",
+   "g": "folk",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Arkona",
+   "g": "folk",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Skálmöld",
+   "g": "folk",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Heidevolk",
+   "g": "folk",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "The HU",
+   "g": "folk",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Danheim",
+   "g": "crossover",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Skáld",
+   "g": "crossover",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Myrkur",
+   "g": "crossover",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Nytt Land",
+   "g": "crossover",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Mortiis",
+   "g": "crossover",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Osi and the Jupiter",
+   "g": "crossover",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Kati Rán",
+   "g": "crossover",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "August Burns Red",
+   "g": "core",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "As I Lay Dying",
+   "g": "core",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Bury Tomorrow",
+   "g": "core",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "While She Sleeps",
+   "g": "core",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Wage War",
+   "g": "core",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "ERRA",
+   "g": "core",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Beartooth",
+   "g": "core",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "The Devil Wears Prada",
+   "g": "core",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Ice Nine Kills",
+   "g": "core",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Currents",
+   "g": "core",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Thrown",
+   "g": "core",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Polaris",
+   "g": "auscore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Make Them Suffer",
+   "g": "auscore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Alpha Wolf",
+   "g": "auscore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Void of Vision",
+   "g": "auscore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Hellions",
+   "g": "auscore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Terror",
+   "g": "hc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Madball",
+   "g": "hc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Comeback Kid",
+   "g": "hc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Agnostic Front",
+   "g": "hc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Code Orange",
+   "g": "hc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Stick to Your Guns",
+   "g": "hc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Kublai Khan TX",
+   "g": "hc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Drain",
+   "g": "hc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Gel",
+   "g": "hc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "La Dispute",
+   "g": "posthc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Thrice",
+   "g": "posthc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dance Gavin Dance",
+   "g": "posthc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Story of the Year",
+   "g": "posthc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Senses Fail",
+   "g": "posthc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Saosin",
+   "g": "posthc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dayseeker",
+   "g": "posthc",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Thursday",
+   "g": "emo",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Jimmy Eat World",
+   "g": "emo",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Mayday Parade",
+   "g": "emo",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "American Football",
+   "g": "emo",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Movements",
+   "g": "emo",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Shadow of Intent",
+   "g": "deathcore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Signs of the Swarm",
+   "g": "deathcore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Brand of Sacrifice",
+   "g": "deathcore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Chelsea Grin",
+   "g": "deathcore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Fit for an Autopsy",
+   "g": "deathcore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Within Destruction",
+   "g": "deathcore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Slaughter to Prevail",
+   "g": "deathcore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Infant Annihilator",
+   "g": "deathcore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Mental Cruelty",
+   "g": "deathcore",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Deicide",
+   "g": "death",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Cattle Decapitation",
+   "g": "death",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Nile",
+   "g": "death",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Suffocation",
+   "g": "death",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Bloodbath",
+   "g": "death",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dying Fetus",
+   "g": "death",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Origin",
+   "g": "death",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Vader",
+   "g": "death",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Benediction",
+   "g": "death",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Testament",
+   "g": "thrash",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Exodus",
+   "g": "thrash",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Overkill",
+   "g": "thrash",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sepultura",
+   "g": "thrash",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sodom",
+   "g": "thrash",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Destruction",
+   "g": "thrash",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Death Angel",
+   "g": "thrash",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Municipal Waste",
+   "g": "thrash",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Havok",
+   "g": "thrash",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Dream Theater",
+   "g": "prog",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Haken",
+   "g": "prog",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Leprous",
+   "g": "prog",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Devin Townsend",
+   "g": "prog",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Between the Buried and Me",
+   "g": "prog",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Cynic",
+   "g": "prog",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Ihsahn",
+   "g": "prog",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Papa Roach",
+   "g": "nu",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Disturbed",
+   "g": "nu",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Static-X",
+   "g": "nu",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Coal Chamber",
+   "g": "nu",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Bad Omens",
+   "g": "nu",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "System of a Down",
+   "g": "nu",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "A Perfect Circle",
+   "g": "nu",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "P.O.D.",
+   "g": "nu",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Linkin Park",
+   "g": "nu",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Iron Maiden",
+   "g": "heavy",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Judas Priest",
+   "g": "heavy",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Saxon",
+   "g": "heavy",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Accept",
+   "g": "heavy",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Mercyful Fate",
+   "g": "heavy",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "King Diamond",
+   "g": "heavy",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Ghost",
+   "g": "heavy",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "W.A.S.P.",
+   "g": "heavy",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Queensrÿche",
+   "g": "heavy",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Avatar",
+   "g": "heavy",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Armored Saint",
+   "g": "heavy",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Riot V",
+   "g": "heavy",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Nightwish",
+   "g": "symph",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Epica",
+   "g": "symph",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Within Temptation",
+   "g": "symph",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Lacuna Coil",
+   "g": "symph",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Kamelot",
+   "g": "symph",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Delain",
+   "g": "symph",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Evanescence",
+   "g": "symph",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Beyond the Black",
+   "g": "symph",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Tarja",
+   "g": "symph",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Xandria",
+   "g": "symph",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Paradise Lost",
+   "g": "symph",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Moonspell",
+   "g": "symph",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Rammstein",
+   "g": "industrial",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Ministry",
+   "g": "industrial",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Fear Factory",
+   "g": "industrial",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Combichrist",
+   "g": "industrial",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Author & Punisher",
+   "g": "industrial",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Nine Inch Nails",
+   "g": "industrial",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Rob Zombie",
+   "g": "industrial",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "KMFDM",
+   "g": "industrial",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Lindemann",
+   "g": "industrial",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Godflesh",
+   "g": "industrial",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Die Krupps",
+   "g": "industrial",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Napalm Death",
+   "g": "grind",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Full of Hell",
+   "g": "grind",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Pig Destroyer",
+   "g": "grind",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Rotten Sound",
+   "g": "grind",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Nails",
+   "g": "grind",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Eyehategod",
+   "g": "grind",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Crowbar",
+   "g": "grind",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Thou",
+   "g": "grind",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "High on Fire",
+   "g": "grind",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Neurosis",
+   "g": "grind",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Electric Wizard",
+   "g": "doom",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Pallbearer",
+   "g": "doom",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Elder",
+   "g": "doom",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Sleep",
+   "g": "doom",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "My Dying Bride",
+   "g": "doom",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Saint Vitus",
+   "g": "doom",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "YOB",
+   "g": "doom",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Windhand",
+   "g": "doom",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Pentagram",
+   "g": "doom",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Monolord",
+   "g": "doom",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Bell Witch",
+   "g": "doom",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Meshuggah",
+   "g": "djent",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Animals as Leaders",
+   "g": "djent",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "TesseracT",
+   "g": "djent",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Polyphia",
+   "g": "djent",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Intervals",
+   "g": "djent",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Monuments",
+   "g": "djent",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "VOLA",
+   "g": "djent",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Jinjer",
+   "g": "djent",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Car Bomb",
+   "g": "djent",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Vildhjarta",
+   "g": "djent",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "The Contortionist",
+   "g": "djent",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Born of Osiris",
+   "g": "djent",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Queens of the Stone Age",
+   "g": "hardrock",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Royal Blood",
+   "g": "hardrock",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Halestorm",
+   "g": "hardrock",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Clutch",
+   "g": "hardrock",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Guns N' Roses",
+   "g": "hardrock",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Fu Manchu",
+   "g": "hardrock",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Monster Magnet",
+   "g": "hardrock",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Black Stone Cherry",
+   "g": "hardrock",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Shinedown",
+   "g": "hardrock",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Alter Bridge",
+   "g": "hardrock",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Greta Van Fleet",
+   "g": "hardrock",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "The Pretty Reckless",
+   "g": "hardrock",
+   "st": "unchecked",
+   "note": "",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Volbeat",
+   "g": "hardrock",
+   "st": "unchecked",
+   "note": "",
    "src": "",
    "named": false,
    "confirmed": true
