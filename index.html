@@ -1,10 +1,22 @@
+<!doctype html>
+<html lang="en">
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Metal Hunter</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#0a0e0c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Metal Hunter">
 <meta name="claude:viewport-fit-sides" content="cover">
 <script>
 /* Pick the look before first paint: ?look= in the URL, then the saved choice, then Runestone. */
 (function(){var l;try{l=new URLSearchParams(location.search).get("look")||localStorage.getItem("mh-look")}catch(e){}
 document.documentElement.setAttribute("data-look",l==="xerox"?"xerox":"runestone")})();
+if("serviceWorker" in navigator)addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -175,6 +187,17 @@ header.top > :not(.deco){position:relative;z-index:1}
 .deco{pointer-events:none}
 .rune-ring,.tape,.mountains,.grain{display:none}
 
+header.top > .upd{position:absolute;z-index:3;top:22px;right:0;width:30px;height:30px;padding:0;display:grid;place-items:center;
+  font:15px/1 var(--body);background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:50%;cursor:pointer;opacity:.75}
+header.top > .upd:hover{opacity:1;color:var(--fg)}
+.topline{padding-right:40px}
+.upd.spin{animation:mh-spin 1s linear infinite}
+.toast{position:fixed;left:50%;bottom:max(20px,env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);z-index:30;
+  background:var(--fg);color:var(--bg);font:500 13px var(--body);padding:8px 14px;border-radius:6px;opacity:0;pointer-events:none;transition:.25s}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+@media (display-mode:standalone){header.top{padding-top:calc(28px + env(safe-area-inset-top,0px))}
+  header.top > .upd{top:calc(22px + env(safe-area-inset-top,0px))}}
+
 /* ---------- DECOR: RUNESTONE ---------- */
 :root[data-look="runestone"] body{background:linear-gradient(180deg,#0f1713 0,var(--bg) 480px) var(--bg)}
 :root[data-look="runestone"] .logo-rune{display:block;width:clamp(64px,14vw,96px)}
@@ -228,6 +251,7 @@ header.top > :not(.deco){position:relative;z-index:1}
       <g class="spin"><text fill="#8fae9b" font-family="Noto Sans Runic" font-size="20" letter-spacing="3"><textPath href="#rp">ᛗᛖᛏᚨᛚ ᚺᚢᚾᛏᛖᚱ ᛫ ᚨᚢᛋᛏᚱᚨᛚᛁᚨ ᛫ ᛗᛖᛏᚨᛚ ᚺᚢᚾᛏᛖᚱ ᛫ ᚨᚢᛋᛏᚱᚨᛚᛁᚨ ᛫</textPath></text></g>
     </svg>
     <span class="deco tape" style="left:-10px;top:14px;transform:rotate(-24deg)" aria-hidden="true"></span>
+    <button type="button" class="upd" id="upd" aria-label="Check for updates" title="Check for updates">⟳</button>
     <div class="topline">
       <div class="eyebrow">International heavy music · Australia</div>
       <div class="looks" role="group" aria-label="Look">
@@ -270,6 +294,7 @@ header.top > :not(.deco){position:relative;z-index:1}
   </div>
 
   <main id="view"></main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <footer>
     <div id="stamp"></div>
@@ -286,9 +311,41 @@ header.top > :not(.deco){position:relative;z-index:1}
 /* Look switcher */
 (()=>{
   const root=document.documentElement,btns=document.querySelectorAll("[data-look-set]");
-  const sync=()=>btns.forEach(b=>b.setAttribute("aria-pressed",b.dataset.lookSet===root.dataset.look));
+  const tc=document.querySelector('meta[name="theme-color"]');
+  const sync=()=>{btns.forEach(b=>b.setAttribute("aria-pressed",b.dataset.lookSet===root.dataset.look));
+    tc.content=root.dataset.look==="xerox"?"#e6e1d4":"#0a0e0c"};
   btns.forEach(b=>b.addEventListener("click",()=>{root.dataset.look=b.dataset.lookSet;try{localStorage.setItem("mh-look",b.dataset.lookSet)}catch(e){}sync()}));
   sync();
+})();
+</script>
+<script>
+/* Check for updates: compares the live site and data on GitHub with what this copy is showing, and reloads if anything changed.
+   Runs on the ⟳ button, and quietly when the app is reopened after 30 minutes away. */
+(()=>{
+  const btn=document.getElementById("upd"),toast=document.getElementById("toast");
+  const FILES=[location.pathname,"data/events.json","data/bands.json"];
+  let last=Date.now(),busy=false,tt;
+  const say=t=>{toast.textContent=t;toast.classList.add("on");clearTimeout(tt);tt=setTimeout(()=>toast.classList.remove("on"),3200)};
+  const shown=async f=>{try{const c=await caches.match(f,{ignoreSearch:true});return c?await c.text():null}catch(e){return null}};
+  async function check(quiet){
+    if(busy)return;
+    if(!navigator.onLine){if(!quiet)say("Offline. Showing the saved copy.");return}
+    busy=true;btn.classList.add("spin");last=Date.now();
+    try{
+      let changed=false;
+      for(const f of FILES){
+        const have=await shown(f);
+        const live=await fetch(f,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.text()});
+        if(have===null||have!==live)changed=true;
+      }
+      if(changed){try{sessionStorage.setItem("mh-updated","1")}catch(e){}location.reload();return}
+      if(!quiet)say("Up to date"+(window.MH_REFRESHED?" · data from "+window.MH_REFRESHED:""));
+    }catch(e){if(!quiet)say("Offline. Showing the saved copy.")}
+    finally{busy=false;btn.classList.remove("spin")}
+  }
+  btn.addEventListener("click",()=>check(false));
+  document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"&&Date.now()-last>30*60e3)check(true)});
+  try{if(sessionStorage.getItem("mh-updated")){sessionStorage.removeItem("mh-updated");setTimeout(()=>say("Updated to the latest version"),400)}}catch(e){}
 })();
 </script>
 <script>
@@ -300,6 +357,7 @@ try{
   document.querySelector("#view").innerHTML='<div class="empty">Could not load data/*.json. Serve the folder with a web server (python3 -m http.server) rather than opening the file directly.</div>';
   return;
 }
+window.MH_REFRESHED=(d=>d.getDate()+" "+["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][d.getMonth()])(new Date(EV.refreshed+"T00:00"));
 const REFRESHED=EV.refreshed,TOURS=EV.tours,SALES=EV.sales,WATCH=EV.watch,GROUPS=BD.groups,BANDS=BD.bands;
 /* ---------- STATE ---------- */
 const STATES=["NSW","VIC","QLD","SA","WA","ACT"];
@@ -442,6 +500,10 @@ function viewInfo(){
     <p><b>Verify</b>: rests on one source, or the sources disagree. Check the ticket link before you buy.</p>
     <p><b>Sale pending</b>: announced, tickets not on sale yet. The On-sale radar has the times.</p>
     <p><b>Not checked yet</b> (Bands): not searched for Australian dates yet. "Nothing announced" means nothing was found, not that the band won't tour.</p>
+    <h2 class="sub">Install the app</h2>
+    <p><b>iPhone</b>: open in Safari, tap Share, then Add to Home Screen.</p>
+    <p><b>Android</b>: open in Chrome, tap the menu, then Install app.</p>
+    <p>It updates itself when you open it. The ⟳ button top right checks for a new version and new tour data straight away.</p>
     <h2 class="sub">Where it comes from</h2>
     <p>Promoter pages, official ticketers and music news, gathered by web search. It is a snapshot, not a live feed. Last refreshed ${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}: ${SHOWS.length} upcoming shows from ${TOURS.length} tours and festivals, ${BANDS.length} bands tracked.</p>
   </div>`;
