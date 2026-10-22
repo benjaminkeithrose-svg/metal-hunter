@@ -423,8 +423,8 @@
   {
    "n": "Parkway Drive",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": true,
    "confirmed": true,
@@ -469,8 +469,8 @@
   {
    "n": "The Amity Affliction",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": true,
    "confirmed": true,
@@ -479,9 +479,9 @@
   {
    "n": "In Hearts Wake",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supported The Amity Affliction's regional tour Feb to Mar 2026. No headline tour announced.",
+   "src": "https://www.thenote.com.au/news/the-amity-affliction-announce-huge-regional-tour-2026",
    "named": true,
    "confirmed": true,
    "aus": true
@@ -489,9 +489,9 @@
   {
    "n": "Headwreck",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supported The Amity Affliction's regional tour in 2026. No headline tour announced.",
+   "src": "https://www.thenote.com.au/news/the-amity-affliction-announce-huge-regional-tour-2026",
    "named": true,
    "confirmed": true,
    "aus": true
@@ -499,9 +499,9 @@
   {
    "n": "Thy Art Is Murder",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "On Hellbound II (Jan 2027). US tour spring 2026; no Australian headline tour announced.",
+   "src": "https://blabbermouth.net/news/thy-art-is-murder-to-headline-spring-2026-chaos-carnage-u-s-tour",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -509,8 +509,8 @@
   {
    "n": "Northlane",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -1383,9 +1383,9 @@
   {
    "n": "Polaris",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Playing Good Things, Dec 2026 (on the calendar). Supported Linkin Park in March 2026.",
+   "src": "https://mixdownmag.com.au/news/good-things-lineup-2026-limp-bizkit-simple-plan-and-spiritbox-lead-the-bill/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -1393,9 +1393,9 @@
   {
    "n": "Make Them Suffer",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supported Motionless in White in June 2026. Last regional headline tour 2025.",
+   "src": "https://www.everblack.com.au/?p=25987",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -1403,8 +1403,8 @@
   {
    "n": "Alpha Wolf",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -1413,9 +1413,9 @@
   {
    "n": "Void of Vision",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Split up after a farewell tour in Feb 2025.",
+   "src": "https://musicfeeds.com.au/news/void-of-vision-announce-split-final-tour-for-february-2025/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -1423,9 +1423,9 @@
   {
    "n": "Hellions",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Opera Oblivia anniversary tour May 2026. Nothing further announced.",
+   "src": "https://www.thenote.com.au/news/hellions-opera-oblivia-10-year-anniversary-tour",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -3071,9 +3071,9 @@
   {
    "n": "Be'lakor",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "20 Years Live tour with Persefone, Oct 2025.",
+   "src": "https://metalontap.com/belakor-2025-australian-tour/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -3081,9 +3081,9 @@
   {
    "n": "Ne Obliviscaris",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "National tour June 2025; writing a new album.",
+   "src": "https://www.thenote.com.au/news/ne-obliviscaris-australian-tour-2025",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -3424,9 +3424,9 @@
   {
    "n": "Deströyer 666",
    "g": "ausblack",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Based in Europe; no Australian dates found.",
+   "src": "https://en.wikipedia.org/wiki/Destr%C3%B6yer_666",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -3659,8 +3659,8 @@
   {
    "n": "Plini",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Last national tour 2023.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -3759,9 +3759,9 @@
   {
    "n": "Thornhill",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Bodies headline tour Feb 2026. Nothing further announced.",
+   "src": "https://www.thenote.com.au/news/thornhill-2026-australian-tour",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -4075,8 +4075,8 @@
   {
    "n": "Aversions Crown",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -4085,8 +4085,8 @@
   {
    "n": "Ocean Grove",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -4095,8 +4095,8 @@
   {
    "n": "Deadlights",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -4105,9 +4105,9 @@
   {
    "n": "Diamond Construct",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last headline tour Oct 2024.",
+   "src": "https://www.thenote.com.au/news/diamond-construct-australian-tour",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -4115,9 +4115,9 @@
   {
    "n": "Bloom",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Headline tour Feb 2026 with AVOID. Nothing further announced.",
+   "src": "https://www.everblack.com.au/?p=30755",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -4125,8 +4125,8 @@
   {
    "n": "Windwaker",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -4180,9 +4180,9 @@
   {
    "n": "Speed",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Playing Good Things, Dec 2026 (on the calendar). UK, NZ and Europe earlier in 2026.",
+   "src": "https://mixdownmag.com.au/news/good-things-lineup-2026-limp-bizkit-simple-plan-and-spiritbox-lead-the-bill/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -4836,7 +4836,7 @@
    "confirmed": true
   },
   {
-   "n": "Sisters of Mercy",
+   "n": "The Sisters of Mercy",
    "g": "goth",
    "st": "none",
    "note": "Australian dates on the calendar.",
@@ -5045,9 +5045,9 @@
   {
    "n": "Pendulum",
    "g": "ausalt",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Headline tour March 2026. Nothing further announced.",
+   "src": "https://www.thenote.com.au/news/pendulum-2026-australian-tour",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5064,9 +5064,9 @@
   {
    "n": "Caligula's Horse",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "No dates announced.",
+   "src": "https://www.eventworld.com/caligulas-horse-tickets/performer/16632",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5101,9 +5101,9 @@
   {
    "n": "Airbourne",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supporting Guns N' Roses across Australia, Nov to Dec 2026 (on the calendar).",
+   "src": "https://www.eventworld.com/airbourne-tickets/performer/10890",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5111,9 +5111,9 @@
   {
    "n": "Mortal Sin",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Reunited in 2026 (Froth & Fury, Keep It True) and co-headlined with Flotsam and Jetsam, Sep to Oct 2026.",
+   "src": "https://www.thenote.com.au/news/mortal-sin-40th-anniversary-mayhemic-destruction-australian-tour",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5121,8 +5121,8 @@
   {
    "n": "Desecrator",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5131,9 +5131,9 @@
   {
    "n": "Hobbs' Angel of Death",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Founder Peter Hobbs died in 2019.",
+   "src": "https://metalinjection.net/this-is-just-a-tribute/australian-legend-peter-hobbs-of-angel-of-death-has-passed-away",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5141,8 +5141,8 @@
   {
    "n": "Vanishing Point",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5151,8 +5151,8 @@
   {
    "n": "Black Majesty",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5161,8 +5161,8 @@
   {
    "n": "Lord",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5171,9 +5171,9 @@
   {
    "n": "Elm Street",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "On Hellbound II (Jan 2027). No headline tour announced.",
+   "src": "https://www.bandsintown.com/a/1108271-elm-street",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5181,8 +5181,8 @@
   {
    "n": "Darker Half",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5191,8 +5191,8 @@
   {
    "n": "Envenomed",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5201,9 +5201,9 @@
   {
    "n": "Harlott",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Last Rites 20th-anniversary tour of Europe, Sep 2026.",
+   "src": "https://www.regioactive.de/konzert/harlott-aus-last-rites-20th-anniversary-eu-tour-2026-wien-escape-2026-09-16-bcHryPqnTN",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5211,9 +5211,9 @@
   {
    "n": "Hidden Intent",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supported Flotsam and Jetsam and Mortal Sin, Sep to Oct 2026.",
+   "src": "https://www.thenote.com.au/news/flotsam-and-jetsam-mortal-sin-australian-tour-2026",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5221,8 +5221,8 @@
   {
    "n": "Dead City Ruins",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5231,8 +5231,8 @@
   {
    "n": "Taramis",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5241,9 +5241,9 @@
   {
    "n": "Witchgrinder",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supported Lord of the Lost (Feb 2026); played Dead of Winter 2026. No headline tour announced.",
+   "src": "https://www.thenote.com.au/news/lord-of-the-lost-announce-witchgrinder-as-australian-tour-support",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5251,8 +5251,8 @@
   {
    "n": "Hellbringer",
    "g": "ausheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5261,9 +5261,9 @@
   {
    "n": "Psycroptic",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Co-headlined with Rivers of Nihil, Aug 2026; new album due.",
+   "src": "https://www.thenote.com.au/news/psycroptic-rivers-of-nihil-plot-co-headline-australian-tour-2026",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5271,9 +5271,9 @@
   {
    "n": "King Parrot",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "signal",
+   "note": "An 8-show run of regional Victoria, NSW and Tasmania is reported for late 2026 (incl. 11 Dec); full dates not found.",
+   "src": "https://countrytown.com/gigs/king-parrot/JgN2QBd7iZI",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5281,8 +5281,8 @@
   {
    "n": "Disentomb",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5291,9 +5291,9 @@
   {
    "n": "Portal",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Australian mini-tour Aug 2025 and Europe Sep 2025.",
+   "src": "https://www.hotpress.com/music/portal-to-play-whelans-in-september-23080943",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5301,9 +5301,9 @@
   {
    "n": "Impetuous Ritual",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Europe with Portal, Sep 2025.",
+   "src": "https://www.hotpress.com/music/portal-to-play-whelans-in-september-23080943",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5311,8 +5311,8 @@
   {
    "n": "Grave Upheaval",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5321,8 +5321,8 @@
   {
    "n": "The Berzerker",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5331,8 +5331,8 @@
   {
    "n": "Abramelin",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5341,8 +5341,8 @@
   {
    "n": "Blood Duster",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5351,9 +5351,9 @@
   {
    "n": "Hybrid Nightmares",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Played Thrashville (Hunter Valley), June 2026.",
+   "src": "https://heavymag.com.au/getting-to-know-the-bands-of-thrashville-with-hybrid-nightmares/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5361,8 +5361,8 @@
   {
    "n": "Hadal Maw",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5371,8 +5371,8 @@
   {
    "n": "Contaminated",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5381,9 +5381,9 @@
   {
    "n": "Anoxia",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supported Warbringer (Apr 2026) and Shred Fest (Sep 2026).",
+   "src": "https://realmofobscura.com/obscura-announce-shred-fest-australia-new-zealand-tour-2026/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5391,8 +5391,8 @@
   {
    "n": "Vanta",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5401,8 +5401,8 @@
   {
    "n": "Truth Corroded",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5411,8 +5411,8 @@
   {
    "n": "Werewolves",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5421,8 +5421,8 @@
   {
    "n": "Faceless Burial",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5431,8 +5431,8 @@
   {
    "n": "Descent",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5441,8 +5441,8 @@
   {
    "n": "Cauldron Black Ram",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5451,9 +5451,9 @@
   {
    "n": "Ashen",
    "g": "ausdeath",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supported Exhumed and Shred Fest in 2026.",
+   "src": "https://realmofobscura.com/obscura-announce-shred-fest-australia-new-zealand-tour-2026/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5461,9 +5461,9 @@
   {
    "n": "Austere",
    "g": "ausblack",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Played Sydney with Skuggor, May 2025.",
+   "src": "https://whatson.cityofsydney.nsw.gov.au/events/austere-skuggor",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5471,8 +5471,8 @@
   {
    "n": "Nazxul",
    "g": "ausblack",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5481,8 +5481,8 @@
   {
    "n": "Woods of Desolation",
    "g": "ausblack",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Not an active touring band.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5491,8 +5491,8 @@
   {
    "n": "Drowning the Light",
    "g": "ausblack",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5501,8 +5501,8 @@
   {
    "n": "Ruins",
    "g": "ausblack",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5511,8 +5511,8 @@
   {
    "n": "Spire",
    "g": "ausblack",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5521,8 +5521,8 @@
   {
    "n": "Gospel of the Horns",
    "g": "ausblack",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5531,9 +5531,9 @@
   {
    "n": "Lagerstein",
    "g": "ausblack",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Too Long Between Drinks comeback shows (Brisbane, Melbourne), Sep 2026. Nothing further announced.",
+   "src": "https://www.everblack.com.au/?p=35240",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5541,8 +5541,8 @@
   {
    "n": "Claim the Throne",
    "g": "ausblack",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5551,9 +5551,9 @@
   {
    "n": "Valhalore",
    "g": "ausblack",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Beyond the Stars tour May 2025.",
+   "src": "https://countrytown.com/gigs/valhalore-the-beyond-the-stars-australian-tour/TCElZvRFxOw",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5561,8 +5561,8 @@
   {
    "n": "Alchemist",
    "g": "ausblack",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5571,9 +5571,9 @@
   {
    "n": "Karnivool",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "In Verses headline tour July 2026. Nothing further announced.",
+   "src": "https://www.thenote.com.au/news/karnivool-ad-complementum-australian-tour",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5581,8 +5581,8 @@
   {
    "n": "Dead Letter Circus",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5591,8 +5591,8 @@
   {
    "n": "Twelve Foot Ninja",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5601,9 +5601,9 @@
   {
    "n": "Voyager",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "signal",
+   "note": "Comeback shows announced for 2026; a June run of Australian headline shows was listed but the year isn't confirmed.",
+   "src": "https://www.holdtight.co/news/2026/1/28/australias-prog-metal-group-voyager-announce-comeback-shows",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5611,8 +5611,8 @@
   {
    "n": "sleepmakeswaves",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5621,8 +5621,8 @@
   {
    "n": "Toehider",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5631,8 +5631,8 @@
   {
    "n": "Alithia",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5641,9 +5641,9 @@
   {
    "n": "Cog",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "2026 tour (WA, NSW, Canberra, Hobart, Victoria) earlier in the year.",
+   "src": "https://events.humanitix.com/cog-2026-tour",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5651,9 +5651,9 @@
   {
    "n": "The Butterfly Effect",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Short 'River City to the Sea' run (Brisbane, Coolangatta, Coffs Harbour) in Oct 2026. No national tour.",
+   "src": "https://songkick.com/concerts/43310055-butterfly-effect-at-mansfield-tavern",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5661,8 +5661,8 @@
   {
    "n": "Circles",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5671,8 +5671,8 @@
   {
    "n": "Dyssidia",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5681,9 +5681,9 @@
   {
    "n": "Teramaze",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last toured with Chaos Divine, 2024.",
+   "src": "https://www.rrr.org.au/events/chaos-divine-the-formant-tour-with-teramaze-and-cautionthieves",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5691,9 +5691,9 @@
   {
    "n": "Chaos Divine",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last toured 2024.",
+   "src": "https://www.rrr.org.au/events/chaos-divine-the-formant-tour-with-teramaze-and-cautionthieves",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5701,8 +5701,8 @@
   {
    "n": "Breaking Orbit",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5711,8 +5711,8 @@
   {
    "n": "I Built the Sky",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5721,8 +5721,8 @@
   {
    "n": "Meniscus",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5731,8 +5731,8 @@
   {
    "n": "Tangled Thoughts of Leaving",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Last toured with Russian Circles, Feb 2024.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5741,9 +5741,9 @@
   {
    "n": "The Omnific",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Hong Kong, Sep 2026. Was support on Soen's postponed tour.",
+   "src": "https://www.eventworld.com/the-omnific-tickets/performer/32870",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5751,8 +5751,8 @@
   {
    "n": "Arcane",
    "g": "ausprog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5761,9 +5761,9 @@
   {
    "n": "Ocean Sleeper",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Biggest Australian headline tour Sep 2026. Nothing further announced.",
+   "src": "https://www.thenote.com.au/news/ocean-sleeper-announce-their-biggest-australian-headline-tour-to-date",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5771,8 +5771,8 @@
   {
    "n": "Earth Caller",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5781,9 +5781,9 @@
   {
    "n": "Justice for the Damned",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "signal",
+   "note": "A March headline tour presented by beastmode was reported; year not confirmed.",
+   "src": "https://heavymag.com.au/justice-for-the-damned-with-first-new-music-in-4-years-announce-tour/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5791,8 +5791,8 @@
   {
    "n": "To the Grave",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5801,9 +5801,9 @@
   {
    "n": "Gravemind",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "On Hellbound II (Jan 2027) and Necrosonic Festival (Aug 2026). No headline tour announced.",
+   "src": "https://heavymag.com.au/total-annihilation-with-gravemind/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5811,8 +5811,8 @@
   {
    "n": "Heavensgate",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5821,9 +5821,9 @@
   {
    "n": "Inertia",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supporting Periphery in March 2027. No headline tour announced.",
+   "src": "https://musicfeeds.com.au/news/periphery-announce-2027-australian-tour/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5831,8 +5831,8 @@
   {
    "n": "I Killed the Prom Queen",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5841,8 +5841,8 @@
   {
    "n": "Confession",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5851,8 +5851,8 @@
   {
    "n": "House vs Hurricane",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5861,8 +5861,8 @@
   {
    "n": "Buried in Verona",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5871,9 +5871,9 @@
   {
    "n": "Feed Her to the Sharks",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Reformed in 2024; no tour found.",
+   "src": "https://en.wikipedia.org/wiki/Feed_Her_to_the_Sharks",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5881,8 +5881,8 @@
   {
    "n": "The Brave",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5891,8 +5891,8 @@
   {
    "n": "Saviour",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5901,8 +5901,8 @@
   {
    "n": "Prepared Like a Bride",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5911,9 +5911,9 @@
   {
    "n": "Hands Like Houses",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Lótus tour April 2026. Nothing further announced.",
+   "src": "https://www.thenote.com.au/news/hands-like-houses-the-lotus-2026-australian-tour",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5921,8 +5921,8 @@
   {
    "n": "Boris the Blade",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5931,8 +5931,8 @@
   {
    "n": "Mirrors",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5941,8 +5941,8 @@
   {
    "n": "Dream On Dreamer",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5951,8 +5951,8 @@
   {
    "n": "Major Arcana",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5961,8 +5961,8 @@
   {
    "n": "Introvert",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -5971,9 +5971,9 @@
   {
    "n": "Iron Mind",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "National tour Feb 2026.",
+   "src": "https://www.thenote.com.au/news/iron-mind-australian-tour-2026",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5981,9 +5981,9 @@
   {
    "n": "50 Lions",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Album tour Oct 2025.",
+   "src": "https://heavymag.com.au/50-lions-kick-off-australian-album-tour-this-week-in-melbourne/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -5991,8 +5991,8 @@
   {
    "n": "Deez Nuts",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6001,8 +6001,8 @@
   {
    "n": "Outright",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6011,9 +6011,9 @@
   {
    "n": "Mindsnare",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "https://www.thenote.com.au/news/clarity-records-presents-mindsnare",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -6021,8 +6021,8 @@
   {
    "n": "Cursed Earth",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6031,8 +6031,8 @@
   {
    "n": "Vigil of War",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6041,8 +6041,8 @@
   {
    "n": "Trophy Eyes",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6051,8 +6051,8 @@
   {
    "n": "Endless Heights",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6061,8 +6061,8 @@
   {
    "n": "Postblue",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6071,8 +6071,8 @@
   {
    "n": "Phantoms",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6081,9 +6081,9 @@
   {
    "n": "Blind Girls",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Playing Lucidity 2027 (Melbourne, Mar 2027).",
+   "src": "https://www.thenote.com.au/news/converge-headline-new-melbourne-heavy-festival-lucidity",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -6091,9 +6091,9 @@
   {
    "n": "Isua",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Playing Lucidity 2027 (Melbourne, Mar 2027).",
+   "src": "https://www.thenote.com.au/news/converge-headline-new-melbourne-heavy-festival-lucidity",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -6101,9 +6101,9 @@
   {
    "n": "Melting",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Playing Lucidity 2027 (Melbourne, Mar 2027).",
+   "src": "https://www.thenote.com.au/news/converge-headline-new-melbourne-heavy-festival-lucidity",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -6111,9 +6111,9 @@
   {
    "n": "Volatile Ways",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supporting Thrown in Feb 2027.",
+   "src": "https://metalontap.com/thrown-australian-headline-tour-2027/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -6121,8 +6121,8 @@
   {
    "n": "Haywire",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6131,9 +6131,9 @@
   {
    "n": "Witchskull",
    "g": "ausdoom",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Played Necrosonic, Aug 2026.",
+   "src": "https://heavymag.com.au/the-altar-demands-more-inside-the-gates-of-necrosonic-festival-with-eye-of-the-enemy/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -6141,8 +6141,8 @@
   {
    "n": "Mammoth Mammoth",
    "g": "ausdoom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6151,8 +6151,8 @@
   {
    "n": "Mournful Congregation",
    "g": "ausdoom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6161,8 +6161,8 @@
   {
    "n": "Clagg",
    "g": "ausdoom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6171,8 +6171,8 @@
   {
    "n": "Snake Mountain",
    "g": "ausdoom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6181,9 +6181,9 @@
   {
    "n": "Khan",
    "g": "ausdoom",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Australian dates on the calendar (supporting Elder, May 2027). European tour Sep to Oct 2026.",
+   "src": "https://www.regioactive.de/konzert/khan-au-that-fair-and-warlike-form-european-tour-hamburg-w-skin-thief-bambi-galore-2026-10-15-Fk2yZfQJHR",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -6191,8 +6191,8 @@
   {
    "n": "Hobo Magic",
    "g": "ausdoom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6201,8 +6201,8 @@
   {
    "n": "Lo!",
    "g": "ausdoom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6211,8 +6211,8 @@
   {
    "n": "Battlesnake",
    "g": "ausdoom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6221,8 +6221,8 @@
   {
    "n": "Holy Serpent",
    "g": "ausdoom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6231,8 +6231,8 @@
   {
    "n": "Child",
    "g": "ausdoom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6241,9 +6241,9 @@
   {
    "n": "Mountain Wizard Death Cult",
    "g": "ausdoom",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supported YOB, Feb 2026.",
+   "src": "https://www.thenote.com.au/news/yob-2026-australian-tour",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -6251,9 +6251,9 @@
   {
    "n": "Grinspoon",
    "g": "ausalt",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Playing Good Things, Dec 2026 (on the calendar).",
+   "src": "https://mixdownmag.com.au/news/good-things-lineup-2026-limp-bizkit-simple-plan-and-spiritbox-lead-the-bill/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -6261,8 +6261,8 @@
   {
    "n": "Superheist",
    "g": "ausalt",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6271,9 +6271,9 @@
   {
    "n": "Mammal",
    "g": "ausalt",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Played Dead of Winter, June 2026.",
+   "src": "https://www.everblack.com.au/?p=32242",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -6281,9 +6281,9 @@
   {
    "n": "Wolfmother",
    "g": "ausalt",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "North America Jun to Jul 2026; early-2026 Australian dates were cancelled.",
+   "src": "https://developer.songkick.com/artists/192603-wolfmother/calendar",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -6291,9 +6291,9 @@
   {
    "n": "Rose Tattoo",
    "g": "ausalt",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "signal",
+   "note": "Say 2026 is their final touring year, with Rob Riley returning; Australian farewell dates not confirmed.",
+   "src": "https://heavymag.com.au/rose-tattoo-announce-final-shows/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -6301,8 +6301,8 @@
   {
    "n": "The Screaming Jets",
    "g": "ausalt",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6311,8 +6311,8 @@
   {
    "n": "Jerk",
    "g": "ausalt",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6321,8 +6321,8 @@
   {
    "n": "Dregg",
    "g": "ausalt",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -6331,17 +6331,17 @@
   {
    "n": "Doro",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe, Sep 2026 to May 2027.",
+   "src": "https://www.regioactive.de/doro/tour-termine-tickets",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Raven",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6349,8 +6349,8 @@
   {
    "n": "Diamond Head",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6358,8 +6358,8 @@
   {
    "n": "Angel Witch",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6367,8 +6367,8 @@
   {
    "n": "Satan",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6376,8 +6376,8 @@
   {
    "n": "Grand Magus",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6385,8 +6385,8 @@
   {
    "n": "Cirith Ungol",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6394,26 +6394,26 @@
   {
    "n": "Ross the Boss",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia May 2025.",
+   "src": "https://www.thenote.com.au/news/ross-the-boss-australian-tour-2025",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Michael Schenker Group",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Don't Sell Your Soul tour of Europe into 2027.",
+   "src": "https://www.regioactive.de/michael-schenker/tour-termine-tickets",
    "named": false,
    "confirmed": true
   },
   {
    "n": "U.D.O.",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6421,44 +6421,44 @@
   {
    "n": "Spell",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe with Haunt, Mar 2026.",
+   "src": "https://thenwothm.com/2025/08/31/a-haunt-european-tour-yes-please/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Haunt",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe with Spell, Mar 2026.",
+   "src": "https://thenwothm.com/2025/08/31/a-haunt-european-tour-yes-please/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Coroner",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "North America Feb 2026; US tour with Nile Mar 2027.",
+   "src": "https://ghostcultmag.com/tag/heathen",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Voivod",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe in summer 2026 and the US in Oct 2026.",
+   "src": "https://blabbermouth.net/news/voivod-announces-october-2026-u-s-tour-with-bat",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Artillery",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6466,26 +6466,26 @@
   {
    "n": "Onslaught",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Australian debut Nov 2025.",
+   "src": "https://concerts.consequence.net/events/onslaught-on-2025-11-20-19-00",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Exhorder",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US headline runs in 2026.",
+   "src": "https://lollipopmagazine.com/?p=253600",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Sacred Reich",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6493,8 +6493,8 @@
   {
    "n": "Forbidden",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6502,8 +6502,8 @@
   {
    "n": "Xentrix",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6511,8 +6511,8 @@
   {
    "n": "Gama Bomb",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6520,8 +6520,8 @@
   {
    "n": "Demolition Hammer",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6529,8 +6529,8 @@
   {
    "n": "Sadus",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6538,17 +6538,17 @@
   {
    "n": "Hirax",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US, Canada, Mexico and Europe, 2026–27.",
+   "src": "https://songkick.com/artists/303149-hirax",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Exciter",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6556,8 +6556,8 @@
   {
    "n": "Razor",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6565,8 +6565,8 @@
   {
    "n": "Ghoul",
    "g": "xthrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6574,8 +6574,8 @@
   {
    "n": "Mindforce",
    "g": "xthrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6583,8 +6583,8 @@
   {
    "n": "Fugitive",
    "g": "xthrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6592,8 +6592,8 @@
   {
    "n": "Leeway",
    "g": "xthrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6601,8 +6601,8 @@
   {
    "n": "Excel",
    "g": "xthrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6610,8 +6610,8 @@
   {
    "n": "Bonded by Blood",
    "g": "xthrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6619,35 +6619,35 @@
   {
    "n": "Beast in Black",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "North America with Helloween (Apr to May 2026), Europe Oct to Dec 2026.",
+   "src": "https://tuonelamagazine.com/beast-in-black-announce-headliner-tour-for-2026/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Dynazty",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "European dates.",
+   "src": "https://concerts.hypebot.com/artist/d/386665-dynazty",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Iron Savior",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Anniversary tour of Germany with Mystic Prophecy, Nov 2026 to Jan 2027.",
+   "src": "https://dragon-productions.eu/artist/iron-savior/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Brainstorm",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6655,8 +6655,8 @@
   {
    "n": "Masterplan",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6664,8 +6664,8 @@
   {
    "n": "Arion",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6673,35 +6673,35 @@
   {
    "n": "Theocracy",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Grand Mosaic tour of Europe, Mar 2027.",
+   "src": "https://www.fnacspectacles.com/artist/theocracy/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Kissin' Dynamite",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Final arena shows with singer Hannes Braun, Oct 2026.",
+   "src": "https://www.mvp.de/koeln/veranstaltungen/kissin-dynamite-the-big-goodbye-arena-shows-palladium-koeln/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Mystic Prophecy",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Anniversary tour of Germany with Iron Savior, Nov to Dec 2026.",
+   "src": "https://dragon-productions.eu/artist/iron-savior/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Fellowship",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6709,8 +6709,8 @@
   {
    "n": "Wilderun",
    "g": "epic",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6718,26 +6718,26 @@
   {
    "n": "Atlantean Kodex",
    "g": "epic",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "European festivals in 2026.",
+   "src": "https://www.festivalhopper.de/bands/karten/atlantean-kodex.php",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Eternal Champion",
    "g": "epic",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US and Greece, early 2026.",
+   "src": "https://www.setlist.fm/setlists/eternal-champion-4bdd1f32.html",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Gatekeeper",
    "g": "epic",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6745,17 +6745,17 @@
   {
    "n": "Smoulder",
    "g": "epic",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Germany and Denmark festivals in 2026.",
+   "src": "https://www.setlist.fm/setlists/smoulder-13c9c525.html",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Running Wild",
    "g": "pirate",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6763,8 +6763,8 @@
   {
    "n": "Mr. Hurley & die Pulveraffen",
    "g": "pirate",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6772,8 +6772,8 @@
   {
    "n": "Storm Seeker",
    "g": "pirate",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6781,35 +6781,35 @@
   {
    "n": "Fleshgod Apocalypse",
    "g": "symph",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last in Australia 2019.",
+   "src": "https://www.wallofsoundau.com/news/fleshgod-apocalypse-unveil-australian-tour-plans",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Septicflesh",
    "g": "symph",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "No Australian dates found.",
+   "src": "https://lollipopmagazine.com/?p=239097",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Ex Deo",
    "g": "symph",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "No Australian dates found.",
+   "src": "https://lollipopmagazine.com/?p=239097",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Imperial Age",
    "g": "symph",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6817,8 +6817,8 @@
   {
    "n": "MaYan",
    "g": "symph",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6826,44 +6826,44 @@
   {
    "n": "Edenbridge",
    "g": "symph",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe, early 2026.",
+   "src": "https://eventfrog.ch/fr/p/concert/hard-rock-heavy-metal/edenbridge-set-the-dark-of-fire-tour-2026-7348728754619861930.html",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Blackbriar",
    "g": "symph",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe, Sep to Dec 2026.",
+   "src": "https://www.eventworld.com/blackbriar-tickets/performer/30553",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Exit Eden",
    "g": "symph",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "UK, Nov 2026.",
+   "src": "https://www.eventworld.com/exit-eden-bilety/performer/42320",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Katatonia",
    "g": "goth",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia 4–11 Oct 2026. Nothing further announced.",
+   "src": "https://www.thenote.com.au/news/katatonia-australian-new-zealand-tour-2026",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Tiamat",
    "g": "goth",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6871,8 +6871,8 @@
   {
    "n": "Lacrimosa",
    "g": "goth",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6880,17 +6880,17 @@
   {
    "n": "Clan of Xymox",
    "g": "goth",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "North America spring 2026 and Europe into 2027.",
+   "src": "https://developer.songkick.com/artists/256308-clan-of-xymox/calendar",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Fields of the Nephilim",
    "g": "goth",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6898,8 +6898,8 @@
   {
    "n": "Hanging Garden",
    "g": "goth",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6907,8 +6907,8 @@
   {
    "n": "Dool",
    "g": "goth",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6916,8 +6916,8 @@
   {
    "n": "Lucifer",
    "g": "goth",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6925,17 +6925,17 @@
   {
    "n": "The Black Dahlia Murder",
    "g": "melodeath",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last in Australia 2025.",
+   "src": "https://heavymag.com.au/the-black-dahlia-murder-announce-australian-and-new-zealand-tour/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Kataklysm",
    "g": "melodeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current Australian dates.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6943,17 +6943,17 @@
   {
    "n": "Dethklok",
    "g": "melodeath",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last in Australia April 2025.",
+   "src": "https://www.thenote.com.au/news/dethklok-awaken-australia-tour-2025",
    "named": false,
    "confirmed": true
   },
   {
    "n": "In Mourning",
    "g": "melodeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6961,17 +6961,17 @@
   {
    "n": "Orbit Culture",
    "g": "melodeath",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "North America early 2026.",
+   "src": "https://rockindetroit.com/?p=23686",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Brymir",
    "g": "melodeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6979,8 +6979,8 @@
   {
    "n": "Hinayana",
    "g": "melodeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6988,8 +6988,8 @@
   {
    "n": "Arsis",
    "g": "melodeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -6997,8 +6997,8 @@
   {
    "n": "Starkill",
    "g": "melodeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7006,8 +7006,8 @@
   {
    "n": "Night in Gales",
    "g": "melodeath",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7015,17 +7015,17 @@
   {
    "n": "Possessed",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "40th anniversary Australian tour Oct 2025.",
+   "src": "https://www.everblack.com.au/?p=28607",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Autopsy",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7033,8 +7033,8 @@
   {
    "n": "Asphyx",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7042,8 +7042,8 @@
   {
    "n": "Hate Eternal",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7051,26 +7051,26 @@
   {
    "n": "Krisiun",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe/UK with Belphegor in 2026. Last in Australia Aug 2025.",
+   "src": "https://lambgoat.com/music/krisiun/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Necrot",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US date Sep 2026.",
+   "src": "https://www.eventworld.com/necrot-tickets/performer/26834",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Tomb Mold",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7078,8 +7078,8 @@
   {
    "n": "Blood Incantation",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Toured Australia and NZ, Nov 2025.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7087,8 +7087,8 @@
   {
    "n": "Incantation",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7096,8 +7096,8 @@
   {
    "n": "Decapitated",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7105,17 +7105,17 @@
   {
    "n": "Six Feet Under",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe, Aug 2026.",
+   "src": "https://lambgoat.com/music/Six-Feet-Under",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Jungle Rot",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7123,17 +7123,17 @@
   {
    "n": "Defeated Sanity",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "North America with Revocation, Sep to Oct 2026.",
+   "src": "https://themetallist.com/en/news/2026/06/defeated-sanity-north-american-tour-revocation-fall-2026/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Devourment",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7141,35 +7141,35 @@
   {
    "n": "Revocation",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "20th-anniversary North American tour Sep to Oct 2026, Europe Aug 2026.",
+   "src": "https://lollipopmagazine.com/2026/06/revocation-announce-2026-tour-with-defeated-sanity-and-fuming-mouth-news/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Obscura",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Headlined Shred Fest in Australia, Sep 2026.",
+   "src": "https://realmofobscura.com/obscura-announce-shred-fest-australia-new-zealand-tour-2026/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Archspire",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Toured Australia Jan 2026 (Froth & Fury); North America Apr to Jun 2026.",
+   "src": "https://www.thenote.com.au/news/archspire-return-to-prison-island-2026-australian-tour",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Beyond Creation",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7177,8 +7177,8 @@
   {
    "n": "Monstrosity",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7186,8 +7186,8 @@
   {
    "n": "Grave",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7195,17 +7195,17 @@
   {
    "n": "Brujeria",
    "g": "grind",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supported Carcass in Australia, Sep to Oct 2026.",
+   "src": "https://www.thenote.com.au/news/carcass-plot-putrefying-down-under-australian-and-new-zealand-tour-2026",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Agoraphobic Nosebleed",
    "g": "grind",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7213,8 +7213,8 @@
   {
    "n": "Terrorizer",
    "g": "grind",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7222,8 +7222,8 @@
   {
    "n": "Repulsion",
    "g": "grind",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7231,8 +7231,8 @@
   {
    "n": "Cloud Rat",
    "g": "grind",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7240,8 +7240,8 @@
   {
    "n": "Magrudergrind",
    "g": "grind",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7249,17 +7249,17 @@
   {
    "n": "Acid Bath",
    "g": "grind",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US, UK and European stadium supports in 2026.",
+   "src": "https://metalinjection.net/?p=639080",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Down",
    "g": "grind",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7267,17 +7267,17 @@
   {
    "n": "Baroness",
    "g": "grind",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US dates with Acid Bath, 2026.",
+   "src": "https://consequence.net/2025/10/acid-bath-2026-tour-more-us-shows",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Cult Leader",
    "g": "grind",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7285,8 +7285,8 @@
   {
    "n": "Enslaved",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current Australian dates found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7294,8 +7294,8 @@
   {
    "n": "Taake",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7303,8 +7303,8 @@
   {
    "n": "Shining",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7312,8 +7312,8 @@
   {
    "n": "Kampfar",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7321,8 +7321,8 @@
   {
    "n": "Necrophobic",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7330,8 +7330,8 @@
   {
    "n": "Panopticon",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7339,8 +7339,8 @@
   {
    "n": "Imperial Triumphant",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "elsewhere",
+   "note": "Germany and Austria, Nov to Dec 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7348,8 +7348,8 @@
   {
    "n": "Ghost Bath",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7357,8 +7357,8 @@
   {
    "n": "Der Weg einer Freiheit",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7366,26 +7366,26 @@
   {
    "n": "Harakiri for the Sky",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe and UK, Sep to Nov 2026.",
+   "src": "https://www.regioactive.de/harakiri-for-the-sky/tour-termine-tickets",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Schammasch",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "European festival dates 2026.",
+   "src": "https://www.setlist.fm/setlists/schammasch-63dbc64f.html",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Wiegedood",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7393,8 +7393,8 @@
   {
    "n": "Archgoat",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7402,8 +7402,8 @@
   {
    "n": "Blasphemy",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7411,8 +7411,8 @@
   {
    "n": "In Extremo",
    "g": "folk",
-   "st": "unchecked",
-   "note": "",
+   "st": "elsewhere",
+   "note": "Germany, 2026 Burgentour and acoustic tour.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7420,26 +7420,26 @@
   {
    "n": "Saltatio Mortis",
    "g": "folk",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Germany and Austria, Oct 2026 to Aug 2027.",
+   "src": "https://www.eventim.de/en/artist/saltatio-mortis/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Subway to Sally",
    "g": "folk",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Germany, 2027.",
+   "src": "https://www.festivalhopper.de/bands/karten/subway-to.php",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Orphaned Land",
    "g": "folk",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7447,8 +7447,8 @@
   {
    "n": "Myrath",
    "g": "folk",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7456,8 +7456,8 @@
   {
    "n": "Nine Treasures",
    "g": "folk",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7465,8 +7465,8 @@
   {
    "n": "Thyrfing",
    "g": "folk",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7474,8 +7474,8 @@
   {
    "n": "Varg",
    "g": "folk",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7483,8 +7483,8 @@
   {
    "n": "Omnia",
    "g": "crossover",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7492,17 +7492,17 @@
   {
    "n": "Corvus Corax",
    "g": "crossover",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Germany, Dec 2026 to Jun 2027.",
+   "src": "https://www.regioactive.de/corvus-corax/tour-termine-tickets",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Garmarna",
    "g": "crossover",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7510,8 +7510,8 @@
   {
    "n": "The Moon and the Nightspirit",
    "g": "crossover",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7519,8 +7519,8 @@
   {
    "n": "Forndom",
    "g": "crossover",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7528,17 +7528,17 @@
   {
    "n": "The Obsessed",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe, Oct to Nov 2026.",
+   "src": "https://www.regioactive.de/the-obsessed/tour-termine-tickets",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Trouble",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7546,8 +7546,8 @@
   {
    "n": "Ahab",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7555,8 +7555,8 @@
   {
    "n": "Ufomammut",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7564,8 +7564,8 @@
   {
    "n": "Om",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7573,8 +7573,8 @@
   {
    "n": "Bongripper",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7582,8 +7582,8 @@
   {
    "n": "Kadavar",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7591,8 +7591,8 @@
   {
    "n": "Graveyard",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7600,8 +7600,8 @@
   {
    "n": "Uncle Acid & the Deadbeats",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7609,8 +7609,8 @@
   {
    "n": "Orange Goblin",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7618,8 +7618,8 @@
   {
    "n": "Elephant Tree",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7627,8 +7627,8 @@
   {
    "n": "Porcupine Tree",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7636,17 +7636,17 @@
   {
    "n": "Steven Wilson",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia Nov 2025.",
+   "src": "https://thenote.com.au/news/steven-wilson-australian-tour",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Wheel",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7654,8 +7654,8 @@
   {
    "n": "Klone",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7663,8 +7663,8 @@
   {
    "n": "Agent Fresco",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7672,26 +7672,26 @@
   {
    "n": "Earthside",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe, May to Jun 2026.",
+   "src": "https://distortedsoundmag.com/earthside-announce-european-tour/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Persefone",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Australian debut with Be'lakor, Oct 2025.",
+   "src": "https://metalontap.com/belakor-2025-australian-tour/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Thank You Scientist",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7699,8 +7699,8 @@
   {
    "n": "Protest the Hero",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7708,17 +7708,17 @@
   {
    "n": "The Dillinger Escape Plan",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia Aug 2025.",
+   "src": "https://thenote.com.au/news/the-dillinger-escape-plan-australian-tour-2025",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Veil of Maya",
    "g": "djent",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7726,8 +7726,8 @@
   {
    "n": "After the Burial",
    "g": "djent",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7735,8 +7735,8 @@
   {
    "n": "Within the Ruins",
    "g": "djent",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7744,8 +7744,8 @@
   {
    "n": "Reflections",
    "g": "djent",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7753,8 +7753,8 @@
   {
    "n": "Uneven Structure",
    "g": "djent",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7762,8 +7762,8 @@
   {
    "n": "Kardashev",
    "g": "djent",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7771,8 +7771,8 @@
   {
    "n": "Oathbreaker",
    "g": "postmetal",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7780,8 +7780,8 @@
   {
    "n": "Year of No Light",
    "g": "postmetal",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7789,8 +7789,8 @@
   {
    "n": "Hangman's Chair",
    "g": "postmetal",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7798,8 +7798,8 @@
   {
    "n": "Celeste",
    "g": "postmetal",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7807,8 +7807,8 @@
   {
    "n": "Toundra",
    "g": "postmetal",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7816,8 +7816,8 @@
   {
    "n": "Caspian",
    "g": "postmetal",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7825,17 +7825,17 @@
   {
    "n": "God Is an Astronaut",
    "g": "postmetal",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "First Australian tour Feb 2025.",
+   "src": "https://www.birdsrobe.com/news/god-is-an-astronaut-announce-first-ever-tour-of-australia-amp-new-zealand",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Portrayal of Guilt",
    "g": "postmetal",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7843,17 +7843,17 @@
   {
    "n": "Marilyn Manson",
    "g": "industrial",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Touring 2026 to 2027; no Australian dates found.",
+   "src": "https://www.jambase.com/band/marilyn-manson",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Skinny Puppy",
    "g": "industrial",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7861,8 +7861,8 @@
   {
    "n": "Puscifer",
    "g": "industrial",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar (supporting A Perfect Circle, Dec 2026).",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7870,8 +7870,8 @@
   {
    "n": "Eisbrecher",
    "g": "industrial",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7879,8 +7879,8 @@
   {
    "n": "Oomph!",
    "g": "industrial",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7888,8 +7888,8 @@
   {
    "n": "Pain",
    "g": "industrial",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7897,8 +7897,8 @@
   {
    "n": "3Teeth",
    "g": "industrial",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7906,17 +7906,17 @@
   {
    "n": "HEALTH",
    "g": "industrial",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Headlined Australia with Perturbator, Sep 2026.",
+   "src": "https://www.thenote.com.au/news/health-australian-tour-2026",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Youth Code",
    "g": "industrial",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7924,8 +7924,8 @@
   {
    "n": "Nitzer Ebb",
    "g": "industrial",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7933,17 +7933,17 @@
   {
    "n": "Chevelle",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "North America with Breaking Benjamin, Sep to Oct 2026.",
+   "src": "https://blabbermouth.net/news/breaking-benjamin-announces-summer-fall-2026-north-american-tour-with-chevelle-and-starset",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Taproot",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7951,8 +7951,8 @@
   {
    "n": "Adema",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7960,8 +7960,8 @@
   {
    "n": "Cold",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7969,53 +7969,53 @@
   {
    "n": "Drowning Pool",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia Feb 2025.",
+   "src": "https://metalontap.com/drowning-pool-talks-legacy-new-music-and-upcoming-australian-tour-with-alien-ant-farm/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Godsmack",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Rise of Rock world tour 2026.",
+   "src": "https://loudwire.com/new-rock-metal-tours-announced-jan-30-feb-5-2026/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Staind",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Break the Cycle 25th-anniversary US tour 2026.",
+   "src": "https://loudwire.com/new-rock-metal-tours-announced-jan-30-feb-5-2026/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Seether",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US, supporting Staind, 2026.",
+   "src": "https://loudwire.com/new-rock-metal-tours-announced-jan-30-feb-5-2026/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Hollywood Undead",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last in Australia with Falling in Reverse, Mar 2025.",
+   "src": "https://www.thenote.com.au/news/falling-in-reverse-australian-tour-2025",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Three Days Grace",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
+   "st": "elsewhere",
+   "note": "Alienation World Tour 2026; no Australian dates found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8023,35 +8023,35 @@
   {
    "n": "Breaking Benjamin",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "North America Sep to Oct 2026; Summer of '99 cruise Apr 2027.",
+   "src": "https://blabbermouth.net/news/breaking-benjamin-announces-summer-fall-2026-north-american-tour-with-chevelle-and-starset",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Avenged Sevenfold",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Played Australian arenas Oct 2026 with Coheed and Cambria.",
+   "src": "https://therockrevival.com/rock-news/avenged-sevenfold-announce-2026-tour-dates-in-australia-and-new-zealand/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Black Veil Brides",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last in Australia with Falling in Reverse, Mar 2025.",
+   "src": "https://www.thenote.com.au/news/falling-in-reverse-australian-tour-2025",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Fever 333",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8059,26 +8059,26 @@
   {
    "n": "grandson",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supported Enter Shikari in Australia, May 2026.",
+   "src": "https://www.thenote.com.au/news/enter-shikari-announce-2026-australian-tour",
    "named": false,
    "confirmed": true
   },
   {
    "n": "I Prevail",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Violent Nature tour of Australia, June 2026.",
+   "src": "https://pitpass.com.au/2026/03/02/i-prevail-to-return-to-australia-this-june-the-violent-nature-tour/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Nothing,Nowhere.",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Toured Australia Apr 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8086,17 +8086,17 @@
   {
    "n": "Bilmuri",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Playing Good Things, Dec 2026 (on the calendar).",
+   "src": "https://mixdownmag.com.au/news/good-things-lineup-2026-limp-bizkit-simple-plan-and-spiritbox-lead-the-bill/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Sleep Theory",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8104,8 +8104,8 @@
   {
    "n": "Bad Wolves",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8113,8 +8113,8 @@
   {
    "n": "Boris",
    "g": "asia",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8122,8 +8122,8 @@
   {
    "n": "Survive Said the Prophet",
    "g": "asia",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No Australian dates found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8131,8 +8131,8 @@
   {
    "n": "Maximum the Hormone",
    "g": "asia",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8140,8 +8140,8 @@
   {
    "n": "Nemophila",
    "g": "asia",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8149,8 +8149,8 @@
   {
    "n": "Ningen Isu",
    "g": "asia",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8158,8 +8158,8 @@
   {
    "n": "HYDE",
    "g": "asia",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8167,17 +8167,17 @@
   {
    "n": "ONE OK ROCK",
    "g": "asia",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia Mar 2026 (sold out).",
+   "src": "https://www.destroyalllines.com/tours/one-ok-rock",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Gyze",
    "g": "asia",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8185,8 +8185,8 @@
   {
    "n": "Senyawa",
    "g": "asia",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8194,17 +8194,17 @@
   {
    "n": "Voice of Baceprot",
    "g": "asia",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Playing Good Things, Dec 2026 (on the calendar).",
+   "src": "https://metalontap.com/voice-of-baceprot-good-things-2026-interview/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Burgerkill",
    "g": "asia",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8212,8 +8212,8 @@
   {
    "n": "Asking Alexandria",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8221,26 +8221,26 @@
   {
    "n": "Memphis May Fire",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last in Australia with Atreyu, July 2025.",
+   "src": "https://www.thenote.com.au/news/atreyu-the-curse-20th-anniversary-australian-album-tour",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Miss May I",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Played Knotfest Australia 2025.",
+   "src": "https://heavymag.com.au/backstage-with-miss-may-i-at-knotfest-brisbane-2025/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Unearth",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8248,8 +8248,8 @@
   {
    "n": "Norma Jean",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Toured Australia Apr 2025.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8257,35 +8257,35 @@
   {
    "n": "Bullet for My Valentine",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia Oct 2025.",
+   "src": "https://www.thenote.com.au/news/bullet-for-my-valentine-australian-tour-2025",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Kingdom of Giants",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supported Holding Absence in Australia, Aug 2026.",
+   "src": "https://www.thenote.com.au/news/holding-absence-australian-tour-2026",
    "named": false,
    "confirmed": true
   },
   {
    "n": "The Plot in You",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Australian headline tour Jan 2026.",
+   "src": "https://xpressmag.com.au/the-plot-in-you-announce-2026-australian-headline-tour/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Our Hollow Our Home",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8293,44 +8293,44 @@
   {
    "n": "Resolve",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last in Australia with ERRA, Mar 2025.",
+   "src": "https://www.thenote.com.au/news/erra-australian-tour-2025",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Bleeding Through",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US, Sep 2026. Toured Australia Jan 2026.",
+   "src": "https://www.setlist.fm/setlists/bleeding-through-3d699d3.html",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Emmure",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Germany and Austria, Feb 2027.",
+   "src": "https://www.regioactive.de/emmure/tour-termine-tickets",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Oceano",
    "g": "deathcore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Farewell Australian tour Oct 2025.",
+   "src": "https://www.everblack.com.au/?p=29261",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Rings of Saturn",
    "g": "deathcore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8338,8 +8338,8 @@
   {
    "n": "Distant",
    "g": "deathcore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8347,17 +8347,17 @@
   {
    "n": "Vulvodynia",
    "g": "deathcore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "New vocalist announced Jul 2026; no Australian dates.",
+   "src": "https://en.wikipedia.org/wiki/Vulvodynia_(band)",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Worm Shepherd",
    "g": "deathcore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8365,17 +8365,17 @@
   {
    "n": "Spite",
    "g": "deathcore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia Apr to May 2026.",
+   "src": "https://www.thenote.com.au/news/spite-australian-headline-tour-2026",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Earth Crisis",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8383,8 +8383,8 @@
   {
    "n": "Biohazard",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8392,8 +8392,8 @@
   {
    "n": "Harm's Way",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8401,17 +8401,17 @@
   {
    "n": "Dying Wish",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US and Europe dates; no Australian dates.",
+   "src": "https://www.eventworld.com/dying-wish-tickets/performer/24916",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Pain of Truth",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8419,8 +8419,8 @@
   {
    "n": "Candy",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8428,8 +8428,8 @@
   {
    "n": "Combust",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8437,8 +8437,8 @@
   {
    "n": "Scowl",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8446,8 +8446,8 @@
   {
    "n": "Militarie Gun",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Supported Touché Amoré in Australia, Jul 2025.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8455,8 +8455,8 @@
   {
    "n": "Incendiary",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "elsewhere",
+   "note": "US, May to Jul 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8464,8 +8464,8 @@
   {
    "n": "Life of Agony",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8473,8 +8473,8 @@
   {
    "n": "Boundaries",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8482,17 +8482,17 @@
   {
    "n": "Touché Amoré",
    "g": "melhc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "One-off Melbourne show (Stage Four in full) in 2026; last tour Jul 2025.",
+   "src": "https://www.destroyalllines.com/blog/touche-amore-announce-a-special-one-off-show-in-melbourne",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Modern Life Is War",
    "g": "melhc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8500,8 +8500,8 @@
   {
    "n": "Casey",
    "g": "melhc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8509,8 +8509,8 @@
   {
    "n": "More Than Life",
    "g": "melhc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8518,8 +8518,8 @@
   {
    "n": "Sleeping with Sirens",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8527,8 +8527,8 @@
   {
    "n": "Emarosa",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8536,8 +8536,8 @@
   {
    "n": "Finch",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8545,17 +8545,17 @@
   {
    "n": "Hail the Sun",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "First Australian tour Jun 2026.",
+   "src": "https://www.thenote.com.au/news/hail-the-sun-debut-australian-tour-2026",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Eidola",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8563,8 +8563,8 @@
   {
    "n": "Royal Coda",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8572,17 +8572,17 @@
   {
    "n": "I See Stars",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia 2025.",
+   "src": "https://www.thenote.com.au/news/i-see-stars-australian-tour",
    "named": false,
    "confirmed": true
   },
   {
    "n": "The Callous Daoboys",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8590,8 +8590,8 @@
   {
    "n": "Bayside",
    "g": "emo",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8599,17 +8599,17 @@
   {
    "n": "Armor for Sleep",
    "g": "emo",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia with Hawthorne Heights, Apr 2026.",
+   "src": "https://heavymag.com.au/hawthorne-heights-announce-2026-australian-tour/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "The Early November",
    "g": "emo",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8617,8 +8617,8 @@
   {
    "n": "Microwave",
    "g": "emo",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Toured Australia Jul to Aug 2025.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8626,8 +8626,8 @@
   {
    "n": "The Hotelier",
    "g": "emo",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8635,8 +8635,8 @@
   {
    "n": "Foxing",
    "g": "emo",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8644,8 +8644,8 @@
   {
    "n": "Texas Is the Reason",
    "g": "emo",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8653,17 +8653,17 @@
   {
    "n": "Rival Sons",
    "g": "hardrock",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "North America 2026.",
+   "src": "https://therockrevival.com/tag/rival-sons/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Black Label Society",
    "g": "hardrock",
-   "st": "unchecked",
-   "note": "",
+   "st": "elsewhere",
+   "note": "Headlining Berzerkus 2026 (US).",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8671,26 +8671,26 @@
   {
    "n": "Slash featuring Myles Kennedy",
    "g": "hardrock",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "2027 world tour (Americas, UK, Europe), Apr to Jul 2027; no Australian leg.",
+   "src": "https://ultimateclassicrock.com/slash-2027-world-tour/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Alice Cooper",
    "g": "hardrock",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US Alice's Attic dates, autumn 2026.",
+   "src": "https://www.1047thecave.com/category/classic-rock-news/page/6/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Deep Purple",
    "g": "hardrock",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8698,8 +8698,8 @@
   {
    "n": "Mötley Crüe",
    "g": "hardrock",
-   "st": "unchecked",
-   "note": "",
+   "st": "elsewhere",
+   "note": "North America, Jul 2026.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8707,8 +8707,8 @@
   {
    "n": "Skid Row",
    "g": "hardrock",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8716,8 +8716,8 @@
   {
    "n": "Danko Jones",
    "g": "hardrock",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8725,8 +8725,8 @@
   {
    "n": "The Cult",
    "g": "hardrock",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8734,8 +8734,8 @@
   {
    "n": "The Sword",
    "g": "hardrock",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8743,17 +8743,17 @@
   {
    "n": "Uriah Heep",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Magician's Farewell tour of Europe in 2026. Last in Australia 2011.",
+   "src": "https://www.loudersound.com/news/uriah-heep-farewell-tour",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Magnum",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8761,8 +8761,8 @@
   {
    "n": "Venom",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8770,8 +8770,8 @@
   {
    "n": "Venom Inc.",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8779,8 +8779,8 @@
   {
    "n": "Jag Panzer",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8788,8 +8788,8 @@
   {
    "n": "Lizzy Borden",
    "g": "heavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8797,17 +8797,17 @@
   {
    "n": "Lost Society",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe spring 2026 and Feb 2027.",
+   "src": "https://www.nuclearblast.com/blogs/news/lost-society-announce-spring-2026-uk-and-europe-tour",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Insanity Alert",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8815,17 +8815,17 @@
   {
    "n": "Angelus Apatrida",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "No current Australian dates found.",
+   "src": "https://heavymag.com.au/calm-before-the-storm-with-guillermo-izquierdo-from-angelus-apatrida/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Crisix",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8833,8 +8833,8 @@
   {
    "n": "Suicidal Angels",
    "g": "thrash",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8842,8 +8842,8 @@
   {
    "n": "Rage",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8851,8 +8851,8 @@
   {
    "n": "Pyramaze",
    "g": "power",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8860,17 +8860,17 @@
   {
    "n": "Swallow the Sun",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Australian debut tour Jan 2026.",
+   "src": "https://www.thenote.com.au/news/swallow-the-sun-australian-tour-2026",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Saturnus",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8878,8 +8878,8 @@
   {
    "n": "Novembers Doom",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8887,17 +8887,17 @@
   {
    "n": "Slomosa",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "First Australian tour May 2026.",
+   "src": "https://musick.com.au/gig/slomosa-at-max-watts-2026-05-22/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Greenleaf",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8905,26 +8905,26 @@
   {
    "n": "Colour Haze",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe, Karma Haze Tour 2026.",
+   "src": "https://theobelisk.net/obelisk/2025/10/21/colour-haze-and-my-sleeping-karma-karma-haze-tour/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "My Sleeping Karma",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe, Karma Haze Tour 2026.",
+   "src": "https://theobelisk.net/obelisk/2025/10/21/colour-haze-and-my-sleeping-karma-karma-haze-tour/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "All Them Witches",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "elsewhere",
+   "note": "World touring 2026 to 2027 for House of Mirrors; no Australian dates yet.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8932,17 +8932,17 @@
   {
    "n": "King Buffalo",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe, Mar 2027.",
+   "src": "https://www.regioactive.de/king-buffalo/tour-termine-tickets",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Dozer",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8950,8 +8950,8 @@
   {
    "n": "The Atomic Bitchwax",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8959,8 +8959,8 @@
   {
    "n": "Cough",
    "g": "doom",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8968,8 +8968,8 @@
   {
    "n": "Benighted",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8977,8 +8977,8 @@
   {
    "n": "Venom Prison",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -8986,17 +8986,17 @@
   {
    "n": "Gutalax",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Germany, Nov 2026. Last in Australia Sep 2025.",
+   "src": "https://www.thenote.com.au/news/gutalax-australian-tour-2025",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Entombed A.D.",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9004,8 +9004,8 @@
   {
    "n": "Mortiferum",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9013,8 +9013,8 @@
   {
    "n": "Cerebral Rot",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9022,8 +9022,8 @@
   {
    "n": "Teitanblood",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9031,17 +9031,17 @@
   {
    "n": "Fulci",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe and UK with Master Boot Record, Nov 2026; Decibel Tour 2027 (US).",
+   "src": "https://www.metalblade.com/us/news/master-boot-record-and-fulci-announce-co-headlining-tour/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Vomitory",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9049,17 +9049,17 @@
   {
    "n": "Malevolent Creation",
    "g": "death",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "No live shows planned for 2026 while they write.",
+   "src": "https://blabbermouth.net/news/see-malevolent-creations-three-guitar-lineup-play-exclusive-show-in-tampa",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Bölzer",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9067,8 +9067,8 @@
   {
    "n": "Vreid",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9076,17 +9076,17 @@
   {
    "n": "Gaerea",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia Jul 2026; nothing further announced.",
+   "src": "https://www.thenote.com.au/news/gaerea-announce-loss-australian-tour-2026",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Wayfarer",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9094,8 +9094,8 @@
   {
    "n": "Afsky",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9103,8 +9103,8 @@
   {
    "n": "Liturgy",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9112,17 +9112,17 @@
   {
    "n": "Spectral Wound",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "UK and Germany, Aug 2026.",
+   "src": "https://www.last.fm/de/music/Spectral+Wound/+events",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Agriculture",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9130,17 +9130,17 @@
   {
    "n": "Nordjevel",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Incantation Tour 2027, Europe Mar to Apr 2027.",
+   "src": "https://www.season-of-mist.com/?p=71162",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Behexen",
    "g": "black",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9148,8 +9148,8 @@
   {
    "n": "Dalriada",
    "g": "folk",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9157,8 +9157,8 @@
   {
    "n": "Metsatöll",
    "g": "folk",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9166,8 +9166,8 @@
   {
    "n": "Vintersorg",
    "g": "folk",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9175,8 +9175,8 @@
   {
    "n": "Fates Warning",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9184,8 +9184,8 @@
   {
    "n": "Symphony X",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9193,8 +9193,8 @@
   {
    "n": "Arcturus",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9202,8 +9202,8 @@
   {
    "n": "Intronaut",
    "g": "prog",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9211,8 +9211,8 @@
   {
    "n": "Chon",
    "g": "djent",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9220,8 +9220,8 @@
   {
    "n": "Alluvial",
    "g": "djent",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9229,8 +9229,8 @@
   {
    "n": "Allt",
    "g": "djent",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9238,26 +9238,26 @@
   {
    "n": "The Ghost Inside",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia Oct 2025.",
+   "src": "https://www.thenote.com.au/news/the-ghost-inside-australian-tour-2025",
    "named": false,
    "confirmed": true
   },
   {
    "n": "The Word Alive",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supported Escape the Fate in Australia, mid-2026.",
+   "src": "https://musicfeeds.com.au/?p=574272",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Varials",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9265,8 +9265,8 @@
   {
    "n": "Wolves at the Gate",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9274,17 +9274,17 @@
   {
    "n": "Thousand Below",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US, Warped Tour 2026.",
+   "src": "https://tixel.com/us/music-tickets/thousand-below",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Hollow Front",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9292,17 +9292,17 @@
   {
    "n": "Annisokay",
    "g": "core",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "European festivals 2026.",
+   "src": "https://www.setlist.fm/setlists/annisokay-73db2ec5.html",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Osiah",
    "g": "deathcore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9310,8 +9310,8 @@
   {
    "n": "Bound in Fear",
    "g": "deathcore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9319,8 +9319,8 @@
   {
    "n": "Kanine",
    "g": "deathcore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9328,8 +9328,8 @@
   {
    "n": "Traitors",
    "g": "deathcore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9337,8 +9337,8 @@
   {
    "n": "Here Comes the Kraken",
    "g": "deathcore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9346,8 +9346,8 @@
   {
    "n": "Show Me the Body",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9355,8 +9355,8 @@
   {
    "n": "Year of the Knife",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9364,17 +9364,17 @@
   {
    "n": "Fiddlehead",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US and Canada, Sep 2026 to Jan 2027.",
+   "src": "https://www.eventworld.com/fiddlehead-tickets/performer/16893",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Regulate",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9382,8 +9382,8 @@
   {
    "n": "Restraining Order",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9391,17 +9391,17 @@
   {
    "n": "SPY",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supported Deafheaven in Australia, Jul 2026.",
+   "src": "https://www.thenote.com.au/news/deafheaven-australian-new-zealand-tour-2026",
    "named": false,
    "confirmed": true
   },
   {
    "n": "End It",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9409,17 +9409,17 @@
   {
    "n": "Gridiron",
    "g": "hc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Australian debut supporting Comeback Kid, Jan to Feb 2026.",
+   "src": "https://www.thenote.com.au/news/comeback-kid-wake-the-dead-20th-anniversary-album-tour",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Basement",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9427,17 +9427,17 @@
   {
    "n": "Superheaven",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia Apr to May 2026.",
+   "src": "https://www.thenote.com.au/news/superheaven-2026-australian-tour",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Anberlin",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9445,8 +9445,8 @@
   {
    "n": "Envy on the Coast",
    "g": "posthc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9454,8 +9454,8 @@
   {
    "n": "Hocico",
    "g": "industrial",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9463,8 +9463,8 @@
   {
    "n": "Aesthetic Perfection",
    "g": "industrial",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9472,8 +9472,8 @@
   {
    "n": "Front 242",
    "g": "industrial",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9481,17 +9481,17 @@
   {
    "n": "Fozzy",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US May 2026 with Flaw; Mexico date listed.",
+   "src": "https://blabbermouth.net/news/fozzy-announces-may-2026-u-s-tour-dates",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Saliva",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9499,35 +9499,35 @@
   {
    "n": "Powerman 5000",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "North America, Apr to May 2026.",
+   "src": "https://metalinjection.net/tour-dates/powerman-5000-announces-north-american-tour-with-12-stones-make-my-blood-dance",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Kittie",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Germany and one other country, upcoming.",
+   "src": "https://www.eventworld.com/kittie-tickets/performer/28415",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Flaw",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US with Fozzy, May 2026.",
+   "src": "https://blabbermouth.net/news/fozzy-announces-may-2026-u-s-tour-dates",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Tallah",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9535,8 +9535,8 @@
   {
    "n": "Darke Complex",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9544,8 +9544,8 @@
   {
    "n": "Ten56",
    "g": "nu",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9553,26 +9553,26 @@
   {
    "n": "Living Colour",
    "g": "hardrock",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "US 2026 tour cancelled; headline shows promised for 2027.",
+   "src": "https://ultimateclassicrock.com/psychedelic-furs-living-colour-2027-tour/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Dirty Honey",
    "g": "hardrock",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "Europe, Feb 2027.",
+   "src": "https://www.eventworld.com/dirty-honey-tickets/performer/20329",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Myles Kennedy",
    "g": "hardrock",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9580,8 +9580,8 @@
   {
    "n": "Tremonti",
    "g": "hardrock",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9589,17 +9589,17 @@
   {
    "n": "Kruelty",
    "g": "asia",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last in Australia with Gatecreeper, Apr 2024.",
+   "src": "https://www.wallofsoundau.com/news/modern-death-metal-giants-gatecreeper-unveil-10-date-australia-tour-with-japans-kruelty",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Infected Rain",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Toured Australia with Cradle of Filth, Sep 2024.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9607,8 +9607,8 @@
   {
    "n": "Sylar",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9616,17 +9616,17 @@
   {
    "n": "Fame on Fire",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Toured Australia Jul 2026.",
+   "src": "https://heavymag.com.au/fame-on-fire-announce-debut-australian-tour/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Ghostkid",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9634,44 +9634,44 @@
   {
    "n": "Loathe",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "First Australian headline tour May 2026.",
+   "src": "https://www.thenote.com.au/news/loathe-australian-tour-2026",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Static Dress",
    "g": "altheavy",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Supported Loathe in Australia, May 2026.",
+   "src": "https://www.thenote.com.au/news/loathe-australian-tour-2026",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Nekrogoblikon",
    "g": "pirate",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "North America, fall 2026. Last in Australia with Alestorm, Feb 2024.",
+   "src": "https://music.mxdwn.com/2026/06/11/news/nekrogoblikon-announce-fall-2026-north-american-tour-dates/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "GWAR",
    "g": "pirate",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "elsewhere",
+   "note": "North America spring 2026. Last in Australia at Good Things, Dec 2025.",
+   "src": "https://lambgoat.com/news/49090/gwar-announce-second-australian-tour-ever-will-release-figurine-set/",
    "named": false,
    "confirmed": true
   },
   {
    "n": "Lordi",
    "g": "pirate",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9679,8 +9679,8 @@
   {
    "n": "Eihwar",
    "g": "crossover",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9688,8 +9688,8 @@
   {
    "n": "Rosetta",
    "g": "postmetal",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "Toured Australia 2024 with sleepmakeswaves.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9697,8 +9697,8 @@
   {
    "n": "Psychonaut",
    "g": "postmetal",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9706,8 +9706,8 @@
   {
    "n": "Hippotraktor",
    "g": "postmetal",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9715,8 +9715,8 @@
   {
    "n": "Blood Youth",
    "g": "melhc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9724,8 +9724,8 @@
   {
    "n": "Polar",
    "g": "melhc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9733,8 +9733,8 @@
   {
    "n": "Pianos Become the Teeth",
    "g": "emo",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No current tour found.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -9742,8 +9742,8 @@
   {
    "n": "Avion Roe",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -9752,9 +9752,9 @@
   {
    "n": "Stepson",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last national tour April 2024.",
+   "src": "https://punktuationmag.com/aussie-punk-hardcore-group-stepson-drop-new-album-and-tour-dateswho-are-we-with-uk-dates-australian-dates-2001/",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -9762,9 +9762,9 @@
   {
    "n": "Belle Haven",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
-   "src": "",
+   "st": "none",
+   "note": "Last national tour Sep 2025 (Be Enough).",
+   "src": "https://themusic.com.au/gigs/belle-haven-be-enough-tour/O_WQsit1mz8",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -9772,8 +9772,8 @@
   {
    "n": "Ambleside",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -9782,8 +9782,8 @@
   {
    "n": "Sienna Skies",
    "g": "auscore",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -9792,8 +9792,8 @@
   {
    "n": "Clowns",
    "g": "aushc",
-   "st": "unchecked",
-   "note": "",
+   "st": "none",
+   "note": "No national tour announced.",
    "src": "",
    "named": false,
    "confirmed": true,

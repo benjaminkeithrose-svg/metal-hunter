@@ -12,11 +12,12 @@ Maintain a calendar of upcoming heavy metal concerts in Australia so Ben never m
 - **Folk crossover** acts that sit near metal (Heilung, Wardruna, Faun, Patty Gurdy and similar), tagged `folk`.
 - Heavy-adjacent acts (hard rock, stoner and similar), tagged `adjacent`.
 
-**Tags** drive the category filters on the page: `core` (metal and the genres above), `adjacent`, `folk`. Each can be switched off in the page.
+- **Australian acts** in the same genres, tagged `aus`: national or multi-city tours, festival slots and cruises (added 22 Oct 2026, Ben approved).
+
+**Tags** drive the category filters on the page: `core` (metal and the genres above), `adjacent`, `folk`, `aus` (Australian). Each can be switched off in the page.
 
 **Exclude**
-- Local/Australian-only pub and club gigs.
-- Australian acts, unless they headline a major festival or cruise that also carries international acts (put these on the Watchlist, flagged "Aus-headlined").
+- One-off local pub and club gigs by Australian acts (a national or multi-city tour is in scope).
 - Pop-punk, pop, indie and other non-heavy acts.
 - New Zealand dates (note them only if they affect an AU tour).
 
@@ -24,10 +25,11 @@ Maintain a calendar of upcoming heavy metal concerts in Australia so Ben never m
 The Bands tab holds a list of bands Ben follows, grouped by genre (`BANDS`, with `GROUPS` for the headings). Each band has a status:
 - `elsewhere`: touring other regions, no Australian dates. Say where and until when.
 - `none`: searched, nothing announced.
-- `au`: Australian act (tracked for festivals and cruises only).
+- `au`: legacy status, no longer used. Australian bands carry `aus: true` and use the normal statuses.
 - `signal`: a hint of an Australian date (festival confirmed, promoter teaser).
 - `unchecked`: not yet searched.
-A band with a show on the calendar shows as "On calendar" automatically.
+A band with a show on the calendar shows as "On calendar" automatically (exact match on the billed names, so the band's name must match the tour's spelling).
+The Bands tab has a search box and a status filter (including Australian / International).
 
 Rules for this list:
 - The list is confirmed by Ben (22 Oct 2026) as a starting point. Grow it over time: when a tracked band tours with another act (support slots, co-headlines, festival bills), add that act to the list in the matching genre and note where it was seen.
@@ -89,3 +91,5 @@ Band fields: `n`, `g` (group), `st` (status above), `note`, `src`.
 - Ben may still send his own additions to the band list.
 - Expanded to 547 bands in 30 groups (Oct 2026). All checked once; the check added The Sisters of Mercy, Citizen + Drug Church and Mono to the calendar. Follow-up leads resolved: Soen (Jan 2027) and Lucidity 2027 added; the Obituary + Wormrot lead was the 2020 tour.
 - All 286 tracked bands were checked on 22 Oct 2026 (one news/aggregator search each). The check added 11 tours: La Dispute, Dance Gavin Dance, Jimmy Eat World, Queens of the Stone Age, Metal Church, Deicide, Igorrr, PRESIDENT, Drain, Melbourne Dethfest 2027 (Bloodbath) and Elder. Metal Church has no on-sale details.
+- Expanded to 1055 bands (Oct 2026): 154 Australian bands in 8 groups (`aus: true`) plus about 350 more international bands. All 533 new or reset bands were checked on 22 Oct 2026. The check added 9 tours: Northlane, Windwaker, Hellbound II cruise, Heavensgate, Dream On Dreamer, Trophy Eyes, The Early November + Hellogoodbye, Uncle Acid & the Deadbeats and Sleep Theory. It also completed A Perfect Circle's dates, added Airbourne to Guns N' Roses, and added Speed, Grinspoon, Bilmuri and Voice of Baceprot to Good Things.
+- Open leads from that check: King Parrot (8-show regional run late 2026, dates not found), Voyager (comeback shows, year unconfirmed), Rose Tattoo (2026 farewell, Australian dates unconfirmed), Justice for the Damned (March headline tour, year unconfirmed). Dream On Dreamer and Trophy Eyes still need venues.
