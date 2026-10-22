@@ -224,6 +224,18 @@ h2.sub{font-family:var(--display);font-weight:800;font-size:20px;text-transform:
   background:var(--fg);color:var(--bg);font:500 13px var(--body);padding:8px 14px;border-radius:6px;opacity:0;pointer-events:none;transition:.25s}
 .toast.on{opacity:1;transform:translate(-50%,0)}
 footer{margin-top:30px;color:var(--muted);font-size:12.5px}
+.pro{margin-top:26px;border:1px solid var(--accent);border-radius:8px;padding:14px;background:var(--surface);display:grid;gap:8px}
+.pro h3{font-family:var(--display);font-weight:800;font-size:19px;text-transform:uppercase;letter-spacing:.04em;margin:0}
+.pro h3 span{color:var(--accent)}
+.pro p{margin:0;color:var(--muted)}
+.pro form{display:flex;gap:8px;flex-wrap:wrap}
+.pro input{flex:1 1 200px;min-width:0;margin:0}
+.pro .fine{font-size:12.5px}
+.pro .fine a{text-decoration:underline}
+.pro .msg{font-size:13.5px;color:var(--bad)}
+.pro.done p.ok{color:var(--ok);font-weight:600}
+.linkbtn{background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;cursor:pointer;font-size:inherit}
+:root[data-look="xerox"] .pro{border:2px solid var(--fg);border-radius:0;box-shadow:4px 4px 0 var(--accent)}
 
 /* ---------- DECOR: RUNESTONE ---------- */
 :root[data-look="runestone"] body{background:linear-gradient(180deg,#0f1713 0,var(--bg) 420px) var(--bg)}
@@ -336,6 +348,37 @@ try{
   else{const old=JSON.parse(localStorage.getItem("amc2")||"{}");if(old.states)ME.states=old.states.filter(s=>STATES.includes(s));}
 }catch(e){}
 const save=()=>{try{localStorage.setItem("mh-me",JSON.stringify(ME))}catch(e){}};
+
+/* ---------- PRO LAUNCH SIGN-UP ----------
+   Sign-ups go to the Supabase table public.pro_waitlist. The publishable key below can only add rows; nobody can read the list through it. */
+const SB_URL="https://vqfcngqtwbloegjzqkve.supabase.co",SB_KEY="sb_publishable_bi5qFBmtOn6lcM1_PayjmQ_aQrpMQZT";
+/* GoatCounter visitor counter: put the site code here (the part before .goatcounter.com) to switch it on. */
+const GOATCOUNTER="";
+if(GOATCOUNTER){const g=document.createElement("script");g.async=true;g.src="https://gc.zgo.at/count.js";g.dataset.goatcounter=`https://${GOATCOUNTER}.goatcounter.com/count`;document.head.appendChild(g)}
+let proDone=false;try{proDone=localStorage.getItem("mh-pro")==="1"}catch(e){}
+function proCard(where){
+  if(proDone)return `<section class="pro done" id="pro"><h3>Metal Hunter <span>Pro</span></h3><p class="ok">You're on the list. We'll email you when Pro launches.</p></section>`;
+  return `<section class="pro" id="pro"><h3>Metal Hunter <span>Pro</span></h3>
+    <p>Get a push alert when a tour in your genres hits your state, and a reminder before presales open. Want to know when it launches?</p>
+    <form data-pro="${where}" novalidate><input class="search" type="email" id="pe-${where}" name="email" placeholder="Your email" aria-label="Your email" autocomplete="email" required><button type="submit" class="btn">Tell me</button></form>
+    <p class="msg" role="status" aria-live="polite"></p>
+    <p class="fine">We'll only email you about the Pro launch. Unsubscribe any time. <a href="privacy.html">Privacy</a></p></section>`;
+}
+async function proSubmit(form){
+  const input=form.querySelector("input"),msg=form.parentNode.querySelector(".msg"),btn=form.querySelector("button");
+  const email=input.value.trim();
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){msg.textContent="Check the email address and try again.";input.focus();return}
+  btn.disabled=true;msg.textContent="";
+  try{
+    const r=await fetch(SB_URL+"/rest/v1/pro_waitlist",{method:"POST",
+      headers:{apikey:SB_KEY,"Content-Type":"application/json",Prefer:"return=minimal"},
+      body:JSON.stringify({email,genres:ME.genres,states:ME.states,source:form.dataset.pro})});
+    if(r.ok||r.status===409){proDone=true;try{localStorage.setItem("mh-pro","1")}catch(e){}
+      form.parentNode.outerHTML=proCard();window.MH_SAY&&window.MH_SAY("You're on the list");return}
+    msg.textContent=r.status===400?"Check the email address and try again.":"Couldn't send that. Try again in a minute.";
+  }catch(e){msg.textContent="Couldn't send that. Check your connection and try again."}
+  btn.disabled=false;
+}
 const S={tab:"shows",q:"",month:null,day:null,bq:"",bst:""};
 try{const t=new URLSearchParams(location.search).get("tab");if(["shows","calendar","presales","bands","more"].includes(t))S.tab=t}catch(e){}
 
@@ -457,7 +500,7 @@ function viewShows(){
       html+=`<h2 class="month">${m} <small>${c}</small></h2><div class="list">`;}
     html+=card(s,others);
   });
-  return html+`</div><footer>Updated ${fmtDay(ymd(REFRESHED))} ${ymd(REFRESHED).getFullYear()}</footer>`;
+  return html+`</div>${proCard("shows")}<footer>Updated ${fmtDay(ymd(REFRESHED))} ${ymd(REFRESHED).getFullYear()}</footer>`;
 }
 
 function viewCalendar(){
@@ -529,7 +572,8 @@ function viewBands(){
 function viewMore(){
   const d=ymd(REFRESHED),look=document.documentElement.dataset.look;
   return `<div class="morev">
-    <h2 class="sub" style="margin-top:4px">My Metal</h2>
+    ${proCard("more")}
+    <h2 class="sub">My Metal</h2>
     <p>${esc(mineSummary())}</p>
     <button type="button" class="btn" data-act="edit">Edit My Metal</button>
     ${WATCH.length?`<h2 class="sub">Rumoured</h2>${WATCH.map(w=>`<div class="wcard"><h3>${esc(w.title)}</h3><p>${esc(w.text)}</p><a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.label)} ↗</a></div>`).join("")}`:""}
@@ -567,7 +611,7 @@ function sheetBody(first){
     <label class="sw"><span>Include Aussie bands' tours</span><input type="checkbox" id="o-aus" ${draft.aus?"checked":""}></label>
     <label class="sw"><span>Hide sold-out shows</span><input type="checkbox" id="o-sold" ${draft.hideSold?"checked":""}></label>
     <label class="sw"><span>Show every date separately</span><input type="checkbox" id="o-date" ${draft.perDate?"checked":""}></label>
-    <p class="hint">Push alerts for your genres and bands are coming with the app.</p>
+    <p class="hint">Push alerts for your genres and bands are coming with Metal Hunter Pro. <button type="button" class="linkbtn" data-act="pro">Get told when it launches</button></p>
     <div class="foot"><button type="button" class="btn" data-act="done">${first?"Show my tours":"Done"}</button>
       ${first?`<button type="button" class="btn ghost" data-act="skip">Skip, show everything</button>`:""}</div>`;
 }
@@ -617,6 +661,7 @@ document.addEventListener("click",e=>{
   else if(ds.act==="done"){closeSheet(true,"mine");return}
   else if(ds.act==="skip"){closeSheet(false);ME.mode="all";save();render();return}
   else if(ds.act==="check"){window.MH_CHECK&&window.MH_CHECK();return}
+  else if(ds.act==="pro"){closeSheet(true,"mine");S.tab="more";render();scrollTo(0,0);const i=document.querySelector("#pro input");if(i)i.focus();return}
   render();
 });
 document.addEventListener("change",e=>{
@@ -633,6 +678,7 @@ document.addEventListener("input",e=>{
   else if(id==="fq"){fq=e.target.value;const q=lc(fq.trim()),fs=draft.follows.map(lc);
     $("#sugg").innerHTML=(q.length>1?BANDS.filter(b=>lc(b.n).includes(q)&&!fs.includes(lc(b.n))).slice(0,6):[]).map(b=>`<button type="button" data-add="${esc(b.n)}">+ ${esc(b.n)}</button>`).join("")}
 });
+document.addEventListener("submit",e=>{const f=e.target.closest("[data-pro]");if(f){e.preventDefault();proSubmit(f)}});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("#sheet").hidden)closeSheet(false)});
 render();
 if(!ME.setup)openSheet(true);
