@@ -522,8 +522,8 @@
    "n": "Converge",
    "g": "hc",
    "st": "none",
-   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
-   "src": "",
+   "note": "Headlining Lucidity 2027 in Melbourne, playing Jane Doe for its 25th anniversary. First Australian show since 2019.",
+   "src": "https://www.thenote.com.au/news/converge-headline-new-melbourne-heavy-festival-lucidity",
    "named": false,
    "confirmed": true
   },
@@ -3221,9 +3221,9 @@
   {
    "n": "Wormrot",
    "g": "grind",
-   "st": "signal",
-   "note": "Reported as support for an Obituary tour of Australia and New Zealand; dates not found. UK dates Nov 2026.",
-   "src": "https://uniteasia.org/wormrot-add-new-zealand-dates-upcoming-obituary-australia-tour",
+   "st": "elsewhere",
+   "note": "UK dates Nov 2026. The Obituary + Wormrot Australian tour was the January 2020 run, not a new one.",
+   "src": "https://www.songkick.com/artists/1638712-wormrot",
    "named": false,
    "confirmed": true
   },
@@ -3626,9 +3626,9 @@
   {
    "n": "Soen",
    "g": "prog",
-   "st": "signal",
-   "note": "October 2026 Australian shows were reported postponed to early 2027; new dates not confirmed.",
-   "src": "https://www.everblack.com.au/?p=34639",
+   "st": "none",
+   "note": "Australian dates on the calendar (rescheduled from Oct 2026).",
+   "src": "",
    "named": false,
    "confirmed": true
   },
