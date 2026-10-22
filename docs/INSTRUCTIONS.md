@@ -71,12 +71,16 @@ Band fields: `n`, `g` (group), `st` (status above), `note`, `src`.
 - Artifacts cannot trigger file downloads, so there is no .ics export. Add one in the GitHub version.
 - Keep the page text minimal. Scope notes, label meanings and sources live in the Info tab; the footer only shows "Updated <date>". Long tour notes sit behind the ⓘ toggle on each card, and band notes open when the band is tapped.
 
-## Refresh procedure (manual for now)
+## Refresh procedure
+Runs automatically (Ben approved 22 Oct 2026): a news check every Monday and Thursday about 6:35am Sydney time, and a full sweep of every tracked band on the 1st of each month about 6:30am. Both push data-only changes straight to `main` (see the exception in CLAUDE.md) and send Ben a phone push when something changed.
+- **News check:** steps 1, 2 and 5, plus any tracked band named in new announcements. Drop shows whose date has passed only if the whole tour is over; past dates of a running tour can stay.
+- **Full sweep:** all steps, checking every band in `data/bands.json` with batched searches (several band names per query).
+Steps:
 1. Search each promoter site and the news sources for tours announced since the last refresh.
 2. Check each existing tour for added dates, upgrades, sold-out notices and changed sale times.
 3. Run a Ticketmaster/Songkick/Eventworld sweep by city to catch small-club international tours the promoters did not feature.
 4. Check the tracked bands: update `st` and notes, move any with Australian dates into `TOURS`.
-5. Update the data block, bump `REFRESHED`, republish the same artifact file.
+5. Update `data/events.json` (`tours`, `sales`, `watch`) and `data/bands.json`, set `refreshed` to today's date, run `python3 scripts/validate.py`, commit as `Data refresh: <summary>` and push to `main`.
 
 ## Roadmap
 - **Phase 1 (done):** manually researched artifact.
