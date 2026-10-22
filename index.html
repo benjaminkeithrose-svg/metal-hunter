@@ -22,9 +22,9 @@ if("serviceWorker" in navigator)addEventListener("load",()=>navigator.serviceWor
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Alegreya+Sans:wght@400;500;700&family=Noto+Sans+Runic&family=Archivo+Black&family=Special+Elite&family=Courier+Prime:wght@400;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: sticky filter bar over a ticket-stub agenda; month grid and on-sale radar as sibling views.
-   Two selectable looks, scoped by html[data-look]: Runestone (default) and Xerox Grind.
-   Each look has one token block here and one decor block at the end; delete both to drop a look. */
+/* Layout: slim top bar, one scrolling view, bottom tab bar (Shows, Calendar, Presales, Bands, More).
+   "My Metal" (genres, states, followed bands) is edited in a full-screen sheet and drives the Shows feed.
+   Two selectable looks, scoped by html[data-look]: Runestone (default) and Xerox Grind. */
 
 /* ---------- LOOK: RUNESTONE (pagan / folk / black) ---------- */
 :root,:root[data-look="runestone"]{
@@ -48,279 +48,236 @@ if("serviceWorker" in navigator)addEventListener("load",()=>navigator.serviceWor
 }
 
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5;
-  padding-block:0 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-.wrap{max-width:980px;margin:0 auto}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5;
+  padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
+.wrap{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 a{color:inherit}
+button{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+[hidden]{display:none!important}
 
-header.top{padding:28px 0 16px}
-.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-h1{font-family:var(--display);font-weight:800;font-size:clamp(40px,9vw,68px);line-height:.95;margin:6px 0 10px;text-transform:uppercase;letter-spacing:.01em;text-wrap:balance}
-h1 .hunt{color:var(--accent)}
-
-.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 0;margin-bottom:18px}
+/* top bar */
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
-.tabs{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:10px}
-.tab{font:500 14px var(--body);background:transparent;color:var(--muted);border:1px solid transparent;border-radius:6px;padding:7px 12px;cursor:pointer}
-.tab[aria-selected="true"]{background:var(--fg);color:var(--bg)}
-.tab:hover:not([aria-selected="true"]){border-color:var(--line);color:var(--fg)}
-.tab .n{font-family:var(--mono);font-size:12px;margin-left:6px;opacity:.75}
-.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.chip{font:500 13px var(--body);background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:999px;padding:5px 11px;cursor:pointer}
-.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
-.sep{width:1px;height:20px;background:var(--line)}
-.chip.cat[aria-pressed="false"]{background:transparent;color:var(--muted);text-decoration:line-through}
-.chk{display:inline-flex;gap:6px;align-items:center;font-size:13px;color:var(--muted);cursor:pointer}
-.chk input{accent-color:var(--accent)}
-.search{flex:1 1 160px;min-width:0;font:400 14px var(--body);background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:6px 10px}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--bg);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;gap:10px;height:54px}
+.mark{flex:none;width:34px;height:34px}
+.word{font-family:var(--display);font-weight:800;font-size:20px;letter-spacing:.06em;text-transform:uppercase;margin:0;flex:1;white-space:nowrap}
+.word span{color:var(--accent)}
+.iconbtn{flex:none;width:34px;height:34px;display:grid;place-items:center;background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:50%;cursor:pointer;font-size:15px}
+.iconbtn:hover{color:var(--fg)}
+.upd.spin{animation:mh-spin 1s linear infinite}
+@keyframes mh-spin{to{transform:rotate(360deg)}}
+
+/* bottom tabs */
+nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:9;background:var(--surface);border-top:1px solid var(--line);
+  padding-bottom:env(safe-area-inset-bottom,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+nav.tabs .in{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr)}
+.tab{background:none;border:0;cursor:pointer;padding:8px 2px 9px;display:grid;justify-items:center;gap:2px;color:var(--muted);font:500 11.5px var(--body)}
+.tab svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.tab[aria-selected="true"]{color:var(--accent)}
+
+main{padding-top:14px}
+h2.month{font-family:var(--display);font-weight:800;font-size:22px;text-transform:uppercase;letter-spacing:.05em;margin:24px 0 10px;display:flex;align-items:baseline;gap:10px}
+h2.month small{font-family:var(--mono);font-weight:400;font-size:12px;color:var(--muted);letter-spacing:0}
+h2.sub{font-family:var(--display);font-weight:800;font-size:20px;text-transform:uppercase;letter-spacing:.05em;margin:26px 0 10px}
+.muted{color:var(--muted)}
+.empty{border:1px dashed var(--line);border-radius:8px;padding:24px 18px;color:var(--muted);text-align:center}
+.empty button{margin-top:10px}
+
+/* feed controls */
+.ctrl{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--surface)}
+.seg button{border:0;background:transparent;border-radius:999px;padding:6px 14px;cursor:pointer;font-weight:600;font-size:14px;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.pillbtn{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 13px;cursor:pointer;font-size:14px;font-weight:500;margin-left:auto}
+.summary{margin:8px 0 0;color:var(--muted);font-size:13.5px}
+.search{width:100%;min-width:0;font:400 15px var(--body);background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:9px 12px;margin-top:10px}
 .search::placeholder{color:var(--muted)}
 
-h2.month{font-family:var(--display);font-weight:800;font-size:26px;text-transform:uppercase;letter-spacing:.03em;margin:26px 0 10px;display:flex;align-items:baseline;gap:10px}
-h2.month small{font-family:var(--mono);font-weight:400;font-size:12px;color:var(--muted);letter-spacing:0}
+/* show cards */
 .list{display:flex;flex-direction:column;gap:10px}
-
-.show{display:grid;grid-template-columns:76px minmax(0,1fr) auto;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
-.date{display:flex;flex-direction:column;align-items:center;justify-content:center;border-right:1px dashed var(--line);padding-right:12px;font-family:var(--mono);text-transform:uppercase;line-height:1.1}
+.show{display:grid;grid-template-columns:62px minmax(0,1fr);gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px}
+.date{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;border-right:1px dashed var(--line);padding-right:10px;font-family:var(--mono);text-transform:uppercase;line-height:1.1}
 .date .dow{font-size:11px;color:var(--muted);letter-spacing:.08em}
-.date .day{font-family:var(--display);font-weight:800;font-size:38px;line-height:1}
+.date .day{font-family:var(--display);font-weight:800;font-size:32px;line-height:1}
 .date .mon{font-size:11px;letter-spacing:.08em;color:var(--accent)}
 .main{min-width:0}
-.main h3{font-family:var(--display);font-weight:800;font-size:24px;line-height:1.05;margin:0 0 3px;text-transform:uppercase;letter-spacing:.02em;overflow-wrap:anywhere}
+.main h3{font-family:var(--display);font-weight:800;font-size:20px;line-height:1.1;margin:0 0 3px;text-transform:uppercase;letter-spacing:.03em;overflow-wrap:anywhere}
+.star{color:var(--accent);font-size:.8em;margin-left:4px}
 .sup{margin:0;color:var(--muted);font-size:13.5px}
 .where{margin:4px 0 0;font-weight:500}
-.sale{margin:6px 0 0;font-family:var(--mono);font-size:12px;color:var(--muted)}
-.note{margin:6px 0 0;font-size:12.5px;color:var(--muted);font-style:italic}
-.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.sale{margin:5px 0 0;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;align-items:center}
 .tag{font-family:var(--mono);font-size:11px;border:1px solid var(--line);border-radius:4px;padding:1px 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
-.tag.verify{color:var(--info);border-color:var(--info);background:var(--info-bg)}
-.act{display:flex;flex-direction:column;align-items:flex-end;gap:8px;min-width:0}
+.tag.unconf{color:var(--info);border-color:var(--info);background:var(--info-bg)}
+.more summary,.dates summary{cursor:pointer;list-style:none}
+.more summary::-webkit-details-marker,.dates summary::-webkit-details-marker{display:none}
+.more summary{display:inline-grid;place-items:center;width:20px;height:20px;border:1px solid var(--line);border-radius:50%;font:italic 600 12px Georgia,serif;color:var(--muted)}
+.more[open]{flex-basis:100%}
+.more[open] summary{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.more p{margin:6px 0 0;font-size:13px;color:var(--muted)}
+.more a{text-decoration:underline}
+.dates{margin-top:8px;font-size:13.5px}
+.dates summary{color:var(--accent);font-weight:600}
+.dates ul{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:4px}
+.dates li{display:flex;gap:8px;flex-wrap:wrap;color:var(--muted)}
+.dates li b{color:var(--fg);font-weight:500;font-family:var(--mono);font-size:12.5px;min-width:86px}
+.act{grid-column:1 / -1;display:flex;flex-wrap:wrap;align-items:center;gap:10px;border-top:1px dashed var(--line);padding-top:10px}
 .badge{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em;border-radius:4px;padding:3px 8px;white-space:nowrap}
 .badge.on-sale{background:var(--ok-bg);color:var(--ok)}
 .badge.upcoming{background:var(--warn-bg);color:var(--warn)}
 .badge.sold-out{background:var(--bad-bg);color:var(--bad)}
 .badge.info{background:var(--info-bg);color:var(--info)}
 .badge.muted{background:var(--surface-2);color:var(--muted)}
-.count{color:var(--muted);margin:0}
-.btools{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 0}
-.btools .search{flex:1 1 180px}
-.bsel{flex:0 1 200px!important;appearance:auto}
-.bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));column-gap:28px;align-items:start}
-.bd{border-bottom:1px solid var(--line)}
-.brow{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:8px 0;border-bottom:1px solid var(--line);min-width:0}
-.bd .brow{border-bottom:0;cursor:pointer;list-style:none}
-.bd .brow::-webkit-details-marker{display:none}
-.bd .brow b::after{content:" +";color:var(--muted);font-weight:400}
-.bd[open] .brow b::after{content:" −"}
-.brow b{font-weight:600;min-width:0;overflow-wrap:anywhere}
-.bnote{color:var(--muted);font-size:13.5px;margin:0 0 10px}
-.bnote a{text-decoration:underline}
-.tags{align-items:center}
-.more[open]{flex-basis:100%}
-.more summary{display:inline-grid;place-items:center;width:20px;height:20px;border:1px solid var(--line);border-radius:50%;
-  font:italic 600 12px Georgia,serif;color:var(--muted);cursor:pointer;list-style:none}
-.more summary::-webkit-details-marker{display:none}
-.more[open] summary{background:var(--fg);color:var(--bg);border-color:var(--fg)}
-.info{max-width:62ch}
-.info p{margin:0 0 10px;color:var(--muted)}
-.info b{color:var(--fg)}
-.btn{font:600 13px var(--body);text-decoration:none;background:var(--accent);color:var(--accent-ink);border-radius:6px;padding:7px 12px;white-space:nowrap}
+.btn{display:inline-flex;flex-direction:column;align-items:flex-start;font:700 14px/1.1 var(--body);text-decoration:none;background:var(--accent);color:var(--accent-ink);border:0;border-radius:6px;padding:7px 14px;white-space:nowrap;cursor:pointer}
+.btn small{font-weight:500;font-size:10.5px;opacity:.8;margin-top:2px}
 .btn:hover{filter:brightness(1.08)}
-.links{display:flex;gap:10px;font-size:12.5px}
-.links a{color:var(--muted)}
-.links a:hover{color:var(--fg)}
-@media (max-width:600px){
-  .show{grid-template-columns:60px minmax(0,1fr);padding:12px}
-  .date{padding-right:10px}.date .day{font-size:32px}
-  .act{grid-column:1 / -1;flex-direction:row;flex-wrap:wrap;align-items:center;gap:10px;border-top:1px dashed var(--line);padding-top:10px}
-  .act .links{margin-left:auto}
+.btn.ghost{background:transparent;color:var(--fg);border:1px solid var(--line)}
+.lnk{background:none;border:0;padding:0;color:var(--muted);font-size:13px;text-decoration:underline;cursor:pointer;margin-left:auto}
+@media (min-width:700px){
+  .show{grid-template-columns:76px minmax(0,1fr) auto;padding:12px 14px}
+  .date .day{font-size:38px}
+  .act{grid-column:auto;flex-direction:column;align-items:flex-end;border-top:0;padding-top:0}
+  .lnk{margin-left:0}
 }
 
-.empty{border:1px dashed var(--line);border-radius:8px;padding:28px 18px;color:var(--muted);text-align:center}
-
-/* month */
+/* calendar */
 .mhead{display:flex;align-items:center;gap:10px;margin-bottom:10px}
-.mhead h2{font-family:var(--display);font-weight:800;font-size:28px;text-transform:uppercase;margin:0;flex:1}
-.nav{font:500 14px var(--body);background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:6px 12px;cursor:pointer}
+.mhead h2{font-family:var(--display);font-weight:800;font-size:22px;text-transform:uppercase;letter-spacing:.05em;margin:0;flex:1;text-align:center}
+.nav{background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:6px 12px;cursor:pointer}
 .nav:disabled{opacity:.4;cursor:default}
-.gridwrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
-.mgrid{display:grid;grid-template-columns:repeat(7,minmax(78px,1fr));min-width:560px}
-.mgrid .dh{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding:6px 8px;border-bottom:1px solid var(--line)}
-.cell{min-height:84px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:4px;display:flex;flex-direction:column;gap:3px;min-width:0}
-.cell:nth-child(7n){border-right:0}
-.cell.out{background:var(--surface-2);opacity:.55}
-.cell .dn{font-family:var(--mono);font-size:11px;color:var(--muted)}
-.mchip{font:500 11px/1.25 var(--body);text-align:left;background:var(--surface-2);color:var(--fg);border:0;border-left:3px solid var(--accent);border-radius:3px;padding:2px 5px;cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:100%}
-.mchip.sel{background:var(--accent);color:var(--accent-ink)}
-.mchip.adj{border-left-color:var(--muted)}
-.picked{margin-top:14px}
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:3px}
+.cal .dh{font-family:var(--mono);font-size:11px;text-transform:uppercase;color:var(--muted);text-align:center;padding:4px 0}
+.dcell{aspect-ratio:1/1;min-width:0;border:1px solid var(--line);border-radius:6px;background:var(--surface);display:grid;grid-template-rows:1fr auto;justify-items:center;padding:4px 2px;cursor:pointer;font-family:var(--mono);font-size:13px}
+.dcell.out{visibility:hidden}
+.dcell.none{background:transparent;color:var(--muted);cursor:default}
+.dcell.today{border-color:var(--fg)}
+.dcell[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.dots{display:flex;gap:2px;height:6px}
+.dots i{width:5px;height:5px;border-radius:50%;background:var(--accent)}
+.dcell[aria-pressed="true"] .dots i{background:var(--accent-ink)}
+.dayhead{font-family:var(--display);font-weight:800;font-size:18px;text-transform:uppercase;letter-spacing:.04em;margin:18px 0 10px}
 
-/* radar */
-.radar{display:flex;flex-direction:column;gap:8px}
-.rrow{display:grid;grid-template-columns:150px minmax(0,1fr) auto;gap:14px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 14px}
-.rwhen{font-family:var(--mono);font-size:12.5px;line-height:1.35}
-.rwhen b{display:block;font-size:14px;font-weight:500}
-.rmain h3{font-family:var(--display);font-weight:800;font-size:20px;margin:0;text-transform:uppercase;letter-spacing:.02em}
-.rmain p{margin:2px 0 0;color:var(--muted);font-size:13.5px}
+/* presales */
+.radar{display:flex;flex-direction:column;gap:10px}
+.rcard{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;gap:8px}
+.rcard h3{font-family:var(--display);font-weight:800;font-size:19px;text-transform:uppercase;letter-spacing:.03em;margin:0}
+.rrow{display:grid;grid-template-columns:118px minmax(0,1fr);gap:10px;font-size:14px;border-top:1px dashed var(--line);padding-top:8px}
+.rwhen{font-family:var(--mono);font-size:12px;line-height:1.35}
+.rwhen b{display:block;font-size:13.5px;font-weight:500}
 .kind{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em;border:1px solid var(--accent);color:var(--accent);border-radius:4px;padding:1px 6px;margin-right:6px;white-space:nowrap}
-@media (max-width:600px){.rrow{grid-template-columns:minmax(0,1fr)}.rrow .btn{justify-self:start}}
-h2.sub{font-family:var(--display);font-weight:800;font-size:22px;text-transform:uppercase;letter-spacing:.03em;margin:26px 0 10px}
+.rcard .btn{justify-self:start}
 
-/* watch */
-.watch{display:flex;flex-direction:column;gap:10px}
-.wcard{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;min-width:0}
-.wcard h3{font-family:var(--display);font-weight:800;font-size:21px;text-transform:uppercase;margin:0 0 3px;letter-spacing:.02em}
-.wcard p{margin:0;color:var(--muted);font-size:14px}
-.wcard .links{margin-top:8px}
+/* bands */
+.count{color:var(--muted);margin:0}
+.btools{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 0}
+.btools .search{flex:1 1 180px;margin:0}
+.bsel{flex:0 1 190px;width:auto;margin:0;appearance:auto}
+.bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));column-gap:28px;align-items:start}
+.brow{display:grid;grid-template-columns:34px minmax(0,1fr);align-items:start;border-bottom:1px solid var(--line)}
+.fol{width:30px;height:30px;margin-top:4px;background:none;border:1px solid var(--line);border-radius:50%;cursor:pointer;color:var(--muted);font-size:15px;line-height:1}
+.fol[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.bd summary{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:9px 0;cursor:pointer;list-style:none;min-width:0}
+.bd summary::-webkit-details-marker{display:none}
+.bd summary b{font-weight:600;min-width:0;overflow-wrap:anywhere}
+.bd summary .au{font:500 10px var(--mono);color:var(--muted);margin-left:5px}
+.bnote{color:var(--muted);font-size:13.5px;margin:0 0 10px}
+.bnote a{text-decoration:underline}
 
-footer{margin-top:36px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:13px;display:flex;flex-direction:column;gap:6px}
-footer code{font-family:var(--mono);font-size:12px}
-/* ---------- header chrome shared by both looks ---------- */
-header.top{position:relative;overflow:hidden}
-header.top > :not(.deco){position:relative;z-index:1}
-.topline{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px}
-.looks{display:inline-flex;align-items:center;gap:4px;font:500 12px var(--mono)}
-.looks-l{color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-right:4px}
-.looks button{font:500 13px var(--body);background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:4px;padding:4px 10px;cursor:pointer}
-.looks button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
-.brand{display:flex;align-items:center;gap:16px;margin:10px 0 12px}
-.brand h1{margin:0;min-width:0}
-.brand h1 .w{display:inline-block;white-space:nowrap}
-.logo{flex:none;display:none;height:auto}
-.deco{pointer-events:none}
-.rune-ring,.tape,.mountains,.grain{display:none}
+/* more */
+.morev{max-width:62ch}
+.morev p{margin:0 0 10px;color:var(--muted)}
+.morev b{color:var(--fg)}
+.wcard{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin-bottom:10px}
+.wcard h3{font-family:var(--display);font-weight:800;font-size:18px;text-transform:uppercase;margin:0 0 3px;letter-spacing:.03em}
+.wcard p{margin:0 0 6px}
+.wcard a{font-size:13px;color:var(--muted)}
+.looks{display:flex;gap:8px;flex-wrap:wrap}
 
-header.top > .upd{position:absolute;z-index:3;top:22px;right:0;width:30px;height:30px;padding:0;display:grid;place-items:center;
-  font:15px/1 var(--body);background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:50%;cursor:pointer;opacity:.75}
-header.top > .upd:hover{opacity:1;color:var(--fg)}
-.topline{padding-right:40px}
-.upd.spin{animation:mh-spin 1s linear infinite}
-.toast{position:fixed;left:50%;bottom:max(20px,env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);z-index:30;
+/* My Metal sheet */
+.sheet{position:fixed;inset:0;z-index:20;background:var(--bg);overflow-y:auto;overscroll-behavior:contain;
+  padding-top:env(safe-area-inset-top,0px);padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
+.sheet .head{position:sticky;top:0;z-index:1;background:var(--bg);border-bottom:1px solid var(--line)}
+.sheet .head .wrap{display:flex;align-items:center;gap:10px;height:56px}
+.sheet .head h2{font-family:var(--display);font-weight:800;font-size:22px;text-transform:uppercase;letter-spacing:.05em;margin:0;flex:1}
+.sheet .body{max-width:640px}
+.sheet h3{font-family:var(--mono);font-weight:500;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:22px 0 8px}
+.sheet .hint{color:var(--muted);font-size:13.5px;margin:6px 0 0}
+.intro{font-size:16px;margin:16px 0 0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:500 14px var(--body);background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:999px;padding:7px 13px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.sw{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--line);cursor:pointer}
+.sw input{appearance:none;flex:none;width:44px;height:26px;border-radius:13px;background:var(--line);position:relative;cursor:pointer;margin:0;transition:background .15s}
+.sw input::after{content:"";position:absolute;left:3px;top:3px;width:20px;height:20px;border-radius:50%;background:var(--muted);transition:transform .15s}
+.sw input:checked{background:var(--accent)}
+.sw input:checked::after{transform:translateX(18px);background:var(--accent-ink)}
+.fl{display:flex;flex-wrap:wrap;gap:6px}
+.fl button{display:inline-flex;gap:6px;align-items:center;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:4px 10px;cursor:pointer;font-size:13.5px}
+.sugg{display:grid;gap:4px;margin-top:6px}
+.sugg button{text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:7px 10px;cursor:pointer;font-size:14px}
+.sheet .foot{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.sheet .foot .btn{padding:11px 18px;font-size:15px}
+
+.toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);z-index:30;
   background:var(--fg);color:var(--bg);font:500 13px var(--body);padding:8px 14px;border-radius:6px;opacity:0;pointer-events:none;transition:.25s}
 .toast.on{opacity:1;transform:translate(-50%,0)}
-@media (display-mode:standalone){header.top{padding-top:calc(28px + env(safe-area-inset-top,0px))}
-  header.top > .upd{top:calc(22px + env(safe-area-inset-top,0px))}}
+footer{margin-top:30px;color:var(--muted);font-size:12.5px}
 
 /* ---------- DECOR: RUNESTONE ---------- */
-:root[data-look="runestone"] body{background:linear-gradient(180deg,#0f1713 0,var(--bg) 480px) var(--bg)}
-:root[data-look="runestone"] .logo-rune{display:block;width:clamp(64px,14vw,96px)}
-:root[data-look="runestone"] h1{font-size:clamp(30px,7.4vw,60px);letter-spacing:.06em;line-height:1.05}
-:root[data-look="runestone"] .eyebrow{color:#8fae9b}
-:root[data-look="runestone"] .rune-ring{display:block;position:absolute;z-index:0;right:-90px;top:-80px;width:380px;height:380px;opacity:.4}
-:root[data-look="runestone"] .rune-ring .spin{transform-origin:200px 200px;animation:mh-spin 120s linear infinite}
-@keyframes mh-spin{to{transform:rotate(360deg)}}
-:root[data-look="runestone"] .mountains{display:block;position:fixed;left:0;right:0;bottom:0;width:100%;height:120px;z-index:-1}
-:root[data-look="runestone"] .main h3{font-size:21px;letter-spacing:.04em}
-:root[data-look="runestone"] h2.month,:root[data-look="runestone"] .mhead h2,:root[data-look="runestone"] h2.sub{font-size:22px;letter-spacing:.06em}
-:root[data-look="runestone"] .rmain h3,:root[data-look="runestone"] .wcard h3{font-size:18px;letter-spacing:.04em}
-:root[data-look="runestone"] :is(.show,.rrow,.wcard){border-radius:0;
+:root[data-look="runestone"] body{background:linear-gradient(180deg,#0f1713 0,var(--bg) 420px) var(--bg)}
+:root[data-look="runestone"] :is(.show,.rcard,.wcard){border-radius:0;
   clip-path:polygon(0 8px,8px 0,calc(100% - 8px) 0,100% 8px,100% calc(100% - 8px),calc(100% - 8px) 100%,8px 100%,0 calc(100% - 8px))}
-:root[data-look="runestone"] .tab[aria-selected="true"]{background:transparent;color:var(--accent);border-color:var(--accent)}
-:root[data-look="runestone"] .tab{font-family:var(--display);font-weight:600;font-size:13px;letter-spacing:.06em}
 :root[data-look="runestone"] .badge.on-sale{background:transparent;border:1px solid var(--moss)}
-@media (max-width:600px){:root[data-look="runestone"] .rune-ring{opacity:.22;right:-150px}}
+.mountains{display:none}
+:root[data-look="runestone"] .mountains{display:block;position:fixed;left:0;right:0;bottom:0;width:100%;height:120px;z-index:-1;pointer-events:none}
 
 /* ---------- DECOR: XEROX GRIND ---------- */
-:root[data-look="xerox"] .logo-xerox{display:block;width:clamp(84px,18vw,130px)}
-:root[data-look="xerox"] h1{font-size:clamp(38px,9.4vw,80px);text-transform:uppercase;letter-spacing:-.02em;line-height:.9;font-weight:400}
-:root[data-look="xerox"] h1 .hunt{color:inherit}
-:root[data-look="xerox"] h1 .r{display:inline-block;padding:0 .04em;margin:0 .01em}
-:root[data-look="xerox"] h1 .r:nth-child(3n){background:var(--fg);color:var(--bg);transform:rotate(-3deg)}
-:root[data-look="xerox"] h1 .r:nth-child(4n){background:var(--bile);transform:rotate(2deg)}
-:root[data-look="xerox"] h1 .r:nth-child(5n){font-family:var(--mono);transform:rotate(4deg) translateY(-.05em)}
-:root[data-look="xerox"] .eyebrow{background:var(--fg);color:var(--bg);padding:2px 8px;transform:rotate(-1deg)}
-:root[data-look="xerox"] .tape{display:block;position:absolute;z-index:2;width:90px;height:22px;background:rgba(240,232,190,.75);box-shadow:0 1px 2px rgba(0,0,0,.2)}
-:root[data-look="xerox"] .grain{display:block;position:fixed;inset:0;z-index:20;opacity:.35;mix-blend-mode:multiply;
+.grain{display:none}
+:root[data-look="xerox"] .grain{display:block;position:fixed;inset:0;z-index:25;opacity:.3;mix-blend-mode:multiply;pointer-events:none;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1.6 1.15'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
-:root[data-look="xerox"] :is(.show,.rrow,.wcard,.gridwrap,.empty){border:2px solid var(--fg);border-radius:0;box-shadow:4px 4px 0 var(--fg)}
+:root[data-look="xerox"] .word{font-weight:400;letter-spacing:-.01em}
+:root[data-look="xerox"] :is(.show,.rcard,.wcard,.empty){border:2px solid var(--fg);border-radius:0;box-shadow:4px 4px 0 var(--fg)}
 :root[data-look="xerox"] .date{border-right:2px solid var(--fg)}
-:root[data-look="xerox"] :is(.tab,.chip,.nav,.search,.looks button,.btn,.tag){border-radius:0}
-:root[data-look="xerox"] .tab{border:2px solid var(--fg);color:var(--fg);text-transform:uppercase;font-size:13px}
-:root[data-look="xerox"] .tab[aria-selected="true"]{background:var(--fg);color:var(--bile)}
+:root[data-look="xerox"] :is(.chip,.nav,.search,.btn,.tag,.seg,.seg button,.pillbtn,.dcell){border-radius:0}
 :root[data-look="xerox"] .btn{background:var(--fg);color:var(--bile);text-transform:uppercase}
+:root[data-look="xerox"] .btn.ghost{background:transparent;color:var(--fg)}
 :root[data-look="xerox"] .badge{border:2px solid currentColor;background:transparent;font-weight:700;transform:rotate(-4deg)}
-:root[data-look="xerox"] .main h3,:root[data-look="xerox"] h2.month,:root[data-look="xerox"] .mhead h2,:root[data-look="xerox"] h2.sub,:root[data-look="xerox"] .rmain h3,:root[data-look="xerox"] .wcard h3{font-weight:400;letter-spacing:-.01em}
-:root[data-look="xerox"] .main h3{font-size:22px}
+:root[data-look="xerox"] :is(.main h3,h2.month,.mhead h2,h2.sub,.rcard h3,.wcard h3,.sheet .head h2,.dayhead){font-weight:400;letter-spacing:-.01em}
+:root[data-look="xerox"] nav.tabs{border-top:2px solid var(--fg)}
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 
-<div class="wrap">
-  <header class="top">
-    <svg class="deco rune-ring" viewBox="0 0 400 400" aria-hidden="true">
-      <defs><path id="rp" d="M200,200 m-150,0 a150,150 0 1,1 300,0 a150,150 0 1,1 -300,0"/></defs>
-      <g fill="none" stroke="#4f6f5c"><circle cx="200" cy="200" r="172" stroke-width="2"/><circle cx="200" cy="200" r="128" stroke-width="1"/><circle cx="200" cy="200" r="60" stroke-width="2"/>
-        <path stroke-width="3" d="M200 140V260M148 170L252 230M148 230L252 170"/><path stroke-width="2" d="M200 140l-14-14M200 140l14-14M200 260l-14 14M200 260l14 14"/></g>
-      <g class="spin"><text fill="#8fae9b" font-family="Noto Sans Runic" font-size="20" letter-spacing="3"><textPath href="#rp">ᛗᛖᛏᚨᛚ ᚺᚢᚾᛏᛖᚱ ᛫ ᚨᚢᛋᛏᚱᚨᛚᛁᚨ ᛫ ᛗᛖᛏᚨᛚ ᚺᚢᚾᛏᛖᚱ ᛫ ᚨᚢᛋᛏᚱᚨᛚᛁᚨ ᛫</textPath></text></g>
+<header class="top">
+  <div class="wrap">
+    <svg class="mark" viewBox="0 0 200 200" aria-hidden="true">
+      <g fill="none" stroke="var(--moss,#4f6f5c)"><circle cx="100" cy="100" r="90" stroke-width="6"/></g>
+      <g fill="none" stroke="var(--fg)" stroke-width="10" stroke-linecap="square"><path d="M74 58V142M126 58V142M74 60L126 96M126 60L74 96M74 110L126 130"/></g>
+      <g stroke="var(--accent)" stroke-width="7" fill="var(--accent)"><path d="M100 26V174"/><polygon points="90,42 100,22 110,42"/></g>
     </svg>
-    <span class="deco tape" style="left:-10px;top:14px;transform:rotate(-24deg)" aria-hidden="true"></span>
-    <button type="button" class="upd" id="upd" aria-label="Check for updates" title="Check for updates">⟳</button>
-    <div class="topline">
-      <div class="eyebrow">International heavy music · Australia</div>
-      <div class="looks" role="group" aria-label="Look">
-        <span class="looks-l">Look</span>
-        <button type="button" data-look-set="runestone">Runestone</button>
-        <button type="button" data-look-set="xerox">Xerox Grind</button>
-      </div>
-    </div>
-    <div class="brand">
-      <svg class="logo logo-rune" viewBox="0 0 200 200" aria-hidden="true">
-        <defs><path id="lr2" d="M100,100 m-72,0 a72,72 0 1,1 144,0 a72,72 0 1,1 -144,0"/></defs>
-        <g fill="none" stroke="#4f6f5c"><circle cx="100" cy="100" r="90" stroke-width="3"/><circle cx="100" cy="100" r="60" stroke-width="1.5"/></g>
-        <text fill="#8fae9b" font-family="Noto Sans Runic" font-size="15" letter-spacing="2.4"><textPath href="#lr2">ᛗᛖᛏᚨᛚ ᛫ ᚺᚢᚾᛏᛖᚱ ᛫ ᛗᛖᛏᚨᛚ ᛫ ᚺᚢᚾᛏᛖᚱ ᛫</textPath></text>
-        <g fill="none" stroke="#d9e1dd" stroke-width="5" stroke-linecap="square"><path d="M82 62V138M118 62V138M82 64L118 92M118 64L82 92M82 104L118 124"/></g>
-        <g stroke="#e0782f" stroke-width="3" fill="#e0782f"><path d="M100 34V166"/><polygon points="92,46 100,30 108,46"/><path d="M94 160l6 8 6-8M94 152l6 8 6-8" fill="none"/></g>
-      </svg>
-      <svg class="logo logo-xerox" viewBox="60 16 280 196" aria-hidden="true">
-        <defs><filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="4"/></filter></defs>
-        <g filter="url(#rough)" transform="rotate(-3 200 115)">
-          <rect x="70" y="26" width="260" height="176" fill="none" stroke="#121110" stroke-width="7"/>
-          <text x="200" y="146" text-anchor="middle" font-family="Archivo Black" font-size="104" letter-spacing="-4" fill="#121110">MH</text>
-          <g fill="none" stroke="#a3181b" stroke-width="4"><circle cx="200" cy="110" r="72"/><path d="M258,110L286,110M200,168L200,196M142,110L114,110M200,52L200,24"/></g>
-          <rect x="70" y="170" width="260" height="32" fill="#121110"/>
-          <text x="200" y="192" text-anchor="middle" font-family="Special Elite" font-size="17" letter-spacing="3" fill="#d9c81e">METAL HUNTER · AU</text></g>
-      </svg>
-      <h1 aria-label="Metal Hunter"><span class="w" aria-hidden="true"><span class="r">M</span><span class="r">e</span><span class="r">t</span><span class="r">a</span><span class="r">l</span></span> <span class="w hunt" aria-hidden="true"><span class="r">H</span><span class="r">u</span><span class="r">n</span><span class="r">t</span><span class="r">e</span><span class="r">r</span></span></h1>
-    </div>
-  </header>
-
-  <div class="bar">
-    <div class="tabs" role="tablist" id="tabs"></div>
-    <div class="filters" id="filters">
-      <span id="stateChips" style="display:contents"></span>
-      <span class="sep" aria-hidden="true"></span>
-      <span id="catChips" style="display:contents"></span>
-      <span class="sep" aria-hidden="true"></span>
-      <label class="chk"><input type="checkbox" id="hideSold"> Hide sold out</label>
-      <input class="search" id="q" type="search" placeholder="Search band, venue, city" aria-label="Search">
-    </div>
+    <h1 class="word">Metal <span>Hunter</span></h1>
+    <button type="button" class="iconbtn upd" id="upd" aria-label="Check for updates" title="Check for updates">⟳</button>
   </div>
+</header>
 
-  <main id="view"></main>
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+<main class="wrap" id="view"></main>
 
-  <footer>
-    <div id="stamp"></div>
-  </footer>
-</div>
+<nav class="tabs" aria-label="Sections"><div class="in" role="tablist" id="tabs"></div></nav>
 
-<svg class="deco mountains" viewBox="0 0 600 120" preserveAspectRatio="none" aria-hidden="true">
+<section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
+  <div class="head"><div class="wrap"><h2 id="sheetTitle">My Metal</h2><button type="button" class="btn" data-act="done">Done</button></div></div>
+  <div class="wrap body" id="sheetBody"></div>
+</section>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<svg class="mountains" viewBox="0 0 600 120" preserveAspectRatio="none" aria-hidden="true">
   <path fill="#0d1411" d="M0 120V70l30-18 18 22 26-40 22 30 30-46 26 44 20-24 30 34 28-52 26 40 24-20 30 36 26-48 30 44 22-24 26 30 30-50 26 46 28-28 24 30 30-44 22 34 28-22 26 28V120Z"/>
   <path fill="#070a09" d="M0 120V92l40-14 30 18 40-22 44 20 40-16 50 18 40-20 46 16 44-18 40 20 50-16 40 18 46-20 50 22V120Z"/>
 </svg>
-<div class="deco grain" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
 
-<script>
-/* Look switcher */
-(()=>{
-  const root=document.documentElement,btns=document.querySelectorAll("[data-look-set]");
-  const tc=document.querySelector('meta[name="theme-color"]');
-  const sync=()=>{btns.forEach(b=>b.setAttribute("aria-pressed",b.dataset.lookSet===root.dataset.look));
-    tc.content=root.dataset.look==="xerox"?"#e6e1d4":"#0a0e0c"};
-  btns.forEach(b=>b.addEventListener("click",()=>{root.dataset.look=b.dataset.lookSet;try{localStorage.setItem("mh-look",b.dataset.lookSet)}catch(e){}sync()}));
-  sync();
-})();
-</script>
 <script>
 /* Check for updates: compares the live site and data on GitHub with what this copy is showing, and reloads if anything changed.
    Runs on the ⟳ button, and quietly when the app is reopened after 30 minutes away. */
@@ -329,6 +286,7 @@ header.top > .upd:hover{opacity:1;color:var(--fg)}
   const FILES=[location.pathname,"data/events.json","data/bands.json"];
   let last=Date.now(),busy=false,tt;
   const say=t=>{toast.textContent=t;toast.classList.add("on");clearTimeout(tt);tt=setTimeout(()=>toast.classList.remove("on"),3200)};
+  window.MH_SAY=say;
   const shown=async f=>{try{const c=await caches.match(f,{ignoreSearch:true});return c?await c.text():null}catch(e){return null}};
   async function check(quiet){
     if(busy)return;
@@ -346,6 +304,7 @@ header.top > .upd:hover{opacity:1;color:var(--fg)}
     }catch(e){if(!quiet)say("Offline. Showing the saved copy.")}
     finally{busy=false;btn.classList.remove("spin")}
   }
+  window.MH_CHECK=()=>check(false);
   btn.addEventListener("click",()=>check(false));
   document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"&&Date.now()-last>30*60e3)check(true)});
   try{if(sessionStorage.getItem("mh-updated")){sessionStorage.removeItem("mh-updated");setTimeout(()=>say("Updated to the latest version"),400)}}catch(e){}
@@ -357,18 +316,28 @@ let EV,BD;
 try{
   [EV,BD]=await Promise.all([fetch("data/events.json").then(r=>r.json()),fetch("data/bands.json").then(r=>r.json())]);
 }catch(e){
-  document.querySelector("#view").innerHTML='<div class="empty">Could not load data/*.json. Serve the folder with a web server (python3 -m http.server) rather than opening the file directly.</div>';
+  document.querySelector("#view").innerHTML='<div class="empty">Could not load the show list. Check your connection and try again.</div>';
   return;
 }
-window.MH_REFRESHED=(d=>d.getDate()+" "+["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][d.getMonth()])(new Date(EV.refreshed+"T00:00"));
-const REFRESHED=EV.refreshed,TOURS=EV.tours,SALES=EV.sales,WATCH=EV.watch,GROUPS=BD.groups,BANDS=BD.bands;
+const MON3=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+window.MH_REFRESHED=(d=>d.getDate()+" "+MON3[d.getMonth()])(new Date(EV.refreshed+"T00:00"));
+const REFRESHED=EV.refreshed,TOURS=EV.tours,SALES=EV.sales,WATCH=EV.watch,GROUPS=BD.groups,BANDS=BD.bands,BUCKETS=BD.buckets;
+const BUCKET=Object.fromEntries(BUCKETS);
+const SHORT={heavy:"Heavy",extreme:"Death & black",core:"Metalcore",prog:"Prog",doom:"Doom & stoner",hc:"Hardcore & emo",punk:"Punk",alt:"Alt & hard rock",folk:"Folk & pagan"};
+const GROUP_BUCKET=Object.fromEntries(GROUPS.map(g=>[g[0],g[2]]));
+
 /* ---------- STATE ---------- */
-const STATES=["NSW","VIC","QLD","SA","WA","ACT"];
-const CATS=[["core","Core metal"],["adjacent","Heavy-adjacent"],["folk","Folk crossover"],["punk","Punk"],["aus","Australian"]];
-const S={tab:"agenda",states:new Set(),cats:new Set(CATS.map(c=>c[0])),hideSold:false,q:"",month:null,picked:null,bq:"",bst:""};
-try{const saved=JSON.parse(localStorage.getItem("amc2")||"{}");
-  if(saved.states)S.states=new Set(saved.states);if(saved.cats){S.cats=new Set(saved.cats);if(!saved.v)S.cats.add("aus");if((saved.v||0)<3)S.cats.add("punk")}S.hideSold=!!saved.hideSold;}catch(e){}
-function persist(){try{localStorage.setItem("amc2",JSON.stringify({v:3,states:[...S.states],cats:[...S.cats],hideSold:S.hideSold}))}catch(e){}}
+const STATES=["NSW","VIC","QLD","SA","WA","TAS","ACT","NT"];
+/* My Metal: what this person is into. Empty genres or states means "all". */
+const ME={mode:"mine",genres:[],states:[],follows:[],aus:true,hideSold:false,perDate:false,setup:false};
+try{
+  const saved=JSON.parse(localStorage.getItem("mh-me")||"null");
+  if(saved)Object.assign(ME,saved);
+  else{const old=JSON.parse(localStorage.getItem("amc2")||"{}");if(old.states)ME.states=old.states.filter(s=>STATES.includes(s));}
+}catch(e){}
+const save=()=>{try{localStorage.setItem("mh-me",JSON.stringify(ME))}catch(e){}};
+const S={tab:"shows",q:"",month:null,day:null,bq:"",bst:""};
+try{const t=new URLSearchParams(location.search).get("tab");if(["shows","calendar","presales","bands","more"].includes(t))S.tab=t}catch(e){}
 
 /* ---------- HELPERS ---------- */
 const $=s=>document.querySelector(s);
@@ -380,181 +349,292 @@ const MONTHS=["January","February","March","April","May","June","July","August",
 const DOW=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 const now=new Date();const todayKey=key(now);
 const tourById=Object.fromEntries(TOURS.map(t=>[t.id,t]));
+const lc=s=>s.toLowerCase();
+const billed=t=>(t.artist+","+(t.support||"")).split(/\s*(?:,|\+|\/|;|\band\b|\(|\))\s*/).map(x=>lc(x.trim())).filter(Boolean);
+TOURS.forEach(t=>{t._b=new Set(billed(t))});
+const isFest=t=>/festival|cruise/i.test(t.genre)||/fest\b|festival|cruise/i.test(t.artist);
+const follows=()=>new Set(ME.follows.map(lc));
+const followedIn=t=>{const f=follows();return [...t._b].some(n=>f.has(n))};
 
 const SHOWS=TOURS.flatMap(t=>t.shows.map((s,i)=>({...s,id:t.id+"-"+i,tour:t,status:s.status||t.status})))
   .filter(s=>s.d>=todayKey).sort((a,b)=>a.d.localeCompare(b.d)||a.tour.artist.localeCompare(b.tour.artist));
+const onCalendar=new Set(SHOWS.flatMap(s=>[...s.tour._b]));
 
-function visible(s){
-  if(S.states.size&&!S.states.has(s.st))return false;
-  if(!S.cats.has(s.tour.tag))return false;
-  if(S.hideSold&&s.status==="sold-out")return false;
-  if(S.q){const h=(s.tour.artist+" "+s.tour.support+" "+s.venue+" "+s.city+" "+s.tour.genre).toLowerCase();
-    if(!h.includes(S.q.toLowerCase()))return false;}
+function matchesQ(s){
+  if(!S.q)return true;
+  return lc(s.tour.artist+" "+s.tour.support+" "+s.venue+" "+s.city+" "+s.st+" "+s.tour.genre).includes(lc(S.q));
+}
+function inMine(s){
+  const t=s.tour;
+  if(ME.states.length&&!ME.states.includes(s.st))return false;
+  if(ME.hideSold&&s.status==="sold-out")return false;
+  if(!ME.aus&&t.aus&&!followedIn(t))return false;
+  if(ME.genres.length&&!t.gb.some(g=>ME.genres.includes(g))&&!followedIn(t))return false;
   return true;
 }
-function calUrl(s){
-  const d=ymd(s.d),n=new Date(d.getFullYear(),d.getMonth(),d.getDate()+1);
-  const f=x=>x.getFullYear()+pad(x.getMonth()+1)+pad(x.getDate());
-  const p=new URLSearchParams({action:"TEMPLATE",text:s.tour.artist+" – "+s.city,dates:f(d)+"/"+f(n),
-    location:s.venue+", "+s.city+" "+s.st,details:(s.tour.support?"With "+s.tour.support+"\n":"")+(s.tour.sale||"")+"\nTickets: "+(s.url||s.tour.ticketUrl)});
-  return "https://calendar.google.com/calendar/render?"+p.toString();
-}
-const BADGE={"on-sale":"On sale","upcoming":"Sale pending","sold-out":"Sold out"};
+const visible=s=>matchesQ(s)&&(ME.mode==="all"||inMine(s));
 
-function showRow(s){
+function mineSummary(){
+  const g=ME.genres.length?(ME.genres.length<=2?ME.genres.map(k=>SHORT[k]).join(", "):ME.genres.length+" genres"):"All genres";
+  const st=ME.states.length?ME.states.join(", "):"All of Australia";
+  const f=ME.follows.length?` · ${ME.follows.length} band${ME.follows.length>1?"s":""}`:"";
+  return `${g} · ${st}${f}`;
+}
+
+function icsFor(s){
+  const t=s.tour,d=ymd(s.d),n=new Date(d.getFullYear(),d.getMonth(),d.getDate()+1);
+  const f=x=>x.getFullYear()+pad(x.getMonth()+1)+pad(x.getDate());
+  const e=v=>String(v||"").replace(/[\\;,]/g,m=>"\\"+m).replace(/\n/g,"\\n");
+  return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Metal Hunter//EN","BEGIN:VEVENT","UID:"+s.id+"@metalhunter",
+    "DTSTAMP:"+f(now)+"T000000Z","DTSTART;VALUE=DATE:"+f(d),"DTEND;VALUE=DATE:"+f(n),
+    "SUMMARY:"+e(t.artist+" – "+s.city),"LOCATION:"+e(s.venue+", "+s.city+" "+s.st),
+    "DESCRIPTION:"+e((t.support?"With "+t.support+"\n":"")+(t.sale||"")+"\nTickets: "+(s.url||t.ticketUrl)),
+    "END:VEVENT","END:VCALENDAR"].join("\r\n");
+}
+function saveIcs(id){
+  const s=SHOWS.find(x=>x.id===id);if(!s)return;
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(new Blob([icsFor(s)],{type:"text/calendar"}));
+  a.download=(s.tour.artist+" "+s.city).replace(/[^\w]+/g,"-")+".ics";
+  document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1000);
+}
+const BADGE={"on-sale":"On sale","upcoming":"Tickets soon","sold-out":"Sold out"};
+const fmtDay=d=>`${DOW[d.getDay()]} ${d.getDate()} ${MON3[d.getMonth()]}`;
+
+/* One card. `others` are the tour's other visible dates, folded under "more dates". */
+function card(s,others=[]){
   const d=ymd(s.d),t=s.tour;
   const url=s.url||t.ticketUrl,label=s.label||t.ticketLabel;
-  return `<article class="show" id="${esc(s.id)}">
-    <div class="date"><span class="dow">${DOW[d.getDay()]}</span><span class="day">${d.getDate()}</span><span class="mon">${MONTHS[d.getMonth()].slice(0,3)}</span></div>
+  const genre=t.gb.length>2?"Festival":SHORT[t.gb[0]];
+  return `<article class="show">
+    <div class="date"><span class="dow">${DOW[d.getDay()]}</span><span class="day">${d.getDate()}</span><span class="mon">${MON3[d.getMonth()]}</span></div>
     <div class="main">
-      <h3>${esc(t.artist)}</h3>
-      ${t.support?`<p class="sup">${t.id==="goodthings"||t.id==="froth"?"":"With "}${esc(t.support)}</p>`:""}
+      <h3>${esc(t.artist)}${followedIn(t)?'<span class="star" title="You follow a band on this bill">★</span>':""}</h3>
+      ${t.support?`<p class="sup">${isFest(t)?"":"With "}${esc(t.support)}</p>`:""}
       <p class="where">${esc(s.venue)} · ${esc(s.city)}, ${esc(s.st)}</p>
       <p class="sale">${esc(t.sale)}</p>
-      <div class="tags"><span class="tag">${esc(t.genre)}</span>${t.tag==="adjacent"?'<span class="tag">Heavy-adjacent</span>':""}${t.tag==="folk"?'<span class="tag">Folk crossover</span>':""}${t.tag==="punk"?'<span class="tag">Punk</span>':""}${t.tag==="aus"?'<span class="tag">Australian</span>':""}${t.conf==="verify"?'<span class="tag verify">Verify</span>':""}${t.note?`<details class="more"><summary aria-label="More info">i</summary><p class="note">${esc(t.note)}</p></details>`:""}</div>
+      <div class="tags"><span class="tag">${esc(genre)}</span>${t.aus?'<span class="tag">Aussie</span>':""}${t.conf==="verify"?'<span class="tag unconf">Unconfirmed</span>':""}
+        <details class="more"><summary aria-label="More info">i</summary>${t.note?`<p>${esc(t.note)}</p>`:""}<p>${esc(t.genre)}. <a href="${esc(t.src)}" target="_blank" rel="noopener">Where this came from</a></p></details></div>
+      ${others.length?`<details class="dates"><summary>+ ${others.length} more date${others.length>1?"s":""}</summary><ul>${others.map(o=>
+        `<li><b>${fmtDay(ymd(o.d))}</b><span>${esc(o.city)}, ${esc(o.st)} · ${esc(o.venue)}</span>${o.status==="sold-out"?'<span class="badge sold-out">Sold out</span>':""}</li>`).join("")}</ul></details>`:""}
     </div>
     <div class="act">
       <span class="badge ${s.status}">${BADGE[s.status]}</span>
-      <a class="btn" href="${esc(url)}" target="_blank" rel="noopener">${esc(label)} ↗</a>
-      <div class="links"><a href="${esc(calUrl(s))}" target="_blank" rel="noopener">Add to calendar</a><a href="${esc(t.src)}" target="_blank" rel="noopener">Source</a></div>
+      <a class="btn" href="${esc(url)}" target="_blank" rel="noopener">Tickets<small>${esc(label)}</small></a>
+      <button type="button" class="lnk" data-ics="${esc(s.id)}">Add to calendar</button>
     </div>
   </article>`;
 }
 
 /* ---------- VIEWS ---------- */
-function viewAgenda(){
+function feedHead(n){
+  return `<div class="ctrl">
+      <div class="seg" role="group" aria-label="Which shows">
+        <button type="button" data-mode="mine" aria-pressed="${ME.mode==="mine"}">My Metal</button>
+        <button type="button" data-mode="all" aria-pressed="${ME.mode==="all"}">All shows</button>
+      </div>
+      <button type="button" class="pillbtn" data-act="edit">⚙ Edit</button>
+    </div>
+    <p class="summary">${ME.mode==="mine"?esc(mineSummary())+" · ":""}${n} ${ME.perDate?"show":"tour"}${n===1?"":"s"}</p>
+    <input class="search" id="q" type="search" placeholder="Search band, venue or city" aria-label="Search" value="${esc(S.q)}">`;
+}
+function viewShows(){
   const list=SHOWS.filter(visible);
-  if(!list.length)return `<div class="empty">No shows match these filters.</div>`;
-  let html="",cur="";
-  list.forEach(s=>{
+  let items;
+  if(ME.perDate)items=list.map(s=>({s,others:[]}));
+  else{
+    const by=new Map();
+    list.forEach(s=>{const k=s.tour.id;if(!by.has(k))by.set(k,{s,others:[]});else by.get(k).others.push(s)});
+    items=[...by.values()];
+  }
+  let html=feedHead(items.length);
+  if(!items.length)return html+`<div class="empty" style="margin-top:14px">No shows match.${ME.mode==="mine"?`<br><button type="button" class="btn ghost" data-mode="all">Show all shows</button>`:""}</div>`;
+  let cur="";
+  items.forEach(({s,others})=>{
     const d=ymd(s.d),m=MONTHS[d.getMonth()]+" "+d.getFullYear();
     if(m!==cur){if(cur)html+="</div>";cur=m;
-      const c=list.filter(x=>{const y=ymd(x.d);return MONTHS[y.getMonth()]+" "+y.getFullYear()===m}).length;
-      html+=`<h2 class="month">${m} <small>${c} show${c>1?"s":""}</small></h2><div class="list">`;}
-    html+=showRow(s);
+      const c=items.filter(x=>{const y=ymd(x.s.d);return MONTHS[y.getMonth()]+" "+y.getFullYear()===m}).length;
+      html+=`<h2 class="month">${m} <small>${c}</small></h2><div class="list">`;}
+    html+=card(s,others);
   });
-  return html+"</div>";
+  return html+`</div><footer>Updated ${fmtDay(ymd(REFRESHED))} ${ymd(REFRESHED).getFullYear()}</footer>`;
 }
 
-function viewMonth(){
+function viewCalendar(){
+  const list=SHOWS.filter(visible);
   const months=[...new Set(SHOWS.map(s=>s.d.slice(0,7)))].sort();
   if(!months.length)return `<div class="empty">No upcoming shows.</div>`;
   if(!S.month||!months.includes(S.month))S.month=months[0];
-  const idx=months.indexOf(S.month);
-  const [y,m]=S.month.split("-").map(Number);
+  const idx=months.indexOf(S.month),[y,m]=S.month.split("-").map(Number);
   const first=new Date(y,m-1,1),offset=(first.getDay()+6)%7,days=new Date(y,m,0).getDate();
-  const byDay={};SHOWS.filter(visible).forEach(s=>{(byDay[s.d]=byDay[s.d]||[]).push(s)});
-  let cells=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map(x=>`<div class="dh">${x}</div>`).join("");
-  for(let i=0;i<offset;i++)cells+=`<div class="cell out"></div>`;
+  const byDay={};list.forEach(s=>{(byDay[s.d]=byDay[s.d]||[]).push(s)});
+  if(!S.day||S.day.slice(0,7)!==S.month||!byDay[S.day])S.day=Object.keys(byDay).filter(k=>k.startsWith(S.month)).sort()[0]||null;
+  let cells=["M","T","W","T","F","S","S"].map(x=>`<div class="dh">${x}</div>`).join("");
+  for(let i=0;i<offset;i++)cells+=`<div class="dcell out"></div>`;
   for(let d=1;d<=days;d++){
-    const k=y+"-"+pad(m)+"-"+pad(d);
-    cells+=`<div class="cell"><span class="dn">${d}</span>${(byDay[k]||[]).map(s=>
-      `<button class="mchip ${s.tour.tag!=="core"?"adj":""} ${S.picked===s.id?"sel":""}" data-pick="${esc(s.id)}" title="${esc(s.tour.artist+" – "+s.city)}">${esc(s.tour.artist)}</button>`).join("")}</div>`;
+    const k=y+"-"+pad(m)+"-"+pad(d),n=(byDay[k]||[]).length;
+    cells+=n?`<button type="button" class="dcell${k===todayKey?" today":""}" data-day="${k}" aria-pressed="${S.day===k}" aria-label="${d} ${MONTHS[m-1]}, ${n} show${n>1?"s":""}">${d}<span class="dots">${"<i></i>".repeat(Math.min(n,3))}</span></button>`
+      :`<div class="dcell none${k===todayKey?" today":""}">${d}<span class="dots"></span></div>`;
   }
-  const tail=(7-((offset+days)%7))%7;for(let i=0;i<tail;i++)cells+=`<div class="cell out"></div>`;
-  const picked=SHOWS.find(s=>s.id===S.picked);
-  return `<div class="mhead"><button class="nav" data-m="-1" ${idx===0?"disabled":""} aria-label="Previous month">←</button>
-    <h2>${MONTHS[m-1]} ${y}</h2><button class="nav" data-m="1" ${idx===months.length-1?"disabled":""} aria-label="Next month">→</button></div>
-    <div class="gridwrap"><div class="mgrid">${cells}</div></div>
-    <div class="picked">${picked?showRow(picked):'<div class="empty">Select a show in the grid to see its tickets.</div>'}</div>`;
+  const picked=S.day?byDay[S.day]:null;
+  return `<div class="ctrl" style="margin-bottom:12px"><div class="seg" role="group" aria-label="Which shows">
+      <button type="button" data-mode="mine" aria-pressed="${ME.mode==="mine"}">My Metal</button>
+      <button type="button" data-mode="all" aria-pressed="${ME.mode==="all"}">All shows</button></div>
+      <button type="button" class="pillbtn" data-act="edit">⚙ Edit</button></div>
+    <div class="mhead"><button type="button" class="nav" data-m="-1" ${idx===0?"disabled":""} aria-label="Previous month">←</button>
+    <h2>${MONTHS[m-1]} ${y}</h2><button type="button" class="nav" data-m="1" ${idx===months.length-1?"disabled":""} aria-label="Next month">→</button></div>
+    <div class="cal">${cells}</div>
+    ${picked?`<h3 class="dayhead">${fmtDay(ymd(S.day))}</h3><div class="list">${picked.map(s=>card(s)).join("")}</div>`
+      :`<div class="empty" style="margin-top:14px">No shows this month${ME.mode==="mine"?" in My Metal":""}.</div>`}`;
 }
 
-function viewRadar(){
-  const rows=SALES.map(x=>({...x,t:tourById[x.tour],when:new Date(x.at)}));
-  const soon=rows.filter(r=>r.when>=now).sort((a,b)=>a.when-b.when);
-  const recent=rows.filter(r=>r.when<now&&now-r.when<14*864e5).sort((a,b)=>b.when-a.when);
-  const fmt=d=>`<b>${DOW[d.getDay()]} ${d.getDate()} ${MONTHS[d.getMonth()].slice(0,3)}</b>${d.toLocaleTimeString("en-AU",{hour:"numeric",minute:"2-digit",timeZone:"Australia/Sydney"})} Sydney`;
-  const row=r=>`<div class="rrow"><div class="rwhen">${fmt(r.when)}</div>
-    <div class="rmain"><h3>${esc(r.t.artist)}</h3><p><span class="kind">${esc(r.kind)}</span>${esc(r.text)}</p></div>
-    <a class="btn" href="${esc(r.t.ticketUrl)}" target="_blank" rel="noopener">${esc(r.t.ticketLabel)} ↗</a></div>`;
-  return `<h2 class="sub" style="margin-top:0">Opening soon</h2><div class="radar">${soon.length?soon.map(row).join(""):'<div class="empty">No upcoming sales in the data. Refresh to check new announcements.</div>'}</div>
-    <h2 class="sub">Opened in the last two weeks</h2><div class="radar">${recent.length?recent.map(row).join(""):'<div class="empty">Nothing recent.</div>'}</div>`;
+function viewPresales(){
+  const tourOk=t=>ME.mode==="all"||SHOWS.some(s=>s.tour===t&&inMine(s));
+  const rows=SALES.map(x=>({...x,t:tourById[x.tour],when:new Date(x.at)})).filter(r=>r.t&&tourOk(r.t));
+  const group=list=>{const by=new Map();list.forEach(r=>{if(!by.has(r.t.id))by.set(r.t.id,[]);by.get(r.t.id).push(r)});return [...by.values()]};
+  const fmt=d=>`<b>${d.toLocaleDateString("en-AU",{weekday:"short",day:"numeric",month:"short",timeZone:"Australia/Sydney"}).replace(",","")}</b>${d.toLocaleTimeString("en-AU",{hour:"numeric",minute:"2-digit",timeZone:"Australia/Sydney"})} Syd`;
+  const box=rs=>{const t=rs[0].t;return `<div class="rcard"><h3>${esc(t.artist)}${followedIn(t)?'<span class="star">★</span>':""}</h3>
+    ${rs.map(r=>`<div class="rrow"><div class="rwhen">${fmt(r.when)}</div><div><span class="kind">${esc(r.kind)}</span>${esc(r.text)}</div></div>`).join("")}
+    <a class="btn" href="${esc(t.ticketUrl)}" target="_blank" rel="noopener">Tickets<small>${esc(t.ticketLabel)}</small></a></div>`};
+  const soon=group(rows.filter(r=>r.when>=now).sort((a,b)=>a.when-b.when));
+  const recent=group(rows.filter(r=>r.when<now&&now-r.when<14*864e5).sort((a,b)=>b.when-a.when));
+  return `<div class="ctrl"><div class="seg" role="group" aria-label="Which shows">
+      <button type="button" data-mode="mine" aria-pressed="${ME.mode==="mine"}">My Metal</button>
+      <button type="button" data-mode="all" aria-pressed="${ME.mode==="all"}">All shows</button></div></div>
+    <h2 class="sub">Tickets opening soon</h2><div class="radar">${soon.length?soon.map(box).join(""):'<div class="empty">No presales or on-sales coming up.</div>'}</div>
+    ${recent.length?`<h2 class="sub">Opened in the last two weeks</h2><div class="radar">${recent.map(box).join("")}</div>`:""}`;
 }
 
-const BPILL={elsewhere:["info","Touring elsewhere"],none:["muted","Nothing announced"],au:["muted","Australian act"],signal:["upcoming","Watch"],unchecked:["muted","Not checked yet"]};
-const BFILT=[["","All"],["cal","On calendar"],["signal","Watch"],["elsewhere","Touring elsewhere"],["none","Nothing announced"],["aus","Australian bands"],["intl","International bands"]];
-function bandBits(){
-  const billed=new Set(SHOWS.flatMap(s=>(s.tour.artist+","+(s.tour.support||"")).split(/\s*(?:,|\+|\/|;|\band\b|\(|\))\s*/).map(x=>x.trim().toLowerCase())));
-  return n=>billed.has(n.toLowerCase());
-}
+const BPILL={elsewhere:["info","Touring overseas"],signal:["upcoming","Rumoured"]};
+const BFILT=[["","All bands"],["fol","Following"],["cal","On the calendar"],["signal","Rumoured"],["elsewhere","Touring overseas"],["aus","Aussie bands"]];
 function bandList(){
-  const onCal=bandBits(),q=S.bq.trim().toLowerCase(),f=S.bst;
-  const keep=b=>(!q||b.n.toLowerCase().includes(q))&&(!f||(f==="cal"?onCal(b.n):f==="aus"?b.aus:f==="intl"?!b.aus:!onCal(b.n)&&b.st===f));
-  const html=GROUPS.map(([k,l])=>{const list=BANDS.filter(b=>b.g===k&&keep(b));if(!list.length)return "";
-    return `<h2 class="sub">${l}</h2><div class="bgrid">${list.map(b=>{
-    const p=onCal(b.n)?["on-sale","On calendar"]:BPILL[b.st];
-    const head=`<b>${esc(b.n)}</b><span class="badge ${p[0]}">${p[1]}</span>`;
-    return b.note||b.src?`<details class="bd"><summary class="brow">${head}</summary><p class="bnote">${esc(b.note||"")}${b.src?` <a href="${esc(b.src)}" target="_blank" rel="noopener">Source</a>`:""}</p></details>`
-      :`<div class="brow">${head}</div>`}).join("")}</div>`}).join("");
+  const q=lc(S.bq.trim()),f=S.bst,fs=follows();
+  const keep=b=>(!q||lc(b.n).includes(q))&&(!f||(f==="fol"?fs.has(lc(b.n)):f==="cal"?onCalendar.has(lc(b.n)):f==="aus"?b.aus:b.st===f&&!onCalendar.has(lc(b.n))));
+  const html=BUCKETS.map(([k,l])=>{const list=BANDS.filter(b=>GROUP_BUCKET[b.g]===k&&keep(b)).sort((a,b)=>a.n.localeCompare(b.n));if(!list.length)return "";
+    return `<h2 class="sub">${esc(l)} <small class="muted" style="font:400 12px var(--mono)">${list.length}</small></h2><div class="bgrid">${list.map(b=>{
+      const p=onCalendar.has(lc(b.n))?["on-sale","On calendar"]:BPILL[b.st];
+      const on=fs.has(lc(b.n));
+      return `<div class="brow"><button type="button" class="fol" data-follow="${esc(b.n)}" aria-pressed="${on}" aria-label="${on?"Unfollow":"Follow"} ${esc(b.n)}">${on?"★":"☆"}</button>
+        <details class="bd"><summary><b>${esc(b.n)}${b.aus?'<span class="au">AU</span>':""}</b>${p?`<span class="badge ${p[0]}">${p[1]}</span>`:""}</summary>
+        <p class="bnote">${esc(b.note||"No news yet.")}${b.src?` <a href="${esc(b.src)}" target="_blank" rel="noopener">Source</a>`:""}</p></details></div>`}).join("")}</div>`}).join("");
   return html||'<div class="empty" style="margin-top:14px">No bands match.</div>';
 }
 function viewBands(){
-  const onCal=bandBits(),total=BANDS.length,cal=BANDS.filter(b=>onCal(b.n)).length,aus=BANDS.filter(b=>b.aus).length;
-  return `<p class="count">${total} bands (${aus} Australian) · ${cal} on the calendar</p>
+  return `<p class="count">Follow bands to see their shows in My Metal. ${ME.follows.length?`You follow ${ME.follows.length}.`:""}</p>
   <div class="btools"><input class="search" id="bq" type="search" placeholder="Find a band" aria-label="Find a band" value="${esc(S.bq)}">
   <select class="search bsel" id="bst" aria-label="Show">${BFILT.map(([k,l])=>`<option value="${k}"${S.bst===k?" selected":""}>${l}</option>`).join("")}</select></div>
   <div id="blist">${bandList()}</div>`;
 }
 
-function viewWatch(){
-  const partial=TOURS.filter(t=>t.shows.length===0||/not in my sources|Only .* in my sources|Venues not found|date was cut/i.test(t.note||"")).map(t=>
-    ({title:t.artist,text:t.note,url:t.ticketUrl,label:t.ticketLabel}));
-  const cards=[...partial,...WATCH];
-  return `<div class="watch">${cards.map(c=>`<div class="wcard"><h3>${esc(c.title)}</h3><p>${esc(c.text)}</p>
-    <div class="links"><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.label)} ↗</a></div></div>`).join("")}</div>`;
-}
-
-function viewInfo(){
-  const d=ymd(REFRESHED);
-  return `<div class="info">
-    <h2 class="sub" style="margin-top:0">What's on here</h2>
-    <p>Overseas metal acts touring Australia, from stadiums to small clubs, with official ticket links and the dates tickets open.</p>
-    <p>Heavy-adjacent (hard rock, stoner) and folk crossover acts are included, plus punk (Celtic, street, '77, skate and horror punk). Switch them off with the filters on the Agenda.</p>
-    <p>Australian bands are included for national tours and festival slots. Switch them off with the Australian filter.</p>
+function viewMore(){
+  const d=ymd(REFRESHED),look=document.documentElement.dataset.look;
+  return `<div class="morev">
+    <h2 class="sub" style="margin-top:4px">My Metal</h2>
+    <p>${esc(mineSummary())}</p>
+    <button type="button" class="btn" data-act="edit">Edit My Metal</button>
+    ${WATCH.length?`<h2 class="sub">Rumoured</h2>${WATCH.map(w=>`<div class="wcard"><h3>${esc(w.title)}</h3><p>${esc(w.text)}</p><a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.label)} ↗</a></div>`).join("")}`:""}
+    <h2 class="sub">Look</h2>
+    <div class="looks"><button type="button" class="chip" data-look-set="runestone" aria-pressed="${look==="runestone"}">Runestone</button><button type="button" class="chip" data-look-set="xerox" aria-pressed="${look==="xerox"}">Xerox Grind</button></div>
+    <h2 class="sub">About</h2>
+    <p>International heavy music touring Australia, from stadiums to small clubs, plus Australian bands' national tours and festivals. Every show links to the official ticket seller.</p>
+    <p><b>Unconfirmed</b> means the sources disagree or only some dates are out. Check the ticket link before you buy.</p>
     <p>Not included: pop-punk, one-off local pub gigs and New Zealand dates.</p>
-    <h2 class="sub">Labels</h2>
-    <p><b>Verify</b>: rests on one source, or the sources disagree. Check the ticket link before you buy.</p>
-    <p><b>Sale pending</b>: announced, tickets not on sale yet. The On-sale radar has the times.</p>
-    <p><b>Not checked yet</b> (Bands): not searched for Australian dates yet. "Nothing announced" means nothing was found, not that the band won't tour.</p>
-    <h2 class="sub">Install the app</h2>
-    <p><b>iPhone</b>: open in Safari, tap Share, then Add to Home Screen.</p>
-    <p><b>Android</b>: open in Chrome, tap the menu, then Install app.</p>
-    <p>It updates itself when you open it. The ⟳ button top right checks for a new version and new tour data straight away.</p>
-    <h2 class="sub">Where it comes from</h2>
-    <p>Promoter pages, official ticketers and music news, gathered by web search. It is a snapshot, not a live feed. Last refreshed ${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}: ${SHOWS.length} upcoming shows from ${TOURS.length} tours and festivals, ${BANDS.length} bands tracked.</p>
+    <h2 class="sub">Install</h2>
+    <p><b>iPhone</b>: open in Safari, tap Share, then Add to Home Screen. <b>Android</b>: open in Chrome, tap the menu, then Install app.</p>
+    <p>Shows updated ${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}: ${SHOWS.length} upcoming shows from ${TOURS.length} tours and festivals.</p>
+    <button type="button" class="btn ghost" data-act="check">Check for updates</button>
   </div>`;
 }
 
+/* ---------- MY METAL SHEET ---------- */
+let draft=null,fq="";
+function sheetBody(first){
+  const fs=draft.follows,q=lc(fq.trim());
+  const sugg=q.length>1?BANDS.filter(b=>lc(b.n).includes(q)&&!fs.map(lc).includes(lc(b.n))).slice(0,6):[];
+  return `${first?`<p class="intro">Pick what you're into and Metal Hunter shows you just those tours. You can change this any time.</p>`:""}
+    <h3>Genres</h3>
+    <div class="chips">${BUCKETS.map(([k,l])=>`<button type="button" class="chip" data-g="${k}" aria-pressed="${draft.genres.includes(k)}">${esc(l)}</button>`).join("")}</div>
+    <p class="hint">Pick none to see every genre.</p>
+    <h3>Where</h3>
+    <div class="chips">${STATES.map(s=>`<button type="button" class="chip" data-s="${s}" aria-pressed="${draft.states.includes(s)}">${s}</button>`).join("")}</div>
+    <p class="hint">Pick none for all of Australia.</p>
+    <h3>Bands you follow</h3>
+    <p class="hint" style="margin:0 0 8px">Their tours always show, whatever genres you pick.</p>
+    ${fs.length?`<div class="fl">${fs.map(n=>`<button type="button" data-unf="${esc(n)}" aria-label="Unfollow ${esc(n)}">★ ${esc(n)} <span aria-hidden="true">✕</span></button>`).join("")}</div>`:""}
+    <input class="search" id="fq" type="search" placeholder="Add a band" aria-label="Add a band" value="${esc(fq)}" autocomplete="off">
+    <div class="sugg" id="sugg">${sugg.map(b=>`<button type="button" data-add="${esc(b.n)}">+ ${esc(b.n)}</button>`).join("")}</div>
+    <h3>Options</h3>
+    <label class="sw"><span>Include Aussie bands' tours</span><input type="checkbox" id="o-aus" ${draft.aus?"checked":""}></label>
+    <label class="sw"><span>Hide sold-out shows</span><input type="checkbox" id="o-sold" ${draft.hideSold?"checked":""}></label>
+    <label class="sw"><span>Show every date separately</span><input type="checkbox" id="o-date" ${draft.perDate?"checked":""}></label>
+    <p class="hint">Push alerts for your genres and bands are coming with the app.</p>
+    <div class="foot"><button type="button" class="btn" data-act="done">${first?"Show my tours":"Done"}</button>
+      ${first?`<button type="button" class="btn ghost" data-act="skip">Skip, show everything</button>`:""}</div>`;
+}
+function openSheet(first){
+  draft={genres:[...ME.genres],states:[...ME.states],follows:[...ME.follows],aus:ME.aus,hideSold:ME.hideSold,perDate:ME.perDate,first:!!first};fq="";
+  $("#sheetTitle").textContent=first?"Welcome":"My Metal";
+  $("#sheetBody").innerHTML=sheetBody(first);$("#sheet").hidden=false;document.body.style.overflow="hidden";
+}
+function closeSheet(apply,mode){
+  if(apply){
+    Object.assign(ME,{genres:draft.genres,states:draft.states,follows:draft.follows,aus:draft.aus,hideSold:draft.hideSold,perDate:draft.perDate});
+    ME.mode=mode||"mine";
+  }
+  ME.setup=true;save();$("#sheet").hidden=true;document.body.style.overflow="";render();
+}
+const reSheet=()=>{const y=$("#sheet").scrollTop;$("#sheetBody").innerHTML=sheetBody(draft.first);$("#sheet").scrollTop=y};
+
 /* ---------- RENDER ---------- */
+const TABS=[["shows","Shows",'<path d="M4 6h16M4 12h16M4 18h10"/>'],["calendar","Calendar",'<rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/>'],
+  ["presales","Presales",'<path d="M3 8a2 2 0 0 0 2-2h14a2 2 0 0 0 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 0-2 2H5a2 2 0 0 0-2-2v-2a2 2 0 0 0 0-4z"/><path d="M14 6v12" stroke-dasharray="2 2"/>'],
+  ["bands","Bands",'<path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.5 6.7 19.4l1.2-6L3.4 9.3l6-.7z"/>'],["more","More",'<circle cx="5" cy="12" r="1.3"/><circle cx="12" cy="12" r="1.3"/><circle cx="19" cy="12" r="1.3"/>']];
 function render(){
-  const n=SHOWS.filter(visible).length;
-  $("#tabs").innerHTML=[["agenda","Agenda",n],["month","Month",""],["radar","On-sale radar",""],["bands","Bands",""],["watch","Watchlist",""],["info","Info",""]].map(([k,l,c])=>
-    `<button class="tab" role="tab" data-tab="${k}" aria-selected="${S.tab===k}">${l}${c!==""?`<span class="n">${c}</span>`:""}</button>`).join("");
-  $("#stateChips").innerHTML=STATES.map(s=>`<button class="chip" data-st="${s}" aria-pressed="${S.states.has(s)}">${s}</button>`).join("");
-  $("#catChips").innerHTML=CATS.map(([k,l])=>`<button class="chip cat" data-cat="${k}" aria-pressed="${S.cats.has(k)}">${l}</button>`).join("");
-  $("#hideSold").checked=S.hideSold;
-  $("#filters").style.display=["radar","watch","bands","info"].includes(S.tab)?"none":"flex";
-  $("#view").innerHTML={agenda:viewAgenda,month:viewMonth,radar:viewRadar,bands:viewBands,watch:viewWatch,info:viewInfo}[S.tab]();
-  const d=ymd(REFRESHED);
-  $("#stamp").textContent=`Updated ${d.getDate()} ${MONTHS[d.getMonth()].slice(0,3)} ${d.getFullYear()}`;
+  $("#tabs").innerHTML=TABS.map(([k,l,i])=>`<button type="button" class="tab" role="tab" data-tab="${k}" aria-selected="${S.tab===k}"><svg viewBox="0 0 24 24" aria-hidden="true">${i}</svg>${l}</button>`).join("");
+  $("#view").innerHTML={shows:viewShows,calendar:viewCalendar,presales:viewPresales,bands:viewBands,more:viewMore}[S.tab]();
+}
+function toggleFollow(n){
+  const i=ME.follows.findIndex(x=>lc(x)===lc(n));
+  if(i>=0)ME.follows.splice(i,1);else ME.follows.push(n);
+  save();window.MH_SAY&&window.MH_SAY(i>=0?`Unfollowed ${n}`:`Following ${n}`);
 }
 document.addEventListener("click",e=>{
-  const t=e.target.closest("[data-tab],[data-st],[data-m],[data-pick],[data-cat]");if(!t)return;
-  if(t.dataset.tab){S.tab=t.dataset.tab}
-  else if(t.dataset.cat){S.cats.has(t.dataset.cat)?S.cats.delete(t.dataset.cat):S.cats.add(t.dataset.cat);persist()}
-  else if(t.dataset.st){S.states.has(t.dataset.st)?S.states.delete(t.dataset.st):S.states.add(t.dataset.st);persist()}
-  else if(t.dataset.m){const months=[...new Set(SHOWS.map(s=>s.d.slice(0,7)))].sort();S.month=months[months.indexOf(S.month)+Number(t.dataset.m)];S.picked=null}
-  else if(t.dataset.pick){S.picked=t.dataset.pick}
+  const t=e.target.closest("[data-tab],[data-m],[data-day],[data-mode],[data-act],[data-ics],[data-follow],[data-g],[data-s],[data-add],[data-unf],[data-look-set]");if(!t)return;
+  const ds=t.dataset;
+  if(ds.tab){S.tab=ds.tab;scrollTo(0,0)}
+  else if(ds.mode){ME.mode=ds.mode;save()}
+  else if(ds.m){const ms=[...new Set(SHOWS.map(s=>s.d.slice(0,7)))].sort();S.month=ms[ms.indexOf(S.month)+Number(ds.m)];S.day=null}
+  else if(ds.day){S.day=ds.day}
+  else if(ds.ics){saveIcs(ds.ics);return}
+  else if(ds.follow){toggleFollow(ds.follow);$("#blist").innerHTML=bandList();return}
+  else if(ds.lookSet){document.documentElement.dataset.look=ds.lookSet;try{localStorage.setItem("mh-look",ds.lookSet)}catch(e){}
+    document.querySelector('meta[name="theme-color"]').content=ds.lookSet==="xerox"?"#e6e1d4":"#0a0e0c"}
+  else if(ds.g){const a=draft.genres,i=a.indexOf(ds.g);i>=0?a.splice(i,1):a.push(ds.g);reSheet();return}
+  else if(ds.s){const a=draft.states,i=a.indexOf(ds.s);i>=0?a.splice(i,1):a.push(ds.s);reSheet();return}
+  else if(ds.add){draft.follows.push(ds.add);fq="";reSheet();return}
+  else if(ds.unf){draft.follows=draft.follows.filter(x=>x!==ds.unf);reSheet();return}
+  else if(ds.act==="edit"){openSheet(false);return}
+  else if(ds.act==="done"){closeSheet(true,"mine");return}
+  else if(ds.act==="skip"){closeSheet(false);ME.mode="all";save();render();return}
+  else if(ds.act==="check"){window.MH_CHECK&&window.MH_CHECK();return}
   render();
 });
-document.addEventListener("input",e=>{
-  if(e.target.id==="bq"){S.bq=e.target.value;$("#blist").innerHTML=bandList()}
-});
 document.addEventListener("change",e=>{
-  if(e.target.id==="bst"){S.bst=e.target.value;$("#blist").innerHTML=bandList()}
+  const id=e.target.id;
+  if(id==="bst"){S.bst=e.target.value;$("#blist").innerHTML=bandList()}
+  else if(id==="o-aus")draft.aus=e.target.checked;
+  else if(id==="o-sold")draft.hideSold=e.target.checked;
+  else if(id==="o-date")draft.perDate=e.target.checked;
 });
-$("#hideSold").addEventListener("change",e=>{S.hideSold=e.target.checked;persist();render()});
-$("#q").addEventListener("input",e=>{S.q=e.target.value;const p=e.target.selectionStart;render();const q=$("#q");q.focus();q.setSelectionRange(p,p)});
+document.addEventListener("input",e=>{
+  const id=e.target.id;
+  if(id==="bq"){S.bq=e.target.value;$("#blist").innerHTML=bandList()}
+  else if(id==="q"){S.q=e.target.value;const p=e.target.selectionStart;render();const q=$("#q");q.focus();q.setSelectionRange(p,p)}
+  else if(id==="fq"){fq=e.target.value;const q=lc(fq.trim()),fs=draft.follows.map(lc);
+    $("#sugg").innerHTML=(q.length>1?BANDS.filter(b=>lc(b.n).includes(q)&&!fs.includes(lc(b.n))).slice(0,6):[]).map(b=>`<button type="button" data-add="${esc(b.n)}">+ ${esc(b.n)}</button>`).join("")}
+});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("#sheet").hidden)closeSheet(false)});
 render();
+if(!ME.setup)openSheet(true);
 })();
 </script>

@@ -12,7 +12,7 @@
    "ticketUrl": "https://www.destroyalllines.com/tours/lorna-shore-2026",
    "ticketLabel": "Destroy All Lines",
    "src": "https://metal-roos.com.au/lorna-shore-australia-new-zealand-tour-2026-with-special-guests-whitechapel-aus-only-the-acacia-strain-starts-this-week/",
-   "note": "Last Australian date I could confirm. Whitechapel is listed as not appearing on at least one date.",
+   "note": "Whitechapel is not on every date.",
    "shows": [
     {
      "d": "2026-10-23",
@@ -20,6 +20,9 @@
      "st": "QLD",
      "venue": "Riverstage"
     }
+   ],
+   "gb": [
+    "core"
    ]
   },
   {
@@ -64,6 +67,9 @@
      "st": "QLD",
      "venue": "Brisbane Entertainment Centre (added show)"
     }
+   ],
+   "gb": [
+    "heavy"
    ]
   },
   {
@@ -97,6 +103,9 @@
      "st": "VIC",
      "venue": "170 Russell"
     }
+   ],
+   "gb": [
+    "alt"
    ]
   },
   {
@@ -147,6 +156,9 @@
      "st": "NSW",
      "venue": "Engie Stadium"
     }
+   ],
+   "gb": [
+    "alt"
    ]
   },
   {
@@ -174,6 +186,9 @@
      "st": "QLD",
      "venue": "The Triffid"
     }
+   ],
+   "gb": [
+    "core"
    ]
   },
   {
@@ -206,6 +221,12 @@
      "st": "QLD",
      "venue": "Brisbane Showgrounds"
     }
+   ],
+   "gb": [
+    "alt",
+    "punk",
+    "core",
+    "hc"
    ]
   },
   {
@@ -233,6 +254,9 @@
      "st": "SA",
      "venue": "Hindley Street Music Hall"
     }
+   ],
+   "gb": [
+    "alt"
    ]
   },
   {
@@ -278,6 +302,9 @@
      "st": "NSW",
      "venue": "TikTok Entertainment Centre"
     }
+   ],
+   "gb": [
+    "alt"
    ]
   },
   {
@@ -316,6 +343,9 @@
      "url": "https://theprincesstheatre.com.au/events/beherit",
      "label": "Princess Theatre"
     }
+   ],
+   "gb": [
+    "extreme"
    ]
   },
   {
@@ -355,6 +385,10 @@
      "st": "VIC",
      "venue": "Forum Melbourne"
     }
+   ],
+   "gb": [
+    "doom",
+    "alt"
    ]
   },
   {
@@ -387,6 +421,9 @@
      "st": "QLD",
      "venue": "Suncorp Stadium"
     }
+   ],
+   "gb": [
+    "alt"
    ]
   },
   {
@@ -408,6 +445,15 @@
      "st": "SA",
      "venue": "Adelaide Showground, Wayville"
     }
+   ],
+   "gb": [
+    "heavy",
+    "extreme",
+    "core",
+    "doom",
+    "hc",
+    "punk",
+    "prog"
    ]
   },
   {
@@ -421,7 +467,7 @@
    "ticketUrl": "https://www.destroyalllines.com/",
    "ticketLabel": "Destroy All Lines",
    "src": "https://www.thenote.com.au/news/thrown-australian-tour-2027",
-   "note": "Sydney is at Liberty Hall. The date was cut off in my source.",
+   "note": "Sydney show is at Liberty Hall; date to be confirmed.",
    "shows": [
     {
      "d": "2027-02-03",
@@ -447,6 +493,9 @@
      "st": "ACT",
      "venue": "UC Hub"
     }
+   ],
+   "gb": [
+    "core"
    ]
   },
   {
@@ -460,7 +509,7 @@
    "ticketUrl": "https://www.destroyalllines.com/",
    "ticketLabel": "Destroy All Lines",
    "src": "https://www.noise11.com/news/dayseeker-australian-tour-2027-20260709",
-   "note": "Five shows. Only the first and last are in my sources. Venues not found.",
+   "note": "Five shows. More dates and venues to be announced.",
    "shows": [
     {
      "d": "2027-02-07",
@@ -474,6 +523,10 @@
      "st": "QLD",
      "venue": "Venue TBC"
     }
+   ],
+   "gb": [
+    "hc",
+    "core"
    ]
   },
   {
@@ -487,7 +540,7 @@
    "ticketUrl": "https://www.destroyalllines.com/",
    "ticketLabel": "Destroy All Lines",
    "src": "https://www.theaureview.com/music/story-of-the-year-silverstein-australia-tour-2027/",
-   "note": "Five shows across Melbourne, Sydney, Adelaide, Fremantle and Brisbane. Only Adelaide has a date in my sources.",
+   "note": "Five shows across Melbourne, Sydney, Adelaide, Fremantle and Brisbane. More dates to be confirmed.",
    "shows": [
     {
      "d": "2027-02-08",
@@ -495,6 +548,9 @@
      "st": "SA",
      "venue": "Hindley Street Music Hall"
     }
+   ],
+   "gb": [
+    "hc"
    ]
   },
   {
@@ -508,7 +564,7 @@
    "ticketUrl": "https://www.destroyalllines.com/",
    "ticketLabel": "Destroy All Lines",
    "src": "https://www.noise11.com/news/heilung-2027-australia-nz-tour-20261020",
-   "note": "Only the Sydney Opera House shows are in my sources. Melbourne, Brisbane, Adelaide and Perth are also in March, dates not found.",
+   "note": "Melbourne, Brisbane, Adelaide and Perth shows are also in March; dates to be confirmed.",
    "shows": [
     {
      "d": "2027-03-01",
@@ -526,6 +582,9 @@
      "url": "https://www.sydneyoperahouse.com/",
      "label": "Opera House"
     }
+   ],
+   "gb": [
+    "folk"
    ]
   },
   {
@@ -564,6 +623,9 @@
      "st": "QLD",
      "venue": "The Fortitude Music Hall"
     }
+   ],
+   "gb": [
+    "core"
    ]
   },
   {
@@ -602,6 +664,9 @@
      "st": "SA",
      "venue": "Ed Castle"
     }
+   ],
+   "gb": [
+    "folk"
    ]
   },
   {
@@ -655,6 +720,9 @@
      "st": "WA",
      "venue": "Amplifier"
     }
+   ],
+   "gb": [
+    "folk"
    ]
   },
   {
@@ -706,6 +774,9 @@
      "st": "QLD",
      "venue": "Brisbane Entertainment Centre"
     }
+   ],
+   "gb": [
+    "alt"
    ]
   },
   {
@@ -719,7 +790,7 @@
    "ticketUrl": "https://www.destroyalllines.com/",
    "ticketLabel": "Destroy All Lines",
    "src": "https://everydaymetal.com.au/periphery-australian-tour-march-2027/",
-   "note": "Six dates. Only three are in my sources.",
+   "note": "Six dates; more to be confirmed.",
    "shows": [
     {
      "d": "2027-03-08",
@@ -739,6 +810,9 @@
      "st": "VIC",
      "venue": "Forum Melbourne"
     }
+   ],
+   "gb": [
+    "prog"
    ]
   },
   {
@@ -752,8 +826,11 @@
    "ticketUrl": "https://www.hardlinemedia.net/",
    "ticketLabel": "Hardline Media",
    "src": "https://hotmetalmag.com/death-angel-announces-australian-tour/",
-   "note": "Headline shows in Perth, Melbourne, Sydney and Brisbane in early 2027. Dates not in my sources.",
-   "shows": []
+   "note": "Headline shows in Perth, Melbourne, Sydney and Brisbane in early 2027. Dates to be announced.",
+   "shows": [],
+   "gb": [
+    "heavy"
+   ]
   },
   {
    "id": "killswitch",
@@ -767,7 +844,7 @@
    "ticketUrl": "https://sbmpresents.com/tour/killswitch-engage-2026",
    "ticketLabel": "SBM Presents",
    "src": "https://themetallist.com/en/news/2026/05/killswitch-engage-australia-new-zealand-tour-2026/",
-   "note": "Single source (The Metallist); check the promoter page for sold-out shows. New Zealand dates not listed here.",
+   "note": "Check the promoter page for sold-out shows.",
    "shows": [
     {
      "d": "2026-11-03",
@@ -805,6 +882,9 @@
      "st": "WA",
      "venue": "Metro Fremantle"
     }
+   ],
+   "gb": [
+    "core"
    ]
   },
   {
@@ -857,6 +937,9 @@
      "st": "QLD",
      "venue": "The Warehouse"
     }
+   ],
+   "gb": [
+    "extreme"
    ]
   },
   {
@@ -908,6 +991,9 @@
      "st": "QLD",
      "venue": "Sandstone Point Hotel (Lookout Festival)"
     }
+   ],
+   "gb": [
+    "hc"
    ]
   },
   {
@@ -940,6 +1026,9 @@
      "st": "QLD",
      "venue": "The Tivoli"
     }
+   ],
+   "gb": [
+    "hc"
    ]
   },
   {
@@ -984,6 +1073,9 @@
      "st": "WA",
      "venue": "Freo Social"
     }
+   ],
+   "gb": [
+    "hc"
    ]
   },
   {
@@ -1022,6 +1114,9 @@
      "st": "QLD",
      "venue": "Riverstage"
     }
+   ],
+   "gb": [
+    "hc"
    ]
   },
   {
@@ -1072,6 +1167,10 @@
      "st": "QLD",
      "venue": "Brisbane Entertainment Centre"
     }
+   ],
+   "gb": [
+    "doom",
+    "alt"
    ]
   },
   {
@@ -1082,7 +1181,7 @@
    "tag": "core",
    "status": "on-sale",
    "conf": "verify",
-   "sale": "On-sale details not found. Check the promoter.",
+   "sale": "On-sale details to be announced. Check the promoter.",
    "ticketUrl": "https://metropolistouring.com/metal-church/",
    "ticketLabel": "Metropolis Touring",
    "src": "https://metropolistouring.com/metal-church/",
@@ -1112,6 +1211,9 @@
      "st": "WA",
      "venue": "Rosemount Hotel"
     }
+   ],
+   "gb": [
+    "heavy"
    ]
   },
   {
@@ -1157,6 +1259,9 @@
      "st": "NSW",
      "venue": "Manning Bar"
     }
+   ],
+   "gb": [
+    "extreme"
    ]
   },
   {
@@ -1189,6 +1294,9 @@
      "st": "NSW",
      "venue": "Liberty Hall"
     }
+   ],
+   "gb": [
+    "prog"
    ]
   },
   {
@@ -1233,6 +1341,9 @@
      "st": "NSW",
      "venue": "The Roundhouse"
     }
+   ],
+   "gb": [
+    "core"
    ]
   },
   {
@@ -1272,6 +1383,9 @@
      "st": "VIC",
      "venue": "170 Russell"
     }
+   ],
+   "gb": [
+    "hc"
    ]
   },
   {
@@ -1293,6 +1407,9 @@
      "st": "VIC",
      "venue": "The Croxton, Thornbury"
     }
+   ],
+   "gb": [
+    "extreme"
    ]
   },
   {
@@ -1337,6 +1454,9 @@
      "st": "WA",
      "venue": "Rosemount Hotel"
     }
+   ],
+   "gb": [
+    "doom"
    ]
   },
   {
@@ -1381,6 +1501,9 @@
      "st": "QLD",
      "venue": "The Tivoli"
     }
+   ],
+   "gb": [
+    "alt"
    ]
   },
   {
@@ -1425,6 +1548,9 @@
      "st": "WA",
      "venue": "Magnet House"
     }
+   ],
+   "gb": [
+    "hc"
    ]
   },
   {
@@ -1469,6 +1595,9 @@
      "st": "WA",
      "venue": "The Rechabite"
     }
+   ],
+   "gb": [
+    "prog"
    ]
   },
   {
@@ -1502,6 +1631,9 @@
      "st": "VIC",
      "venue": "Max Watts"
     }
+   ],
+   "gb": [
+    "prog"
    ]
   },
   {
@@ -1523,6 +1655,11 @@
      "st": "VIC",
      "venue": "Melbourne Pavilion, Kensington"
     }
+   ],
+   "gb": [
+    "hc",
+    "core",
+    "extreme"
    ]
   },
   {
@@ -1536,7 +1673,7 @@
    "ticketUrl": "https://www.destroyalllines.com/tours/northlane-album-tour-2026",
    "ticketLabel": "Destroy All Lines",
    "src": "https://www.thenote.com.au/news/northlane-announce-new-album-and-natonal-tour",
-   "note": "Anemoia album tour, their biggest Australian headline run. Newcastle venue differs between listings.",
+   "note": "Anemoia album tour, their biggest Australian headline run.",
    "shows": [
     {
      "d": "2026-11-05",
@@ -1574,7 +1711,11 @@
      "st": "QLD",
      "venue": "Fortitude Music Hall"
     }
-   ]
+   ],
+   "gb": [
+    "core"
+   ],
+   "aus": true
   },
   {
    "id": "windwaker26",
@@ -1587,7 +1728,7 @@
    "ticketUrl": "https://www.destroyalllines.com/",
    "ticketLabel": "Destroy All Lines",
    "src": "https://www.thenote.com.au/news/windwaker-smile-youre-on-camera-australian-tour-2026",
-   "note": "Sydney venue differs between listings (Metro Theatre or The Theatre).",
+   "note": "Sydney venue may be Metro Theatre or The Theatre; check your ticket.",
    "shows": [
     {
      "d": "2026-10-30",
@@ -1625,7 +1766,11 @@
      "st": "QLD",
      "venue": "The Tivoli"
     }
-   ]
+   ],
+   "gb": [
+    "core"
+   ],
+   "aus": true
   },
   {
    "id": "hellbound27",
@@ -1645,7 +1790,12 @@
      "st": "NSW",
      "venue": "Carnival Splendour, Sydney Harbour"
     }
-   ]
+   ],
+   "gb": [
+    "core",
+    "hc"
+   ],
+   "aus": true
   },
   {
    "id": "heavensgate26",
@@ -1690,7 +1840,11 @@
      "st": "WA",
      "venue": "Lynott's Lounge"
     }
-   ]
+   ],
+   "gb": [
+    "core"
+   ],
+   "aus": true
   },
   {
    "id": "dod26",
@@ -1704,7 +1858,7 @@
    "ticketUrl": "https://ucx.canberra.edu.au/event/dream-on-dreamer-hope-heartbound-revival-tour/",
    "ticketLabel": "Tour details",
    "src": "https://ucx.canberra.edu.au/event/dream-on-dreamer-hope-heartbound-revival-tour/",
-   "note": "Hope/Heartbound anniversary run with original clean singer Mcoy. Venues not in my sources apart from Canberra.",
+   "note": "Hope/Heartbound anniversary run with original clean singer Mcoy. Venues to be confirmed, apart from Canberra.",
    "shows": [
     {
      "d": "2026-10-30",
@@ -1736,7 +1890,11 @@
      "st": "ACT",
      "venue": "UC Hub"
     }
-   ]
+   ],
+   "gb": [
+    "hc"
+   ],
+   "aus": true
   },
   {
    "id": "trophyeyes26",
@@ -1750,7 +1908,7 @@
    "ticketUrl": "https://trophyeyesmusic.com/",
    "ticketLabel": "Trophy Eyes",
    "src": "https://heavymag.com.au/trophy-eyes-to-celebrate-10-years-of-chemical-miracle-with-australian-tour/",
-   "note": "Chemical Miracle 10th anniversary, played in full. Only the Sydney and Brisbane dates were in my sources.",
+   "note": "Chemical Miracle 10th anniversary, played in full. More dates to be confirmed.",
    "shows": [
     {
      "d": "2026-11-13",
@@ -1764,7 +1922,11 @@
      "st": "QLD",
      "venue": "TBC"
     }
-   ]
+   ],
+   "gb": [
+    "hc"
+   ],
+   "aus": true
   },
   {
    "id": "ten27",
@@ -1797,6 +1959,9 @@
      "st": "NSW",
      "venue": "Factory Theatre"
     }
+   ],
+   "gb": [
+    "hc"
    ]
   },
   {
@@ -1841,6 +2006,9 @@
      "st": "WA",
      "venue": "The Rechabite"
     }
+   ],
+   "gb": [
+    "doom"
    ]
   },
   {
@@ -1892,6 +2060,9 @@
      "st": "QLD",
      "venue": "The Tivoli"
     }
+   ],
+   "gb": [
+    "alt"
    ]
   },
   {
@@ -1937,6 +2108,9 @@
      "st": "WA",
      "venue": "Red Hill Auditorium"
     }
+   ],
+   "gb": [
+    "punk"
    ]
   },
   {
@@ -1958,6 +2132,9 @@
      "st": "NSW",
      "venue": "The Entertainment Grounds"
     }
+   ],
+   "gb": [
+    "punk"
    ]
   },
   {
@@ -2002,6 +2179,9 @@
      "st": "QLD",
      "venue": "Eatons Hill Hotel"
     }
+   ],
+   "gb": [
+    "punk"
    ]
   },
   {
@@ -2016,7 +2196,7 @@
    "ticketUrl": "https://www.thenote.com.au/news/frenzal-rhomb-plot-sans-souci-23rd-anniversary-australian-tour-2026",
    "ticketLabel": "Tour details",
    "src": "https://www.thenote.com.au/news/frenzal-rhomb-plot-sans-souci-23rd-anniversary-australian-tour-2026",
-   "note": "Sans Souci 23rd-anniversary tour, last dates. A Melbourne date is listed but not confirmed; Hobart venue not in my sources.",
+   "note": "Sans Souci 23rd-anniversary tour, last dates. Hobart venue to be confirmed.",
    "shows": [
     {
      "d": "2026-10-22",
@@ -2066,7 +2246,11 @@
      "st": "TAS",
      "venue": "Forth Pub"
     }
-   ]
+   ],
+   "gb": [
+    "punk"
+   ],
+   "aus": true
   },
   {
    "id": "propagandhi27",
@@ -2104,6 +2288,9 @@
      "st": "VIC",
      "venue": "Northcote Theatre"
     }
+   ],
+   "gb": [
+    "punk"
    ]
   },
   {
@@ -2117,7 +2304,7 @@
    "ticketUrl": "https://chopdog.com.au/",
    "ticketLabel": "Chopdog",
    "src": "https://www.thenote.com.au/news/teenage-bottlerocket-australian-tour-2027",
-   "note": "Sydney venue is Metro Social in one listing and Metro Theatre in another.",
+   "note": "Sydney venue may be Metro Social or Metro Theatre; check your ticket.",
    "shows": [
     {
      "d": "2027-02-12",
@@ -2167,6 +2354,9 @@
      "st": "VIC",
      "venue": "Howler"
     }
+   ],
+   "gb": [
+    "punk"
    ]
   },
   {
@@ -2230,7 +2420,11 @@
      "st": "VIC",
      "venue": "Croxton Bandroom"
     }
-   ]
+   ],
+   "gb": [
+    "punk"
+   ],
+   "aus": true
   },
   {
    "id": "coffin27",
@@ -2281,7 +2475,11 @@
      "st": "TAS",
      "venue": "Altar"
     }
-   ]
+   ],
+   "gb": [
+    "punk"
+   ],
+   "aus": true
   }
  ],
  "sales": [
@@ -2319,7 +2517,7 @@
    "at": "2026-10-20T09:00:00+11:00",
    "tour": "deathangel",
    "kind": "General sale",
-   "text": "Opened Tuesday. Time not stated in my source."
+   "text": "Opened Tuesday."
   }
  ],
  "watch": [
@@ -2331,27 +2529,9 @@
   },
   {
    "title": "Paleface Swiss + Counterparts + Fox Lake",
-   "text": "2027 Australian return reported by Music Feeds. Dates not found.",
+   "text": "A 2027 Australian return has been reported. Dates to be announced.",
    "url": "https://musicfeeds.com.au/?p=574976",
    "label": "Music Feeds"
-  },
-  {
-   "title": "Seen on aggregators, dates unchecked",
-   "text": "Candlemass, Amorphis, Katatonia with Soen and Paradise Lost, Evergrey and Plini show up on Songkick and Tixel Sydney listings. Some may already have played.",
-   "url": "https://www.songkick.com/metro-areas/26794-australia-sydney/genre/metal",
-   "label": "Songkick Sydney"
-  },
-  {
-   "title": "Folk crossover: checked, nothing announced",
-   "text": "I found no current Australian dates for Eluveitie, Wardruna, Korpiklaani, Alestorm or Faun. Eluveitie's listed tours are Europe and North America only. Tell me which bands you meant by Hailstorm and Paddy Gurdy and I will look for them.",
-   "url": "https://developer.songkick.com/artists/281032-eluveitie/calendar",
-   "label": "Eluveitie on Songkick"
-  },
-  {
-   "title": "Hellbound II cruise",
-   "text": "17 to 21 Jan 2027 from Sydney Harbour. Parkway Drive, The Amity Affliction, Alpha Wolf, I Killed the Prom Queen and Thy Art Is Murder headline, so it is mostly Australian acts. Kept here for reference.",
-   "url": "https://www.hellboundcruise.com.au/",
-   "label": "Hellbound"
   }
  ]
 }

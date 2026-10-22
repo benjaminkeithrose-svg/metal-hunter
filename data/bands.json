@@ -2,183 +2,228 @@
  "groups": [
   [
    "heavy",
-   "Heavy and classic"
+   "Heavy and classic",
+   "heavy"
   ],
   [
    "thrash",
-   "Thrash"
+   "Thrash",
+   "heavy"
   ],
   [
    "xthrash",
-   "Crossover thrash and punk-metal"
+   "Crossover thrash and punk-metal",
+   "heavy"
   ],
   [
    "power",
-   "Power metal"
+   "Power metal",
+   "heavy"
   ],
   [
    "epic",
-   "Epic and mythology-themed"
+   "Epic and mythology-themed",
+   "heavy"
   ],
   [
    "pirate",
-   "Pirate, party and novelty metal"
+   "Pirate, party and novelty metal",
+   "folk"
   ],
   [
    "symph",
-   "Symphonic and gothic"
+   "Symphonic and gothic",
+   "folk"
   ],
   [
    "goth",
-   "Gothic, dark and occult rock"
+   "Gothic, dark and occult rock",
+   "alt"
   ],
   [
    "melodeath",
-   "Melodic death metal"
+   "Melodic death metal",
+   "extreme"
   ],
   [
    "death",
-   "Death metal"
+   "Death metal",
+   "extreme"
   ],
   [
    "grind",
-   "Grind, crust and sludge"
+   "Grind, crust and sludge",
+   "extreme"
   ],
   [
    "black",
-   "Black metal"
+   "Black metal",
+   "extreme"
   ],
   [
    "folk",
-   "Folk, Viking and pagan metal"
+   "Folk, Viking and pagan metal",
+   "folk"
   ],
   [
    "crossover",
-   "Folk crossover"
+   "Folk crossover",
+   "folk"
   ],
   [
    "doom",
-   "Doom and stoner doom"
+   "Doom and stoner doom",
+   "doom"
   ],
   [
    "prog",
-   "Progressive"
+   "Progressive",
+   "prog"
   ],
   [
    "djent",
-   "Djent and modern prog"
+   "Djent and modern prog",
+   "prog"
   ],
   [
    "postmetal",
-   "Post-metal and atmospheric"
+   "Post-metal and atmospheric",
+   "prog"
   ],
   [
    "industrial",
-   "Industrial"
+   "Industrial",
+   "alt"
   ],
   [
    "nu",
-   "Nu and alt metal"
+   "Nu and alt metal",
+   "alt"
   ],
   [
    "altheavy",
-   "Alt and modern heavy"
+   "Alt and modern heavy",
+   "alt"
   ],
   [
    "asia",
-   "Japanese and Asian metal"
+   "Japanese and Asian metal",
+   "alt"
   ],
   [
    "core",
-   "Metalcore"
+   "Metalcore",
+   "core"
   ],
   [
    "deathcore",
-   "Deathcore"
+   "Deathcore",
+   "core"
   ],
   [
    "hc",
-   "Hardcore"
+   "Hardcore",
+   "hc"
   ],
   [
    "melhc",
-   "Melodic hardcore"
+   "Melodic hardcore",
+   "hc"
   ],
   [
    "posthc",
-   "Post-hardcore and screamo"
+   "Post-hardcore and screamo",
+   "hc"
   ],
   [
    "emo",
-   "Emo"
+   "Emo",
+   "hc"
   ],
   [
    "hardrock",
-   "Hard rock and stoner"
+   "Hard rock and stoner",
+   "alt"
   ],
   [
    "celtic",
-   "Celtic and Irish punk"
+   "Celtic and Irish punk",
+   "punk"
   ],
   [
    "folkpunk",
-   "Folk and gypsy punk"
+   "Folk and gypsy punk",
+   "punk"
   ],
   [
    "punk77",
-   "'77 and UK punk"
+   "'77 and UK punk",
+   "punk"
   ],
   [
    "street",
-   "Street punk and Oi!"
+   "Street punk and Oi!",
+   "punk"
   ],
   [
    "modpunk",
-   "Modern punk and post-punk"
+   "Modern punk and post-punk",
+   "punk"
   ],
   [
    "skate",
-   "Skate and melodic punk"
+   "Skate and melodic punk",
+   "punk"
   ],
   [
    "horror",
-   "Horror punk and psychobilly"
+   "Horror punk and psychobilly",
+   "punk"
   ],
   [
    "ausheavy",
-   "Australian heavy, thrash and classic"
+   "Australian heavy, thrash and classic",
+   "heavy"
   ],
   [
    "ausdeath",
-   "Australian death metal and grind"
+   "Australian death metal and grind",
+   "extreme"
   ],
   [
    "ausblack",
-   "Australian black, folk and pagan"
+   "Australian black, folk and pagan",
+   "extreme"
   ],
   [
    "ausprog",
-   "Australian prog, djent and post-metal"
+   "Australian prog, djent and post-metal",
+   "prog"
   ],
   [
    "auscore",
-   "Australian metalcore and deathcore"
+   "Australian metalcore and deathcore",
+   "core"
   ],
   [
    "aushc",
-   "Australian hardcore and post-hardcore"
+   "Australian hardcore and post-hardcore",
+   "hc"
   ],
   [
    "ausdoom",
-   "Australian doom, stoner and sludge"
+   "Australian doom, stoner and sludge",
+   "doom"
   ],
   [
    "ausalt",
-   "Australian alt, nu and heavy rock"
+   "Australian alt, nu and heavy rock",
+   "alt"
   ],
   [
    "auspunk",
-   "Australian punk"
+   "Australian punk",
+   "punk"
   ]
  ],
  "bands": [
@@ -11252,5 +11297,43 @@
    "confirmed": true,
    "aus": true
   }
+ ],
+ "buckets": [
+  [
+   "heavy",
+   "Heavy, thrash and power"
+  ],
+  [
+   "extreme",
+   "Death, black and grind"
+  ],
+  [
+   "core",
+   "Metalcore and deathcore"
+  ],
+  [
+   "prog",
+   "Prog, djent and post-metal"
+  ],
+  [
+   "doom",
+   "Doom, stoner and sludge"
+  ],
+  [
+   "hc",
+   "Hardcore, emo and post-hardcore"
+  ],
+  [
+   "punk",
+   "Punk"
+  ],
+  [
+   "alt",
+   "Nu, alt, hard rock and gothic"
+  ],
+  [
+   "folk",
+   "Folk, pagan and symphonic"
+  ]
  ]
 }

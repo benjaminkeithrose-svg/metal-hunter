@@ -5,6 +5,7 @@ import json, re, sys, subprocess
 errs = []
 e = json.load(open("data/events.json"))
 b = json.load(open("data/bands.json"))
+BUCKETS = {k for k, _ in b.get("buckets", [])}
 
 if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", e.get("refreshed", "")):
     errs.append("events.json: 'refreshed' must be YYYY-MM-DD")
@@ -18,6 +19,8 @@ for t in e["tours"]:
     ids.add(t.get("id"))
     if t.get("tag") not in ("core", "adjacent", "folk", "punk", "aus"):
         errs.append(f"tour {t.get('id')}: bad tag {t.get('tag')}")
+    if not t.get("gb") or any(g not in BUCKETS for g in t["gb"]):
+        errs.append(f"tour {t.get('id')}: 'gb' must list genre groups from bands.json buckets")
     if t.get("status") not in ("on-sale", "upcoming", "sold-out"):
         errs.append(f"tour {t.get('id')}: bad status {t.get('status')}")
     # A tour may have no shows yet (announced, dates TBA).
@@ -29,6 +32,9 @@ for s in e.get("sales", []):
         errs.append(f"sale points at unknown tour {s['tour']}")
 
 groups = {g[0] for g in b["groups"]}
+for g in b["groups"]:
+    if len(g) < 3 or g[2] not in BUCKETS:
+        errs.append(f"group {g[0]}: third item must be a genre group from buckets")
 names = set()
 for x in b["bands"]:
     if x["g"] not in groups:

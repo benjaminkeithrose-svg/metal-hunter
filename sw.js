@@ -1,7 +1,7 @@
 /* Metal Hunter service worker.
    Site files and data: network first, so every merge to main shows up on the next open; the cache is only the offline fallback.
    Google Fonts: cache first, they never change. */
-const CACHE = "mh-v1";
+const CACHE = "mh-v2";
 const SHELL = ["./", "index.html", "data/events.json", "data/bands.json", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 
