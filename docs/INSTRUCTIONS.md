@@ -33,7 +33,7 @@ Rules for this list:
 - The list is confirmed by Ben (22 Oct 2026) as a starting point. Grow it over time: when a tracked band tours with another act (support slots, co-headlines, festival bills), add that act to the list in the matching genre and note where it was seen.
 - Do not predict tours. Record only what a source says. A "rumour" needs a named source and is labelled as one.
 - Useful signals: a world tour that skips Oceania, a recent Asia or NZ leg, an album cycle, a band's last Australian visit, a promoter teaser.
-- Expanded to 286 bands in 23 groups on 22 Oct 2026 (Ben approved). The 207 new bands start as `unchecked`; check them in batches of about 40 per refresh, oldest-unchecked first, until the Ticketmaster sweep can do it automatically.
+- Expanded to 286 bands in 23 groups on 22 Oct 2026 (Ben approved). New additions start as `unchecked`; check them at the next refresh.
 - The seed list came from Ben's genre notes and is a starting point. Assumptions: "Release the Archers" is Unleash the Archers, "Winter Sun" is Wintersun, "Foul" is Faun.
 
 ## Source priority
@@ -87,4 +87,4 @@ Band fields: `n`, `g` (group), `st` (status above), `note`, `src`.
 - Band checks on 22 Oct 2026 used news searches that mostly return link lists, so "nothing announced" means nothing found, not a confirmed absence. Only Sick of It All is unchecked.
 - Killswitch Engage rests on one source. Carcass's rescheduled September 2027 dates may need new tickets; confirm with the ticketer.
 - Ben may still send his own additions to the band list.
-- 207 of the 286 tracked bands are still `unchecked` (added 22 Oct 2026).
+- All 286 tracked bands were checked on 22 Oct 2026 (one news/aggregator search each). The check added 11 tours: La Dispute, Dance Gavin Dance, Jimmy Eat World, Queens of the Stone Age, Metal Church, Deicide, Igorrr, PRESIDENT, Drain, Melbourne Dethfest 2027 (Bloodbath) and Elder. Deicide, Drain and Elder have only some venues; Metal Church has no on-sale details.
