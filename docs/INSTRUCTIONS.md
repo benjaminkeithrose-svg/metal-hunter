@@ -15,7 +15,7 @@ Maintain a calendar of upcoming heavy metal concerts in Australia so Ben never m
 
 - **Australian acts** in the same genres, tagged `aus`: national or multi-city tours, festival slots and cruises (added 22 Oct 2026, Ben approved).
 
-**Tags** drive the category filters on the page: `core` (metal and the genres above), `adjacent`, `folk`, `punk`, `aus` (Australian). Each can be switched off in the page.
+**Genre groups** (`gb` on each tour, listed in `buckets` in `data/bands.json`) drive the page's filters: `heavy` (heavy, thrash, power), `extreme` (death, black, grind), `core` (metalcore, deathcore), `prog` (prog, djent, post-metal), `doom` (doom, stoner, sludge), `hc` (hardcore, emo, post-hardcore), `punk`, `alt` (nu, alt, hard rock, gothic, industrial), `folk` (folk, pagan, symphonic). A festival lists every group on its bill. Australian acts' tours also get `"aus": true`. The older `tag` field stays for the record (core / adjacent / folk / punk / aus).
 
 **Exclude**
 - One-off local pub and club gigs by Australian acts (a national or multi-city tour is in scope).
@@ -49,27 +49,28 @@ Rules for this list:
 If a Ticketmaster Discovery API key is supplied later, use it as the structured national sweep, then fill gaps from promoters. Note that search tools often return only link lists; fetching the specific promoter or news page gives usable data.
 
 ## Data record
-The page keeps its data in one block at the top of its script: `TOURS` (one record per tour or festival, with a `shows` list), `SALES` (presale and on-sale moments for the radar), `WATCH` (items without dates yet), `BANDS` and `GROUPS` (tracked bands), and `REFRESHED`.
+`data/events.json` holds `tours` (one record per tour or festival, with a `shows` list), `sales` (presale and on-sale moments for the Presales tab), `watch` (rumoured tours with no dates yet, shown under More → Rumoured) and `refreshed`. `data/bands.json` holds `buckets` (the 9 genre groups), `groups` (`[key, label, bucket]`) and `bands`.
 
-Tour fields: `id`, `artist`, `support`, `genre`, `tag` (core / adjacent / folk), `status` (on-sale / upcoming / sold-out), `conf` (set to `verify` when in doubt), `sale` (presale and on-sale text with timezone), `ticketUrl`, `ticketLabel`, `src` (source URL), `note`, `shows`.
+Tour fields: `id`, `artist`, `support`, `genre`, `gb` (list of genre groups), `aus` (true for Australian acts), `tag` (core / adjacent / folk / punk / aus), `status` (on-sale / upcoming / sold-out), `conf` (set to `verify` when in doubt), `sale` (presale and on-sale text with timezone), `ticketUrl`, `ticketLabel`, `src` (source URL), `note`, `shows`.
 Show fields: `d` (ISO date), `city`, `st`, `venue`, optional `status`, `url`, `label` for per-show overrides (e.g. one show sold out, or a different ticketer per city).
 Band fields: `n`, `g` (group), `st` (status above), `note`, `src`.
 
 ## Rules
 - **Dates and times:** store dates ISO. Quote sale times in the local time of the city they apply to, with the timezone abbreviation (AEDT, AEST, ACST, AWST). Today's date is the reference for "upcoming" and "on sale".
-- **Never guess.** If a date, venue or sale time was not seen in a source, say TBC in the tour `note` and let it appear on the Watchlist. Do not infer from the artist's other tours.
+- **Never guess.** If a date, venue or sale time was not seen in a source, use TBC and say so in the tour `note`. Do not infer from the artist's other tours.
+- **Write notes for fans.** `note`, `sale` and `watch` text is shown to users: write "More dates to be announced" or "Venue to be confirmed", never "not in my sources" or "I found". Keep research notes in this file instead.
 - **Confidence:** mark `verify` when only one aggregator lists it, when sources conflict, or when a support act or date is in doubt. Note conflicts in `note`.
 - **Ticket links:** link only to the promoter or official ticketer. If no official ticket link was seen, link to the best source article and label it "Tour details".
 - **Past dates** drop off the calendar automatically; remove stale tours at each refresh.
 - **Copyright:** paraphrase source articles, no quoted passages. Short factual fields (dates, venues, lineups) are fine.
 - **Sold-out status:** only mark sold-out when a source says so.
 
-## Calendar page (v2, published as an artifact)
-- Single self-contained HTML page. Views: Agenda (default), Month grid, On-sale radar, Bands, Watchlist.
-- Filters: state, category chips (core, adjacent, folk), hide sold out, text search. Filters are saved in the browser.
-- Each show has date, city and venue, support acts, status badge, official ticket link, presale and on-sale text, an "Add to calendar" link (Google Calendar) and a source link.
-- Artifacts cannot trigger file downloads, so there is no .ics export. Add one in the GitHub version.
-- Keep the page text minimal. Scope notes, label meanings and sources live in the Info tab; the footer only shows "Updated <date>". Long tour notes sit behind the ⓘ toggle on each card, and band notes open when the band is tapped.
+## App layout (v3, 23 Oct 2026)
+- Bottom tabs: Shows, Calendar, Presales, Bands, More. Slim top bar with the ⟳ update check.
+- **My Metal** (Ben chose this design on 23 Oct 2026): each person picks genre groups, states and bands to follow, first in a welcome screen and later via Edit. "My Metal" or "All shows" switches the feed. Followed bands' tours always show. Saved in the browser for now (`mh-me`); moves to accounts when the app gets a back end.
+- Shows: one card per tour (next date in the person's states, other dates folded under "+ N more dates"), or every date separately (an option). Tickets button names the seller underneath. "Add to calendar" saves an .ics file.
+- Calendar: month grid with dots; tap a day for its shows. Presales: grouped by tour, times in Sydney time. Bands: search, follow (★), filter. More: My Metal, Rumoured, Look (Runestone / Xerox Grind), About, Install.
+- Labels: "Unconfirmed" (from `conf: verify`), "Aussie", one genre group per card ("Festival" when a bill spans several).
 
 ## Refresh procedure
 Runs automatically (Ben approved 22 Oct 2026): a news check every Monday and Thursday about 6:35am Sydney time, and a full sweep of every tracked band on the 1st of each month about 6:30am. Both push data-only changes straight to `main` (see the exception in CLAUDE.md) and send Ben a phone push when something changed.
@@ -84,7 +85,8 @@ Steps:
 
 ## Roadmap
 - **Phase 1 (done):** manually researched artifact.
-- **Phase 2:** move to Claude Code and GitHub. Plan: `data/events.json` and `data/bands.json` as source of truth, a refresh script using the Ticketmaster Discovery API plus scraped promoter pages, public GitHub Pages hosting (repo name: metal-hunter) so friends can open it, a scheduled refresh, .ics export, and optional email or calendar alerts for upcoming presales.
+- **Phase 3 (planned 23 Oct 2026):** Android app via Capacitor, then iPhone. Paid tier "Metal Hunter Pro" at $2.99 a month or $19.99 a year (Ben's choice), with genre alerts, presale reminders and unlimited follows; free tier keeps the calendar and up to 5 followed bands. Needs a back end for sign-in, saved My Metal, push alerts (Firebase) and subscriptions (RevenueCat). Proposal: https://claude.ai/artifact/NFGe1hSRnE8q5K8jsZfK3v
+- **Phase 2 (done):** move to Claude Code and GitHub. Plan: `data/events.json` and `data/bands.json` as source of truth, a refresh script using the Ticketmaster Discovery API plus scraped promoter pages, public GitHub Pages hosting (repo name: metal-hunter) so friends can open it, a scheduled refresh, .ics export, and optional email or calendar alerts for upcoming presales.
 
 ## Known gaps (22 Oct 2026)
 - No live feed; all data is from search results.

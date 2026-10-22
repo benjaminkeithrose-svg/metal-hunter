@@ -5,7 +5,7 @@ A calendar of upcoming heavy metal concerts in Australia: dates, venues, where t
 ## Layout
 - `index.html`: the whole site. It loads the two data files below.
 - `data/events.json`: tours and shows, ticket sale moments, and the watchlist. Edit this to add or change a show.
-- `data/bands.json`: tracked bands by genre, each with a status (`elsewhere`, `none`, `au`, `signal`, `unchecked`). `confirmed: true` means Ben has approved the band for polling.
+- `data/bands.json`: genre groups (`buckets`), band groups and tracked bands by genre, each with a status (`elsewhere`, `none`, `au`, `signal`, `unchecked`). `confirmed: true` means Ben has approved the band for polling.
 - `docs/INSTRUCTIONS.md`: scope, sources, data rules and the refresh procedure.
 - `scripts/`: reserved for the refresh script (Ticketmaster Discovery API plus promoter pages).
 
