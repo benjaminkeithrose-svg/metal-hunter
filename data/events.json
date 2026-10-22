@@ -375,7 +375,7 @@
   {
    "id": "froth",
    "artist": "Froth & Fury Fest",
-   "support": "Clutch, Alpha Wolf, Paleface Swiss, Dark Angel, Counterparts, Propagandhi, Carpenter Brut, Igorrr, Corrosion of Conformity",
+   "support": "Clutch, Alpha Wolf, Paleface Swiss, Dark Angel, Counterparts, Propagandhi, Carpenter Brut, Igorrr, Corrosion of Conformity, Deicide",
    "genre": "Festival",
    "tag": "core",
    "status": "on-sale",
@@ -890,6 +890,397 @@
      "city": "Sandstone Point",
      "st": "QLD",
      "venue": "Sandstone Point Hotel (Lookout Festival)"
+    }
+   ]
+  },
+  {
+   "id": "ladispute",
+   "artist": "La Dispute",
+   "support": "Special Features",
+   "genre": "Post-hardcore",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "On sale now via Live Nation. All ages except Melbourne.",
+   "ticketUrl": "https://www.livenation.com.au/",
+   "ticketLabel": "Live Nation",
+   "src": "https://www.thenote.com.au/news/la-dispute-no-one-was-driving-the-car-australian-tour-2026",
+   "shows": [
+    {
+     "d": "2026-10-23",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Liberty Hall"
+    },
+    {
+     "d": "2026-10-24",
+     "city": "Newcastle",
+     "st": "NSW",
+     "venue": "King Street Bandroom"
+    },
+    {
+     "d": "2026-10-25",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Tivoli"
+    }
+   ]
+  },
+  {
+   "id": "dgd",
+   "artist": "Dance Gavin Dance",
+   "support": "The Fall of Troy, Galleons",
+   "genre": "Post-hardcore",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "General sale opened 3 Jul, 11am AEST.",
+   "ticketUrl": "https://www.destroyalllines.com/",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://www.thenote.com.au/news/dance-gavin-dance-announce-australian-tour-2026",
+   "shows": [
+    {
+     "d": "2026-11-06",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Tivoli"
+    },
+    {
+     "d": "2026-11-07",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Enmore Theatre"
+    },
+    {
+     "d": "2026-11-08",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Forum"
+    },
+    {
+     "d": "2026-11-10",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "The Gov"
+    },
+    {
+     "d": "2026-11-12",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Freo Social"
+    }
+   ]
+  },
+  {
+   "id": "jew26",
+   "artist": "Jimmy Eat World",
+   "support": "Ruby Fields, A. Swayze & The Ghosts",
+   "genre": "Emo / alt rock",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "sale": "General sale opened 16 Jul, 11am AEST. Bleed American played in full.",
+   "ticketUrl": "https://teglive.com.au/",
+   "ticketLabel": "TEG Live",
+   "src": "https://www.theaureview.com/music/jimmy-eat-world-australia-tour/",
+   "shows": [
+    {
+     "d": "2026-12-10",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Hordern Pavilion"
+    },
+    {
+     "d": "2026-12-11",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Margaret Court Arena"
+    },
+    {
+     "d": "2026-12-12",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Hindley Street Music Hall"
+    },
+    {
+     "d": "2026-12-15",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Riverstage"
+    }
+   ]
+  },
+  {
+   "id": "qotsa26",
+   "artist": "Queens of the Stone Age",
+   "support": "Primus, Tropical Fuck Storm",
+   "genre": "Hard rock / stoner",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "sale": "General sale opened 20 Jul, 11am AEST.",
+   "ticketUrl": "https://www.livenation.com.au/",
+   "ticketLabel": "Live Nation",
+   "src": "https://www.thenote.com.au/news/queens-of-the-stone-age-announce-australian-new-zealand-tour-2026",
+   "shows": [
+    {
+     "d": "2026-12-08",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "The Drive"
+    },
+    {
+     "d": "2026-12-11",
+     "city": "Hobart",
+     "st": "TAS",
+     "venue": "MyState Bank Arena"
+    },
+    {
+     "d": "2026-12-13",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Rod Laver Arena"
+    },
+    {
+     "d": "2026-12-15",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Afterpay Arena"
+    },
+    {
+     "d": "2026-12-16",
+     "city": "Newcastle",
+     "st": "NSW",
+     "venue": "Newcastle Entertainment Centre"
+    },
+    {
+     "d": "2026-12-18",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Brisbane Entertainment Centre"
+    }
+   ]
+  },
+  {
+   "id": "metalchurch27",
+   "artist": "Metal Church",
+   "support": "",
+   "genre": "Thrash / heavy metal",
+   "tag": "core",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "On-sale details not found. Check the promoter.",
+   "ticketUrl": "https://metropolistouring.com/metal-church/",
+   "ticketLabel": "Metropolis Touring",
+   "src": "https://metropolistouring.com/metal-church/",
+   "note": "Line-up includes new singer Brian Allen and David Ellefson.",
+   "shows": [
+    {
+     "d": "2027-01-21",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2027-01-22",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2027-01-23",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Max Watts"
+    },
+    {
+     "d": "2027-01-25",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Rosemount Hotel"
+    }
+   ]
+  },
+  {
+   "id": "deicide27",
+   "artist": "Deicide",
+   "support": "",
+   "genre": "Death metal",
+   "tag": "core",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "On-sale details not found.",
+   "ticketUrl": "https://concerts50.com/show/deicide-in-camperdown-tickets-feb-05-2027",
+   "ticketLabel": "Tour details",
+   "src": "https://concerts50.com/show/deicide-in-camperdown-tickets-feb-05-2027",
+   "note": "Five-date tour from Froth & Fury (Adelaide, 30 Jan) to Sydney. Brisbane, Canberra and Melbourne dates not in my sources.",
+   "shows": [
+    {
+     "d": "2027-02-05",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Manning Bar"
+    }
+   ]
+  },
+  {
+   "id": "igorrr27",
+   "artist": "Igorrr",
+   "support": "",
+   "genre": "Avant-garde metal",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "General sale opened 25 Jun, 9am AEST via Moshtix. First Australian tour; also at Froth & Fury.",
+   "ticketUrl": "https://www.moshtix.com.au/",
+   "ticketLabel": "Moshtix",
+   "src": "https://www.thenote.com.au/news/igorrr-announces-2027-australian-tour",
+   "shows": [
+    {
+     "d": "2027-02-02",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Triffid"
+    },
+    {
+     "d": "2027-02-05",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "170 Russell"
+    },
+    {
+     "d": "2027-02-06",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Liberty Hall"
+    }
+   ]
+  },
+  {
+   "id": "president27",
+   "artist": "PRESIDENT",
+   "support": "Hands Like Houses",
+   "genre": "Metalcore",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "Presales ran 27–28 Aug. General sale via Live Nation.",
+   "ticketUrl": "https://www.livenation.com.au/event/president-australian-campaign-2027-sydney-tickets-edp1691289",
+   "ticketLabel": "Live Nation",
+   "src": "https://themusic.com.au/news/president-2027-australian-tour-dates/kOMugoWEh4Y/21-08-26",
+   "shows": [
+    {
+     "d": "2027-02-19",
+     "city": "Fremantle",
+     "st": "WA",
+     "venue": "Metropolis Fremantle"
+    },
+    {
+     "d": "2027-02-21",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Hindley Street Music Hall"
+    },
+    {
+     "d": "2027-02-23",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Forum"
+    },
+    {
+     "d": "2027-02-25",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Fortitude Music Hall"
+    },
+    {
+     "d": "2027-02-27",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "The Roundhouse"
+    }
+   ]
+  },
+  {
+   "id": "drain27",
+   "artist": "Drain",
+   "support": "TBA",
+   "genre": "Hardcore / crossover",
+   "tag": "core",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "General sale opened 4 Sep, 11am local.",
+   "ticketUrl": "https://www.destroyalllines.com/tours/drain-2027",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://www.destroyalllines.com/tours/drain-2027",
+   "note": "Tour runs 23–27 Feb. Only Brisbane and Sydney venues were in my sources.",
+   "shows": [
+    {
+     "d": "2027-02-24",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Triffid"
+    },
+    {
+     "d": "2027-02-26",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Metro Theatre"
+    }
+   ]
+  },
+  {
+   "id": "dethfest27",
+   "artist": "Melbourne Dethfest 2027",
+   "support": "Bloodbath (headline), more international acts TBA",
+   "genre": "Death metal festival",
+   "tag": "core",
+   "status": "upcoming",
+   "sale": "Tickets and full lineup to come.",
+   "ticketUrl": "https://heavymag.com.au/bloodbath-to-headline-melbourne-deathfest-2027/",
+   "ticketLabel": "Tour details",
+   "src": "https://heavymag.com.au/bloodbath-to-headline-melbourne-deathfest-2027/",
+   "note": "Two-stage, all-day event, first time at The Croxton.",
+   "shows": [
+    {
+     "d": "2027-03-07",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "The Croxton, Thornbury"
+    }
+   ]
+  },
+  {
+   "id": "elder27",
+   "artist": "Elder",
+   "support": "Khan",
+   "genre": "Psych / stoner rock",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "On sale now via the band's site.",
+   "ticketUrl": "https://beholdtheelder.com/",
+   "ticketLabel": "Elder",
+   "src": "https://doomed-nation.com/elder-announce-2027-australian-headline-tour-with-special-guests-khan/",
+   "note": "Adelaide is also announced, date not in my sources.",
+   "shows": [
+    {
+     "d": "2027-05-14",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Manning Bar"
+    },
+    {
+     "d": "2027-05-15",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Max Watts"
+    },
+    {
+     "d": "2027-05-16",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Triffid"
+    },
+    {
+     "d": "2027-05-20",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Rosemount Hotel"
     }
    ]
   }
