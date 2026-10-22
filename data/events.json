@@ -1453,6 +1453,60 @@
      "venue": "The Rechabite"
     }
    ]
+  },
+  {
+   "id": "soen27",
+   "artist": "Soen",
+   "support": "",
+   "genre": "Progressive metal",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "Rescheduled from Oct 2026; original tickets valid. On sale via The Phoenix.",
+   "ticketUrl": "https://thephoenix.au/soen-2027",
+   "ticketLabel": "The Phoenix",
+   "src": "https://www.therockpit.net/2026/soen-announce-rescheduled-australian-shows-for-january-2027-promise-made-promise-kept/",
+   "note": "The Omnific were support on the original dates; not confirmed for the new ones.",
+   "shows": [
+    {
+     "d": "2027-01-15",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2027-01-16",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Manning Bar"
+    },
+    {
+     "d": "2027-01-17",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Max Watts"
+    }
+   ]
+  },
+  {
+   "id": "lucidity27",
+   "artist": "Lucidity 2027",
+   "support": "Converge (Jane Doe 25th), Oathbreaker (Rheia 10th), Wiegedood, Portrayal of Guilt, Extortion, The Broderick, Ends in Tragedy, Blind Girls, Isua, Melting",
+   "genre": "Hardcore / metal festival",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "General sale opened 21 Oct via Oztix. Early bird from $109.90. Capped at 2,000.",
+   "ticketUrl": "https://tickets.oztix.com.au/outlet/event/714630a9-692f-4fe5-9c97-96225f26bb31",
+   "ticketLabel": "Oztix",
+   "src": "https://www.thenote.com.au/news/converge-headline-new-melbourne-heavy-festival-lucidity",
+   "note": "New festival from Destroy All Lines. Converge, Oathbreaker and Wiegedood are festival exclusives.",
+   "shows": [
+    {
+     "d": "2027-03-13",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Melbourne Pavilion, Kensington"
+    }
+   ]
   }
  ],
  "sales": [
