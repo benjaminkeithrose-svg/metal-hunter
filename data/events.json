@@ -1104,13 +1104,36 @@
    "genre": "Death metal",
    "tag": "core",
    "status": "on-sale",
-   "conf": "verify",
-   "sale": "On-sale details not found.",
-   "ticketUrl": "https://concerts50.com/show/deicide-in-camperdown-tickets-feb-05-2027",
-   "ticketLabel": "Tour details",
-   "src": "https://concerts50.com/show/deicide-in-camperdown-tickets-feb-05-2027",
-   "note": "Five-date tour from Froth & Fury (Adelaide, 30 Jan) to Sydney. Brisbane, Canberra and Melbourne dates not in my sources.",
+   "sale": "General sale opened 13 Oct via Your Mate Bookings.",
+   "ticketUrl": "https://yourmatebookings.com/",
+   "ticketLabel": "Your Mate Bookings",
+   "src": "https://www.thenote.com.au/news/deicide-australian-tour-2027",
+   "note": "First Australian tour in 20 years. Starts at Froth & Fury in Adelaide.",
    "shows": [
+    {
+     "d": "2027-01-30",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Froth & Fury Fest, Adelaide Showground"
+    },
+    {
+     "d": "2027-01-31",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Northcote Theatre"
+    },
+    {
+     "d": "2027-02-03",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Brightside (outdoors)"
+    },
+    {
+     "d": "2027-02-04",
+     "city": "Canberra",
+     "st": "ACT",
+     "venue": "The Baso"
+    },
     {
      "d": "2027-02-05",
      "city": "Sydney",
@@ -1202,13 +1225,18 @@
    "genre": "Hardcore / crossover",
    "tag": "core",
    "status": "on-sale",
-   "conf": "verify",
    "sale": "General sale opened 4 Sep, 11am local.",
    "ticketUrl": "https://www.destroyalllines.com/tours/drain-2027",
    "ticketLabel": "Destroy All Lines",
-   "src": "https://www.destroyalllines.com/tours/drain-2027",
-   "note": "Tour runs 23–27 Feb. Only Brisbane and Sydney venues were in my sources.",
+   "src": "https://bluntmag.com.au/news/drain-australian-tour-2027/",
+   "note": "Opens a wider Asia-Pacific tour. No Perth or Adelaide dates.",
    "shows": [
+    {
+     "d": "2027-02-23",
+     "city": "Nambour",
+     "st": "QLD",
+     "venue": "Black Box, The Old Ambulance Station"
+    },
     {
      "d": "2027-02-24",
      "city": "Brisbane",
@@ -1220,6 +1248,12 @@
      "city": "Sydney",
      "st": "NSW",
      "venue": "Metro Theatre"
+    },
+    {
+     "d": "2027-02-27",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "170 Russell"
     }
    ]
   },
@@ -1251,12 +1285,10 @@
    "genre": "Psych / stoner rock",
    "tag": "adjacent",
    "status": "on-sale",
-   "conf": "verify",
    "sale": "On sale now via the band's site.",
    "ticketUrl": "https://beholdtheelder.com/",
    "ticketLabel": "Elder",
-   "src": "https://doomed-nation.com/elder-announce-2027-australian-headline-tour-with-special-guests-khan/",
-   "note": "Adelaide is also announced, date not in my sources.",
+   "src": "https://theobelisk.net/obelisk/2026/07/09/elder-australia-tour-2027-1/",
    "shows": [
     {
      "d": "2027-05-14",
@@ -1275,6 +1307,12 @@
      "city": "Brisbane",
      "st": "QLD",
      "venue": "The Triffid"
+    },
+    {
+     "d": "2027-05-18",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "The Gov"
     },
     {
      "d": "2027-05-20",
