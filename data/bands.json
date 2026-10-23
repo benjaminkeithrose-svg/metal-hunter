@@ -7383,6 +7383,24 @@
    "confirmed": true
   },
   {
+   "n": "Cancer Bats",
+   "g": "hc",
+   "st": "none",
+   "note": "Playing Froth & Fury 2027 (on the calendar).",
+   "src": "https://www.wallofsoundau.com/news/froth-and-fury-2nd-announcement-2027",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Heriot",
+   "g": "hc",
+   "st": "none",
+   "note": "Playing Froth & Fury 2027 (on the calendar).",
+   "src": "https://www.wallofsoundau.com/news/froth-and-fury-2nd-announcement-2027",
+   "named": false,
+   "confirmed": true
+  },
+  {
    "n": "Being as an Ocean",
    "g": "melhc",
    "st": "elsewhere",
@@ -9525,7 +9543,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Hobbs' Angel of Death",
@@ -9535,7 +9554,8 @@
    "src": "https://metalinjection.net/this-is-just-a-tribute/australian-legend-peter-hobbs-of-angel-of-death-has-passed-away",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Vanishing Point",
@@ -9545,7 +9565,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Black Majesty",
@@ -9555,7 +9576,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Lord",
@@ -9565,7 +9587,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Elm Street",
@@ -9575,7 +9598,8 @@
    "src": "https://www.bandsintown.com/a/1108271-elm-street",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Darker Half",
@@ -9585,7 +9609,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Envenomed",
@@ -9595,7 +9620,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Harlott",
@@ -9605,7 +9631,8 @@
    "src": "https://www.regioactive.de/konzert/harlott-aus-last-rites-20th-anniversary-eu-tour-2026-wien-escape-2026-09-16-bcHryPqnTN",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Hidden Intent",
@@ -9615,7 +9642,8 @@
    "src": "https://www.thenote.com.au/news/flotsam-and-jetsam-mortal-sin-australian-tour-2026",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Dead City Ruins",
@@ -9625,7 +9653,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Taramis",
@@ -9635,7 +9664,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Witchgrinder",
@@ -9645,7 +9675,8 @@
    "src": "https://www.thenote.com.au/news/lord-of-the-lost-announce-witchgrinder-as-australian-tour-support",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Hellbringer",
@@ -9655,7 +9686,85 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Bastardizer",
+   "g": "ausheavy",
+   "st": "none",
+   "note": "East-coast shows Jan and Jun 2026.",
+   "src": "https://www.setlist.fm/setlists/bastardizer-3bddf864.html",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Alarum",
+   "g": "ausheavy",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "In Malice's Wake",
+   "g": "ausheavy",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Damnations Day",
+   "g": "ausheavy",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Immorium",
+   "g": "ausheavy",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Pizza Death",
+   "g": "ausheavy",
+   "st": "none",
+   "note": "Headlined Metal On Murray, Mar 2026.",
+   "src": "https://www.thenote.com.au/news/metal-on-murray-2026-lineup",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Silent Knight",
+   "g": "ausheavy",
+   "st": "none",
+   "note": "Played Froth & Fury Perth, Jan 2026.",
+   "src": "https://heavymag.com.au/froth-fury-2026-announce-full-perth-adelaide-line-ups/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Be'lakor",
@@ -9695,7 +9804,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Portal",
@@ -9705,7 +9815,8 @@
    "src": "https://www.hotpress.com/music/portal-to-play-whelans-in-september-23080943",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Impetuous Ritual",
@@ -9715,7 +9826,8 @@
    "src": "https://www.hotpress.com/music/portal-to-play-whelans-in-september-23080943",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Grave Upheaval",
@@ -9725,7 +9837,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "The Berzerker",
@@ -9735,7 +9848,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Abramelin",
@@ -9745,7 +9859,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Blood Duster",
@@ -9755,7 +9870,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Hybrid Nightmares",
@@ -9765,7 +9881,8 @@
    "src": "https://heavymag.com.au/getting-to-know-the-bands-of-thrashville-with-hybrid-nightmares/",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Hadal Maw",
@@ -9775,7 +9892,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Contaminated",
@@ -9785,7 +9903,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Anoxia",
@@ -9795,7 +9914,8 @@
    "src": "https://realmofobscura.com/obscura-announce-shred-fest-australia-new-zealand-tour-2026/",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Vanta",
@@ -9805,7 +9925,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Truth Corroded",
@@ -9815,7 +9936,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Werewolves",
@@ -9825,7 +9947,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Faceless Burial",
@@ -9835,7 +9958,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Descent",
@@ -9845,7 +9969,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Cauldron Black Ram",
@@ -9855,7 +9980,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Ashen",
@@ -9865,7 +9991,173 @@
    "src": "https://realmofobscura.com/obscura-announce-shred-fest-australia-new-zealand-tour-2026/",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Slaughtercult",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "First national tour with Kraanium (Apr 2026); supported Psycroptic and Rivers of Nihil (Aug 2026). New album out Sep 2026.",
+   "src": "https://www.thenote.com.au/news/psycroptic-rivers-of-nihil-plot-co-headline-australian-tour-2026",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Growth",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "Supported Psycroptic and Rivers of Nihil, Aug 2026. Album Under The Under out 2026.",
+   "src": "https://www.thenote.com.au/news/psycroptic-rivers-of-nihil-plot-co-headline-australian-tour-2026",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Complexant",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "Debut album Apex out 2026.",
+   "src": "https://www.angrymetalguy.com/tag/australian-metal/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "The Absolution Sequence",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "Debut album Dread Cycle out 2026.",
+   "src": "https://www.angrymetalguy.com/tag/australian-metal/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Freedom Of Fear",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "Supported Fear Factory in Adelaide, May 2026.",
+   "src": "https://www.thenote.com.au/news/local-supports-revealed-for-fear-factorys-australian-and-new-zealand-tour-2026",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Varrim",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "New EP Devourance on the way. Supported Fear Factory in Townsville, May 2026.",
+   "src": "https://www.thenote.com.au/news/local-supports-revealed-for-fear-factorys-australian-and-new-zealand-tour-2026",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Fuxache",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Headbore",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "Played Metal On Murray, Mar 2026.",
+   "src": "https://www.thenote.com.au/news/metal-on-murray-2026-lineup",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Oath of Damnation",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "Australian dates on the calendar. (Froth & Fury 2027).",
+   "src": "https://www.wallofsoundau.com/news/froth-and-fury-2nd-announcement-2027",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "The Amenta",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Pustilence",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "Australian dates on the calendar. (Steel Assassins).",
+   "src": "https://musick.com.au/gig/steel-assassins-2026-two-day-pass-2026-11-13/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Ignivomous",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Iniquitous Monolith",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "Played Froth & Fury Perth, Jan 2026.",
+   "src": "https://heavymag.com.au/froth-fury-2026-announce-full-perth-adelaide-line-ups/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "All This Filth",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "Played Froth & Fury Perth, Jan 2026.",
+   "src": "https://heavymag.com.au/froth-fury-2026-announce-full-perth-adelaide-line-ups/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Apocalyptic Annihilation",
+   "g": "ausdeath",
+   "st": "none",
+   "note": "Played Metal On Murray, Mar 2026.",
+   "src": "https://www.thenote.com.au/news/metal-on-murray-2026-lineup",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Deströyer 666",
@@ -9885,7 +10177,8 @@
    "src": "https://whatson.cityofsydney.nsw.gov.au/events/austere-skuggor",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Nazxul",
@@ -9895,7 +10188,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Woods of Desolation",
@@ -9905,7 +10199,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Drowning the Light",
@@ -9915,7 +10210,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Ruins",
@@ -9925,7 +10221,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Spire",
@@ -9935,7 +10232,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Gospel of the Horns",
@@ -9945,7 +10243,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Lagerstein",
@@ -9955,7 +10254,8 @@
    "src": "https://www.everblack.com.au/?p=35240",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Claim the Throne",
@@ -9965,7 +10265,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Valhalore",
@@ -9975,7 +10276,8 @@
    "src": "https://countrytown.com/gigs/valhalore-the-beyond-the-stars-australian-tour/TCElZvRFxOw",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Alchemist",
@@ -9985,7 +10287,52 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Suldusk",
+   "g": "ausblack",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "The Eternal",
+   "g": "ausblack",
+   "st": "none",
+   "note": "Eighth album Obscured Horizons out 2026.",
+   "src": "https://www.angrymetalguy.com/tag/australian-metal/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Advent Sorrow",
+   "g": "ausblack",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Ill Omen",
+   "g": "ausblack",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Ne Obliviscaris",
@@ -10075,7 +10422,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Alithia",
@@ -10085,7 +10433,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Cog",
@@ -10095,7 +10444,8 @@
    "src": "https://events.humanitix.com/cog-2026-tour",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "The Butterfly Effect",
@@ -10115,7 +10465,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Dyssidia",
@@ -10125,7 +10476,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Teramaze",
@@ -10135,7 +10487,8 @@
    "src": "https://www.rrr.org.au/events/chaos-divine-the-formant-tour-with-teramaze-and-cautionthieves",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Chaos Divine",
@@ -10145,7 +10498,8 @@
    "src": "https://www.rrr.org.au/events/chaos-divine-the-formant-tour-with-teramaze-and-cautionthieves",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Breaking Orbit",
@@ -10155,7 +10509,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "I Built the Sky",
@@ -10165,7 +10520,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Meniscus",
@@ -10175,7 +10531,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Tangled Thoughts of Leaving",
@@ -10185,7 +10542,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "The Omnific",
@@ -10195,7 +10553,8 @@
    "src": "https://www.eventworld.com/the-omnific-tickets/performer/32870",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Arcane",
@@ -10205,7 +10564,52 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Ahles",
+   "g": "ausprog",
+   "st": "none",
+   "note": "Played Prog Stomp, May 2026.",
+   "src": "https://themusic.com.au/gigs/prog-stomp-2026/XDmhBv2-Ck8",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Age of Emergence",
+   "g": "ausprog",
+   "st": "none",
+   "note": "Played Prog Stomp, May 2026.",
+   "src": "https://themusic.com.au/gigs/prog-stomp-2026/XDmhBv2-Ck8",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Hyperaesthesia",
+   "g": "ausprog",
+   "st": "none",
+   "note": "Played Prog Stomp, May 2026.",
+   "src": "https://themusic.com.au/gigs/prog-stomp-2026/XDmhBv2-Ck8",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Patient 67",
+   "g": "ausprog",
+   "st": "none",
+   "note": "Played Froth & Fury Perth, Jan 2026.",
+   "src": "https://heavymag.com.au/froth-fury-2026-announce-full-perth-adelaide-line-ups/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Parkway Drive",
@@ -10245,7 +10649,8 @@
    "src": "https://www.thenote.com.au/news/the-amity-affliction-announce-huge-regional-tour-2026",
    "named": true,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Thy Art Is Murder",
@@ -10335,7 +10740,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Ocean Grove",
@@ -10355,7 +10761,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Diamond Construct",
@@ -10365,7 +10772,8 @@
    "src": "https://www.thenote.com.au/news/diamond-construct-australian-tour",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Bloom",
@@ -10375,7 +10783,8 @@
    "src": "https://www.everblack.com.au/?p=30755",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Windwaker",
@@ -10395,7 +10804,8 @@
    "src": "https://www.thenote.com.au/news/ocean-sleeper-announce-their-biggest-australian-headline-tour-to-date",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Earth Caller",
@@ -10405,7 +10815,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Justice for the Damned",
@@ -10425,7 +10836,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Gravemind",
@@ -10435,7 +10847,8 @@
    "src": "https://heavymag.com.au/total-annihilation-with-gravemind/",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Heavensgate",
@@ -10445,7 +10858,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Inertia",
@@ -10455,7 +10869,8 @@
    "src": "https://musicfeeds.com.au/news/periphery-announce-2027-australian-tour/",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "I Killed the Prom Queen",
@@ -10475,7 +10890,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "House vs Hurricane",
@@ -10485,7 +10901,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Buried in Verona",
@@ -10495,7 +10912,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Feed Her to the Sharks",
@@ -10505,7 +10923,8 @@
    "src": "https://en.wikipedia.org/wiki/Feed_Her_to_the_Sharks",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "The Brave",
@@ -10515,7 +10934,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Saviour",
@@ -10525,7 +10945,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Prepared Like a Bride",
@@ -10535,7 +10956,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Hands Like Houses",
@@ -10555,7 +10977,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Mirrors",
@@ -10565,7 +10988,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Dream On Dreamer",
@@ -10585,7 +11009,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Avion Roe",
@@ -10595,7 +11020,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Stepson",
@@ -10605,7 +11031,8 @@
    "src": "https://punktuationmag.com/aussie-punk-hardcore-group-stepson-drop-new-album-and-tour-dateswho-are-we-with-uk-dates-australian-dates-2001/",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Belle Haven",
@@ -10615,7 +11042,8 @@
    "src": "https://themusic.com.au/gigs/belle-haven-be-enough-tour/O_WQsit1mz8",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Ambleside",
@@ -10625,7 +11053,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Sienna Skies",
@@ -10635,7 +11064,228 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Blood Oath",
+   "g": "auscore",
+   "st": "none",
+   "note": "Named one of 15 emerging Aussie acts for 2026.",
+   "src": "https://www.wallofsoundau.com/news/15-emerging-aussie-acts-to-watch-in-2026",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Fallweather",
+   "g": "auscore",
+   "st": "none",
+   "note": "Supported August Burns Red across Australia, Sep to Oct 2026.",
+   "src": "https://countrytown.com/gigs/august-burns-red-season-of-surrender-aus-tour-2026/kIb5wtxORLk",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "MACËY",
+   "g": "auscore",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Seek Misery",
+   "g": "auscore",
+   "st": "none",
+   "note": "Toured through mid-2026.",
+   "src": "https://www.bandsintown.com/de/a/15577621-seek-misery",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Ironstone",
+   "g": "auscore",
+   "st": "none",
+   "note": "New singles in 2025 and 2026.",
+   "src": "https://en.wikipedia.org/wiki/Ironstone_(band)",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Diesect",
+   "g": "auscore",
+   "st": "none",
+   "note": "Supported Spite, Apr to May 2026.",
+   "src": "https://metalontap.com/spite-announce-local-supports-for-australian-headline-tour-in-april-2026-with-varials-diesect/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "I Choose Violence",
+   "g": "auscore",
+   "st": "none",
+   "note": "Supported Kraanium, Apr 2026.",
+   "src": "https://www.thenote.com.au/news/kraanium-australian-new-zealand-tour-2026",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Ends in Tragedy",
+   "g": "auscore",
+   "st": "none",
+   "note": "Australian dates on the calendar. (618 Fest, Lucidity).",
+   "src": "https://www.wallofsoundau.com/news/618-fest-is-back-with-a-vengeance-in-adelaide",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Blood On My Hands",
+   "g": "auscore",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Dealer",
+   "g": "auscore",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Reliqa",
+   "g": "auscore",
+   "st": "none",
+   "note": "Co-headlined with Future Static in early 2026.",
+   "src": "https://www.thenote.com.au/news/reliqa-future-static-australian-tour",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Mélancolia",
+   "g": "auscore",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Irken Armada",
+   "g": "auscore",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Double Dragon",
+   "g": "auscore",
+   "st": "none",
+   "note": "Back with new music in 2026.",
+   "src": "https://www.thenote.com.au/news/heavy-round-up-july",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Save The Clock Tower",
+   "g": "auscore",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Banks Arcade",
+   "g": "auscore",
+   "st": "elsewhere",
+   "note": "UK and Europe, Jun to Jul 2026.",
+   "src": "https://www.stereoboard.com/banks-arcade-tickets",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Raccoon City",
+   "g": "auscore",
+   "st": "none",
+   "note": "Australian dates on the calendar. (Froth & Fury 2027).",
+   "src": "https://musicfeeds.com.au/news/froth-fury-fest-2027-drops-huge-first-lineup/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Roronoah",
+   "g": "auscore",
+   "st": "none",
+   "note": "Played Dead of Winter, Jun 2026.",
+   "src": "https://heavymag.com.au/dead-of-winter-festival-2026-the-resurrection-roronoah/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Strength Of A Bear",
+   "g": "auscore",
+   "st": "none",
+   "note": "Played Metal On Murray, Mar 2026.",
+   "src": "https://www.thenote.com.au/news/metal-on-murray-2026-lineup",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "The Condos",
+   "g": "auscore",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Speed",
@@ -10655,7 +11305,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Iron Mind",
@@ -10665,7 +11316,8 @@
    "src": "https://www.thenote.com.au/news/iron-mind-australian-tour-2026",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "50 Lions",
@@ -10675,7 +11327,8 @@
    "src": "https://heavymag.com.au/50-lions-kick-off-australian-album-tour-this-week-in-melbourne/",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Deez Nuts",
@@ -10695,7 +11348,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Mindsnare",
@@ -10705,7 +11359,8 @@
    "src": "https://www.thenote.com.au/news/clarity-records-presents-mindsnare",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Cursed Earth",
@@ -10715,7 +11370,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Vigil of War",
@@ -10725,7 +11381,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Trophy Eyes",
@@ -10745,7 +11402,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Postblue",
@@ -10755,7 +11413,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Phantoms",
@@ -10765,7 +11424,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Blind Girls",
@@ -10775,7 +11435,8 @@
    "src": "https://www.thenote.com.au/news/converge-headline-new-melbourne-heavy-festival-lucidity",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Isua",
@@ -10785,7 +11446,8 @@
    "src": "https://www.thenote.com.au/news/converge-headline-new-melbourne-heavy-festival-lucidity",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Melting",
@@ -10795,7 +11457,8 @@
    "src": "https://www.thenote.com.au/news/converge-headline-new-melbourne-heavy-festival-lucidity",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Volatile Ways",
@@ -10805,7 +11468,8 @@
    "src": "https://metalontap.com/thrown-australian-headline-tour-2027/",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Haywire",
@@ -10815,7 +11479,162 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Out Of Spite",
+   "g": "aushc",
+   "st": "none",
+   "note": "Supported Guilt Trip and Terminal Sleep on the strength of a demo.",
+   "src": "https://www.wallofsoundau.com/news/15-emerging-aussie-acts-to-watch-in-2026",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Rile",
+   "g": "aushc",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Dance",
+   "g": "aushc",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "st. sinner",
+   "g": "aushc",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Skorn",
+   "g": "aushc",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "SCRAM",
+   "g": "aushc",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Feel The Pain",
+   "g": "aushc",
+   "st": "none",
+   "note": "Australian dates on the calendar. (Froth & Fury 2027). Toured nationally with Speed in 2025.",
+   "src": "https://www.wallofsoundau.com/news/froth-and-fury-2nd-announcement-2027",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Whispers",
+   "g": "aushc",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Stressed",
+   "g": "aushc",
+   "st": "none",
+   "note": "Australian dates on the calendar. (Froth & Fury 2027).",
+   "src": "https://www.wallofsoundau.com/news/froth-and-fury-2nd-announcement-2027",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Toe to Toe",
+   "g": "aushc",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Plague Dweller",
+   "g": "aushc",
+   "st": "none",
+   "note": "Supported Fear Factory in Sydney, May 2026.",
+   "src": "https://www.thenote.com.au/news/local-supports-revealed-for-fear-factorys-australian-and-new-zealand-tour-2026",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Body Prison",
+   "g": "aushc",
+   "st": "none",
+   "note": "Supported Fear Factory in Melbourne, May 2026.",
+   "src": "https://www.thenote.com.au/news/local-supports-revealed-for-fear-factorys-australian-and-new-zealand-tour-2026",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Day Of Contempt",
+   "g": "aushc",
+   "st": "none",
+   "note": "Australian dates on the calendar. (headlining 618 Fest). First Adelaide headline show in 15 years, Jul 2026.",
+   "src": "https://www.wallofsoundau.com/news/618-fest-is-back-with-a-vengeance-in-adelaide",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Life Pilot",
+   "g": "aushc",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Witchskull",
@@ -10825,7 +11644,8 @@
    "src": "https://heavymag.com.au/the-altar-demands-more-inside-the-gates-of-necrosonic-festival-with-eye-of-the-enemy/",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Mammoth Mammoth",
@@ -10835,7 +11655,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Mournful Congregation",
@@ -10845,7 +11666,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Clagg",
@@ -10855,7 +11677,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Snake Mountain",
@@ -10865,7 +11688,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Khan",
@@ -10875,7 +11699,8 @@
    "src": "https://www.regioactive.de/konzert/khan-au-that-fair-and-warlike-form-european-tour-hamburg-w-skin-thief-bambi-galore-2026-10-15-Fk2yZfQJHR",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Hobo Magic",
@@ -10885,7 +11710,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Lo!",
@@ -10895,7 +11721,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Battlesnake",
@@ -10905,7 +11732,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Holy Serpent",
@@ -10915,7 +11743,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Child",
@@ -10925,7 +11754,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Mountain Wizard Death Cult",
@@ -10935,7 +11765,85 @@
    "src": "https://www.thenote.com.au/news/yob-2026-australian-tour",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Astrodeath",
+   "g": "ausdoom",
+   "st": "none",
+   "note": "Co-headline tour with Flaming Wrekage, Jul 2026.",
+   "src": "https://heavymag.com.au/astrodeath-announce-national-tour/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Flaming Wrekage",
+   "g": "ausdoom",
+   "st": "none",
+   "note": "Co-headline tour with Astrodeath, Jul 2026.",
+   "src": "https://heavymag.com.au/astrodeath-announce-national-tour/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Sydonia",
+   "g": "ausdoom",
+   "st": "none",
+   "note": "Played Dead of Winter, Jun 2026; first Brisbane show in 10 years.",
+   "src": "https://www.everblack.com.au/2026/05/25/sydonia-announce-first-brisbane-show-in-10-years/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Nicholas Cage Fighter",
+   "g": "ausdoom",
+   "st": "none",
+   "note": "Australian dates on the calendar. (618 Fest). I Watched You Burn tour Jan 2026; toured Japan.",
+   "src": "https://www.thenote.com.au/news/nicolas-cage-fighter-i-watched-you-burn-2026-australian-tour",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Beanflipper",
+   "g": "ausdoom",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "The Neptune Power Federation",
+   "g": "ausdoom",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Sundowner",
+   "g": "ausdoom",
+   "st": "none",
+   "note": "Played Metal On Murray, Mar 2026.",
+   "src": "https://www.thenote.com.au/news/metal-on-murray-2026-lineup",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Pendulum",
@@ -11015,7 +11923,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Dregg",
@@ -11023,6 +11932,39 @@
    "st": "none",
    "note": "Australian dates on the calendar.",
    "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "To Octavia",
+   "g": "ausalt",
+   "st": "none",
+   "note": "No national tour announced.",
+   "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "The Beautiful Monument",
+   "g": "ausalt",
+   "st": "none",
+   "note": "Misery Loves Company tour, Jun to Jul 2026. Album Euphoric Thriller out Aug 2026.",
+   "src": "https://heavymag.com.au/the-beautiful-monument-announce-aussie-shows/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "The Mark of Cain",
+   "g": "ausalt",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "https://www.thenote.com.au/news/mark-of-cain-australian-tour-2026",
    "named": false,
    "confirmed": true,
    "aus": true
@@ -11035,7 +11977,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "The Rumjacks",
@@ -11055,7 +11998,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Mutiny",
@@ -11065,7 +12009,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Frenzal Rhomb",
@@ -11165,7 +12110,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Grenadiers",
@@ -11175,7 +12121,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Private Function",
@@ -11185,7 +12132,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Mach Pelican",
@@ -11195,7 +12143,8 @@
    "src": "https://en.wikipedia.org/wiki/Mach_Pelican",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Bad//Dreems",
@@ -11215,7 +12164,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "The Smith Street Band",
@@ -11235,7 +12185,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "The Celibate Rifles",
@@ -11245,7 +12196,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Civic",
@@ -11255,7 +12207,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "Cable Ties",
@@ -11275,7 +12228,8 @@
    "src": "",
    "named": false,
    "confirmed": true,
-   "aus": true
+   "aus": true,
+   "scene": true
   },
   {
    "n": "C.O.F.F.I.N",
@@ -11293,6 +12247,50 @@
    "st": "none",
    "note": "Melbourne show Jun 2026; no tour.",
    "src": "",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Arse",
+   "g": "auspunk",
+   "st": "none",
+   "note": "Australian dates on the calendar. (Froth & Fury 2027). UK and Europe, Aug 2026.",
+   "src": "https://www.wallofsoundau.com/news/froth-and-fury-2nd-announcement-2027",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Guantanamo Bay City Rollers",
+   "g": "auspunk",
+   "st": "none",
+   "note": "Australian dates on the calendar. (Froth & Fury 2027).",
+   "src": "https://www.wallofsoundau.com/news/froth-and-fury-2nd-announcement-2027",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Ratsalad",
+   "g": "auspunk",
+   "st": "none",
+   "note": "Australian dates on the calendar. (Froth & Fury 2027). Europe, Jun 2026.",
+   "src": "https://musicfeeds.com.au/news/froth-fury-fest-2027-drops-huge-first-lineup/",
+   "named": false,
+   "confirmed": true,
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "28 Days",
+   "g": "auspunk",
+   "st": "none",
+   "note": "Australian dates on the calendar. (Froth & Fury 2027).",
+   "src": "https://musicfeeds.com.au/news/froth-fury-fest-2027-drops-huge-first-lineup/",
    "named": false,
    "confirmed": true,
    "aus": true
