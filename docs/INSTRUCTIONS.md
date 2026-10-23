@@ -14,11 +14,12 @@ Maintain a calendar of upcoming heavy metal concerts in Australia so Ben never m
 - **Punk**, tagged `punk`: Celtic and Irish punk, folk punk, '77 and UK punk, street punk and Oi!, modern punk and post-punk, skate and melodic punk, horror punk and psychobilly (added 22 Oct 2026, Ben approved). Australian punk acts are tagged `aus`.
 
 - **Australian acts** in the same genres, tagged `aus`: national or multi-city tours, festival slots and cruises (added 22 Oct 2026, Ben approved).
+- **Underground / up-and-coming Australian bands** (added 23 Oct 2026, Ben approved, option A): their national or multi-city runs, EP and album launch tours, underground festivals (e.g. Steel Assassins, 618 Fest, Dead of Winter, Metal On Murray, Essence, Metal United Down Under, Necrosonic) and local supports on international tours. A band counts as underground while it isn't headlining rooms bigger than about 500 (Crowbar-sized and smaller). These tours get `"tier": "scene"`; everything else is `"tier": "major"`. Users only see scene tours if they switch on "Include underground and up-and-coming Aussie bands" in My Metal (off by default), or follow a band on the bill. `SHOW_SCENE` in `index.html` hides the whole layer.
 
 **Genre groups** (`gb` on each tour, listed in `buckets` in `data/bands.json`) drive the page's filters: `heavy` (heavy, thrash, power), `extreme` (death, black, grind), `core` (metalcore, deathcore), `prog` (prog, djent, post-metal), `doom` (doom, stoner, sludge), `hc` (hardcore, emo, post-hardcore), `punk`, `alt` (nu, alt, hard rock, gothic, industrial), `folk` (folk, pagan, symphonic). A festival lists every group on its bill. Australian acts' tours also get `"aus": true`. The older `tag` field stays for the record (core / adjacent / folk / punk / aus).
 
 **Exclude**
-- One-off local pub and club gigs by Australian acts (a national or multi-city tour is in scope).
+- One-off local pub and club gigs by Australian acts (a national or multi-city tour, a launch tour or an underground festival is in scope). A full local gig guide would need a data feed (e.g. the Musick API) and is planned for the app.
 - Pop-punk (Ben decided 22 Oct 2026 to keep it out), pop, indie and other non-heavy acts.
 - New Zealand dates (note them only if they affect an AU tour).
 
@@ -51,9 +52,9 @@ If a Ticketmaster Discovery API key is supplied later, use it as the structured 
 ## Data record
 `data/events.json` holds `tours` (one record per tour or festival, with a `shows` list), `sales` (presale and on-sale moments for the Presales tab), `watch` (rumoured tours with no dates yet, shown under More → Rumoured) and `refreshed`. `data/bands.json` holds `buckets` (the 9 genre groups), `groups` (`[key, label, bucket]`) and `bands`.
 
-Tour fields: `id`, `artist`, `support`, `genre`, `gb` (list of genre groups), `aus` (true for Australian acts), `tag` (core / adjacent / folk / punk / aus), `status` (on-sale / upcoming / sold-out), `conf` (set to `verify` when in doubt), `sale` (presale and on-sale text with timezone), `ticketUrl`, `ticketLabel`, `src` (source URL), `note`, `shows`.
+Tour fields: `id`, `artist`, `support`, `genre`, `gb` (list of genre groups), `aus` (true for Australian acts), `tier` (major / scene), `tag` (core / adjacent / folk / punk / aus), `status` (on-sale / upcoming / sold-out), `conf` (set to `verify` when in doubt), `sale` (presale and on-sale text with timezone), `ticketUrl`, `ticketLabel`, `src` (source URL), `note`, `shows`.
 Show fields: `d` (ISO date), `city`, `st`, `venue`, optional `status`, `url`, `label` for per-show overrides (e.g. one show sold out, or a different ticketer per city).
-Band fields: `n`, `g` (group), `st` (status above), `note`, `src`.
+Band fields: `n`, `g` (group), `st` (status above), `note`, `src`, `aus` (Australian), `scene` (rising Australian band, not yet headlining rooms over ~500).
 
 ## Rules
 - **Dates and times:** store dates ISO. Quote sale times in the local time of the city they apply to, with the timezone abbreviation (AEDT, AEST, ACST, AWST). Today's date is the reference for "upcoming" and "on sale".
@@ -87,6 +88,7 @@ Steps:
 - **Phase 1 (done):** manually researched artifact.
 - **Phase 3 (planned 23 Oct 2026):** Android app via Capacitor, then iPhone. Paid tier "Metal Hunter Pro" at $2.99 a month or $19.99 a year (Ben's choice), with genre alerts, presale reminders and unlimited follows; free tier keeps the calendar and up to 5 followed bands. Needs a back end for sign-in, saved My Metal, push alerts (Firebase) and subscriptions (RevenueCat). Proposal: https://claude.ai/artifact/NFGe1hSRnE8q5K8jsZfK3v
 - **Demand test (started 23 Oct 2026, Ben approved):** before building the paid app, a "Metal Hunter Pro" sign-up card sits at the end of Shows, at the top of More, and is linked from the My Metal sheet. Sign-ups (email, My Metal genres and states, source screen) go to the Supabase project `metal-hunter` (org Wildfire084, Sydney), table `public.pro_waitlist`; the site's publishable key can only insert. Ben reads them in the Supabase dashboard → Table Editor. Privacy page: `privacy.html` (add Ben's new contact address for deletion requests once he has one). Success: about 300 sign-ups in 8 weeks or 5%+ of visitors (GoatCounter, switched on by setting `GOATCOUNTER` in `index.html`). Rows with `source = 'test'` are tests; ignore them.
+- **Underground layer (23 Oct 2026):** 80 rising Australian bands added (1290 bands in total, 200 marked `scene`), all checked. Added Steel Assassins (Sydney, 13–14 Nov), 618 Fest (Adelaide, 21 Nov) and The Mark of Cain's tour; filled in Death Angel's dates and Froth & Fury's second wave (Knocked Loose headline). Leads: Metal United Down Under 2027 date not announced; Essence and Dead of Winter 2027 editions not announced.
 - **Market research (23 Oct 2026):** no Australian app does national heavy-music tours with genre/state filters and presale times. Closest: HEAVY Magazine's Australian Heavy Music Gig Guide (web list, no alerts), Headbangers Australia and Concerts-Metal.com tour lists. Main free alternatives: Bandsintown (now inside Apple Music), Spotify's Ticketek feed, Songkick (owned by Suno since late 2025), Ticketmaster/Live Nation presale emails. Communities to reach: Melbourne Metal Mates (2,000+ on Facebook), r/ausmetal, Perth scene (feels skipped by tours).
 - **Phase 2 (done):** move to Claude Code and GitHub. Plan: `data/events.json` and `data/bands.json` as source of truth, a refresh script using the Ticketmaster Discovery API plus scraped promoter pages, public GitHub Pages hosting (repo name: metal-hunter) so friends can open it, a scheduled refresh, .ics export, and optional email or calendar alerts for upcoming presales.
 

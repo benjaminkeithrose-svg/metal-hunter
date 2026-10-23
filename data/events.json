@@ -23,7 +23,8 @@
    ],
    "gb": [
     "core"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "maiden",
@@ -70,7 +71,8 @@
    ],
    "gb": [
     "heavy"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "pod",
@@ -106,7 +108,8 @@
    ],
    "gb": [
     "alt"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "gnr",
@@ -159,7 +162,8 @@
    ],
    "gb": [
     "alt"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "tdwp",
@@ -189,7 +193,8 @@
    ],
    "gb": [
     "core"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "goodthings",
@@ -227,7 +232,8 @@
     "punk",
     "core",
     "hc"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "ministry",
@@ -257,7 +263,8 @@
    ],
    "gb": [
     "alt"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "apc",
@@ -305,7 +312,8 @@
    ],
    "gb": [
     "alt"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "beherit",
@@ -346,7 +354,8 @@
    ],
    "gb": [
     "extreme"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "clutch",
@@ -389,7 +398,8 @@
    "gb": [
     "doom",
     "alt"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "soad",
@@ -424,20 +434,21 @@
    ],
    "gb": [
     "alt"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "froth",
    "artist": "Froth & Fury Fest",
-   "support": "Clutch, Alpha Wolf, Paleface Swiss, Dark Angel, Counterparts, Propagandhi, Carpenter Brut, Igorrr, Corrosion of Conformity, Deicide",
+   "support": "Knocked Loose (headline), Clutch, Alpha Wolf, Paleface Swiss, Carpenter Brut, Igorrr, Propagandhi, Counterparts, Corrosion of Conformity, Deicide, Terror, Death Angel, Cancer Bats, Heriot, Dark Angel, Death To All, Fox Lake, Sierra Veins, 28 Days, Truth Corroded, The Berzerker, Ratsalad, Raccoon City, Stressed, Feel The Pain, Arse, Guantanamo Bay City Rollers, Oath of Damnation",
    "genre": "Festival",
    "tag": "core",
    "status": "on-sale",
    "sale": "Early bird 22 Jul, general sale 24 Jul, 9am ACST. All ages, licensed.",
    "ticketUrl": "https://www.frothandfuryfest.com/",
    "ticketLabel": "Froth & Fury",
-   "src": "https://heavymag.com.au/froth-fury-fest-2027-first-line-up-has-dropped-and-its-stacked-with-talent/",
-   "note": "Death Angel is also reported for this festival. Dark Angel is in the official announcement. Two more lineup waves are due.",
+   "src": "https://www.wallofsoundau.com/news/froth-and-fury-2nd-announcement-2027",
+   "note": "Second of three lineup waves is out. Wayside have pulled out.",
    "shows": [
     {
      "d": "2027-01-30",
@@ -454,7 +465,8 @@
     "hc",
     "punk",
     "prog"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "thrown",
@@ -496,7 +508,8 @@
    ],
    "gb": [
     "core"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "dayseeker",
@@ -527,7 +540,8 @@
    "gb": [
     "hc",
     "core"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "soty",
@@ -551,7 +565,8 @@
    ],
    "gb": [
     "hc"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "heilung",
@@ -585,7 +600,8 @@
    ],
    "gb": [
     "folk"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "beartooth",
@@ -626,7 +642,8 @@
    ],
    "gb": [
     "core"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "mortiis",
@@ -667,7 +684,8 @@
    ],
    "gb": [
     "folk"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "ensiferum",
@@ -723,7 +741,8 @@
    ],
    "gb": [
     "folk"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "evanescence",
@@ -777,7 +796,8 @@
    ],
    "gb": [
     "alt"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "periphery",
@@ -813,24 +833,57 @@
    ],
    "gb": [
     "prog"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "deathangel",
    "artist": "Death Angel",
-   "support": "Performing Act III in full",
+   "support": "Act III played in full",
    "genre": "Thrash",
    "tag": "core",
    "status": "on-sale",
-   "sale": "Early bird opened 15 Oct. General sale followed on Tue 20 Oct. Hardline Media.",
+   "sale": "Early bird opened 15 Oct; general sale opened Tue 20 Oct, 11am AEDT, via Hardline Media.",
    "ticketUrl": "https://www.hardlinemedia.net/",
    "ticketLabel": "Hardline Media",
-   "src": "https://hotmetalmag.com/death-angel-announces-australian-tour/",
-   "note": "Headline shows in Perth, Melbourne, Sydney and Brisbane in early 2027. Dates to be announced.",
-   "shows": [],
+   "src": "https://www.thenote.com.au/news/death-angel-australian-tour-2027",
+   "note": "Starts at Froth & Fury in Adelaide.",
+   "shows": [
+    {
+     "d": "2027-01-30",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Froth & Fury Fest, Adelaide Showground"
+    },
+    {
+     "d": "2027-01-31",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Magnet House"
+    },
+    {
+     "d": "2027-02-03",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Max Watts"
+    },
+    {
+     "d": "2027-02-04",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Manning Bar"
+    },
+    {
+     "d": "2027-02-05",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Crowbar"
+    }
+   ],
    "gb": [
     "heavy"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "killswitch",
@@ -885,7 +938,8 @@
    ],
    "gb": [
     "core"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "carcass27",
@@ -940,7 +994,8 @@
    ],
    "gb": [
     "extreme"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "fray27",
@@ -994,7 +1049,8 @@
    ],
    "gb": [
     "hc"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "ladispute",
@@ -1029,7 +1085,8 @@
    ],
    "gb": [
     "hc"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "dgd",
@@ -1076,7 +1133,8 @@
    ],
    "gb": [
     "hc"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "jew26",
@@ -1117,7 +1175,8 @@
    ],
    "gb": [
     "hc"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "qotsa26",
@@ -1171,7 +1230,8 @@
    "gb": [
     "doom",
     "alt"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "metalchurch27",
@@ -1214,7 +1274,8 @@
    ],
    "gb": [
     "heavy"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "deicide27",
@@ -1262,7 +1323,8 @@
    ],
    "gb": [
     "extreme"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "igorrr27",
@@ -1297,7 +1359,8 @@
    ],
    "gb": [
     "prog"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "president27",
@@ -1344,7 +1407,8 @@
    ],
    "gb": [
     "core"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "drain27",
@@ -1386,7 +1450,8 @@
    ],
    "gb": [
     "hc"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "dethfest27",
@@ -1410,7 +1475,8 @@
    ],
    "gb": [
     "extreme"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "elder27",
@@ -1457,7 +1523,8 @@
    ],
    "gb": [
     "doom"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "sisters26",
@@ -1504,7 +1571,8 @@
    ],
    "gb": [
     "alt"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "citizen27",
@@ -1551,7 +1619,8 @@
    ],
    "gb": [
     "hc"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "mono27",
@@ -1598,7 +1667,8 @@
    ],
    "gb": [
     "prog"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "soen27",
@@ -1634,7 +1704,8 @@
    ],
    "gb": [
     "prog"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "lucidity27",
@@ -1660,7 +1731,8 @@
     "hc",
     "core",
     "extreme"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "northlane26",
@@ -1715,7 +1787,8 @@
    "gb": [
     "core"
    ],
-   "aus": true
+   "aus": true,
+   "tier": "major"
   },
   {
    "id": "windwaker26",
@@ -1770,7 +1843,8 @@
    "gb": [
     "core"
    ],
-   "aus": true
+   "aus": true,
+   "tier": "major"
   },
   {
    "id": "hellbound27",
@@ -1795,7 +1869,8 @@
     "core",
     "hc"
    ],
-   "aus": true
+   "aus": true,
+   "tier": "major"
   },
   {
    "id": "heavensgate26",
@@ -1844,7 +1919,8 @@
    "gb": [
     "core"
    ],
-   "aus": true
+   "aus": true,
+   "tier": "scene"
   },
   {
    "id": "dod26",
@@ -1894,7 +1970,8 @@
    "gb": [
     "hc"
    ],
-   "aus": true
+   "aus": true,
+   "tier": "major"
   },
   {
    "id": "trophyeyes26",
@@ -1926,7 +2003,8 @@
    "gb": [
     "hc"
    ],
-   "aus": true
+   "aus": true,
+   "tier": "major"
   },
   {
    "id": "ten27",
@@ -1962,7 +2040,8 @@
    ],
    "gb": [
     "hc"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "uncleacid26",
@@ -2009,7 +2088,8 @@
    ],
    "gb": [
     "doom"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "sleeptheory27",
@@ -2063,7 +2143,8 @@
    ],
    "gb": [
     "alt"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "riseagainst26",
@@ -2111,7 +2192,8 @@
    ],
    "gb": [
     "punk"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "meltdown26",
@@ -2135,7 +2217,8 @@
    ],
    "gb": [
     "punk"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "ltj26",
@@ -2182,7 +2265,8 @@
    ],
    "gb": [
     "punk"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "frenzal26",
@@ -2250,7 +2334,8 @@
    "gb": [
     "punk"
    ],
-   "aus": true
+   "aus": true,
+   "tier": "major"
   },
   {
    "id": "propagandhi27",
@@ -2291,7 +2376,8 @@
    ],
    "gb": [
     "punk"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "tbr27",
@@ -2357,7 +2443,8 @@
    ],
    "gb": [
     "punk"
-   ]
+   ],
+   "tier": "major"
   },
   {
    "id": "saints27",
@@ -2424,7 +2511,8 @@
    "gb": [
     "punk"
    ],
-   "aus": true
+   "aus": true,
+   "tier": "major"
   },
   {
    "id": "coffin27",
@@ -2479,7 +2567,111 @@
    "gb": [
     "punk"
    ],
-   "aus": true
+   "aus": true,
+   "tier": "major"
+  },
+  {
+   "id": "steelassassins26",
+   "artist": "Steel Assassins",
+   "support": "Pustilence, Vanishing Point, Storm Of Steel, The Bengal Tigers and more",
+   "genre": "Heavy metal festival",
+   "gb": [
+    "heavy"
+   ],
+   "aus": true,
+   "tag": "aus",
+   "tier": "scene",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "Two-day pass on sale via Moshtix.",
+   "ticketUrl": "https://musick.com.au/gig/steel-assassins-2026-two-day-pass-2026-11-13/",
+   "ticketLabel": "Moshtix",
+   "src": "https://musick.com.au/gig/steel-assassins-2026-two-day-pass-2026-11-13/",
+   "note": "Underground heavy and true metal weekend, about 18 bands. Day two line-up and set times to be confirmed.",
+   "shows": [
+    {
+     "d": "2026-11-13",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "The Bridge Hotel, Rozelle"
+    },
+    {
+     "d": "2026-11-14",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "The Bridge Hotel, Rozelle"
+    }
+   ]
+  },
+  {
+   "id": "618fest26",
+   "artist": "618 Fest",
+   "support": "Day Of Contempt (headline), Ends in Tragedy, Algor Mortis, Nicholas Cage Fighter, Through Closed Eyes, Bloodsport, Hammer618, Forge, Win Big, Success, Barriers",
+   "genre": "Hardcore and metal festival",
+   "gb": [
+    "hc",
+    "core"
+   ],
+   "aus": true,
+   "tag": "aus",
+   "tier": "scene",
+   "status": "on-sale",
+   "sale": "On sale now via Moshtix. All ages.",
+   "ticketUrl": "https://www.moshtix.com.au/",
+   "ticketLabel": "Moshtix",
+   "src": "https://www.wallofsoundau.com/news/618-fest-is-back-with-a-vengeance-in-adelaide",
+   "note": "Celebration of the South Australian heavy scene, with reunions from Through Closed Eyes and Bloodsport.",
+   "shows": [
+    {
+     "d": "2026-11-21",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Lion Arts Factory"
+    }
+   ]
+  },
+  {
+   "id": "tmoc26",
+   "artist": "The Mark of Cain",
+   "support": "",
+   "genre": "Alt metal",
+   "gb": [
+    "alt"
+   ],
+   "aus": true,
+   "tag": "aus",
+   "tier": "major",
+   "status": "on-sale",
+   "sale": "On sale now via the band's site.",
+   "ticketUrl": "https://tmoc.com.au/",
+   "ticketLabel": "The Mark of Cain",
+   "src": "https://www.thenote.com.au/news/mark-of-cain-australian-tour-2026",
+   "shows": [
+    {
+     "d": "2026-10-24",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "ZED51 Festival"
+    },
+    {
+     "d": "2026-11-13",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Max Watts"
+    },
+    {
+     "d": "2026-11-14",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Manning Bar"
+    },
+    {
+     "d": "2026-11-21",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Hindley Street Music Hall"
+    }
+   ]
   }
  ],
  "sales": [
@@ -2514,10 +2706,10 @@
    "text": "Opened at 12pm local."
   },
   {
-   "at": "2026-10-20T09:00:00+11:00",
+   "at": "2026-10-20T11:00:00+11:00",
    "tour": "deathangel",
    "kind": "General sale",
-   "text": "Opened Tuesday."
+   "text": "General sale, 11am AEDT."
   }
  ],
  "watch": [

@@ -110,6 +110,7 @@ h2.sub{font-family:var(--display);font-weight:800;font-size:20px;text-transform:
 .sale{margin:5px 0 0;font-family:var(--mono);font-size:12px;color:var(--muted)}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;align-items:center}
 .tag{font-family:var(--mono);font-size:11px;border:1px solid var(--line);border-radius:4px;padding:1px 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.tag.scene{color:var(--warn);border-color:var(--warn);background:var(--warn-bg)}
 .tag.unconf{color:var(--info);border-color:var(--info);background:var(--info-bg)}
 .more summary,.dates summary{cursor:pointer;list-style:none}
 .more summary::-webkit-details-marker,.dates summary::-webkit-details-marker{display:none}
@@ -341,7 +342,10 @@ const GROUP_BUCKET=Object.fromEntries(GROUPS.map(g=>[g[0],g[2]]));
 /* ---------- STATE ---------- */
 const STATES=["NSW","VIC","QLD","SA","WA","TAS","ACT","NT"];
 /* My Metal: what this person is into. Empty genres or states means "all". */
-const ME={mode:"mine",genres:[],states:[],follows:[],aus:true,hideSold:false,perDate:false,setup:false};
+/* Underground: tours with tier "scene" (up-and-coming Australian bands in rooms up to ~500).
+   SHOW_SCENE is the site-wide switch: false hides every scene listing and the option for it. */
+const SHOW_SCENE=true;
+const ME={mode:"mine",genres:[],states:[],follows:[],aus:true,scene:false,hideSold:false,perDate:false,setup:false};
 try{
   const saved=JSON.parse(localStorage.getItem("mh-me")||"null");
   if(saved)Object.assign(ME,saved);
@@ -415,13 +419,14 @@ function inMine(s){
   if(ME.genres.length&&!t.gb.some(g=>ME.genres.includes(g))&&!followedIn(t))return false;
   return true;
 }
-const visible=s=>matchesQ(s)&&(ME.mode==="all"||inMine(s));
+const sceneOk=t=>t.tier!=="scene"||(SHOW_SCENE&&(ME.scene||followedIn(t)));
+const visible=s=>matchesQ(s)&&sceneOk(s.tour)&&(ME.mode==="all"||inMine(s));
 
 function mineSummary(){
   const g=ME.genres.length?(ME.genres.length<=2?ME.genres.map(k=>SHORT[k]).join(", "):ME.genres.length+" genres"):"All genres";
   const st=ME.states.length?ME.states.join(", "):"All of Australia";
   const f=ME.follows.length?` · ${ME.follows.length} band${ME.follows.length>1?"s":""}`:"";
-  return `${g} · ${st}${f}`;
+  return `${g} · ${st}${f}${SHOW_SCENE&&ME.scene?" · + underground":""}`;
 }
 
 function icsFor(s){
@@ -456,7 +461,7 @@ function card(s,others=[]){
       ${t.support?`<p class="sup">${isFest(t)?"":"With "}${esc(t.support)}</p>`:""}
       <p class="where">${esc(s.venue)} · ${esc(s.city)}, ${esc(s.st)}</p>
       <p class="sale">${esc(t.sale)}</p>
-      <div class="tags"><span class="tag">${esc(genre)}</span>${t.aus?'<span class="tag">Aussie</span>':""}${t.conf==="verify"?'<span class="tag unconf">Unconfirmed</span>':""}
+      <div class="tags"><span class="tag">${esc(genre)}</span>${t.aus?'<span class="tag">Aussie</span>':""}${t.tier==="scene"?'<span class="tag scene">Underground</span>':""}${t.conf==="verify"?'<span class="tag unconf">Unconfirmed</span>':""}
         <details class="more"><summary aria-label="More info">i</summary>${t.note?`<p>${esc(t.note)}</p>`:""}<p>${esc(t.genre)}. <a href="${esc(t.src)}" target="_blank" rel="noopener">Where this came from</a></p></details></div>
       ${others.length?`<details class="dates"><summary>+ ${others.length} more date${others.length>1?"s":""}</summary><ul>${others.map(o=>
         `<li><b>${fmtDay(ymd(o.d))}</b><span>${esc(o.city)}, ${esc(o.st)} · ${esc(o.venue)}</span>${o.status==="sold-out"?'<span class="badge sold-out">Sold out</span>':""}</li>`).join("")}</ul></details>`:""}
@@ -532,7 +537,7 @@ function viewCalendar(){
 }
 
 function viewPresales(){
-  const tourOk=t=>ME.mode==="all"||SHOWS.some(s=>s.tour===t&&inMine(s));
+  const tourOk=t=>sceneOk(t)&&(ME.mode==="all"||SHOWS.some(s=>s.tour===t&&inMine(s)));
   const rows=SALES.map(x=>({...x,t:tourById[x.tour],when:new Date(x.at)})).filter(r=>r.t&&tourOk(r.t));
   const group=list=>{const by=new Map();list.forEach(r=>{if(!by.has(r.t.id))by.set(r.t.id,[]);by.get(r.t.id).push(r)});return [...by.values()]};
   const fmt=d=>`<b>${d.toLocaleDateString("en-AU",{weekday:"short",day:"numeric",month:"short",timeZone:"Australia/Sydney"}).replace(",","")}</b>${d.toLocaleTimeString("en-AU",{hour:"numeric",minute:"2-digit",timeZone:"Australia/Sydney"})} Syd`;
@@ -549,16 +554,16 @@ function viewPresales(){
 }
 
 const BPILL={elsewhere:["info","Touring overseas"],signal:["upcoming","Rumoured"]};
-const BFILT=[["","All bands"],["fol","Following"],["cal","On the calendar"],["signal","Rumoured"],["elsewhere","Touring overseas"],["aus","Aussie bands"]];
+const BFILT=[["","All bands"],["fol","Following"],["cal","On the calendar"],["signal","Rumoured"],["elsewhere","Touring overseas"],["aus","Aussie bands"],...(SHOW_SCENE?[["scene","Rising Aussie bands"]]:[])];
 function bandList(){
   const q=lc(S.bq.trim()),f=S.bst,fs=follows();
-  const keep=b=>(!q||lc(b.n).includes(q))&&(!f||(f==="fol"?fs.has(lc(b.n)):f==="cal"?onCalendar.has(lc(b.n)):f==="aus"?b.aus:b.st===f&&!onCalendar.has(lc(b.n))));
+  const keep=b=>(SHOW_SCENE||!b.scene)&&(!q||lc(b.n).includes(q))&&(!f||(f==="fol"?fs.has(lc(b.n)):f==="cal"?onCalendar.has(lc(b.n)):f==="aus"?b.aus:f==="scene"?b.scene:b.st===f&&!onCalendar.has(lc(b.n))));
   const html=BUCKETS.map(([k,l])=>{const list=BANDS.filter(b=>GROUP_BUCKET[b.g]===k&&keep(b)).sort((a,b)=>a.n.localeCompare(b.n));if(!list.length)return "";
     return `<h2 class="sub">${esc(l)} <small class="muted" style="font:400 12px var(--mono)">${list.length}</small></h2><div class="bgrid">${list.map(b=>{
       const p=onCalendar.has(lc(b.n))?["on-sale","On calendar"]:BPILL[b.st];
       const on=fs.has(lc(b.n));
       return `<div class="brow"><button type="button" class="fol" data-follow="${esc(b.n)}" aria-pressed="${on}" aria-label="${on?"Unfollow":"Follow"} ${esc(b.n)}">${on?"★":"☆"}</button>
-        <details class="bd"><summary><b>${esc(b.n)}${b.aus?'<span class="au">AU</span>':""}</b>${p?`<span class="badge ${p[0]}">${p[1]}</span>`:""}</summary>
+        <details class="bd"><summary><b>${esc(b.n)}${b.aus?`<span class="au">${b.scene&&SHOW_SCENE?"AU · RISING":"AU"}</span>`:""}</b>${p?`<span class="badge ${p[0]}">${p[1]}</span>`:""}</summary>
         <p class="bnote">${esc(b.note||"No news yet.")}${b.src?` <a href="${esc(b.src)}" target="_blank" rel="noopener">Source</a>`:""}</p></details></div>`}).join("")}</div>`}).join("");
   return html||'<div class="empty" style="margin-top:14px">No bands match.</div>';
 }
@@ -610,19 +615,20 @@ function sheetBody(first){
     <h3>Options</h3>
     <label class="sw"><span>Include Aussie bands' tours</span><input type="checkbox" id="o-aus" ${draft.aus?"checked":""}></label>
     <label class="sw"><span>Hide sold-out shows</span><input type="checkbox" id="o-sold" ${draft.hideSold?"checked":""}></label>
+    ${SHOW_SCENE?`<label class="sw"><span>Include underground and up-and-coming Aussie bands<br><small class="muted">Smaller tours and festivals, rooms up to about 500</small></span><input type="checkbox" id="o-scene" ${draft.scene?"checked":""}></label>`:""}
     <label class="sw"><span>Show every date separately</span><input type="checkbox" id="o-date" ${draft.perDate?"checked":""}></label>
     <p class="hint">Push alerts for your genres and bands are coming with Metal Hunter Pro. <button type="button" class="linkbtn" data-act="pro">Get told when it launches</button></p>
     <div class="foot"><button type="button" class="btn" data-act="done">${first?"Show my tours":"Done"}</button>
       ${first?`<button type="button" class="btn ghost" data-act="skip">Skip, show everything</button>`:""}</div>`;
 }
 function openSheet(first){
-  draft={genres:[...ME.genres],states:[...ME.states],follows:[...ME.follows],aus:ME.aus,hideSold:ME.hideSold,perDate:ME.perDate,first:!!first};fq="";
+  draft={genres:[...ME.genres],states:[...ME.states],follows:[...ME.follows],aus:ME.aus,scene:!!ME.scene,hideSold:ME.hideSold,perDate:ME.perDate,first:!!first};fq="";
   $("#sheetTitle").textContent=first?"Welcome":"My Metal";
   $("#sheetBody").innerHTML=sheetBody(first);$("#sheet").hidden=false;document.body.style.overflow="hidden";
 }
 function closeSheet(apply,mode){
   if(apply){
-    Object.assign(ME,{genres:draft.genres,states:draft.states,follows:draft.follows,aus:draft.aus,hideSold:draft.hideSold,perDate:draft.perDate});
+    Object.assign(ME,{genres:draft.genres,states:draft.states,follows:draft.follows,aus:draft.aus,scene:draft.scene,hideSold:draft.hideSold,perDate:draft.perDate});
     ME.mode=mode||"mine";
   }
   ME.setup=true;save();$("#sheet").hidden=true;document.body.style.overflow="";render();
@@ -670,6 +676,7 @@ document.addEventListener("change",e=>{
   else if(id==="o-aus")draft.aus=e.target.checked;
   else if(id==="o-sold")draft.hideSold=e.target.checked;
   else if(id==="o-date")draft.perDate=e.target.checked;
+  else if(id==="o-scene")draft.scene=e.target.checked;
 });
 document.addEventListener("input",e=>{
   const id=e.target.id;

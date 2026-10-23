@@ -21,6 +21,8 @@ for t in e["tours"]:
         errs.append(f"tour {t.get('id')}: bad tag {t.get('tag')}")
     if not t.get("gb") or any(g not in BUCKETS for g in t["gb"]):
         errs.append(f"tour {t.get('id')}: 'gb' must list genre groups from bands.json buckets")
+    if t.get("tier") not in ("major", "scene"):
+        errs.append(f"tour {t.get('id')}: 'tier' must be major or scene")
     if t.get("status") not in ("on-sale", "upcoming", "sold-out"):
         errs.append(f"tour {t.get('id')}: bad status {t.get('status')}")
     # A tour may have no shows yet (announced, dates TBA).
