@@ -148,6 +148,13 @@ h2.sub{font-family:var(--display);font-weight:800;font-size:20px;text-transform:
 .lnk{background:none;border:0;padding:0;color:var(--muted);font-size:13px;text-decoration:underline;cursor:pointer}
 .lnks{display:flex;gap:14px;margin-left:auto}
 .fresh{margin-top:16px}
+.newnote{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;border:1px solid var(--accent);border-radius:8px;background:var(--surface);padding:12px 14px;margin-bottom:14px}
+.newnote div{display:grid;flex:1 1 180px}
+.newnote span{color:var(--muted);font-size:14px}
+.helprow{display:flex;align-items:center;gap:16px;margin:4px 0 6px}
+.vline{margin-top:22px;font:500 12.5px var(--mono);color:var(--muted)}
+.vline a{color:inherit}
+:root[data-look="xerox"] .newnote{border:2px solid var(--fg);border-radius:0;box-shadow:4px 4px 0 var(--accent)}
 .fresh h2{margin:0 0 8px}
 .strip{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
 .fchip{flex:none;display:grid;gap:2px;text-align:left;max-width:220px;background:var(--surface);border:1px solid var(--accent);border-radius:8px;padding:8px 12px;cursor:pointer}
@@ -405,6 +412,8 @@ async function proSubmit(form){
   }catch(e){msg.textContent="Couldn't send that. Check your connection and try again."}
   btn.disabled=false;
 }
+/* App version: bump with every app change, together with CHANGELOG.md and help.html (scripts/validate.py checks they match). */
+const APP_VERSION="1.0",APP_DATE="24 Oct 2026";
 const S={tab:"shows",q:"",month:null,day:null,bq:"",bst:""};
 try{const t=new URLSearchParams(location.search).get("tab");if(["shows","calendar","presales","bands","more"].includes(t))S.tab=t}catch(e){}
 try{if(new URLSearchParams(location.search).get("tour"))S.tab="shows"}catch(e){}
@@ -534,6 +543,17 @@ function jumpTo(id){
   if(el){el.scrollIntoView({behavior:"smooth",block:"center"});el.classList.add("flash");setTimeout(()=>el.classList.remove("flash"),1600)}
 }
 
+/* "What's new": shown once per version to people who had used an earlier version. First-time visitors skip it. */
+let seenVer=null;try{seenVer=localStorage.getItem("mh-version")||(localStorage.getItem("mh-me")?"0.9":null)}catch(e){}
+let showNew=!!seenVer&&seenVer!==APP_VERSION;
+if(!seenVer)try{localStorage.setItem("mh-version",APP_VERSION)}catch(e){}
+const markSeen=()=>{showNew=false;try{localStorage.setItem("mh-version",APP_VERSION)}catch(e){}};
+function whatsNew(){
+  if(!showNew)return "";
+  return `<section class="newnote" role="status"><div><b>What's new in v${APP_VERSION}</b><span>Metal Hunter has been updated.</span></div>
+    <a class="btn" href="help.html#whats-new" data-act="seen-new">See what's new</a><button type="button" class="lnk" data-act="dismiss-new" aria-label="Dismiss">Dismiss</button></section>`;
+}
+
 /* ---------- VIEWS ---------- */
 function feedHead(n){
   return `<div class="ctrl">
@@ -555,7 +575,7 @@ function viewShows(){
     list.forEach(s=>{const k=s.tour.id;if(!by.has(k))by.set(k,{s,others:[]});else by.get(k).others.push(s)});
     items=[...by.values()];
   }
-  let html=feedHead(items.length)+sharedBox()+justAdded();
+  let html=whatsNew()+feedHead(items.length)+sharedBox()+justAdded();
   if(!items.length)return html+`<div class="empty" style="margin-top:14px">No shows match.${ME.mode==="mine"?`<br><button type="button" class="btn ghost" data-mode="all">Show all shows</button>`:""}</div>`;
   let cur="";
   items.forEach(({s,others})=>{
@@ -637,6 +657,7 @@ function viewBands(){
 function viewMore(){
   const d=ymd(REFRESHED),look=document.documentElement.dataset.look;
   return `<div class="morev">
+    <div class="helprow"><a class="btn" href="help.html">Help</a><a class="lnk" href="help.html#whats-new">What's new in v${APP_VERSION}</a></div>
     ${proCard("more")}
     <h2 class="sub">My Metal</h2>
     <p>${esc(mineSummary())}</p>
@@ -645,13 +666,10 @@ function viewMore(){
     <h2 class="sub">Look</h2>
     <div class="looks"><button type="button" class="chip" data-look-set="runestone" aria-pressed="${look==="runestone"}">Runestone</button><button type="button" class="chip" data-look-set="xerox" aria-pressed="${look==="xerox"}">Xerox Grind</button></div>
     <h2 class="sub">About</h2>
-    <p>International heavy music touring Australia, from stadiums to small clubs, plus Australian bands' national tours and festivals. Every show links to the official ticket seller.</p>
-    <p><b>Unconfirmed</b> means the sources disagree or only some dates are out. Check the ticket link before you buy.</p>
-    <p>Not included: pop-punk, one-off local pub gigs and New Zealand dates.</p>
-    <h2 class="sub">Install</h2>
-    <p><b>iPhone</b>: open in Safari, tap Share, then Add to Home Screen. <b>Android</b>: open in Chrome, tap the menu, then Install app.</p>
+    <p>International heavy music touring Australia, from stadiums to small clubs, plus Australian bands' national tours and festivals. Every show links to the official ticket seller. Not included: pop-punk, one-off local pub gigs and New Zealand dates.</p>
     <p>Shows updated ${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}: ${SHOWS.length} upcoming shows from ${TOURS.length} tours and festivals.</p>
     <button type="button" class="btn ghost" data-act="check">Check for updates</button>
+    <p class="vline">Metal Hunter v${APP_VERSION} · ${APP_DATE} · <a href="help.html">Help</a> · <a href="privacy.html">Privacy</a></p>
   </div>`;
 }
 
@@ -718,6 +736,8 @@ document.addEventListener("click",e=>{
   else if(ds.ics){saveIcs(ds.ics);return}
   else if(ds.share){shareTour(ds.share);return}
   else if(ds.jump){jumpTo(ds.jump);return}
+  else if(ds.act==="dismiss-new"){markSeen()}
+  else if(ds.act==="seen-new"){markSeen();return}
   else if(ds.act==="unshare"){SHARED=null;try{history.replaceState(null,"",location.pathname)}catch(e){}}
   else if(ds.follow){toggleFollow(ds.follow);$("#blist").innerHTML=bandList();return}
   else if(ds.lookSet){document.documentElement.dataset.look=ds.lookSet;try{localStorage.setItem("mh-look",ds.lookSet)}catch(e){}
