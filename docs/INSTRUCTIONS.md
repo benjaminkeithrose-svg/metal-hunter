@@ -66,7 +66,7 @@ Band fields: `n`, `g` (group), `st` (status above), `note`, `src`, `aus` (Austra
 - **Copyright:** paraphrase source articles, no quoted passages. Short factual fields (dates, venues, lineups) are fine.
 - **Sold-out status:** only mark sold-out when a source says so.
 
-## App layout (v3, 23 Oct 2026)
+## App layout (v1.0, 24 Oct 2026; full detail in docs/DOCUMENTATION.md)
 - Bottom tabs: Shows, Calendar, Presales, Bands, More. Slim top bar with the ⟳ update check.
 - **My Metal** (Ben chose this design on 23 Oct 2026): each person picks genre groups, states and bands to follow, first in a welcome screen and later via Edit. "My Metal" or "All shows" switches the feed. Followed bands' tours always show. Saved in the browser for now (`mh-me`); moves to accounts when the app gets a back end.
 - Shows: one card per tour (next date in the person's states, other dates folded under "+ N more dates"), or every date separately (an option). Tickets button names the seller underneath. "Add to calendar" saves an .ics file.
@@ -76,6 +76,8 @@ Band fields: `n`, `g` (group), `st` (status above), `note`, `src`, `aus` (Austra
 - Labels: "Unconfirmed" (from `conf: verify`), "Aussie", one genre group per card ("Festival" when a bill spans several).
 
 ## Refresh procedure
+Data refreshes are not app versions: don't touch `APP_VERSION`, `CHANGELOG.md` or `help.html`. App changes follow "Every app change is a new version" in `CLAUDE.md`.
+
 Runs automatically (Ben approved 22 Oct 2026): a news check every Monday and Thursday about 6:35am Sydney time, and a full sweep of every tracked band on the 1st of each month about 6:30am. Both push data-only changes straight to `main` (see the exception in CLAUDE.md) and send Ben a phone push when something changed.
 - **News check:** steps 1, 2 and 5, plus any tracked band named in new announcements. Drop shows whose date has passed only if the whole tour is over; past dates of a running tour can stay.
 - **Full sweep:** all steps, checking every band in `data/bands.json` with batched searches (several band names per query).

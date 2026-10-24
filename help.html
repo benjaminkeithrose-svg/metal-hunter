@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Help · Metal Hunter</title>
+<meta name="mh-version" content="1.0">
+<meta name="description" content="How to use Metal Hunter: My Metal, show cards, following bands, presales, sharing and installing the app.">
+<meta name="theme-color" content="#0a0e0c">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<script>
+(function(){var l;try{l=localStorage.getItem("mh-look")}catch(e){}document.documentElement.setAttribute("data-look",l==="xerox"?"xerox":"runestone")})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Alegreya+Sans:wght@400;700&family=IBM+Plex+Mono:wght@500&family=Archivo+Black&family=Courier+Prime:wght@400;700&family=Special+Elite&display=swap">
+<style>
+/* Layout: one reading column. Same two looks as the app, chosen from the app's saved setting. */
+:root,:root[data-look="runestone"]{--bg:#0a0e0c;--surface:#111915;--line:#2a3a32;--fg:#d9e1dd;--muted:#8c9a93;--accent:#e0782f;
+  --ok:#8fc9a3;--ok-bg:#16301f;--warn:#e6b450;--warn-bg:#352a0e;--bad:#ef8c8c;--bad-bg:#381a1a;--info:#86b4e0;--info-bg:#172a3d;
+  --display:"Cinzel","Trajan Pro",Georgia,serif;--body:"Alegreya Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;color-scheme:dark}
+:root[data-look="xerox"]{--bg:#e6e1d4;--surface:#efebe0;--line:#121110;--fg:#121110;--muted:#4d4943;--accent:#a3181b;
+  --ok:#17693a;--ok-bg:#d6eadc;--warn:#7a4f00;--warn-bg:#f3e3bd;--bad:#a3181b;--bad-bg:#efd2d2;--info:#2f5d8a;--info-bg:#d5e2ef;
+  --display:"Archivo Black","Arial Black",Impact,sans-serif;--body:"Courier Prime","Courier New",monospace;--mono:"Special Elite","Courier New",monospace;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 var(--body)}
+main{max-width:680px;margin:0 auto;padding-block:calc(20px + env(safe-area-inset-top,0px)) calc(56px + env(safe-area-inset-bottom,0px));padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--accent)}
+.back{font-size:15px}
+h1,h2,h3{font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.04em;line-height:1.2;text-wrap:balance}
+:root[data-look="xerox"] :is(h1,h2,h3){font-weight:400;letter-spacing:-.01em}
+h1{font-size:28px;margin:16px 0 4px}
+h2{font-size:19px;margin:0}
+.ver{font:500 13px var(--mono);color:var(--muted);margin:0 0 18px}
+nav.toc{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 22px}
+nav.toc a{font-size:14px;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 11px;color:var(--fg);background:var(--surface)}
+section{border-top:1px solid var(--line);padding:18px 0 6px;scroll-margin-top:12px}
+section p,section li{color:var(--muted)}
+b,strong{color:var(--fg)}
+ul{padding-left:20px}
+li{margin:4px 0}
+.new{border:1px solid var(--accent);border-radius:8px;padding:14px 16px;background:var(--surface);margin-bottom:22px}
+.new h2{margin-bottom:6px}
+.tag{display:inline-block;font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.05em;border:1px solid var(--line);border-radius:4px;padding:1px 6px;color:var(--muted)}
+.tag.ok{background:var(--ok-bg);color:var(--ok);border-color:transparent}
+.tag.soon{background:var(--warn-bg);color:var(--warn);border-color:transparent}
+.tag.out{background:var(--bad-bg);color:var(--bad);border-color:transparent}
+.tag.unc{background:var(--info-bg);color:var(--info);border-color:var(--info)}
+.tag.ug{background:var(--warn-bg);color:var(--warn);border-color:var(--warn)}
+dl{display:grid;grid-template-columns:auto 1fr;gap:8px 12px;align-items:baseline;margin:10px 0}
+dd{margin:0;color:var(--muted)}
+details{border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin:8px 0;background:var(--surface)}
+summary{cursor:pointer;font-weight:700}
+details p{margin:8px 0 2px}
+footer{margin-top:28px;color:var(--muted);font-size:14px}
+:root[data-look="xerox"] :is(.new,details,nav.toc a){border-radius:0}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+<main>
+  <a class="back" href="./?tab=more">← Back to Metal Hunter</a>
+  <h1>Help</h1>
+  <p class="ver">Metal Hunter v1.0 · 24 October 2026</p>
+
+  <nav class="toc" aria-label="Help topics">
+    <a href="#whats-new">What's new</a><a href="#start">Getting started</a><a href="#my-metal">My Metal</a><a href="#cards">Show cards</a>
+    <a href="#follow">Following bands</a><a href="#underground">Underground</a><a href="#calendar">Calendar</a><a href="#presales">Presales</a>
+    <a href="#share">Sharing</a><a href="#install">Install</a><a href="#updates">Updates</a><a href="#pro">Pro</a><a href="#privacy">Privacy</a><a href="#faq">FAQ</a>
+  </nav>
+
+  <div class="new" id="whats-new">
+    <h2>What's new in v1.0</h2>
+    <ul>
+      <li><b>Help</b>: this page, covering every screen, label and setting. Find it under More → Help.</li>
+      <li><b>What's new notes</b>: after each update you'll see a short note once, linking here.</li>
+      <li><b>Version number</b> under More, so you can tell which version you're on.</li>
+    </ul>
+    <p>Earlier this week: Share buttons with proper link previews, a "Just added" strip, the Underground option, punk, and the My Metal redesign.</p>
+  </div>
+
+  <section id="start">
+    <h2>Getting started</h2>
+    <p>Metal Hunter lists every metal, hardcore and punk tour coming to Australia: international acts at any venue size, Australian bands' national tours and festivals, and (if you want them) underground and up-and-coming Aussie bands. Every show links to the official ticket seller and says when tickets open.</p>
+    <p>The first time you open it, pick your genres and states. That's <b>My Metal</b>. You can skip it and see everything.</p>
+    <p>The tabs along the bottom:</p>
+    <dl>
+      <dt><b>Shows</b></dt><dd>Upcoming tours, soonest first, one card per tour.</dd>
+      <dt><b>Calendar</b></dt><dd>A month view. Dots mark days with shows; tap a day to see them.</dd>
+      <dt><b>Presales</b></dt><dd>When tickets go on sale, in Sydney time.</dd>
+      <dt><b>Bands</b></dt><dd>Every band we track. Tap ☆ to follow one.</dd>
+      <dt><b>More</b></dt><dd>Help, Pro sign-up, My Metal, rumoured tours, the look, and the version.</dd>
+    </dl>
+  </section>
+
+  <section id="my-metal">
+    <h2>My Metal</h2>
+    <p>My Metal is what you're into. Tap <b>⚙ Edit</b> on Shows (or More → Edit My Metal) to change it.</p>
+    <ul>
+      <li><b>Genres</b>: pick any of the nine groups, from Heavy, thrash and power to Folk, pagan and symphonic. Pick none to see every genre.</li>
+      <li><b>Where</b>: pick your states. Pick none for all of Australia.</li>
+      <li><b>Bands you follow</b>: their tours always show, whatever genres you picked.</li>
+      <li><b>Include Aussie bands' tours</b>: on by default.</li>
+      <li><b>Include underground and up-and-coming Aussie bands</b>: off by default. See <a href="#underground">Underground</a>.</li>
+      <li><b>Hide sold-out shows</b>, and <b>Show every date separately</b> (one card per date instead of one per tour).</li>
+    </ul>
+    <p>Switch between <b>My Metal</b> and <b>All shows</b> at the top of Shows, Calendar and Presales. Your settings are saved on your phone.</p>
+  </section>
+
+  <section id="cards">
+    <h2>Reading a show card</h2>
+    <p>Each card shows the next date in your states, the venue, the support acts and the sale details. Tap <b>+ N more dates</b> for the rest of the tour, and <b>i</b> for notes and where the information came from.</p>
+    <dl>
+      <dt><span class="tag ok">On sale</span></dt><dd>Tickets are on sale now.</dd>
+      <dt><span class="tag soon">Tickets soon</span></dt><dd>Announced, tickets not on sale yet. Check Presales for the time.</dd>
+      <dt><span class="tag out">Sold out</span></dt><dd>A source says it's sold out.</dd>
+      <dt><span class="tag unc">Unconfirmed</span></dt><dd>Sources disagree or only some dates are out. Check the ticket link before you buy.</dd>
+      <dt><span class="tag ug">Underground</span></dt><dd>An up-and-coming Australian band's tour or an underground festival.</dd>
+      <dt><span class="tag">Aussie</span></dt><dd>An Australian act.</dd>
+      <dt><span class="tag">Festival</span></dt><dd>A bill covering several genres.</dd>
+      <dt><b>★</b></dt><dd>You follow a band on the bill.</dd>
+    </dl>
+    <p><b>Tickets</b> opens the official seller (named underneath). <b>Add to calendar</b> saves the show to your phone's calendar. <b>Share</b> sends the tour to a mate.</p>
+    <p>The <b>Just added</b> strip at the top of Shows lists tours added in the last week that fit your My Metal.</p>
+  </section>
+
+  <section id="follow">
+    <h2>Following bands</h2>
+    <p>On the <b>Bands</b> tab, search for a band and tap ☆ to follow it (★ means you follow it). You can also add bands in My Metal. Followed bands' tours always show in My Metal, even outside your chosen genres or the underground setting.</p>
+    <p>Tap a band's name to see its latest news: touring overseas, rumoured, or nothing announced yet. Use the filter to see just the bands you follow, bands on the calendar, rumoured tours, or rising Aussie bands.</p>
+  </section>
+
+  <section id="underground">
+    <h2>Underground and up-and-coming bands</h2>
+    <p>Switch on <b>Include underground and up-and-coming Aussie bands</b> in My Metal to see smaller Australian bands' tours, launch tours and underground festivals: bands not yet headlining rooms bigger than about 500 people. It's off by default.</p>
+    <p>We don't list one-off pub gigs, only tours and festivals.</p>
+  </section>
+
+  <section id="calendar">
+    <h2>Calendar</h2>
+    <p>Use the arrows to change month. Days with shows have dots (up to three); tap a day to see its shows underneath. The calendar follows the My Metal / All shows switch.</p>
+  </section>
+
+  <section id="presales">
+    <h2>Presales</h2>
+    <p><b>Tickets opening soon</b> lists presales and general sales coming up, grouped by tour, with the time in Sydney time. <b>Opened in the last two weeks</b> shows sales that have just opened. Presale codes usually come from the promoter, the venue or a card company; sign up with them to get one.</p>
+  </section>
+
+  <section id="share">
+    <h2>Sharing a tour</h2>
+    <p>Tap <b>Share</b> on any card. On a phone, your share menu opens (Messenger, WhatsApp, text and so on); on a computer, the link is copied. The link shows the tour's band, dates and cities when you paste it. When your mate opens it, the tour sits at the top under <b>Shared with you</b>.</p>
+  </section>
+
+  <section id="install">
+    <h2>Install it on your phone</h2>
+    <ul>
+      <li><b>iPhone</b>: open the site in Safari, tap Share, then Add to Home Screen.</li>
+      <li><b>Android</b>: open the site in Chrome, tap the ⋮ menu, then Install app (or Add to Home screen).</li>
+    </ul>
+    <p>It then opens like an app and works offline with the last shows it loaded.</p>
+  </section>
+
+  <section id="updates">
+    <h2>Updates</h2>
+    <p>New tours and presales are added twice a week, and every band is re-checked each month. The app updates itself when you open it. Tap <b>⟳</b> in the top corner to check straight away. After an app update you'll see a short "What's new" note once.</p>
+    <p>The version you're on is shown at the bottom of More.</p>
+  </section>
+
+  <section id="pro">
+    <h2>Metal Hunter Pro</h2>
+    <p>Pro is coming: push alerts when a tour in your genres hits your state, and reminders before presales open. Leave your email on the Pro card (end of Shows, or under More) and we'll tell you when it launches. Metal Hunter itself stays free.</p>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy</h2>
+    <p>Your My Metal settings, followed bands and look are stored on your phone, not sent to us. If you sign up for the Pro launch, we keep your email and chosen genres and states. Read the <a href="privacy.html">privacy page</a> for details.</p>
+  </section>
+
+  <section id="faq">
+    <h2>FAQ</h2>
+    <details><summary>A tour I know about isn't listed. Why?</summary>
+      <p>It may have been announced since the last update (twice a week), it may be a one-off pub gig, or it may be a New Zealand date, which we don't list. Underground tours only show if you've switched them on.</p></details>
+    <details><summary>Why can't I see a tour my mate can?</summary>
+      <p>Your My Metal settings are probably filtering it out. Switch to <b>All shows</b> at the top of Shows.</p></details>
+    <details><summary>Is the information official?</summary>
+      <p>It comes from promoters, official ticket sellers and music news. Ticket links always go to the official seller. Check the seller before you buy, especially for anything marked Unconfirmed.</p></details>
+    <details><summary>Do you sell tickets?</summary>
+      <p>No. We link you to the official seller.</p></details>
+    <details><summary>Is pop-punk included?</summary>
+      <p>No. Punk is in (Celtic and Irish, street punk and Oi!, '77, skate, horror punk and more), but pop-punk isn't.</p></details>
+    <details><summary>Can I suggest a tour or a band?</summary>
+      <p>Yes. Tell us where you found Metal Hunter, or reply to any email from us.</p></details>
+  </section>
+
+  <footer>Metal Hunter v1.0 · <a href="./">Open the app</a> · <a href="privacy.html">Privacy</a></footer>
+</main>

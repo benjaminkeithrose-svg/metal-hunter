@@ -59,6 +59,19 @@ try:
 except Exception:
     pass
 
+# Every app release: APP_VERSION in index.html, the top entry of CHANGELOG.md and help.html must agree.
+try:
+    app = re.search(r'APP_VERSION="([0-9.]+)"', open("index.html", encoding="utf-8").read()).group(1)
+    log = re.search(r"^## v([0-9.]+) ", open("CHANGELOG.md", encoding="utf-8").read(), re.M).group(1)
+    helptext = open("help.html", encoding="utf-8").read()
+    hv = re.search(r'<meta name="mh-version" content="([0-9.]+)">', helptext).group(1)
+    if not (app == log == hv):
+        errs.append(f"version mismatch: index.html {app}, CHANGELOG.md {log}, help.html {hv}")
+    if f"What's new in v{app}" not in helptext:
+        errs.append(f"help.html has no \"What's new in v{app}\" section")
+except (AttributeError, OSError) as ex:
+    errs.append(f"version check failed: {ex}")
+
 # The share pages in t/ must match the data.
 chk = subprocess.run([sys.executable, "scripts/build_pages.py", "--check"], capture_output=True, text=True)
 if chk.returncode:
