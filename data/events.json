@@ -24,7 +24,8 @@
    "gb": [
     "core"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "maiden",
@@ -72,7 +73,8 @@
    "gb": [
     "heavy"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "pod",
@@ -109,7 +111,8 @@
    "gb": [
     "alt"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "gnr",
@@ -163,7 +166,8 @@
    "gb": [
     "alt"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "tdwp",
@@ -194,7 +198,8 @@
    "gb": [
     "core"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "goodthings",
@@ -233,7 +238,8 @@
     "core",
     "hc"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "ministry",
@@ -264,7 +270,8 @@
    "gb": [
     "alt"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "apc",
@@ -313,7 +320,8 @@
    "gb": [
     "alt"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "beherit",
@@ -355,7 +363,8 @@
    "gb": [
     "extreme"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "clutch",
@@ -399,7 +408,8 @@
     "doom",
     "alt"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "soad",
@@ -435,7 +445,8 @@
    "gb": [
     "alt"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "froth",
@@ -466,7 +477,8 @@
     "punk",
     "prog"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "thrown",
@@ -509,7 +521,8 @@
    "gb": [
     "core"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "dayseeker",
@@ -541,7 +554,8 @@
     "hc",
     "core"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "soty",
@@ -566,7 +580,8 @@
    "gb": [
     "hc"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "heilung",
@@ -601,7 +616,8 @@
    "gb": [
     "folk"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "beartooth",
@@ -643,7 +659,8 @@
    "gb": [
     "core"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "mortiis",
@@ -685,7 +702,8 @@
    "gb": [
     "folk"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "ensiferum",
@@ -742,7 +760,8 @@
    "gb": [
     "folk"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "evanescence",
@@ -797,7 +816,8 @@
    "gb": [
     "alt"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "periphery",
@@ -834,7 +854,8 @@
    "gb": [
     "prog"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "deathangel",
@@ -883,7 +904,8 @@
    "gb": [
     "heavy"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "killswitch",
@@ -939,7 +961,8 @@
    "gb": [
     "core"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "carcass27",
@@ -995,7 +1018,8 @@
    "gb": [
     "extreme"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "fray27",
@@ -1050,7 +1074,8 @@
    "gb": [
     "hc"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "ladispute",
@@ -1086,7 +1111,8 @@
    "gb": [
     "hc"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "dgd",
@@ -1134,7 +1160,8 @@
    "gb": [
     "hc"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "jew26",
@@ -1176,7 +1203,8 @@
    "gb": [
     "hc"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "qotsa26",
@@ -1231,7 +1259,8 @@
     "doom",
     "alt"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "metalchurch27",
@@ -1275,7 +1304,8 @@
    "gb": [
     "heavy"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "deicide27",
@@ -1324,7 +1354,8 @@
    "gb": [
     "extreme"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "igorrr27",
@@ -1360,7 +1391,8 @@
    "gb": [
     "prog"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "president27",
@@ -1408,7 +1440,8 @@
    "gb": [
     "core"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "drain27",
@@ -1451,7 +1484,8 @@
    "gb": [
     "hc"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "dethfest27",
@@ -1476,7 +1510,8 @@
    "gb": [
     "extreme"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "elder27",
@@ -1524,7 +1559,8 @@
    "gb": [
     "doom"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "sisters26",
@@ -1572,7 +1608,8 @@
    "gb": [
     "alt"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "citizen27",
@@ -1620,7 +1657,8 @@
    "gb": [
     "hc"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "mono27",
@@ -1668,7 +1706,8 @@
    "gb": [
     "prog"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "soen27",
@@ -1705,7 +1744,8 @@
    "gb": [
     "prog"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "lucidity27",
@@ -1732,7 +1772,8 @@
     "core",
     "extreme"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "northlane26",
@@ -1788,7 +1829,8 @@
     "core"
    ],
    "aus": true,
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "windwaker26",
@@ -1844,7 +1886,8 @@
     "core"
    ],
    "aus": true,
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "hellbound27",
@@ -1870,7 +1913,8 @@
     "hc"
    ],
    "aus": true,
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "heavensgate26",
@@ -1920,7 +1964,8 @@
     "core"
    ],
    "aus": true,
-   "tier": "scene"
+   "tier": "scene",
+   "added": "2026-10-22"
   },
   {
    "id": "dod26",
@@ -1971,7 +2016,8 @@
     "hc"
    ],
    "aus": true,
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "trophyeyes26",
@@ -2004,7 +2050,8 @@
     "hc"
    ],
    "aus": true,
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "ten27",
@@ -2041,7 +2088,8 @@
    "gb": [
     "hc"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "uncleacid26",
@@ -2089,7 +2137,8 @@
    "gb": [
     "doom"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "sleeptheory27",
@@ -2144,7 +2193,8 @@
    "gb": [
     "alt"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-22"
   },
   {
    "id": "riseagainst26",
@@ -2193,7 +2243,8 @@
    "gb": [
     "punk"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-23"
   },
   {
    "id": "meltdown26",
@@ -2218,7 +2269,8 @@
    "gb": [
     "punk"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-23"
   },
   {
    "id": "ltj26",
@@ -2266,7 +2318,8 @@
    "gb": [
     "punk"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-23"
   },
   {
    "id": "frenzal26",
@@ -2335,7 +2388,8 @@
     "punk"
    ],
    "aus": true,
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-23"
   },
   {
    "id": "propagandhi27",
@@ -2377,7 +2431,8 @@
    "gb": [
     "punk"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-23"
   },
   {
    "id": "tbr27",
@@ -2444,7 +2499,8 @@
    "gb": [
     "punk"
    ],
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-23"
   },
   {
    "id": "saints27",
@@ -2512,7 +2568,8 @@
     "punk"
    ],
    "aus": true,
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-23"
   },
   {
    "id": "coffin27",
@@ -2568,7 +2625,8 @@
     "punk"
    ],
    "aus": true,
-   "tier": "major"
+   "tier": "major",
+   "added": "2026-10-23"
   },
   {
    "id": "steelassassins26",
@@ -2601,7 +2659,8 @@
      "st": "NSW",
      "venue": "The Bridge Hotel, Rozelle"
     }
-   ]
+   ],
+   "added": "2026-10-23"
   },
   {
    "id": "618fest26",
@@ -2628,7 +2687,8 @@
      "st": "SA",
      "venue": "Lion Arts Factory"
     }
-   ]
+   ],
+   "added": "2026-10-23"
   },
   {
    "id": "tmoc26",
@@ -2671,7 +2731,8 @@
      "st": "SA",
      "venue": "Hindley Street Music Hall"
     }
-   ]
+   ],
+   "added": "2026-10-23"
   }
  ],
  "sales": [

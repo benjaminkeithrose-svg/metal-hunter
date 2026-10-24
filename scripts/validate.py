@@ -21,6 +21,10 @@ for t in e["tours"]:
         errs.append(f"tour {t.get('id')}: bad tag {t.get('tag')}")
     if not t.get("gb") or any(g not in BUCKETS for g in t["gb"]):
         errs.append(f"tour {t.get('id')}: 'gb' must list genre groups from bands.json buckets")
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", t.get("added", "")):
+        errs.append(f"tour {t.get('id')}: 'added' must be the YYYY-MM-DD date it was added")
+    if not re.fullmatch(r"[a-z0-9-]+", t.get("id", "")):
+        errs.append(f"tour {t.get('id')}: id must be lowercase letters, digits and hyphens (it becomes a page name)")
     if t.get("tier") not in ("major", "scene"):
         errs.append(f"tour {t.get('id')}: 'tier' must be major or scene")
     if t.get("status") not in ("on-sale", "upcoming", "sold-out"):
@@ -54,6 +58,11 @@ try:
     errs += [f"band {x['n']}: was checked, now unchecked" for x in b["bands"] if x["st"] == "unchecked" and x["n"] in was]
 except Exception:
     pass
+
+# The share pages in t/ must match the data.
+chk = subprocess.run([sys.executable, "scripts/build_pages.py", "--check"], capture_output=True, text=True)
+if chk.returncode:
+    errs.append("share pages out of date: run python3 scripts/build_pages.py (" + chk.stdout.strip() + ")")
 
 print("\n".join(errs) or f"OK: {len(e['tours'])} tours, {len(b['bands'])} bands")
 sys.exit(1 if errs else 0)

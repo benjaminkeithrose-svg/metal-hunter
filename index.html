@@ -12,6 +12,16 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Metal Hunter">
 <meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Every metal, hardcore and punk tour coming to Australia: dates, venues, ticket links and when presales open.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Metal Hunter">
+<meta property="og:title" content="Metal Hunter">
+<meta property="og:description" content="Every metal, hardcore and punk tour coming to Australia: dates, venues, ticket links and when presales open.">
+<meta property="og:url" content="https://benjaminkeithrose-svg.github.io/metal-hunter/">
+<meta property="og:image" content="https://benjaminkeithrose-svg.github.io/metal-hunter/icons/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <script>
 /* Pick the look before first paint: ?look= in the URL, then the saved choice, then Runestone. */
 (function(){var l;try{l=new URLSearchParams(location.search).get("look")||localStorage.getItem("mh-look")}catch(e){}
@@ -135,12 +145,24 @@ h2.sub{font-family:var(--display);font-weight:800;font-size:20px;text-transform:
 .btn small{font-weight:500;font-size:10.5px;opacity:.8;margin-top:2px}
 .btn:hover{filter:brightness(1.08)}
 .btn.ghost{background:transparent;color:var(--fg);border:1px solid var(--line)}
-.lnk{background:none;border:0;padding:0;color:var(--muted);font-size:13px;text-decoration:underline;cursor:pointer;margin-left:auto}
+.lnk{background:none;border:0;padding:0;color:var(--muted);font-size:13px;text-decoration:underline;cursor:pointer}
+.lnks{display:flex;gap:14px;margin-left:auto}
+.fresh{margin-top:16px}
+.fresh h2{margin:0 0 8px}
+.strip{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
+.fchip{flex:none;display:grid;gap:2px;text-align:left;max-width:220px;background:var(--surface);border:1px solid var(--accent);border-radius:8px;padding:8px 12px;cursor:pointer}
+.fchip b{font-family:var(--display);font-size:14px;text-transform:uppercase;letter-spacing:.03em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fchip span{font:500 12px var(--mono);color:var(--muted)}
+.shared{margin-top:16px}
+.shared .head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.shared h2{margin:0 0 8px}
+.show.flash{outline:2px solid var(--accent);outline-offset:2px}
+:root[data-look="xerox"] .fchip{border:2px solid var(--fg);border-radius:0}
 @media (min-width:700px){
   .show{grid-template-columns:76px minmax(0,1fr) auto;padding:12px 14px}
   .date .day{font-size:38px}
   .act{grid-column:auto;flex-direction:column;align-items:flex-end;border-top:0;padding-top:0}
-  .lnk{margin-left:0}
+  .lnks{margin-left:0}
 }
 
 /* calendar */
@@ -385,6 +407,7 @@ async function proSubmit(form){
 }
 const S={tab:"shows",q:"",month:null,day:null,bq:"",bst:""};
 try{const t=new URLSearchParams(location.search).get("tab");if(["shows","calendar","presales","bands","more"].includes(t))S.tab=t}catch(e){}
+try{if(new URLSearchParams(location.search).get("tour"))S.tab="shows"}catch(e){}
 
 /* ---------- HELPERS ---------- */
 const $=s=>document.querySelector(s);
@@ -454,7 +477,7 @@ function card(s,others=[]){
   const d=ymd(s.d),t=s.tour;
   const url=s.url||t.ticketUrl,label=s.label||t.ticketLabel;
   const genre=t.gb.length>2?"Festival":SHORT[t.gb[0]];
-  return `<article class="show">
+  return `<article class="show" data-tour="${esc(t.id)}">
     <div class="date"><span class="dow">${DOW[d.getDay()]}</span><span class="day">${d.getDate()}</span><span class="mon">${MON3[d.getMonth()]}</span></div>
     <div class="main">
       <h3>${esc(t.artist)}${followedIn(t)?'<span class="star" title="You follow a band on this bill">★</span>':""}</h3>
@@ -469,9 +492,46 @@ function card(s,others=[]){
     <div class="act">
       <span class="badge ${s.status}">${BADGE[s.status]}</span>
       <a class="btn" href="${esc(url)}" target="_blank" rel="noopener">Tickets<small>${esc(label)}</small></a>
-      <button type="button" class="lnk" data-ics="${esc(s.id)}">Add to calendar</button>
+      <span class="lnks"><button type="button" class="lnk" data-share="${esc(t.id)}">Share</button><button type="button" class="lnk" data-ics="${esc(s.id)}">Add to calendar</button></span>
     </div>
   </article>`;
+}
+
+/* ---------- SHARING ----------
+   Shared links point at t/<id>.html (built by scripts/build_pages.py) so chat apps show the tour in the preview;
+   that page forwards to ?tour=<id>, which pins the tour under "Shared with you". */
+let SHARED=null;try{SHARED=new URLSearchParams(location.search).get("tour")}catch(e){}
+function shareTour(id){
+  const t=tourById[id];if(!t)return;
+  const first=SHOWS.find(s=>s.tour===t);
+  const url=new URL("t/"+id+".html",location.href.replace(/[?#].*$/,"").replace(/[^/]*$/,"")).href;
+  const text=t.artist+(first?` · ${fmtDay(ymd(first.d))} · ${first.city}`:"")+(t.shows.length>1?` and ${new Set(t.shows.map(x=>x.city)).size-1} more`:"");
+  if(navigator.share){navigator.share({title:t.artist+" | Metal Hunter",text,url}).catch(()=>{});return}
+  const done=()=>window.MH_SAY&&window.MH_SAY("Link copied");
+  if(navigator.clipboard)navigator.clipboard.writeText(url).then(done,()=>prompt("Copy this link",url));else prompt("Copy this link",url);
+}
+function sharedBox(){
+  if(!SHARED)return "";
+  const t=tourById[SHARED],mine=t?SHOWS.filter(s=>s.tour===t):[];
+  const body=mine.length?card(mine[0],mine.slice(1)):`<div class="empty">That tour has finished or isn't on the calendar any more.</div>`;
+  return `<section class="shared"><div class="head"><h2 class="sub">Shared with you</h2><button type="button" class="lnk" data-act="unshare">Close</button></div>${body}</section>`;
+}
+/* "Just added": tours added in the last 7 days that fit My Metal (or everything on All shows).
+   Tours loaded while the site was being set up (on or before FIRST_LOAD) don't count as new. */
+const FIRST_LOAD="2026-10-23";
+function justAdded(){
+  if(S.q)return "";
+  const since=key(new Date(now.getFullYear(),now.getMonth(),now.getDate()-7));
+  const fresh=TOURS.filter(t=>t.added>FIRST_LOAD&&t.added>=since&&SHOWS.some(s=>s.tour===t&&sceneOk(t)&&(ME.mode==="all"||inMine(s))))
+    .sort((a,b)=>b.added.localeCompare(a.added));
+  if(!fresh.length)return "";
+  return `<section class="fresh"><h2 class="sub">Just added</h2><div class="strip">${fresh.map(t=>{const f=SHOWS.find(s=>s.tour===t);
+    return `<button type="button" class="fchip" data-jump="${esc(t.id)}"><b>${esc(t.artist)}</b><span>${fmtDay(ymd(f.d))} · ${esc(f.city)}</span></button>`}).join("")}</div></section>`;
+}
+function jumpTo(id){
+  let el=document.querySelector(`#view [data-tour="${CSS.escape(id)}"]`);
+  if(!el){S.q="";render();el=document.querySelector(`#view [data-tour="${CSS.escape(id)}"]`)}
+  if(el){el.scrollIntoView({behavior:"smooth",block:"center"});el.classList.add("flash");setTimeout(()=>el.classList.remove("flash"),1600)}
 }
 
 /* ---------- VIEWS ---------- */
@@ -495,7 +555,7 @@ function viewShows(){
     list.forEach(s=>{const k=s.tour.id;if(!by.has(k))by.set(k,{s,others:[]});else by.get(k).others.push(s)});
     items=[...by.values()];
   }
-  let html=feedHead(items.length);
+  let html=feedHead(items.length)+sharedBox()+justAdded();
   if(!items.length)return html+`<div class="empty" style="margin-top:14px">No shows match.${ME.mode==="mine"?`<br><button type="button" class="btn ghost" data-mode="all">Show all shows</button>`:""}</div>`;
   let cur="";
   items.forEach(({s,others})=>{
@@ -649,13 +709,16 @@ function toggleFollow(n){
   save();window.MH_SAY&&window.MH_SAY(i>=0?`Unfollowed ${n}`:`Following ${n}`);
 }
 document.addEventListener("click",e=>{
-  const t=e.target.closest("[data-tab],[data-m],[data-day],[data-mode],[data-act],[data-ics],[data-follow],[data-g],[data-s],[data-add],[data-unf],[data-look-set]");if(!t)return;
+  const t=e.target.closest("[data-tab],[data-m],[data-day],[data-mode],[data-act],[data-ics],[data-share],[data-jump],[data-follow],[data-g],[data-s],[data-add],[data-unf],[data-look-set]");if(!t)return;
   const ds=t.dataset;
   if(ds.tab){S.tab=ds.tab;scrollTo(0,0)}
   else if(ds.mode){ME.mode=ds.mode;save()}
   else if(ds.m){const ms=[...new Set(SHOWS.map(s=>s.d.slice(0,7)))].sort();S.month=ms[ms.indexOf(S.month)+Number(ds.m)];S.day=null}
   else if(ds.day){S.day=ds.day}
   else if(ds.ics){saveIcs(ds.ics);return}
+  else if(ds.share){shareTour(ds.share);return}
+  else if(ds.jump){jumpTo(ds.jump);return}
+  else if(ds.act==="unshare"){SHARED=null;try{history.replaceState(null,"",location.pathname)}catch(e){}}
   else if(ds.follow){toggleFollow(ds.follow);$("#blist").innerHTML=bandList();return}
   else if(ds.lookSet){document.documentElement.dataset.look=ds.lookSet;try{localStorage.setItem("mh-look",ds.lookSet)}catch(e){}
     document.querySelector('meta[name="theme-color"]').content=ds.lookSet==="xerox"?"#e6e1d4":"#0a0e0c"}
@@ -688,6 +751,6 @@ document.addEventListener("input",e=>{
 document.addEventListener("submit",e=>{const f=e.target.closest("[data-pro]");if(f){e.preventDefault();proSubmit(f)}});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("#sheet").hidden)closeSheet(false)});
 render();
-if(!ME.setup)openSheet(true);
+if(!ME.setup&&!SHARED)openSheet(true);
 })();
 </script>
