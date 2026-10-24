@@ -2733,6 +2733,81 @@
     }
    ],
    "added": "2026-10-23"
+  },
+  {
+   "id": "halfme26",
+   "artist": "Half Me",
+   "support": "Diesect, Darkmatter, Cultists",
+   "genre": "Metalcore",
+   "gb": [
+    "core"
+   ],
+   "tag": "core",
+   "tier": "major",
+   "status": "on-sale",
+   "conf": "verify",
+   "added": "2026-10-24",
+   "sale": "On sale now. Tickets are sold through different sellers in each city (Oztix, Moshtix and others); check the tour page for your show.",
+   "ticketUrl": "https://www.wallofsoundau.com/news/half-me-new-song-weather-eye-announce-australian-tour",
+   "ticketLabel": "Tour details",
+   "src": "https://www.thenote.com.au/news/half-me-announce-debut-australian-headline-tour",
+   "note": "First Australian headline tour by the German band. Diesect aren't on the Perth show. Byron Bay is the Hardcore Halloween show.",
+   "shows": [
+    {
+     "d": "2026-10-22",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Amplifier Bar"
+    },
+    {
+     "d": "2026-10-23",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Ed Castle"
+    },
+    {
+     "d": "2026-10-24",
+     "city": "Hobart",
+     "st": "TAS",
+     "venue": "The Grand Poobah"
+    },
+    {
+     "d": "2026-10-25",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "The Leadbeater Hotel"
+    },
+    {
+     "d": "2026-10-28",
+     "city": "Canberra",
+     "st": "ACT",
+     "venue": "Fun Time Pony"
+    },
+    {
+     "d": "2026-10-29",
+     "city": "Wollongong",
+     "st": "NSW",
+     "venue": "La La La's"
+    },
+    {
+     "d": "2026-10-30",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2026-10-31",
+     "city": "Byron Bay",
+     "st": "NSW",
+     "venue": "Hardcore Halloween"
+    },
+    {
+     "d": "2026-11-01",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Crowbar"
+    }
+   ]
   }
  ],
  "sales": [

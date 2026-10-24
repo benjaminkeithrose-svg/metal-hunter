@@ -6708,6 +6708,15 @@
    "confirmed": true
   },
   {
+   "n": "Half Me",
+   "g": "core",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "https://www.thenote.com.au/news/half-me-announce-debut-australian-headline-tour",
+   "named": false,
+   "confirmed": true
+  },
+  {
    "n": "Lorna Shore",
    "g": "deathcore",
    "st": "none",
@@ -11126,7 +11135,7 @@
    "n": "Diesect",
    "g": "auscore",
    "st": "none",
-   "note": "Supported Spite, Apr to May 2026.",
+   "note": "Australian dates on the calendar (supporting Half Me, Oct to Nov 2026). Supported Spite, Apr to May 2026.",
    "src": "https://metalontap.com/spite-announce-local-supports-for-australian-headline-tour-in-april-2026-with-varials-diesect/",
    "named": false,
    "confirmed": true,
