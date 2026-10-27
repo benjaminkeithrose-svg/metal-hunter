@@ -120,6 +120,9 @@ h2.sub{font-family:var(--display);font-weight:800;font-size:20px;text-transform:
 .sale{margin:5px 0 0;font-family:var(--mono);font-size:12px;color:var(--muted)}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;align-items:center}
 .tag{font-family:var(--mono);font-size:11px;border:1px solid var(--line);border-radius:4px;padding:1px 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.tag.age{font-weight:700}
+.tag.r18,.tag.r16{color:var(--bad);border-color:var(--bad);background:var(--bad-bg)}
+.tag.aa{color:var(--ok);border-color:var(--ok);background:var(--ok-bg)}
 .tag.scene{color:var(--warn);border-color:var(--warn);background:var(--warn-bg)}
 .tag.unconf{color:var(--info);border-color:var(--info);background:var(--info-bg)}
 .more summary,.dates summary{cursor:pointer;list-style:none}
@@ -374,7 +377,7 @@ const STATES=["NSW","VIC","QLD","SA","WA","TAS","ACT","NT"];
 /* Underground: tours with tier "scene" (up-and-coming Australian bands in rooms up to ~500).
    SHOW_SCENE is the site-wide switch: false hides every scene listing and the option for it. */
 const SHOW_SCENE=true;
-const ME={mode:"mine",genres:[],states:[],follows:[],aus:true,scene:false,hideSold:false,perDate:false,setup:false};
+const ME={mode:"mine",genres:[],states:[],follows:[],aus:true,scene:false,allAges:false,hideSold:false,perDate:false,setup:false};
 try{
   const saved=JSON.parse(localStorage.getItem("mh-me")||"null");
   if(saved)Object.assign(ME,saved);
@@ -413,7 +416,7 @@ async function proSubmit(form){
   btn.disabled=false;
 }
 /* App version: bump with every app change, together with CHANGELOG.md and help.html (scripts/validate.py checks they match). */
-const APP_VERSION="1.0",APP_DATE="24 Oct 2026";
+const APP_VERSION="1.1",APP_DATE="27 Oct 2026";
 const S={tab:"shows",q:"",month:null,day:null,bq:"",bst:""};
 try{const t=new URLSearchParams(location.search).get("tab");if(["shows","calendar","presales","bands","more"].includes(t))S.tab=t}catch(e){}
 try{if(new URLSearchParams(location.search).get("tour"))S.tab="shows"}catch(e){}
@@ -452,11 +455,15 @@ function inMine(s){
   return true;
 }
 const sceneOk=t=>t.tier!=="scene"||(SHOW_SCENE&&(ME.scene||followedIn(t)));
-const visible=s=>matchesQ(s)&&sceneOk(s.tour)&&(ME.mode==="all"||inMine(s));
+/* Age rules come from show.age (or tour.age). "All-ages shows only" keeps shows known to admit under-18s, in both modes. */
+const ageOf=s=>s.age||s.tour.age||"";
+const AGE_TAG={"18+":["r18","18+"],"16+":["r16","16+"],"All ages":["aa","All ages"],"All ages (licensed)":["aa","All ages · licensed"],"18+ floor, all-ages mezzanine":["aa","18+ floor · all-ages mezz"]};
+const allAgesOk=s=>!ME.allAges||/all ages|all-ages/i.test(ageOf(s));
+const visible=s=>matchesQ(s)&&sceneOk(s.tour)&&allAgesOk(s)&&(ME.mode==="all"||inMine(s));
 
 function mineSummary(){
   const g=ME.genres.length?(ME.genres.length<=2?ME.genres.map(k=>SHORT[k]).join(", "):ME.genres.length+" genres"):"All genres";
-  const st=ME.states.length?ME.states.join(", "):"All of Australia";
+  const st=(ME.states.length?ME.states.join(", "):"All of Australia")+(ME.allAges?" · all ages only":"");
   const f=ME.follows.length?` · ${ME.follows.length} band${ME.follows.length>1?"s":""}`:"";
   return `${g} · ${st}${f}${SHOW_SCENE&&ME.scene?" · + underground":""}`;
 }
@@ -493,10 +500,10 @@ function card(s,others=[]){
       ${t.support?`<p class="sup">${isFest(t)?"":"With "}${esc(t.support)}</p>`:""}
       <p class="where">${esc(s.venue)} · ${esc(s.city)}, ${esc(s.st)}</p>
       <p class="sale">${esc(t.sale)}</p>
-      <div class="tags"><span class="tag">${esc(genre)}</span>${t.aus?'<span class="tag">Aussie</span>':""}${t.tier==="scene"?'<span class="tag scene">Underground</span>':""}${t.conf==="verify"?'<span class="tag unconf">Unconfirmed</span>':""}
+      <div class="tags">${AGE_TAG[ageOf(s)]?`<span class="tag age ${AGE_TAG[ageOf(s)][0]}" title="${esc(ageOf(s))}">${AGE_TAG[ageOf(s)][1]}</span>`:""}<span class="tag">${esc(genre)}</span>${t.aus?'<span class="tag">Aussie</span>':""}${t.tier==="scene"?'<span class="tag scene">Underground</span>':""}${t.conf==="verify"?'<span class="tag unconf">Unconfirmed</span>':""}
         <details class="more"><summary aria-label="More info">i</summary>${t.note?`<p>${esc(t.note)}</p>`:""}<p>${esc(t.genre)}. <a href="${esc(t.src)}" target="_blank" rel="noopener">Where this came from</a></p></details></div>
       ${others.length?`<details class="dates"><summary>+ ${others.length} more date${others.length>1?"s":""}</summary><ul>${others.map(o=>
-        `<li><b>${fmtDay(ymd(o.d))}</b><span>${esc(o.city)}, ${esc(o.st)} · ${esc(o.venue)}</span>${o.status==="sold-out"?'<span class="badge sold-out">Sold out</span>':""}</li>`).join("")}</ul></details>`:""}
+        `<li><b>${fmtDay(ymd(o.d))}</b><span>${esc(o.city)}, ${esc(o.st)} · ${esc(o.venue)}${AGE_TAG[ageOf(o)]?` · ${AGE_TAG[ageOf(o)][1]}`:""}</span>${o.status==="sold-out"?'<span class="badge sold-out">Sold out</span>':""}</li>`).join("")}</ul></details>`:""}
     </div>
     <div class="act">
       <span class="badge ${s.status}">${BADGE[s.status]}</span>
@@ -692,6 +699,7 @@ function sheetBody(first){
     <div class="sugg" id="sugg">${sugg.map(b=>`<button type="button" data-add="${esc(b.n)}">+ ${esc(b.n)}</button>`).join("")}</div>
     <h3>Options</h3>
     <label class="sw"><span>Include Aussie bands' tours</span><input type="checkbox" id="o-aus" ${draft.aus?"checked":""}></label>
+    <label class="sw"><span>All-ages shows only<br><small class="muted">Hides 18+ and 16+ shows, and shows whose age rule isn't known yet</small></span><input type="checkbox" id="o-allages" ${draft.allAges?"checked":""}></label>
     <label class="sw"><span>Hide sold-out shows</span><input type="checkbox" id="o-sold" ${draft.hideSold?"checked":""}></label>
     ${SHOW_SCENE?`<label class="sw"><span>Include underground and up-and-coming Aussie bands<br><small class="muted">Smaller tours and festivals, rooms up to about 500</small></span><input type="checkbox" id="o-scene" ${draft.scene?"checked":""}></label>`:""}
     <label class="sw"><span>Show every date separately</span><input type="checkbox" id="o-date" ${draft.perDate?"checked":""}></label>
@@ -700,13 +708,13 @@ function sheetBody(first){
       ${first?`<button type="button" class="btn ghost" data-act="skip">Skip, show everything</button>`:""}</div>`;
 }
 function openSheet(first){
-  draft={genres:[...ME.genres],states:[...ME.states],follows:[...ME.follows],aus:ME.aus,scene:!!ME.scene,hideSold:ME.hideSold,perDate:ME.perDate,first:!!first};fq="";
+  draft={genres:[...ME.genres],states:[...ME.states],follows:[...ME.follows],aus:ME.aus,scene:!!ME.scene,allAges:!!ME.allAges,hideSold:ME.hideSold,perDate:ME.perDate,first:!!first};fq="";
   $("#sheetTitle").textContent=first?"Welcome":"My Metal";
   $("#sheetBody").innerHTML=sheetBody(first);$("#sheet").hidden=false;document.body.style.overflow="hidden";
 }
 function closeSheet(apply,mode){
   if(apply){
-    Object.assign(ME,{genres:draft.genres,states:draft.states,follows:draft.follows,aus:draft.aus,scene:draft.scene,hideSold:draft.hideSold,perDate:draft.perDate});
+    Object.assign(ME,{genres:draft.genres,states:draft.states,follows:draft.follows,aus:draft.aus,scene:draft.scene,allAges:draft.allAges,hideSold:draft.hideSold,perDate:draft.perDate});
     ME.mode=mode||"mine";
   }
   ME.setup=true;save();$("#sheet").hidden=true;document.body.style.overflow="";render();
@@ -760,6 +768,7 @@ document.addEventListener("change",e=>{
   else if(id==="o-sold")draft.hideSold=e.target.checked;
   else if(id==="o-date")draft.perDate=e.target.checked;
   else if(id==="o-scene")draft.scene=e.target.checked;
+  else if(id==="o-allages")draft.allAges=e.target.checked;
 });
 document.addEventListener("input",e=>{
   const id=e.target.id;

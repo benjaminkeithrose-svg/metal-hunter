@@ -6,6 +6,12 @@ Tour and band data updates (the scheduled refreshes) are not versions and are no
 
 Version numbers: small fixes go 1.0 → 1.0.1, new features go 1.0 → 1.1, the store app will be 2.0.
 
+## v1.1 · 27 Oct 2026
+- Age label on show cards: 18+, 16+, All ages, All ages · licensed, or 18+ floor · all-ages mezz. Left off when the rule isn't known.
+- Each date under "+ N more dates" shows its own age rule.
+- "All-ages shows only" option in My Metal.
+- Thrown's Sydney, Newcastle and Brisbane dates added.
+
 ## v1.0 · 24 Oct 2026
 First numbered release.
 - Help section (More → Help) covering every screen, label and setting, plus a "What's new" page.

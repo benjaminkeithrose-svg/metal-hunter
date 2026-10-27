@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Help · Metal Hunter</title>
-<meta name="mh-version" content="1.0">
+<meta name="mh-version" content="1.1">
 <meta name="description" content="How to use Metal Hunter: My Metal, show cards, following bands, presales, sharing and installing the app.">
 <meta name="theme-color" content="#0a0e0c">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
@@ -46,6 +46,8 @@ li{margin:4px 0}
 .tag.out{background:var(--bad-bg);color:var(--bad);border-color:transparent}
 .tag.unc{background:var(--info-bg);color:var(--info);border-color:var(--info)}
 .tag.ug{background:var(--warn-bg);color:var(--warn);border-color:var(--warn)}
+.tag.r18{background:var(--bad-bg);color:var(--bad);border-color:var(--bad);font-weight:700}
+.tag.aa{background:var(--ok-bg);color:var(--ok);border-color:var(--ok);font-weight:700}
 dl{display:grid;grid-template-columns:auto 1fr;gap:8px 12px;align-items:baseline;margin:10px 0}
 dd{margin:0;color:var(--muted)}
 details{border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin:8px 0;background:var(--surface)}
@@ -58,7 +60,7 @@ footer{margin-top:28px;color:var(--muted);font-size:14px}
 <main>
   <a class="back" href="./?tab=more">← Back to Metal Hunter</a>
   <h1>Help</h1>
-  <p class="ver">Metal Hunter v1.0 · 24 October 2026</p>
+  <p class="ver">Metal Hunter v1.1 · 27 October 2026</p>
 
   <nav class="toc" aria-label="Help topics">
     <a href="#whats-new">What's new</a><a href="#start">Getting started</a><a href="#my-metal">My Metal</a><a href="#cards">Show cards</a>
@@ -67,13 +69,12 @@ footer{margin-top:28px;color:var(--muted);font-size:14px}
   </nav>
 
   <div class="new" id="whats-new">
-    <h2>What's new in v1.0</h2>
+    <h2>What's new in v1.1</h2>
     <ul>
-      <li><b>Help</b>: this page, covering every screen, label and setting. Find it under More → Help.</li>
-      <li><b>What's new notes</b>: after each update you'll see a short note once, linking here.</li>
-      <li><b>Version number</b> under More, so you can tell which version you're on.</li>
+      <li><b>Age labels</b> on show cards: <span class="tag r18">18+</span>, <span class="tag aa">All ages</span> and more, so you know before you buy. See <a href="#cards">Reading a show card</a>.</li>
+      <li><b>All-ages shows only</b>: a new My Metal option for under-18 fans.</li>
     </ul>
-    <p>Earlier this week: Share buttons with proper link previews, a "Just added" strip, the Underground option, punk, and the My Metal redesign.</p>
+    <p>v1.0 (24 Oct): this Help page, What's new notes and the version number under More.</p>
   </div>
 
   <section id="start">
@@ -99,6 +100,7 @@ footer{margin-top:28px;color:var(--muted);font-size:14px}
       <li><b>Bands you follow</b>: their tours always show, whatever genres you picked.</li>
       <li><b>Include Aussie bands' tours</b>: on by default.</li>
       <li><b>Include underground and up-and-coming Aussie bands</b>: off by default. See <a href="#underground">Underground</a>.</li>
+      <li><b>All-ages shows only</b>: hides 18+ and 16+ shows, and shows whose age rule we don't know yet. This applies on All shows too.</li>
       <li><b>Hide sold-out shows</b>, and <b>Show every date separately</b> (one card per date instead of one per tour).</li>
     </ul>
     <p>Switch between <b>My Metal</b> and <b>All shows</b> at the top of Shows, Calendar and Presales. Your settings are saved on your phone.</p>
@@ -116,6 +118,9 @@ footer{margin-top:28px;color:var(--muted);font-size:14px}
       <dt><span class="tag">Aussie</span></dt><dd>An Australian act.</dd>
       <dt><span class="tag">Festival</span></dt><dd>A bill covering several genres.</dd>
       <dt><b>★</b></dt><dd>You follow a band on the bill.</dd>
+      <dt><span class="tag r18">18+</span></dt><dd>Over 18s only. Bring photo ID. Some festivals are <span class="tag r18">16+</span>.</dd>
+      <dt><span class="tag aa">All ages</span></dt><dd>Under 18s welcome. <b>All ages · licensed</b> means the venue serves alcohol, so under 18s get a wristband or stay in set areas. <b>18+ floor · all-ages mezz</b> means under 18s go upstairs.</dd>
+      <dt>No age label</dt><dd>We haven't confirmed the rule yet. The ticket page will say.</dd>
     </dl>
     <p><b>Tickets</b> opens the official seller (named underneath). <b>Add to calendar</b> saves the show to your phone's calendar. <b>Share</b> sends the tour to a mate.</p>
     <p>The <b>Just added</b> strip at the top of Shows lists tours added in the last week that fit your My Metal.</p>
@@ -181,6 +186,8 @@ footer{margin-top:28px;color:var(--muted);font-size:14px}
       <p>Your My Metal settings are probably filtering it out. Switch to <b>All shows</b> at the top of Shows.</p></details>
     <details><summary>Is the information official?</summary>
       <p>It comes from promoters, official ticket sellers and music news. Ticket links always go to the official seller. Check the seller before you buy, especially for anything marked Unconfirmed.</p></details>
+    <details><summary>Can I go if I'm under 18?</summary>
+      <p>Look for the age label on the card, or switch on <b>All-ages shows only</b> in My Metal. If there's no label, check the ticket page: venues set the rule show by show.</p></details>
     <details><summary>Do you sell tickets?</summary>
       <p>No. We link you to the official seller.</p></details>
     <details><summary>Is pop-punk included?</summary>
@@ -189,5 +196,5 @@ footer{margin-top:28px;color:var(--muted);font-size:14px}
       <p>Yes. Tell us where you found Metal Hunter, or reply to any email from us.</p></details>
   </section>
 
-  <footer>Metal Hunter v1.0 · <a href="./">Open the app</a> · <a href="privacy.html">Privacy</a></footer>
+  <footer>Metal Hunter v1.1 · <a href="./">Open the app</a> · <a href="privacy.html">Privacy</a></footer>
 </main>
