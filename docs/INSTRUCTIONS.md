@@ -59,6 +59,7 @@ Band fields: `n`, `g` (group), `st` (status above), `note`, `src`, `aus` (Austra
 ## Rules
 - **Dates and times:** store dates ISO. Quote sale times in the local time of the city they apply to, with the timezone abbreviation (AEDT, AEST, ACST, AWST). Today's date is the reference for "upcoming" and "on sale".
 - **Never guess.** If a date, venue or sale time was not seen in a source, use TBC and say so in the tour `note`. Do not infer from the artist's other tours.
+- **Age rule:** record each show's `age` when a source states it (ticket page, promoter listing, Destroy All Lines tour pages list it per show): `18+`, `16+`, `All ages`, `All ages (licensed)` ("LIC AA"), or `18+ floor, all-ages mezzanine`. Venue-wide rules confirmed so far: Manning Bar (18+ unless stated) and Northcote Theatre (licensed, strictly 18+). Never infer from the venue otherwise; leave `age` out.
 - **Write notes for fans.** `note`, `sale` and `watch` text is shown to users: write "More dates to be announced" or "Venue to be confirmed", never "not in my sources" or "I found". Keep research notes in this file instead.
 - **Confidence:** mark `verify` when only one aggregator lists it, when sources conflict, or when a support act or date is in doubt. Note conflicts in `note`.
 - **Ticket links:** link only to the promoter or official ticketer. If no official ticket link was seen, link to the best source article and label it "Tour details".

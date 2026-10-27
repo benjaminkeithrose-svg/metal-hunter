@@ -6,6 +6,7 @@ errs = []
 e = json.load(open("data/events.json"))
 b = json.load(open("data/bands.json"))
 BUCKETS = {k for k, _ in b.get("buckets", [])}
+AGES = {"18+", "16+", "All ages", "All ages (licensed)", "18+ floor, all-ages mezzanine"}
 
 if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", e.get("refreshed", "")):
     errs.append("events.json: 'refreshed' must be YYYY-MM-DD")
@@ -31,6 +32,8 @@ for t in e["tours"]:
         errs.append(f"tour {t.get('id')}: bad status {t.get('status')}")
     # A tour may have no shows yet (announced, dates TBA).
     for s in t.get("shows", []):
+        if "age" in s and s["age"] not in AGES:
+            errs.append(f"tour {t.get('id')}: show {s.get('d')} has unknown age '{s['age']}' (use one of {sorted(AGES)})")
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", s.get("d", "")) or not all(s.get(k) for k in ("city", "st", "venue")):
             errs.append(f"tour {t.get('id')}: bad show {s}")
 for s in e.get("sales", []):

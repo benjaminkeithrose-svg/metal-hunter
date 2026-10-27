@@ -1,6 +1,6 @@
 # Metal Hunter documentation
 
-Version 1.0 · 24 October 2026. Update this file whenever the app, data model, scripts or automation change (see "Releasing a new version").
+Version 1.1 · 27 October 2026. Update this file whenever the app, data model, scripts or automation change (see "Releasing a new version").
 
 - Live site: https://benjaminkeithrose-svg.github.io/metal-hunter/
 - Repository: https://github.com/benjaminkeithrose-svg/metal-hunter
@@ -27,12 +27,12 @@ Planned next: an Android app built with Capacitor, then iPhone, with a paid "Met
 | Presales | Upcoming presales and general sales grouped by tour, times in Sydney time; sales opened in the last two weeks. |
 | Bands | Every tracked band grouped by genre group; search, filter (Following, On the calendar, Rumoured, Touring overseas, Aussie, Rising Aussie bands), ☆ to follow, tap for the band's note. |
 | More | Help and What's new, Pro sign-up, My Metal summary, Rumoured tours (`watch`), Look (Runestone / Xerox Grind), About, data date, Check for updates, version line. |
-| My Metal sheet | Genres (9 groups), states (all 8), followed bands, options: Aussie bands' tours, underground (off by default), hide sold out, every date separately. |
+| My Metal sheet | Genres (9 groups), states (all 8), followed bands, options: Aussie bands' tours, underground (off by default), all-ages shows only (off by default; applies in both modes), hide sold out, every date separately. |
 | help.html | Fan help for every screen and label, FAQ, and "What's new" for the current version. |
 | privacy.html | What the Pro sign-up keeps and how to unsubscribe or delete. |
 | t/<id>.html | Share page per tour (see section 6). |
 
-Show card parts: date block; artist (★ if a followed band is on the bill); support acts; venue and city; sale text; tags (genre group or "Festival", "Aussie", "Underground", "Unconfirmed"); ⓘ (note, genre, source link); "+ N more dates"; status badge (On sale / Tickets soon / Sold out); Tickets button (seller name underneath); Share; Add to calendar (saves an .ics file).
+Show card parts: date block; artist (★ if a followed band is on the bill); support acts; venue and city; sale text; tags (age rule, genre group or "Festival", "Aussie", "Underground", "Unconfirmed"); ⓘ (note, genre, source link); "+ N more dates"; status badge (On sale / Tickets soon / Sold out); Tickets button (seller name underneath); Share; Add to calendar (saves an .ics file).
 
 ## 3. Files
 
@@ -60,7 +60,7 @@ Full field rules are in `docs/INSTRUCTIONS.md` ("Data record" and "Rules"). In s
 
 **Tour** (`data/events.json` → `tours`): `id` (lowercase, digits, hyphens; becomes the share page name), `artist`, `support`, `genre` (free text), `gb` (genre groups), `aus` (Australian act), `tier` (`major` or `scene`), `tag` (legacy category), `status` (`on-sale`, `upcoming`, `sold-out`), `conf` (`verify` = Unconfirmed), `sale`, `ticketUrl`, `ticketLabel`, `src`, `note`, `added` (date first added; drives "Just added"), `shows`.
 
-**Show**: `d` (YYYY-MM-DD), `city`, `st`, `venue`, optional `status`, `url`, `label`.
+**Show**: `d` (YYYY-MM-DD), `city`, `st`, `venue`, optional `status`, `url`, `label`, `age` (one of `18+`, `16+`, `All ages`, `All ages (licensed)`, `18+ floor, all-ages mezzanine`; a tour-level `age` applies to every show without its own). Leave `age` out when no source states it.
 
 **Sale** (`sales`): `at` (ISO time with offset), `tour` (tour id), `kind`, `text`.
 
@@ -74,6 +74,7 @@ How the app reads it:
 - Scene tours (`tier: scene`) show only when the person switches on underground, or follows a band on the bill. `SHOW_SCENE = false` hides them for everyone.
 - "Just added" lists tours with `added` in the last 7 days and after `FIRST_LOAD` (the initial data load), filtered by My Metal.
 - Shows dated before today are hidden automatically.
+- The age tag uses the show's `age`, else the tour's. "All-ages shows only" keeps only shows whose age contains "all ages".
 
 ## 5. What is stored where
 
