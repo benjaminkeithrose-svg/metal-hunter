@@ -1,5 +1,5 @@
 {
- "refreshed": "2026-10-22",
+ "refreshed": "2026-10-29",
  "tours": [
   {
    "id": "lorna",
@@ -1540,7 +1540,7 @@
    "ticketUrl": "https://heavymag.com.au/bloodbath-to-headline-melbourne-deathfest-2027/",
    "ticketLabel": "Tour details",
    "src": "https://heavymag.com.au/bloodbath-to-headline-melbourne-deathfest-2027/",
-   "note": "Two-stage, all-day event, first time at The Croxton.",
+   "note": "Two-stage, all-day event, first time at The Croxton. Brazil's Nervochaos are also billed on the Bloodbath Australian run; Perth Dethfest is on 27 Feb at the Rosemount Hotel. More dates to be announced.",
    "shows": [
     {
      "d": "2027-03-07",
@@ -2880,6 +2880,39 @@
      "venue": "Crowbar"
     }
    ]
+  },
+  {
+   "id": "oathbreaker27",
+   "artist": "Oathbreaker",
+   "support": "Portrayal of Guilt, Blind Girls (special guests); Slowcut (Brisbane), Diploid (Sydney)",
+   "genre": "Post-black metal",
+   "gb": [
+    "extreme",
+    "prog"
+   ],
+   "tier": "major",
+   "added": "2026-10-29",
+   "tag": "core",
+   "status": "upcoming",
+   "sale": "Presale Thu 29 Oct, 11am AEDT, via Destroy All Lines. General sale Fri 30 Oct, 11am local time.",
+   "ticketUrl": "https://www.destroyalllines.com",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://musicfeeds.com.au/news/belgian-post-black-metallers-oathbreaker-announce-first-ever-australian-tour/",
+   "note": "First Australian visit by the Belgian band. They also play Lucidity Festival in Melbourne on 13 March, performing Rheia in full (festival sold out).",
+   "shows": [
+    {
+     "d": "2027-03-11",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2027-03-12",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Crowbar"
+    }
+   ]
   }
  ],
  "sales": [
@@ -2918,6 +2951,18 @@
    "tour": "deathangel",
    "kind": "General sale",
    "text": "General sale, 11am AEDT."
+  },
+  {
+   "at": "2026-10-29T11:00:00+11:00",
+   "tour": "oathbreaker27",
+   "kind": "Presale",
+   "text": "Destroy All Lines presale, 11am AEDT."
+  },
+  {
+   "at": "2026-10-30T11:00:00+11:00",
+   "tour": "oathbreaker27",
+   "kind": "General sale",
+   "text": "General sale, 11am local time in each city."
   }
  ],
  "watch": [
