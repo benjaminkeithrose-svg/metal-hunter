@@ -2913,9 +2913,71 @@
      "venue": "Crowbar"
     }
    ]
+  },
+  {
+   "id": "manson27",
+   "artist": "Marilyn Manson",
+   "support": "",
+   "genre": "Industrial metal",
+   "gb": [
+    "alt"
+   ],
+   "tier": "major",
+   "added": "2026-10-29",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "Presale on now (from Thu 29 Oct, 9am local time, code OAUGWT27). General sale Mon 2 Nov, 9am local time.",
+   "ticketUrl": "https://thephoenix.au/marilyn-manson-2027/",
+   "ticketLabel": "The Phoenix",
+   "src": "https://au.rollingstone.com/music/music-news/marilyn-manson-australia-tour-2027-102749/",
+   "note": "First Australian headline shows in 12 years. Support acts to be announced.",
+   "shows": [
+    {
+     "d": "2027-02-21",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Fortitude Music Hall"
+    },
+    {
+     "d": "2027-02-23",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "PICA (Port Melbourne Industrial Centre for the Arts)"
+    },
+    {
+     "d": "2027-02-24",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "AEC Theatre"
+    },
+    {
+     "d": "2027-02-26",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Enmore Theatre"
+    },
+    {
+     "d": "2027-02-27",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Enmore Theatre"
+    }
+   ]
   }
  ],
  "sales": [
+  {
+   "at": "2026-10-16T12:00:00+11:00",
+   "tour": "soty",
+   "kind": "General sale",
+   "text": "Opened at 12pm local."
+  },
+  {
+   "at": "2026-10-20T11:00:00+11:00",
+   "tour": "deathangel",
+   "kind": "General sale",
+   "text": "General sale, 11am AEDT."
+  },
   {
    "at": "2026-10-23T09:00:00+11:00",
    "tour": "heilung",
@@ -2941,16 +3003,10 @@
    "text": "General sale for the other cities, 9am local."
   },
   {
-   "at": "2026-10-16T12:00:00+11:00",
-   "tour": "soty",
-   "kind": "General sale",
-   "text": "Opened at 12pm local."
-  },
-  {
-   "at": "2026-10-20T11:00:00+11:00",
-   "tour": "deathangel",
-   "kind": "General sale",
-   "text": "General sale, 11am AEDT."
+   "at": "2026-10-29T09:00:00+11:00",
+   "tour": "manson27",
+   "kind": "Presale",
+   "text": "Presale, 9am local time in each city (code OAUGWT27)."
   },
   {
    "at": "2026-10-29T11:00:00+11:00",
@@ -2963,6 +3019,12 @@
    "tour": "oathbreaker27",
    "kind": "General sale",
    "text": "General sale, 11am local time in each city."
+  },
+  {
+   "at": "2026-11-02T09:00:00+11:00",
+   "tour": "manson27",
+   "kind": "General sale",
+   "text": "General sale, 9am local time in each city."
   }
  ],
  "watch": [

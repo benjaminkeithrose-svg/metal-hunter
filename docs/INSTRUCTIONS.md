@@ -81,6 +81,14 @@ Data refreshes are not app versions: don't touch `APP_VERSION`, `CHANGELOG.md` o
 
 Runs automatically (Ben approved 22 Oct 2026): a news check every Monday and Thursday about 6:35am Sydney time, and a full sweep of every tracked band on the 1st of each month about 6:30am. Both push data-only changes straight to `main` (see the exception in CLAUDE.md) and send Ben a phone push when something changed.
 - **News check:** steps 1, 2 and 5, plus any tracked band named in new announcements. Drop shows whose date has passed only if the whole tour is over; past dates of a running tour can stay.
+  - **Fixed search list (added 29 Oct 2026, after the Marilyn Manson tour was missed).** Do every one of these searches on every run, before chasing rumours, and open the articles they find (fetch the page where the network allows; otherwise use several result snippets). Each one covers the past 7 days:
+    - one search per news site: Heavy Magazine, Kill Your Stereo, The Note, Wall of Sound, Music Feeds, Rolling Stone AU, The AU Review, Metal-Roos, Everblack ("site:<domain> Australian tour" or "<site name> announces Australian tour");
+    - one search per promoter: Destroy All Lines, Frontier Touring, Live Nation AU, TEG Live, The Phoenix, Soundworks Direct, Hardline Media, Teamwork Touring, Collision Course, Metropolis Touring;
+    - two general searches: "announces Australian tour <next year>" and "first Australian shows in" years.
+  - **Re-check the big names.** Bands marked `elsewhere` with an international following (arena or theatre headliners) are the ones most likely to announce without warning: search "<band> Australia <next year>" for them in batches of about 5 names per query.
+  - **Fill in everything for a new tour:** `age` per show when the source states it (see Rules), and a `sales` entry for each presale and general sale so it shows on the Presales tab.
+  - **Remove rumours that come true:** when a `watch` item becomes a dated tour, delete the watch item.
+  - In the summary, list the searches that found nothing as well as the ones that found tours, so gaps are visible.
 - **Full sweep:** all steps, checking every band in `data/bands.json` with batched searches (several band names per query).
 Steps:
 1. Search each promoter site and the news sources for tours announced since the last refresh.
