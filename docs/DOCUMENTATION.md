@@ -46,6 +46,7 @@ Show card parts: date block; artist (★ if a followed band is on the bill); sup
 | `t/*.html` | Generated share pages, one per tour. Never edit by hand. |
 | `scripts/validate.py` | Checks data, versions and share pages. Must pass before any push to `main`. |
 | `scripts/build_pages.py` | Builds `t/*.html` from `data/events.json`. |
+| `.github/workflows/keep-supabase-awake.yml` | Pings Supabase every 3 days so the free project isn't paused (section 7). |
 | `sw.js` | Service worker: network first for site and data, cached copy for offline. Bump `CACHE` when the list of cached files changes. |
 | `manifest.webmanifest`, `icons/` | App install details and icons. `icons/og.png` is the 1200×630 link-preview image. |
 | `CHANGELOG.md` | Version history. |
@@ -86,7 +87,7 @@ How the app reads it:
 | Signed up for Pro (hide the form) | Browser | `mh-pro` |
 | Pro sign-ups (email, genres, states, source screen, date) | Supabase project `metal-hunter` (org Wildfire084, Sydney), table `public.pro_waitlist` | Insert-only from the site; read in the Supabase dashboard → Table Editor |
 
-The site's Supabase key is a publishable key: it can add sign-ups but cannot read them (row-level security and column grants). Rows with `source = 'test'` are tests.
+The site's Supabase key is a publishable key: it can add sign-ups but cannot read them (row-level security and column grants). It can also call `ping()`, which returns the time and is used only to keep the project awake. Rows with `source = 'test'` are tests.
 
 ## 6. Sharing and link previews
 
@@ -106,6 +107,8 @@ Two scheduled tasks start a fresh Claude session and push data-only changes stra
 | Metal Hunter monthly band sweep | 1st of the month, 6:17am | The news check plus a re-check of every tracked band; removes finished tours. |
 
 Each run: update the data, give new tours `added`, run `scripts/build_pages.py`, run `scripts/validate.py`, and push only if it passes and only data, `docs/INSTRUCTIONS.md` and `t/` changed. Otherwise it opens a pull request. Ben gets a phone push when a run finishes with changes. The tasks are managed from claude.ai (scheduled tasks); they have no connectors, so a run that needs a pull request may not be able to open one and will say so in its summary.
+
+**Keeping the sign-up database awake.** Supabase pauses free projects after 7 days without traffic, and while paused Pro sign-ups fail. `.github/workflows/keep-supabase-awake.yml` (GitHub Actions) calls the database's `ping()` function every 3 days with the site's publishable key. `ping()` only returns the time; it reads and changes nothing. A failed run emails the repository owner; run it by hand from the repository's Actions tab → Keep Supabase awake → Run workflow. If the project does get paused, restore it in the Supabase dashboard. GitHub stops scheduled jobs after 60 days without repository activity, which the twice-weekly data refreshes prevent.
 
 The ⟳ button and reopening the app after 30 minutes compare the live site and data with the cached copy and reload if anything changed.
 
