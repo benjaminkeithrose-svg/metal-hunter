@@ -1,5 +1,5 @@
 {
- "refreshed": "2026-10-29",
+ "refreshed": "2026-10-30",
  "tours": [
   {
    "id": "lorna",
@@ -2963,6 +2963,57 @@
      "venue": "Enmore Theatre"
     }
    ]
+  },
+  {
+   "id": "paleface27",
+   "artist": "Paleface Swiss",
+   "support": "Counterparts, Fox Lake",
+   "genre": "Deathcore",
+   "gb": [
+    "core"
+   ],
+   "tier": "major",
+   "added": "2026-10-30",
+   "tag": "core",
+   "status": "upcoming",
+   "conf": "verify",
+   "sale": "Sale times to be confirmed.",
+   "ticketUrl": "https://musicfeeds.com.au/?p=574976",
+   "ticketLabel": "Tour details",
+   "src": "https://mixdownmag.com.au/?p=78901",
+   "note": "Return tour with a new EP. Melbourne show (The Forum) and more dates to be announced. Sydney date is listed as 5 or 6 Feb, so check before buying. Also plays Froth & Fury in Adelaide on 30 Jan.",
+   "shows": [
+    {
+     "d": "2027-01-27",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "The Astor Theatre"
+    },
+    {
+     "d": "2027-02-02",
+     "city": "Canberra",
+     "st": "ACT",
+     "venue": "UC Hub, Bruce"
+    },
+    {
+     "d": "2027-02-05",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Roundhouse, UNSW"
+    },
+    {
+     "d": "2027-02-06",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Tivoli"
+    },
+    {
+     "d": "2027-02-07",
+     "city": "Townsville",
+     "st": "QLD",
+     "venue": "The Warehouse"
+    }
+   ]
   }
  ],
  "sales": [
@@ -3033,12 +3084,6 @@
    "text": "Slipknot's festival sat out 2026 and is confirmed for 2027. No dates, lineup or on-sale times yet.",
    "url": "https://au.rollingstone.com/music/music-news/knotfest-australia-confirms-brief-hiatus-return-in-2027-83777",
    "label": "Announcement"
-  },
-  {
-   "title": "Paleface Swiss + Counterparts + Fox Lake",
-   "text": "A 2027 Australian return has been reported. Dates to be announced.",
-   "url": "https://musicfeeds.com.au/?p=574976",
-   "label": "Music Feeds"
   }
  ]
 }
