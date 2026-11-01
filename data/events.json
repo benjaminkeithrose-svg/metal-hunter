@@ -1,5 +1,5 @@
 {
- "refreshed": "2026-10-30",
+ "refreshed": "2026-11-01",
  "tours": [
   {
    "id": "lorna",
@@ -427,7 +427,7 @@
    "genre": "Alt metal, stadium",
    "tag": "core",
    "status": "on-sale",
-   "sale": "General sale opened 31 Jul, 10am AEST (Sydney), 11am (Melbourne), 12pm (Brisbane).",
+   "sale": "General sale opened 31 Jul, 10am AEST (Sydney), 11am (Melbourne), 12pm (Brisbane). Melbourne and Brisbane have sold out; Sydney tickets may still be available.",
    "ticketUrl": "https://teglive.com.au/",
    "ticketLabel": "TEG Live",
    "src": "https://www.theaureview.com/?p=307855",
@@ -444,14 +444,16 @@
      "city": "Melbourne",
      "st": "VIC",
      "venue": "Marvel Stadium",
-     "age": "All ages"
+     "age": "All ages",
+     "status": "sold-out"
     },
     {
      "d": "2027-02-01",
      "city": "Brisbane",
      "st": "QLD",
      "venue": "Suncorp Stadium",
-     "age": "All ages"
+     "age": "All ages",
+     "status": "sold-out"
     }
    ],
    "gb": [
@@ -3290,6 +3292,12 @@
    "title": "Knotfest Australia 2027",
    "text": "Slipknot's festival sat out 2026 and is confirmed for 2027. No dates, lineup or on-sale times yet.",
    "url": "https://au.rollingstone.com/music/music-news/knotfest-australia-confirms-brief-hiatus-return-in-2027-83777",
+   "label": "Announcement"
+  },
+  {
+   "title": "Karnivool regional tour (Nov-Dec 2026)",
+   "text": "Karnivool have announced an 11-date regional run, with Cenobia in support, starting in late November 2026. Tickets are on sale. Full dates and venues to be confirmed.",
+   "url": "https://heavymag.com.au/karnivool-announce-support-for-in-verses-regional-tour/",
    "label": "Announcement"
   }
  ]
