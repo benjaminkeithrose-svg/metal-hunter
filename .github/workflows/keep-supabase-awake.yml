@@ -1,0 +1,20 @@
+# Supabase pauses free projects after 7 days without traffic, which stops
+# Pro sign-ups. This calls a harmless ping() function every 3 days.
+# A failed run emails the repo owner. See docs/DOCUMENTATION.md, "Automation".
+name: Keep Supabase awake
+
+on:
+  schedule:
+    - cron: "23 20 */3 * *"   # about 7am Sydney time, every 3 days
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping the sign-up database
+        run: |
+          curl --fail --silent --show-error --retry 3 --retry-delay 30 \
+            -X POST "https://vqfcngqtwbloegjzqkve.supabase.co/rest/v1/rpc/ping" \
+            -H "apikey: sb_publishable_bi5qFBmtOn6lcM1_PayjmQ_aQrpMQZT" \
+            -H "Content-Type: application/json" -d '{}'
