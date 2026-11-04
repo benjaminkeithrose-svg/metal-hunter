@@ -1644,7 +1644,7 @@
    "n": "Rumahoy",
    "g": "pirate",
    "st": "none",
-   "note": "No current tour found.",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -1688,8 +1688,8 @@
   {
    "n": "Nekrogoblikon",
    "g": "pirate",
-   "st": "elsewhere",
-   "note": "North America, fall 2026. Last in Australia with Alestorm, Feb 2024.",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "https://music.mxdwn.com/2026/06/11/news/nekrogoblikon-announce-fall-2026-north-american-tour-dates/",
    "named": false,
    "confirmed": true
@@ -7044,7 +7044,7 @@
    "n": "Converge",
    "g": "hc",
    "st": "none",
-   "note": "Headlining Lucidity 2027 in Melbourne, playing Jane Doe for its 25th anniversary. First Australian show since 2019.",
+   "note": "Australian dates on the calendar.",
    "src": "https://www.thenote.com.au/news/converge-headline-new-melbourne-heavy-festival-lucidity",
    "named": false,
    "confirmed": true
@@ -7494,7 +7494,7 @@
    "n": "Touché Amoré",
    "g": "melhc",
    "st": "none",
-   "note": "One-off Melbourne show (Stage Four in full) in 2026; last tour Jul 2025.",
+   "note": "Australian dates on the calendar.",
    "src": "https://www.destroyalllines.com/blog/touche-amore-announce-a-special-one-off-show-in-melbourne",
    "named": false,
    "confirmed": true
