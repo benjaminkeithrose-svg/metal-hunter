@@ -1,5 +1,5 @@
 {
- "refreshed": "2026-11-04",
+ "refreshed": "2026-11-09",
  "tours": [
   {
    "id": "lorna",
@@ -3488,6 +3488,235 @@
      "venue": "Forum Melbourne"
     }
    ]
+  },
+  {
+   "id": "sevendust27",
+   "artist": "Sevendust",
+   "support": "Caligula's Horse",
+   "genre": "Alt metal",
+   "gb": [
+    "alt"
+   ],
+   "tier": "major",
+   "added": "2026-11-09",
+   "tag": "core",
+   "status": "upcoming",
+   "sale": "Promoter presale Mon 9 Nov, 11am local time. Venue presale Tue 10 Nov, 11am local time. General sale Wed 11 Nov, 11am local time.",
+   "ticketUrl": "https://www.destroyalllines.com/",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://musicfeeds.com.au/news/sevendust-announce-2027-australian-tour/",
+   "note": "Four headline shows, Sevendust's first Australian tour in years, with Caligula's Horse in support.",
+   "shows": [
+    {
+     "d": "2027-02-15",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Astor Theatre"
+    },
+    {
+     "d": "2027-02-17",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Tivoli"
+    },
+    {
+     "d": "2027-02-18",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Enmore Theatre"
+    },
+    {
+     "d": "2027-02-20",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Forum Melbourne"
+    }
+   ]
+  },
+  {
+   "id": "sws27",
+   "artist": "Sleeping With Sirens",
+   "support": "State Champs, Boston Manor",
+   "genre": "Post-hardcore",
+   "gb": [
+    "hc"
+   ],
+   "tier": "major",
+   "added": "2026-11-09",
+   "tag": "core",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "On sale now via Destroy All Lines.",
+   "ticketUrl": "https://www.destroyalllines.com/",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://musicfeeds.com.au/news/sleeping-with-sirens-announce-2027-australian-tour-with-state-champs-boston-manor/",
+   "note": "'An Ending In Itself' tour, billed as their biggest Australian headline run. Sources differ slightly on sale dates, so check the ticket page.",
+   "shows": [
+    {
+     "d": "2027-04-03",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Fortitude Music Hall"
+    },
+    {
+     "d": "2027-04-04",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Hordern Pavilion"
+    },
+    {
+     "d": "2027-04-06",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Festival Hall"
+    },
+    {
+     "d": "2027-04-08",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Hindley Street Music Hall"
+    },
+    {
+     "d": "2027-04-10",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Metro City"
+    }
+   ]
+  },
+  {
+   "id": "deathtoall27",
+   "artist": "Death To All",
+   "support": "Dark Angel",
+   "genre": "Death metal (Death tribute)",
+   "gb": [
+    "extreme"
+   ],
+   "tier": "major",
+   "added": "2026-11-09",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "On sale now. Moshtix (Brisbane, Sydney, Adelaide) and Oztix (Melbourne).",
+   "ticketUrl": "https://www.moshtix.com.au/",
+   "ticketLabel": "Moshtix",
+   "src": "https://heavymag.com.au/death-to-all-announce-january-australian-tour/",
+   "note": "'Death and Darkness Down Under' with Gene Hoglan, Steve DiGiorgio, Bobby Koelble and Max Phelps. The Adelaide show is part of Froth & Fury Fest.",
+   "shows": [
+    {
+     "d": "2027-01-26",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Triffid"
+    },
+    {
+     "d": "2027-01-28",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Manning Bar"
+    },
+    {
+     "d": "2027-01-29",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "The Croxton",
+     "url": "https://www.oztix.com.au/",
+     "label": "Oztix"
+    },
+    {
+     "d": "2027-01-30",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Froth & Fury Fest (Adelaide Showgrounds)"
+    }
+   ]
+  },
+  {
+   "id": "vnv27",
+   "artist": "VNV Nation",
+   "genre": "Industrial / futurepop",
+   "gb": [
+    "alt"
+   ],
+   "tier": "major",
+   "added": "2026-11-09",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "On sale now via Hardline Media and Oztix.",
+   "ticketUrl": "https://hardlinemedia.net/",
+   "ticketLabel": "Hardline Media",
+   "src": "https://musick.com.au/gig/vnv-nation-at-crowbar-2027-02-12/",
+   "note": "First Australian shows in years. Sale times differ between sources, so check the ticket page. Support to be confirmed.",
+   "shows": [
+    {
+     "d": "2027-02-10",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2027-02-12",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Crowbar",
+     "age": "18+"
+    },
+    {
+     "d": "2027-02-13",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Max Watts"
+    }
+   ]
+  },
+  {
+   "id": "pil27",
+   "artist": "Public Image Ltd (PiL)",
+   "genre": "Post-punk",
+   "gb": [
+    "punk"
+   ],
+   "tier": "major",
+   "added": "2026-11-09",
+   "tag": "punk",
+   "status": "on-sale",
+   "sale": "On sale now via The Phoenix and Metropolis Touring.",
+   "ticketUrl": "https://metropolistouring.com/",
+   "ticketLabel": "Metropolis Touring",
+   "src": "https://www.theaureview.com/music/just-announced-john-lydon-australia-public-image-ltd/",
+   "note": "'This Is Not... The Final PiL Tour', John Lydon's first Australian shows since 2013. Melbourne tickets via Ticketek.",
+   "shows": [
+    {
+     "d": "2027-01-22",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Tivoli"
+    },
+    {
+     "d": "2027-01-23",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Enmore Theatre"
+    },
+    {
+     "d": "2027-01-24",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Forum Melbourne"
+    },
+    {
+     "d": "2027-01-26",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "The Gov"
+    },
+    {
+     "d": "2027-01-28",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Astor Theatre"
+    }
+   ]
   }
  ],
  "sales": [
@@ -3574,6 +3803,24 @@
    "tour": "converge27",
    "kind": "General sale",
    "text": "General sale, 10am local time in each city."
+  },
+  {
+   "at": "2026-11-09T11:00:00+11:00",
+   "tour": "sevendust27",
+   "kind": "Presale",
+   "text": "Promoter presale, 11am local time."
+  },
+  {
+   "at": "2026-11-10T11:00:00+11:00",
+   "tour": "sevendust27",
+   "kind": "Presale",
+   "text": "Venue presale, 11am local time."
+  },
+  {
+   "at": "2026-11-11T11:00:00+11:00",
+   "tour": "sevendust27",
+   "kind": "General sale",
+   "text": "General sale, 11am local time in each city. Destroy All Lines."
   }
  ],
  "watch": [
