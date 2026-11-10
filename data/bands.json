@@ -5640,7 +5640,7 @@
    "n": "Sevendust",
    "g": "nu",
    "st": "none",
-   "note": "No current tour found.",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7701,7 +7701,7 @@
    "n": "Boston Manor",
    "g": "posthc",
    "st": "none",
-   "note": "Last in Australia August 2024.",
+   "note": "Australian dates on the calendar.",
    "src": "https://www.fortemagazine.com.au/?p=313356",
    "named": false,
    "confirmed": true
@@ -7728,7 +7728,7 @@
    "n": "Sleeping with Sirens",
    "g": "posthc",
    "st": "none",
-   "note": "No current tour found.",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -10367,7 +10367,7 @@
    "n": "Caligula's Horse",
    "g": "ausprog",
    "st": "none",
-   "note": "No dates announced.",
+   "note": "Australian dates on the calendar.",
    "src": "https://www.eventworld.com/caligulas-horse-tickets/performer/16632",
    "named": false,
    "confirmed": true,
@@ -12303,6 +12303,42 @@
    "named": false,
    "confirmed": true,
    "aus": true
+  },
+  {
+   "n": "VNV Nation",
+   "g": "industrial",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Public Image Ltd (PiL)",
+   "g": "modpunk",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "Death To All",
+   "g": "death",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
+  },
+  {
+   "n": "State Champs",
+   "g": "posthc",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "",
+   "named": false,
+   "confirmed": true
   }
  ],
  "buckets": [
