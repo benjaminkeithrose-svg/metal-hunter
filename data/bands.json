@@ -4533,7 +4533,7 @@
    "n": "Devin Townsend",
    "g": "prog",
    "st": "none",
-   "note": "Last in Australia November 2023. No new dates found.",
+   "note": "Australian dates on the calendar.",
    "src": "https://beat.com.au/eccentric-metal-genius-devin-townsend-announces-australian-tour/",
    "named": false,
    "confirmed": true
@@ -7674,8 +7674,8 @@
    "n": "Chiodos",
    "g": "posthc",
    "st": "none",
-   "note": "No current tour found.",
-   "src": "",
+   "note": "Cancelled their November 2026 Australian anniversary tour to finish a new album. Nothing further announced.",
+   "src": "https://musicfeeds.com.au/news/chiodos-cancel-australian-anniversary-tour-to-focus-on-finishing-new-album/",
    "named": false,
    "confirmed": true
   },
@@ -9603,7 +9603,7 @@
    "n": "Elm Street",
    "g": "ausheavy",
    "st": "none",
-   "note": "On Hellbound II (Jan 2027). No headline tour announced.",
+   "note": "On Hellbound II (Jan 2027) and Metal in the Mountains (Nov 2026). No headline tour announced.",
    "src": "https://www.bandsintown.com/a/1108271-elm-street",
    "named": false,
    "confirmed": true,
@@ -12339,6 +12339,39 @@
    "src": "",
    "named": false,
    "confirmed": true
+  },
+  {
+   "n": "Future Static",
+   "g": "auscore",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "https://bluntmag.com.au/music/future-static-australian-tour-2027-ornaments-memories/",
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "WAAX",
+   "g": "auspunk",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "https://musicfeeds.com.au/news/waax-announce-femme-values-australian-tour-championing-women-emerging-artists/",
+   "aus": true
+  },
+  {
+   "n": "Marty Friedman",
+   "g": "heavy",
+   "st": "signal",
+   "note": "Three Australian shows announced for June 2027 (Hardline Media); dates to come.",
+   "src": "https://heavymag.com.au/marty-friedman-announces-australian-shows/"
+  },
+  {
+   "n": "Segression",
+   "g": "ausheavy",
+   "st": "none",
+   "note": "Seen on Metal in the Mountains (Beechworth, Nov 2026).",
+   "src": "https://heavymag.com.au/metal-in-the-mountains-prepares-to-hit-beechworth-this-weekend/",
+   "aus": true,
+   "scene": true
   }
  ],
  "buckets": [

@@ -1,5 +1,5 @@
 {
- "refreshed": "2026-11-10",
+ "refreshed": "2026-11-12",
  "tours": [
   {
    "id": "maiden",
@@ -3739,15 +3739,255 @@
      "venue": "Odeon"
     }
    ]
+  },
+  {
+   "id": "devin27",
+   "artist": "Devin Townsend",
+   "support": "",
+   "genre": "Progressive metal",
+   "gb": [
+    "prog"
+   ],
+   "tier": "major",
+   "added": "2026-11-12",
+   "tag": "core",
+   "status": "upcoming",
+   "sale": "Presale Fri 13 Nov, 9am local time (sign up at ThePhoenix.au). General sale Mon 16 Nov, 9am local time.",
+   "ticketUrl": "https://thephoenix.au/devin-townsend-2027/",
+   "ticketLabel": "ThePhoenix.au",
+   "src": "https://heavymag.com.au/devin-townsend-to-bring-intimate-metamorphosis-tour-to-australia-next-march/",
+   "note": "Intimate Metamorphosis tour, five Australian shows. Support to be announced.",
+   "shows": [
+    {
+     "d": "2027-03-31",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Princess Theatre",
+     "url": "https://thephoenix.au/event/devin-townsend-2027-brisbane/",
+     "label": "ThePhoenix.au"
+    },
+    {
+     "d": "2027-04-02",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Liberty Hall",
+     "url": "https://thephoenix.au/event/devin-townsend-2027-sydney/",
+     "label": "ThePhoenix.au"
+    },
+    {
+     "d": "2027-04-03",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Northcote Theatre",
+     "age": "18+",
+     "url": "https://thephoenix.au/event/devin-townsend-2027-melbourne/",
+     "label": "ThePhoenix.au"
+    },
+    {
+     "d": "2027-04-05",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "The Gov",
+     "url": "https://thephoenix.au/event/devin-townsend-2027-adelaide/",
+     "label": "ThePhoenix.au"
+    },
+    {
+     "d": "2027-04-06",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Freo.Social, Fremantle",
+     "url": "https://thephoenix.au/event/devin-townsend-2027-perth/",
+     "label": "ThePhoenix.au"
+    }
+   ]
+  },
+  {
+   "id": "futurestatic27",
+   "artist": "Future Static",
+   "support": "Nightlight, Post Heaven, Broken Earth",
+   "genre": "Metalcore",
+   "gb": [
+    "core"
+   ],
+   "aus": true,
+   "tier": "scene",
+   "added": "2026-11-12",
+   "tag": "aus",
+   "status": "upcoming",
+   "sale": "Destroy All Lines presale Mon 16 Nov, 10am local time. General sale Thu 19 Nov, 10am local time.",
+   "ticketUrl": "https://www.destroyalllines.com/tours/future-static-2027",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://bluntmag.com.au/music/future-static-australian-tour-2027-ornaments-memories/",
+   "note": "Ornaments & Memories album tour, with Nightlight, Post Heaven and Broken Earth on every date.",
+   "shows": [
+    {
+     "d": "2027-04-02",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Jive",
+     "age": "All ages (licensed)"
+    },
+    {
+     "d": "2027-04-03",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "The Night Cat",
+     "age": "18+"
+    },
+    {
+     "d": "2027-04-09",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Metro Social",
+     "age": "18+"
+    },
+    {
+     "d": "2027-04-10",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Brightside",
+     "age": "18+"
+    }
+   ]
+  },
+  {
+   "id": "slowcrush27",
+   "artist": "Slow Crush",
+   "support": "",
+   "genre": "Heavy shoegaze",
+   "gb": [
+    "alt"
+   ],
+   "tier": "major",
+   "added": "2026-11-12",
+   "tag": "adjacent",
+   "status": "upcoming",
+   "sale": "General sale Fri 13 Nov, 10am AEDT via slowcrush.org.",
+   "ticketUrl": "https://slowcrush.org/",
+   "ticketLabel": "Slow Crush",
+   "src": "https://bluntmag.com.au/news/slow-crush-are-finally-bringing-their-wall-of-sound-to-australia/",
+   "note": "Belgian band's first Australian tour. Supports to be announced.",
+   "shows": [
+    {
+     "d": "2027-02-03",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Jive"
+    },
+    {
+     "d": "2027-02-04",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "The Tote"
+    },
+    {
+     "d": "2027-02-05",
+     "city": "Port Kembla",
+     "st": "NSW",
+     "venue": "The Servo"
+    },
+    {
+     "d": "2027-02-06",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Burdekin Hotel"
+    },
+    {
+     "d": "2027-02-07",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Black Bear Lodge"
+    }
+   ]
+  },
+  {
+   "id": "waax27",
+   "artist": "WAAX",
+   "support": "Emerging local acts, picked by fans, announced city by city",
+   "genre": "Punk / hard rock",
+   "gb": [
+    "punk",
+    "alt"
+   ],
+   "aus": true,
+   "tier": "major",
+   "added": "2026-11-12",
+   "tag": "aus",
+   "status": "upcoming",
+   "sale": "Mailing-list early bird on now. General sale Thu 12 Nov, 10am AEDT.",
+   "ticketUrl": "https://musicfeeds.com.au/news/waax-announce-femme-values-australian-tour-championing-women-emerging-artists/",
+   "ticketLabel": "Tour details",
+   "src": "https://musicfeeds.com.au/news/waax-announce-femme-values-australian-tour-championing-women-emerging-artists/",
+   "note": "Femme Values tour, curated by Maz DeVita. Support line-ups announced on 16 Nov (Sydney), 23 Nov (Melbourne), 30 Nov (Adelaide) and 7 Dec (Brisbane).",
+   "shows": [
+    {
+     "d": "2027-02-27",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2027-03-05",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "The Night Cat"
+    },
+    {
+     "d": "2027-03-06",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Lion Arts Factory"
+    },
+    {
+     "d": "2027-03-13",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Crowbar"
+    }
+   ]
+  },
+  {
+   "id": "mitm26",
+   "artist": "Metal in the Mountains",
+   "support": "Segression, Elm Street, PistonFist, Kitchen Witch, Hematemesis, Helluloid, Virulent Invocation, Raise The Fallen",
+   "genre": "Underground metal festival",
+   "gb": [
+    "heavy",
+    "extreme"
+   ],
+   "aus": true,
+   "tier": "scene",
+   "added": "2026-11-12",
+   "tag": "aus",
+   "status": "on-sale",
+   "sale": "Tickets on sale now via Humanitix.",
+   "ticketUrl": "https://events.humanitix.com/metal-in-the-mountains-vgjsatjk/tickets",
+   "ticketLabel": "Humanitix",
+   "src": "https://heavymag.com.au/metal-in-the-mountains-prepares-to-hit-beechworth-this-weekend/",
+   "note": "Three-day underground metal weekend at the Beechworth Historic Precinct (100 Ford St). Daily line-ups and set times to be confirmed.",
+   "shows": [
+    {
+     "d": "2026-11-13",
+     "city": "Beechworth",
+     "st": "VIC",
+     "venue": "Beechworth Historic Precinct"
+    },
+    {
+     "d": "2026-11-14",
+     "city": "Beechworth",
+     "st": "VIC",
+     "venue": "Beechworth Historic Precinct"
+    },
+    {
+     "d": "2026-11-15",
+     "city": "Beechworth",
+     "st": "VIC",
+     "venue": "Beechworth Historic Precinct"
+    }
+   ]
   }
  ],
  "sales": [
-  {
-   "at": "2026-11-11T10:00:00+11:00",
-   "tour": "converge27",
-   "kind": "General sale",
-   "text": "General sale, 10am local time in each city."
-  },
   {
    "at": "2026-11-10T11:00:00+11:00",
    "tour": "sevendust27",
@@ -3755,17 +3995,65 @@
    "text": "Venue presale, 11am local time."
   },
   {
+   "at": "2026-11-11T10:00:00+11:00",
+   "tour": "converge27",
+   "kind": "General sale",
+   "text": "General sale, 10am local time in each city."
+  },
+  {
    "at": "2026-11-11T11:00:00+11:00",
    "tour": "sevendust27",
    "kind": "General sale",
    "text": "General sale, 11am local time in each city. Destroy All Lines."
+  },
+  {
+   "at": "2026-11-12T10:00:00+11:00",
+   "tour": "waax27",
+   "kind": "General sale",
+   "text": "General sale, 10am AEDT."
+  },
+  {
+   "at": "2026-11-13T09:00:00+11:00",
+   "tour": "devin27",
+   "kind": "Presale",
+   "text": "ThePhoenix.au presale (sign up first), 9am local time."
+  },
+  {
+   "at": "2026-11-13T10:00:00+11:00",
+   "tour": "slowcrush27",
+   "kind": "General sale",
+   "text": "General sale, 10am AEDT via slowcrush.org."
+  },
+  {
+   "at": "2026-11-16T09:00:00+11:00",
+   "tour": "devin27",
+   "kind": "General sale",
+   "text": "General sale, 9am local time. ThePhoenix.au."
+  },
+  {
+   "at": "2026-11-16T10:00:00+11:00",
+   "tour": "futurestatic27",
+   "kind": "Presale",
+   "text": "Destroy All Lines presale, 10am local time."
+  },
+  {
+   "at": "2026-11-19T10:00:00+11:00",
+   "tour": "futurestatic27",
+   "kind": "General sale",
+   "text": "General sale, 10am local time. Destroy All Lines."
   }
  ],
  "watch": [
   {
    "title": "Knotfest Australia 2027",
-   "text": "Slipknot's festival sat out 2026 and is confirmed for 2027. No dates, lineup or on-sale times yet.",
+   "text": "Slipknot's festival sat out 2026 and organisers said it would return in 2027. No dates, venues, lineup or on-sale times yet, and Slipknot's announced 2027 shows have no Australian dates so far.",
    "url": "https://au.rollingstone.com/music/music-news/knotfest-australia-confirms-brief-hiatus-return-in-2027-83777",
+   "label": "Announcement"
+  },
+  {
+   "title": "Marty Friedman (June 2027)",
+   "text": "Hardline Media has announced three Australian shows with his band GODLIKE 4, plus three guitar clinics, in June 2027. Cities, venues and on-sale times to be announced.",
+   "url": "https://heavymag.com.au/marty-friedman-announces-australian-shows/",
    "label": "Announcement"
   }
  ]
