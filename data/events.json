@@ -1,5 +1,5 @@
 {
- "refreshed": "2026-11-12",
+ "refreshed": "2026-11-16",
  "tours": [
   {
    "id": "maiden",
@@ -1934,7 +1934,7 @@
   {
    "id": "hellbound27",
    "artist": "Hellbound II cruise",
-   "support": "Parkway Drive, The Amity Affliction, Alpha Wolf, I Killed the Prom Queen, Thy Art Is Murder, Ocean Grove, Gravemind, Heavensgate and more",
+   "support": "Parkway Drive, The Amity Affliction, Alpha Wolf, I Killed the Prom Queen, Thy Art Is Murder, Ocean Grove, Gravemind, Heavensgate, The Getaway Plan, Melrose Avenue and more",
    "genre": "Metal cruise",
    "tag": "aus",
    "status": "on-sale",
@@ -3983,6 +3983,280 @@
      "city": "Beechworth",
      "st": "VIC",
      "venue": "Beechworth Historic Precinct"
+    }
+   ]
+  },
+  {
+   "id": "vader26",
+   "artist": "Vader",
+   "support": "",
+   "genre": "Death metal",
+   "gb": [
+    "extreme"
+   ],
+   "tier": "major",
+   "added": "2026-11-16",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "On sale now via Hardline Media.",
+   "ticketUrl": "https://www.hardlinemedia.net/",
+   "ticketLabel": "Hardline Media",
+   "src": "https://metal-roos.com.au/vader-announce-special-alice-springs-show-as-part-of-their-reign-forever-australian-tour/",
+   "note": "Reign Forever tour, rescheduled from April 2026. Alice Springs added as a special extra show. Local supports to be announced.",
+   "shows": [
+    {
+     "d": "2026-11-25",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "The Croxton"
+    },
+    {
+     "d": "2026-11-26",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2026-11-27",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2026-11-28",
+     "city": "Alice Springs",
+     "st": "NT",
+     "venue": "The Black Wreath"
+    }
+   ]
+  },
+  {
+   "id": "geofftate27",
+   "artist": "Geoff Tate",
+   "support": "",
+   "genre": "Heavy / progressive metal",
+   "gb": [
+    "heavy"
+   ],
+   "tier": "major",
+   "added": "2026-11-16",
+   "tag": "core",
+   "status": "on-sale",
+   "sale": "Early-bird GA and VIP meet & greet tickets on sale via Hardline Media. General sale time to be announced.",
+   "ticketUrl": "https://www.hardlinemedia.net/",
+   "ticketLabel": "Hardline Media",
+   "src": "https://www.thenote.com.au/news/geoff-tate-the-final-chapter-australian-tour",
+   "note": "Operation: Mindcrime – The Final Chapter. The former Queensrÿche singer plays Operation: Mindcrime in full for the last time in Australia, plus the Queen of the Reich EP and a best-of set. Supports to be announced.",
+   "shows": [
+    {
+     "d": "2027-04-14",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "The Gov"
+    },
+    {
+     "d": "2027-04-15",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "The Croxton"
+    },
+    {
+     "d": "2027-04-16",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Crowbar"
+    }
+   ]
+  },
+  {
+   "id": "hellacopters27",
+   "artist": "The Hellacopters",
+   "support": "Gluecifer",
+   "genre": "Hard rock / garage rock",
+   "gb": [
+    "alt"
+   ],
+   "tier": "major",
+   "added": "2026-11-16",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "On sale now via Hardline Media.",
+   "ticketUrl": "https://www.hardlinemedia.net/",
+   "ticketLabel": "Hardline Media",
+   "src": "https://www.thenote.com.au/news/the-hellacopters-respect-the-rock-australian-tour-2027",
+   "note": "Respect The Rock tour with Norway's Gluecifer. One listing gives the Adelaide show at Lion Arts Factory instead of the Ed Castle; check with the promoter.",
+   "shows": [
+    {
+     "d": "2027-03-17",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Triffid"
+    },
+    {
+     "d": "2027-03-18",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Manning Bar",
+     "age": "18+"
+    },
+    {
+     "d": "2027-03-19",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "The Croxton"
+    },
+    {
+     "d": "2027-03-20",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "The Ed Castle"
+    }
+   ]
+  },
+  {
+   "id": "soulasylum27",
+   "artist": "Soul Asylum + Ugly Kid Joe",
+   "support": "",
+   "genre": "Alt rock / hard rock",
+   "gb": [
+    "alt"
+   ],
+   "tier": "major",
+   "added": "2026-11-16",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "sale": "On sale now via Destroy All Lines.",
+   "ticketUrl": "https://www.destroyalllines.com/",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://metal-roos.com.au/soul-asylum-ugly-kid-joe-co-headline-australian-tour-2027/",
+   "note": "Co-headline tour. Supports to be announced.",
+   "shows": [
+    {
+     "d": "2027-03-15",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Astor Theatre"
+    },
+    {
+     "d": "2027-03-17",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Hindley St Music Hall"
+    },
+    {
+     "d": "2027-03-18",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Forum Melbourne"
+    },
+    {
+     "d": "2027-03-20",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "The Roundhouse"
+    },
+    {
+     "d": "2027-03-21",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Tivoli"
+    }
+   ]
+  },
+  {
+   "id": "nickelback27",
+   "artist": "Nickelback",
+   "support": "Don Broco",
+   "genre": "Hard rock",
+   "gb": [
+    "alt"
+   ],
+   "tier": "major",
+   "added": "2026-11-16",
+   "tag": "adjacent",
+   "status": "on-sale",
+   "conf": "verify",
+   "sale": "On sale now.",
+   "ticketUrl": "https://www.theaureview.com/?p=311786",
+   "ticketLabel": "Tour details",
+   "src": "https://www.theaureview.com/?p=311786",
+   "note": "Everything Under The Sun tour. Listings disagree on the Sydney venue (Qudos Bank Arena or Afterpay Arena), and the Melbourne date rests on one listing. The Geelong show is part of Lookout Festival.",
+   "shows": [
+    {
+     "d": "2027-10-02",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "RAC Arena"
+    },
+    {
+     "d": "2027-10-05",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Adelaide Entertainment Centre"
+    },
+    {
+     "d": "2027-10-07",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Rod Laver Arena"
+    },
+    {
+     "d": "2027-10-09",
+     "city": "Geelong",
+     "st": "VIC",
+     "venue": "Mt Duneed Estate"
+    },
+    {
+     "d": "2027-10-12",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Brisbane Entertainment Centre"
+    },
+    {
+     "d": "2027-10-14",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Venue to be confirmed"
+    },
+    {
+     "d": "2027-10-16",
+     "city": "Hunter Valley",
+     "st": "NSW",
+     "venue": "Roche Estate"
+    }
+   ]
+  },
+  {
+   "id": "fontaines27",
+   "artist": "Fontaines D.C.",
+   "support": "",
+   "genre": "Post-punk",
+   "gb": [
+    "punk"
+   ],
+   "tier": "major",
+   "added": "2026-11-16",
+   "tag": "punk",
+   "status": "upcoming",
+   "conf": "verify",
+   "sale": "Sign up at Handsome Tours for early access. On-sale time to be announced.",
+   "ticketUrl": "https://www.russh.com/fontaines-dc-australia-2027-tour/",
+   "ticketLabel": "Tour details",
+   "src": "https://www.russh.com/fontaines-dc-australia-2027-tour/",
+   "note": "Arena sideshows in the cities Laneway Festival skips. The band also plays Laneway Festival 2027 in Sydney, Brisbane and Melbourne.",
+   "shows": [
+    {
+     "d": "2027-02-09",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "RAC Arena"
+    },
+    {
+     "d": "2027-02-17",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "AEC Arena"
     }
    ]
   }

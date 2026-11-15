@@ -2471,8 +2471,8 @@
   {
    "n": "Vader",
    "g": "death",
-   "st": "elsewhere",
-   "note": "Toured Australia in April 2026; US, Poland and Canada dates Aug to Sep 2026.",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "https://www.eventworld.com/vader-tickets/performer/14105",
    "named": false,
    "confirmed": true
@@ -9050,8 +9050,8 @@
   {
    "n": "Fontaines D.C.",
    "g": "modpunk",
-   "st": "elsewhere",
-   "note": "UK arena tour Nov 2026, UK stadiums summer 2027.",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "https://www.timeout.com/uk/news/fontaines-dc-uk-tour-2026-dates-presale-prices-2027-stadium-tour-090326",
    "named": false,
    "confirmed": true
@@ -12372,6 +12372,42 @@
    "src": "https://heavymag.com.au/metal-in-the-mountains-prepares-to-hit-beechworth-this-weekend/",
    "aus": true,
    "scene": true
+  },
+  {
+   "n": "Geoff Tate",
+   "g": "heavy",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "The Hellacopters",
+   "g": "hardrock",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Gluecifer",
+   "g": "hardrock",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Ugly Kid Joe",
+   "g": "hardrock",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Nickelback",
+   "g": "hardrock",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Don Broco",
+   "g": "altheavy",
+   "st": "none",
+   "note": "Australian dates on the calendar."
   }
  ],
  "buckets": [
