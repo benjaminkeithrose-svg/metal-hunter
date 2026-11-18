@@ -3659,9 +3659,9 @@
   {
    "n": "The HU",
    "g": "folk",
-   "st": "elsewhere",
-   "note": "Headline tour of the UK and Europe in autumn 2026 with Skáld.",
-   "src": "https://www.musika.be/2026/03/06/the-hu-announce-full-headline-uk-and-european-tour-with-skald-as-special-guest/",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "https://heavymag.com.au/the-hu-to-return-to-australia-in-march-2027/",
    "named": false,
    "confirmed": true
   },
@@ -3893,9 +3893,9 @@
   {
    "n": "Skáld",
    "g": "crossover",
-   "st": "elsewhere",
-   "note": "Supporting The HU in the UK and Europe, autumn 2026.",
-   "src": "https://www.musika.be/2026/03/06/the-hu-announce-full-headline-uk-and-european-tour-with-skald-as-special-guest/",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "https://heavymag.com.au/the-hu-to-return-to-australia-in-march-2027/",
    "named": false,
    "confirmed": true
   },
@@ -6666,7 +6666,7 @@
    "n": "Varials",
    "g": "core",
    "st": "none",
-   "note": "No current tour found.",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -7017,8 +7017,8 @@
    "n": "Knocked Loose",
    "g": "hc",
    "st": "none",
-   "note": "Cancelled an Australian Good Things Festival appearance, with Alpha Wolf as replacement. No upcoming Australian dates found in news searches on 22 Oct 2026.",
-   "src": "https://www.kerrang.com/knocked-loose-cancel-australia-tour-good-things-festival-alpha-wolf-replacement",
+   "note": "Australian dates on the calendar.",
+   "src": "https://musicfeeds.com.au/news/knocked-loose-announce-massive-2027-australian-tour/",
    "named": false,
    "confirmed": true
   },
@@ -7052,9 +7052,9 @@
   {
    "n": "Terror",
    "g": "hc",
-   "st": "elsewhere",
-   "note": "New album Still Suffer out April 2026; toured Latin America in Jan 2026. Last in Australia with Kublai Khan TX in 2024.",
-   "src": "https://heavymag.com.au/terror-unleash-new-single-still-suffer/",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "https://musicfeeds.com.au/news/knocked-loose-announce-massive-2027-australian-tour/",
    "named": false,
    "confirmed": true
   },
@@ -7512,7 +7512,7 @@
    "n": "Casey",
    "g": "melhc",
    "st": "none",
-   "note": "No current tour found.",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -10654,7 +10654,7 @@
    "n": "Headwreck",
    "g": "auscore",
    "st": "none",
-   "note": "Supported The Amity Affliction's regional tour in 2026. No headline tour announced.",
+   "note": "Australian dates on the calendar.",
    "src": "https://www.thenote.com.au/news/the-amity-affliction-announce-huge-regional-tour-2026",
    "named": true,
    "confirmed": true,
@@ -10735,7 +10735,7 @@
    "n": "Thornhill",
    "g": "auscore",
    "st": "none",
-   "note": "Bodies headline tour Feb 2026. Nothing further announced.",
+   "note": "Australian dates on the calendar.",
    "src": "https://www.thenote.com.au/news/thornhill-2026-australian-tour",
    "named": false,
    "confirmed": true,
@@ -10788,7 +10788,7 @@
    "n": "Bloom",
    "g": "auscore",
    "st": "none",
-   "note": "Headline tour Feb 2026 with AVOID. Nothing further announced.",
+   "note": "Australian dates on the calendar.",
    "src": "https://www.everblack.com.au/?p=30755",
    "named": false,
    "confirmed": true,
@@ -11190,7 +11190,7 @@
    "n": "Reliqa",
    "g": "auscore",
    "st": "none",
-   "note": "Co-headlined with Future Static in early 2026.",
+   "note": "Australian dates on the calendar.",
    "src": "https://www.thenote.com.au/news/reliqa-future-static-australian-tour",
    "named": false,
    "confirmed": true,
@@ -12055,7 +12055,7 @@
    "n": "Cosmic Psychos",
    "g": "auspunk",
    "st": "none",
-   "note": "No current tour found.",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -12169,7 +12169,7 @@
    "n": "The Meanies",
    "g": "auspunk",
    "st": "none",
-   "note": "No current tour found.",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true,
@@ -12406,6 +12406,30 @@
   {
    "n": "Don Broco",
    "g": "altheavy",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Aura Noir",
+   "g": "black",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Midnight",
+   "g": "black",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Supersuckers",
+   "g": "hardrock",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Nashville Pussy",
+   "g": "hardrock",
    "st": "none",
    "note": "Australian dates on the calendar."
   }
