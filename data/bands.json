@@ -7575,7 +7575,7 @@
    "n": "Silverstein",
    "g": "posthc",
    "st": "none",
-   "note": "",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -12432,6 +12432,15 @@
    "g": "hardrock",
    "st": "none",
    "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "L7",
+   "g": "modpunk",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "src": "https://bluntmag.com.au/news/l7-farewell-tour-australia-new-zealand-2027/",
+   "named": false,
+   "confirmed": true
   }
  ],
  "buckets": [
