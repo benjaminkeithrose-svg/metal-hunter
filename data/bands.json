@@ -1202,8 +1202,8 @@
   {
    "n": "Primal Fear",
    "g": "power",
-   "st": "elsewhere",
-   "note": "Domination Tour in Europe, Aug to Oct 2026. No 2027 or Australian dates found.",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "https://www.eventworld.com/primal-fear-tickets/performer/12096",
    "named": false,
    "confirmed": true
@@ -1428,7 +1428,7 @@
    "n": "Gloryhammer",
    "g": "epic",
    "st": "none",
-   "note": "No upcoming Australian dates found in news searches on 22 Oct 2026.",
+   "note": "Australian dates on the calendar.",
    "src": "",
    "named": false,
    "confirmed": true
@@ -3569,8 +3569,8 @@
   {
    "n": "Alestorm",
    "g": "folk",
-   "st": "elsewhere",
-   "note": "UK and Ireland shows in Jan 2027. Their last Australian tour was 2025. Nothing announced for Oceania.",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
    "src": "https://www.songkick.com/artists/1056026-alestorm/calendar",
    "named": true,
    "confirmed": true
@@ -12441,6 +12441,64 @@
    "src": "https://bluntmag.com.au/news/l7-farewell-tour-australia-new-zealand-2027/",
    "named": false,
    "confirmed": true
+  },
+  {
+   "n": "Billy Idol",
+   "g": "punk77",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Wind Walkers",
+   "g": "core",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Colorblind",
+   "g": "core",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Baby Lasagna",
+   "g": "altheavy",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Sparta",
+   "g": "posthc",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Quicksand",
+   "g": "posthc",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Kylesa",
+   "g": "doom",
+   "st": "none",
+   "note": "Australian dates on the calendar."
+  },
+  {
+   "n": "Heartline",
+   "g": "aushc",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "aus": true,
+   "scene": true
+  },
+  {
+   "n": "Outloved",
+   "g": "aushc",
+   "st": "none",
+   "note": "Australian dates on the calendar.",
+   "aus": true,
+   "scene": true
   }
  ],
  "buckets": [

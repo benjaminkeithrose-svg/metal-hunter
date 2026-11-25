@@ -1,5 +1,5 @@
 {
- "refreshed": "2026-11-23",
+ "refreshed": "2026-11-26",
  "tours": [
   {
    "id": "maiden",
@@ -308,14 +308,14 @@
   {
    "id": "beherit",
    "artist": "Beherit",
-   "support": "Portal",
+   "support": "Portal, Isomer (Melbourne), Host (Sydney, Brisbane)",
    "genre": "Black metal",
    "tag": "core",
    "status": "on-sale",
    "sale": "On sale since 30 Jul, 9am AEST. First and only Australian shows. From $89.",
    "ticketUrl": "https://heavymag.com.au/beherit-to-tour-with-portal/",
    "ticketLabel": "Tour details",
-   "src": "https://heavymag.com.au/beherit-to-tour-with-portal/",
+   "src": "https://heavymag.com.au/beherit-and-portal-announce-local-supports/",
    "shows": [
     {
      "d": "2026-12-11",
@@ -5028,6 +5028,425 @@
      "age": "18+"
     }
    ]
+  },
+  {
+   "support": "Gloryhammer (not Townsville)",
+   "tier": "major",
+   "added": "2026-11-26",
+   "status": "upcoming",
+   "id": "alestorm27",
+   "artist": "Alestorm",
+   "genre": "Pirate metal / power metal",
+   "gb": [
+    "folk",
+    "heavy"
+   ],
+   "tag": "core",
+   "sale": "General sale Thu 26 Nov, 9am AEDT (8am AEST in Queensland). Tickets via Megatix (Perth), Moshtix (Adelaide), Ticketek (Melbourne, Sydney), Ticketmaster (Brisbane) and Oztix (Townsville).",
+   "ticketUrl": "https://heavymag.com.au/alestorm-and-gloryhammer-set-sail-for-australia-in-may-2027/",
+   "ticketLabel": "Tour details",
+   "src": "https://heavymag.com.au/alestorm-and-gloryhammer-set-sail-for-australia-in-may-2027/",
+   "note": "Pirate metal party behind the new album Infinite Seas of Stellar Damnation, with Gloryhammer as special guests everywhere except Townsville.",
+   "shows": [
+    {
+     "d": "2027-05-18",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Metro City",
+     "url": "https://megatix.com.au",
+     "label": "Megatix"
+    },
+    {
+     "d": "2027-05-20",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Hindley Street Music Hall",
+     "url": "https://www.moshtix.com.au",
+     "label": "Moshtix"
+    },
+    {
+     "d": "2027-05-21",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Forum Melbourne",
+     "url": "https://premier.ticketek.com.au",
+     "label": "Ticketek"
+    },
+    {
+     "d": "2027-05-22",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Enmore Theatre",
+     "url": "https://premier.ticketek.com.au",
+     "label": "Ticketek"
+    },
+    {
+     "d": "2027-05-25",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Tivoli",
+     "url": "https://www.ticketmaster.com.au",
+     "label": "Ticketmaster"
+    },
+    {
+     "d": "2027-05-26",
+     "city": "Townsville",
+     "st": "QLD",
+     "venue": "The Warehouse",
+     "url": "https://www.oztix.com.au",
+     "label": "Oztix"
+    }
+   ]
+  },
+  {
+   "support": "Colorblind",
+   "tier": "major",
+   "added": "2026-11-26",
+   "status": "upcoming",
+   "id": "windwalkers27",
+   "artist": "Wind Walkers",
+   "genre": "Metalcore / post-hardcore",
+   "gb": [
+    "core"
+   ],
+   "tag": "core",
+   "sale": "Presale on now (from Wed 25 Nov, 9am local time, Destroy All Lines). General sale Fri 27 Nov, 9am local time. $74.90.",
+   "ticketUrl": "https://www.destroyalllines.com/tours/wind-walkers",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://heavymag.com.au/wind-walkers-announce-debut-australian-tour/",
+   "note": "First Australian tour for the Massachusetts metalcore band, with Austin's Colorblind also making their debut.",
+   "shows": [
+    {
+     "d": "2027-04-14",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Amplifier Bar",
+     "age": "18+"
+    },
+    {
+     "d": "2027-04-16",
+     "city": "Adelaide",
+     "st": "SA",
+     "venue": "Lion Arts Factory",
+     "age": "18+"
+    },
+    {
+     "d": "2027-04-17",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Croxton Bandroom",
+     "age": "18+"
+    },
+    {
+     "d": "2027-04-18",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Crowbar",
+     "age": "18+"
+    },
+    {
+     "d": "2027-04-20",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Brightside (Outdoors)",
+     "age": "18+"
+    }
+   ]
+  },
+  {
+   "support": "",
+   "tier": "major",
+   "added": "2026-11-26",
+   "status": "upcoming",
+   "id": "babylasagna27",
+   "artist": "Baby Lasagna",
+   "genre": "Alt rock / metal crossover",
+   "gb": [
+    "alt"
+   ],
+   "tag": "adjacent",
+   "sale": "Presale on now (from Wed 25 Nov, Destroy All Lines). General sale Fri 27 Nov, 10am local time.",
+   "ticketUrl": "https://www.destroyalllines.com/",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://heavymag.com.au/baby-lasagna-announce-debut-australian-tour/",
+   "note": "First Australian tour (End The Party Tour) for the Croatian act behind Eurovision 2024 runner-up 'Rim Tim Tagi Dim'. Supports to be announced.",
+   "shows": [
+    {
+     "d": "2027-05-28",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Brightside"
+    },
+    {
+     "d": "2027-05-29",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Metro Social"
+    },
+    {
+     "d": "2027-05-30",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Howler"
+    }
+   ]
+  },
+  {
+   "support": "",
+   "tier": "major",
+   "added": "2026-11-26",
+   "status": "upcoming",
+   "id": "billyidol27",
+   "artist": "Billy Idol",
+   "genre": "Punk rock / hard rock",
+   "gb": [
+    "punk",
+    "alt"
+   ],
+   "tag": "adjacent",
+   "sale": "Artist presale on now (from Wed 25 Nov, 10am, 48 hours). Live Nation presale Thu 26 Nov, 10am (24 hours). General sale Fri 27 Nov, 11am local time.",
+   "ticketUrl": "https://www.livenation.com.au/",
+   "ticketLabel": "Live Nation",
+   "src": "https://heavymag.com.au/billy-idol-announces-april-australian-tour/",
+   "note": "First Australian tour since 2020 (It's A Nice Day To...Tour Again!). The Hunter Valley and Berry dates are Red Hot Summer Tour shows with a wider bill.",
+   "shows": [
+    {
+     "d": "2027-04-01",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Crown Live"
+    },
+    {
+     "d": "2027-04-03",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Crown Live"
+    },
+    {
+     "d": "2027-04-06",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Riverstage"
+    },
+    {
+     "d": "2027-04-08",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Hordern Pavilion"
+    },
+    {
+     "d": "2027-04-10",
+     "city": "Hunter Valley",
+     "st": "NSW",
+     "venue": "Roche Estate (Red Hot Summer Tour)"
+    },
+    {
+     "d": "2027-04-11",
+     "city": "Berry",
+     "st": "NSW",
+     "venue": "Berry Showgrounds (Red Hot Summer Tour)"
+    }
+   ]
+  },
+  {
+   "support": "Heartline, Outloved",
+   "tier": "major",
+   "added": "2026-11-26",
+   "status": "on-sale",
+   "id": "sstp27",
+   "artist": "Survive Said The Prophet",
+   "genre": "Rock / post-hardcore (Japan)",
+   "gb": [
+    "hc",
+    "alt"
+   ],
+   "tag": "core",
+   "sale": "On sale now. $74.90.",
+   "ticketUrl": "https://www.destroyalllines.com/tours/survive-said-the-prophet-2027",
+   "ticketLabel": "Destroy All Lines",
+   "src": "https://heavymag.com.au/survive-the-prophet-announce-heartline-and-outloved-as-special-guests/",
+   "note": "The Tokyo band's first Australian shows, with Adelaide's Heartline and Melbourne's Outloved on all three dates.",
+   "shows": [
+    {
+     "d": "2027-02-25",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Corner Hotel",
+     "age": "18+"
+    },
+    {
+     "d": "2027-02-26",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Oxford Art Factory",
+     "age": "18+"
+    },
+    {
+     "d": "2027-02-27",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Crowbar",
+     "age": "18+"
+    }
+   ]
+  },
+  {
+   "support": "",
+   "tier": "major",
+   "added": "2026-11-26",
+   "status": "on-sale",
+   "id": "primalfear27",
+   "artist": "Primal Fear",
+   "genre": "Power metal",
+   "gb": [
+    "heavy"
+   ],
+   "tag": "core",
+   "sale": "On sale now via Oztix. Limited VIP meet-and-greet packages.",
+   "ticketUrl": "https://hardlinemedia.net/current-tours",
+   "ticketLabel": "Hardline Media",
+   "src": "https://metal-roos.com.au/primal-fear-announce-30th-anniversary-shadowriders-may-2027-australian-tour/",
+   "note": "30th anniversary tour, following the new album Shadowriders. Supports to be announced.",
+   "shows": [
+    {
+     "d": "2027-05-06",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2027-05-07",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2027-05-08",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Croxton Bandroom"
+    }
+   ]
+  },
+  {
+   "support": "",
+   "tier": "major",
+   "added": "2026-11-26",
+   "status": "on-sale",
+   "id": "sparta27",
+   "artist": "Sparta",
+   "genre": "Post-hardcore",
+   "gb": [
+    "hc"
+   ],
+   "tag": "core",
+   "sale": "On sale now. From $79.90.",
+   "ticketUrl": "https://metropolistouring.com/sparta",
+   "ticketLabel": "Metropolis Touring",
+   "src": "https://bluntmag.com.au/music/sparta-australian-tour-april-2027/",
+   "note": "Four intimate headline shows. Supports to be announced.",
+   "shows": [
+    {
+     "d": "2027-04-02",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "170 Russell"
+    },
+    {
+     "d": "2027-04-03",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Factory Theatre"
+    },
+    {
+     "d": "2027-04-04",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Triffid"
+    },
+    {
+     "d": "2027-04-08",
+     "city": "Perth",
+     "st": "WA",
+     "venue": "Rosemount Hotel"
+    }
+   ]
+  },
+  {
+   "support": "Whores.",
+   "tier": "major",
+   "added": "2026-11-26",
+   "status": "on-sale",
+   "id": "quicksand27",
+   "artist": "Quicksand",
+   "genre": "Post-hardcore",
+   "gb": [
+    "hc"
+   ],
+   "tag": "core",
+   "sale": "On sale now.",
+   "ticketUrl": "https://www.waxstartouring.com/show/quicksand-usa/",
+   "ticketLabel": "Waxstar Touring",
+   "src": "https://bluntmag.com.au/news/quicksand-announce-2027-australian-tour-with-whores/",
+   "note": "Three Australian shows with Atlanta noise-rock trio Whores. in support.",
+   "shows": [
+    {
+     "d": "2027-02-11",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2027-02-12",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "Crowbar"
+    },
+    {
+     "d": "2027-02-13",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Leadbeater Hotel"
+    }
+   ]
+  },
+  {
+   "support": "Solkyri",
+   "tier": "major",
+   "added": "2026-11-26",
+   "status": "on-sale",
+   "id": "kylesa27",
+   "artist": "Kylesa",
+   "genre": "Sludge / stoner",
+   "gb": [
+    "doom"
+   ],
+   "tag": "core",
+   "sale": "On sale now.",
+   "ticketUrl": "https://www.birdsrobe.com/shows/kylesa-australia-and-new-zealand",
+   "ticketLabel": "Bird's Robe",
+   "src": "https://www.birdsrobe.com/shows/kylesa-australia-and-new-zealand",
+   "note": "First Australian shows in over a decade, with Sydney post-rock band Solkyri in support.",
+   "shows": [
+    {
+     "d": "2027-02-05",
+     "city": "Sydney",
+     "st": "NSW",
+     "venue": "Liberty Hall"
+    },
+    {
+     "d": "2027-02-06",
+     "city": "Melbourne",
+     "st": "VIC",
+     "venue": "Max Watts"
+    },
+    {
+     "d": "2027-02-07",
+     "city": "Brisbane",
+     "st": "QLD",
+     "venue": "The Triffid"
+    }
+   ]
   }
  ],
  "sales": [
@@ -5170,16 +5589,46 @@
    "text": "General sale, 9am local time. Destroy All Lines."
   },
   {
+   "at": "2026-11-26T09:00:00+11:00",
+   "tour": "alestorm27",
+   "kind": "General sale",
+   "text": "General sale, 9am AEDT (8am AEST in Queensland). Megatix, Moshtix, Ticketek, Ticketmaster, Oztix."
+  },
+  {
    "at": "2026-11-26T10:00:00+11:00",
    "tour": "reliqa27",
    "kind": "General sale",
    "text": "General sale, 10am local time. Destroy All Lines."
   },
   {
+   "at": "2026-11-26T10:00:00+11:00",
+   "tour": "billyidol27",
+   "kind": "Presale",
+   "text": "Live Nation presale, 10am local time, 24 hours."
+  },
+  {
    "at": "2026-11-26T12:00:00+11:00",
    "tour": "l7-27",
    "kind": "General sale",
    "text": "General sale, 12pm local time. Metropolis Touring."
+  },
+  {
+   "at": "2026-11-27T09:00:00+11:00",
+   "tour": "windwalkers27",
+   "kind": "General sale",
+   "text": "General sale, 9am local time. Destroy All Lines."
+  },
+  {
+   "at": "2026-11-27T10:00:00+11:00",
+   "tour": "babylasagna27",
+   "kind": "General sale",
+   "text": "General sale, 10am local time. Destroy All Lines."
+  },
+  {
+   "at": "2026-11-27T11:00:00+11:00",
+   "tour": "billyidol27",
+   "kind": "General sale",
+   "text": "General sale, 11am local time. Live Nation."
   }
  ],
  "watch": [
